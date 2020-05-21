@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_h_o_u_s_e_h_o_l_d" kind="struct" prot="public">
+    <compoundname>HOUSEHOLD</compoundname>
+    <includes refid="_model_8h" local="no">Model.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_h_o_u_s_e_h_o_l_d_1a865df4654230b4d92a901da6cca71226" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int HOUSEHOLD::FirstPerson</definition>
+        <argsstring></argsstring>
+        <name>FirstPerson</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="46" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="46" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_update_8h_1a287f606f4005fbe01d44764c259da6db" compoundref="_update_8cpp" startline="1015" endline="1137">DoPlaceClose</referencedby>
+        <referencedby refid="_update_8h_1ac365d0201bff7ca8dffddcc2cb5985fb" compoundref="_update_8cpp" startline="1139" endline="1180">DoPlaceOpen</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_h_o_u_s_e_h_o_l_d_1ad03a412402244fb96d495903dc8649b4" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int HOUSEHOLD::nh</definition>
+        <argsstring></argsstring>
+        <name>nh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="47" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="47" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_update_8h_1a287f606f4005fbe01d44764c259da6db" compoundref="_update_8cpp" startline="1015" endline="1137">DoPlaceClose</referencedby>
+        <referencedby refid="_update_8h_1ac365d0201bff7ca8dffddcc2cb5985fb" compoundref="_update_8cpp" startline="1139" endline="1180">DoPlaceOpen</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_h_o_u_s_e_h_o_l_d_1ad768cf85dab1509562da38257ebc6250" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float HOUSEHOLD::loc_x</definition>
+        <argsstring></argsstring>
+        <name>loc_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="48" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="48" bodyend="-1"/>
+        <referencedby refid="_dist_8h_1a89e4cad5bcf7cb635ad5117911dda6fd" compoundref="_dist_8cpp" startline="42" endline="59">dist2</referencedby>
+        <referencedby refid="_update_8h_1a40fd37d36e04ef9425c9e0e03d3bcd04" compoundref="_update_8cpp" startline="872" endline="914">DoDeath</referencedby>
+        <referencedby refid="_update_8h_1a74b2978d97098dec65e47e07aa526c68" compoundref="_update_8cpp" startline="19" endline="70">DoImmune</referencedby>
+        <referencedby refid="_update_8h_1a8ad2c14b52bb01fd0db7cd2a6870ef1d" compoundref="_update_8cpp" startline="71" endline="156">DoInfect</referencedby>
+        <referencedby refid="_update_8h_1a39ec37f10b16814497d4a2f981ca164d" compoundref="_update_8cpp" startline="779" endline="870">DoRecover</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a66430df5622fb3fdfd7b9dd3bb335072" compoundref="_spatial_sim_8cpp" startline="2305" endline="2425">SeedInfection</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_h_o_u_s_e_h_o_l_d_1a54b006bcef7d22ef1127ac53f37b0299" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float HOUSEHOLD::loc_y</definition>
+        <argsstring></argsstring>
+        <name>loc_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="48" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="48" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1ab5f11e55d07bc69c85eed9235c5ec275" compoundref="_bitmap_8cpp" startline="30" endline="106">CaptureBitmap</referencedby>
+        <referencedby refid="_dist_8h_1a89e4cad5bcf7cb635ad5117911dda6fd" compoundref="_dist_8cpp" startline="42" endline="59">dist2</referencedby>
+        <referencedby refid="_update_8h_1a40fd37d36e04ef9425c9e0e03d3bcd04" compoundref="_update_8cpp" startline="872" endline="914">DoDeath</referencedby>
+        <referencedby refid="_update_8h_1a74b2978d97098dec65e47e07aa526c68" compoundref="_update_8cpp" startline="19" endline="70">DoImmune</referencedby>
+        <referencedby refid="_update_8h_1a8ad2c14b52bb01fd0db7cd2a6870ef1d" compoundref="_update_8cpp" startline="71" endline="156">DoInfect</referencedby>
+        <referencedby refid="_update_8h_1a95cf2bc96e079a6a7a506bb8f2535463" compoundref="_update_8cpp" startline="952" endline="982">DoProph</referencedby>
+        <referencedby refid="_update_8h_1a63b2632de7776a923d79bfc8d18e9e0d" compoundref="_update_8cpp" startline="984" endline="1013">DoProphNoDelay</referencedby>
+        <referencedby refid="_update_8h_1a39ec37f10b16814497d4a2f981ca164d" compoundref="_update_8cpp" startline="779" endline="870">DoRecover</referencedby>
+        <referencedby refid="_update_8h_1ada9b92f29b3114c1eda74ab6f2f2e338" compoundref="_update_8cpp" startline="916" endline="950">DoTreatCase</referencedby>
+        <referencedby refid="_update_8h_1ab4dc94aeffa633e58bf01e7971400098" compoundref="_update_8cpp" startline="1183" endline="1220">DoVacc</referencedby>
+        <referencedby refid="_update_8h_1ab6e211abdd4a600f0c2588d2b07c7a85" compoundref="_update_8cpp" startline="1222" endline="1253">DoVaccNoDelay</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a66430df5622fb3fdfd7b9dd3bb335072" compoundref="_spatial_sim_8cpp" startline="2305" endline="2425">SeedInfection</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_h_o_u_s_e_h_o_l_d_1ab4193b63654511a90e1bd4e256e51ad3" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int HOUSEHOLD::nhr</definition>
+        <argsstring></argsstring>
+        <name>nhr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="49" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="49" bodyend="-1"/>
+        <referencedby refid="_calc_inf_susc_8h_1a0739431d1ec7f41e8a205caced5c2ec4" compoundref="_calc_inf_susc_8cpp" startline="12" endline="18">CalcHouseInf</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="45" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="45" bodyend="50"/>
+    <listofallmembers>
+      <member refid="struct_h_o_u_s_e_h_o_l_d_1a865df4654230b4d92a901da6cca71226" prot="public" virt="non-virtual"><scope>HOUSEHOLD</scope><name>FirstPerson</name></member>
+      <member refid="struct_h_o_u_s_e_h_o_l_d_1ad768cf85dab1509562da38257ebc6250" prot="public" virt="non-virtual"><scope>HOUSEHOLD</scope><name>loc_x</name></member>
+      <member refid="struct_h_o_u_s_e_h_o_l_d_1a54b006bcef7d22ef1127ac53f37b0299" prot="public" virt="non-virtual"><scope>HOUSEHOLD</scope><name>loc_y</name></member>
+      <member refid="struct_h_o_u_s_e_h_o_l_d_1ad03a412402244fb96d495903dc8649b4" prot="public" virt="non-virtual"><scope>HOUSEHOLD</scope><name>nh</name></member>
+      <member refid="struct_h_o_u_s_e_h_o_l_d_1ab4193b63654511a90e1bd4e256e51ad3" prot="public" virt="non-virtual"><scope>HOUSEHOLD</scope><name>nhr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

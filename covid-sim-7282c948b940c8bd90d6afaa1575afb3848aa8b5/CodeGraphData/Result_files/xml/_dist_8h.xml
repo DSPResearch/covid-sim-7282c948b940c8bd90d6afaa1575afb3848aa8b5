@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_dist_8h" kind="file">
+    <compoundname>Dist.h</compoundname>
+    <includes refid="_model_8h" local="yes">Model.h</includes>
+    <includedby refid="_dist_8cpp" local="yes">src/Dist.cpp</includedby>
+    <includedby refid="_kernels_8cpp" local="yes">src/Kernels.cpp</includedby>
+    <includedby refid="_setup_model_8cpp" local="yes">src/SetupModel.cpp</includedby>
+    <includedby refid="_spatial_sim_8cpp" local="yes">src/SpatialSim.cpp</includedby>
+    <includedby refid="_sweep_8cpp" local="yes">src/Sweep.cpp</includedby>
+    <incdepgraph>
+      <node id="100">
+        <label>Country.h</label>
+        <link refid="_country_8h"/>
+      </node>
+      <node id="98">
+        <label>src/Dist.h</label>
+        <link refid="Dist.h"/>
+        <childnode refid="99" relation="include">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>MachineDefines.h</label>
+        <link refid="_machine_defines_8h"/>
+      </node>
+      <node id="99">
+        <label>Model.h</label>
+        <link refid="_model_8h"/>
+        <childnode refid="100" relation="include">
+        </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="102" relation="include">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>Constants.h</label>
+        <link refid="_constants_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="104">
+        <label>src/Dist.cpp</label>
+        <link refid="_dist_8cpp"/>
+      </node>
+      <node id="108">
+        <label>src/Sweep.cpp</label>
+        <link refid="_sweep_8cpp"/>
+      </node>
+      <node id="103">
+        <label>src/Dist.h</label>
+        <link refid="Dist.h"/>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>src/Kernels.cpp</label>
+        <link refid="_kernels_8cpp"/>
+      </node>
+      <node id="107">
+        <label>src/SpatialSim.cpp</label>
+        <link refid="_spatial_sim_8cpp"/>
+      </node>
+      <node id="106">
+        <label>src/SetupModel.cpp</label>
+        <link refid="_setup_model_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_dist_8h_1afe99637df286d0b664caebbde74a305f" prot="public" static="no">
+        <name>SPATIALSIM_DIST_H_INCLUDED_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.h" line="4" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_dist_8h_1a5baffc19d6fb04594862d931d834bc42" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double sinx[361]</definition>
+        <argsstring>[361]</argsstring>
+        <name>sinx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.h" line="7" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="8" bodyend="-1"/>
+        <referencedby refid="_dist_8h_1aa4ea666b4c09d15be7aa133b9c71a725" compoundref="_dist_8cpp" startline="14" endline="41">dist2UTM</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_dist_8h_1a2cdf5c1f48e4a1817ff82c92ced44876" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double cosx[361]</definition>
+        <argsstring>[361]</argsstring>
+        <name>cosx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.h" line="7" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="8" bodyend="-1"/>
+        <referencedby refid="_dist_8h_1aa4ea666b4c09d15be7aa133b9c71a725" compoundref="_dist_8cpp" startline="14" endline="41">dist2UTM</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_dist_8h_1ad53e5a9d6a4705bd452ec362ef9631ff" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double asin2sqx[1001]</definition>
+        <argsstring>[1001]</argsstring>
+        <name>asin2sqx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.h" line="7" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="8" bodyend="-1"/>
+        <referencedby refid="_dist_8h_1aa4ea666b4c09d15be7aa133b9c71a725" compoundref="_dist_8cpp" startline="14" endline="41">dist2UTM</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_dist_8h_1aa4ea666b4c09d15be7aa133b9c71a725" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double dist2UTM</definition>
+        <argsstring>(double, double, double, double)</argsstring>
+        <name>dist2UTM</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.h" line="8" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="14" bodyend="41"/>
+        <references refid="_dist_8cpp_1ad53e5a9d6a4705bd452ec362ef9631ff" compoundref="_dist_8cpp" startline="8">asin2sqx</references>
+        <references refid="_dist_8cpp_1a2cdf5c1f48e4a1817ff82c92ced44876" compoundref="_dist_8cpp" startline="8">cosx</references>
+        <references refid="_constants_8h_1aa3270b347ccf1c183729014926a4a88f" compoundref="_constants_8h" startline="5">EARTHRADIUS</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="_dist_8cpp_1a5baffc19d6fb04594862d931d834bc42" compoundref="_dist_8cpp" startline="8">sinx</references>
+        <references refid="struct_p_a_r_a_m_1a16d8205d18cb443129ed404ab0d694bb" compoundref="_param_8h" startline="48">PARAM::SpatialBoundingBox</references>
+        <referencedby refid="_dist_8h_1a89e4cad5bcf7cb635ad5117911dda6fd" compoundref="_dist_8cpp" startline="42" endline="59">dist2</referencedby>
+        <referencedby refid="_dist_8h_1a09f16f2090b4306b2fe9e69671533f44" compoundref="_dist_8cpp" startline="60" endline="81">dist2_cc</referencedby>
+        <referencedby refid="_dist_8h_1adbb6e2b2e13305ee29137e506495e330" compoundref="_dist_8cpp" startline="82" endline="152">dist2_cc_min</referencedby>
+        <referencedby refid="_dist_8h_1a481ef07620fc736c511dbc2b3e15973b" compoundref="_dist_8cpp" startline="153" endline="174">dist2_mm</referencedby>
+        <referencedby refid="_dist_8h_1a0eff31f46681784383729edbd298469f" compoundref="_dist_8cpp" startline="176" endline="193">dist2_raw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_dist_8h_1a89e4cad5bcf7cb635ad5117911dda6fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double dist2</definition>
+        <argsstring>(person *, person *)</argsstring>
+        <name>dist2</name>
+        <param>
+          <type><ref refid="_model_8h_1a992b1dfc6110d08e46ccf43153d4eda1" kindref="member">person</ref> *</type>
+        </param>
+        <param>
+          <type><ref refid="_model_8h_1a992b1dfc6110d08e46ccf43153d4eda1" kindref="member">person</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.h" line="9" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="42" bodyend="59"/>
+        <references refid="_dist_8cpp_1ab7ba98f0c6a45c97c22683e6136c538a" compoundref="_dist_8cpp" startline="14" endline="41">dist2UTM</references>
+        <references refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" compoundref="_param_8h" startline="38">PARAM::DoPeriodicBoundaries</references>
+        <references refid="struct_p_a_r_a_m_1a30b7d74419b69d0a4f15b690ea9c6eb2" compoundref="_param_8h" startline="33">PARAM::DoUTM_coords</references>
+        <references refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" compoundref="_param_8h" startline="62">PARAM::height</references>
+        <references refid="struct_p_e_r_s_o_n_1a5d37d138a852ba758b2acf4d48919f69" compoundref="_model_8h" startline="20">PERSON::hh</references>
+        <references refid="_model_8h_1aa73f7cf5ecb1acf206c5c14987bd9d89" compoundref="_spatial_sim_8cpp" startline="75">Households</references>
+        <references refid="struct_h_o_u_s_e_h_o_l_d_1ad768cf85dab1509562da38257ebc6250" compoundref="_model_8h" startline="48">HOUSEHOLD::loc_x</references>
+        <references refid="struct_h_o_u_s_e_h_o_l_d_1a54b006bcef7d22ef1127ac53f37b0299" compoundref="_model_8h" startline="48">HOUSEHOLD::loc_y</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" compoundref="_param_8h" startline="62">PARAM::width</references>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_dist_8h_1a09f16f2090b4306b2fe9e69671533f44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double dist2_cc</definition>
+        <argsstring>(cell *, cell *)</argsstring>
+        <name>dist2_cc</name>
+        <param>
+          <type><ref refid="_model_8h_1a1bde3bc296da1c4cd75c289bb86fe399" kindref="member">cell</ref> *</type>
+        </param>
+        <param>
+          <type><ref refid="_model_8h_1a1bde3bc296da1c4cd75c289bb86fe399" kindref="member">cell</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.h" line="10" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="60" bodyend="81"/>
+        <references refid="_model_8h_1af0f221c6706ef7e154e5576e6df1ec89" compoundref="_spatial_sim_8cpp" startline="77">Cells</references>
+        <references refid="struct_p_a_r_a_m_1a6c70047b06fce8ff13b299a4bbbea14b" compoundref="_param_8h" startline="62">PARAM::cheight</references>
+        <references refid="struct_p_a_r_a_m_1ac7700ebd7644ee1a272392b27f19a508" compoundref="_param_8h" startline="62">PARAM::cwidth</references>
+        <references refid="_dist_8cpp_1ab7ba98f0c6a45c97c22683e6136c538a" compoundref="_dist_8cpp" startline="14" endline="41">dist2UTM</references>
+        <references refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" compoundref="_param_8h" startline="38">PARAM::DoPeriodicBoundaries</references>
+        <references refid="struct_p_a_r_a_m_1a30b7d74419b69d0a4f15b690ea9c6eb2" compoundref="_param_8h" startline="33">PARAM::DoUTM_coords</references>
+        <references refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" compoundref="_param_8h" startline="62">PARAM::height</references>
+        <references refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" compoundref="_param_8h" startline="33">PARAM::nch</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" compoundref="_param_8h" startline="62">PARAM::width</references>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_dist_8h_1adbb6e2b2e13305ee29137e506495e330" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double dist2_cc_min</definition>
+        <argsstring>(cell *, cell *)</argsstring>
+        <name>dist2_cc_min</name>
+        <param>
+          <type><ref refid="_model_8h_1a1bde3bc296da1c4cd75c289bb86fe399" kindref="member">cell</ref> *</type>
+        </param>
+        <param>
+          <type><ref refid="_model_8h_1a1bde3bc296da1c4cd75c289bb86fe399" kindref="member">cell</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.h" line="11" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="82" bodyend="152"/>
+        <references refid="_model_8h_1af0f221c6706ef7e154e5576e6df1ec89" compoundref="_spatial_sim_8cpp" startline="77">Cells</references>
+        <references refid="struct_p_a_r_a_m_1a6c70047b06fce8ff13b299a4bbbea14b" compoundref="_param_8h" startline="62">PARAM::cheight</references>
+        <references refid="struct_p_a_r_a_m_1ac7700ebd7644ee1a272392b27f19a508" compoundref="_param_8h" startline="62">PARAM::cwidth</references>
+        <references refid="_dist_8cpp_1ab7ba98f0c6a45c97c22683e6136c538a" compoundref="_dist_8cpp" startline="14" endline="41">dist2UTM</references>
+        <references refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" compoundref="_param_8h" startline="38">PARAM::DoPeriodicBoundaries</references>
+        <references refid="struct_p_a_r_a_m_1a30b7d74419b69d0a4f15b690ea9c6eb2" compoundref="_param_8h" startline="33">PARAM::DoUTM_coords</references>
+        <references refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" compoundref="_param_8h" startline="62">PARAM::height</references>
+        <references refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" compoundref="_param_8h" startline="33">PARAM::nch</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="_constants_8h_1a598a3330b3c21701223ee0ca14316eca" compoundref="_constants_8h" startline="4">PI</references>
+        <references refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" compoundref="_param_8h" startline="62">PARAM::width</references>
+        <referencedby refid="_kernels_8h_1ad1a228a6ad4cc1cfb92da9fbc78fd46b" compoundref="_kernels_8cpp" startline="11" endline="50">InitKernel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_dist_8h_1a481ef07620fc736c511dbc2b3e15973b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double dist2_mm</definition>
+        <argsstring>(microcell *, microcell *)</argsstring>
+        <name>dist2_mm</name>
+        <param>
+          <type><ref refid="_model_8h_1a355cb23f6544eed68942646f4eab6868" kindref="member">microcell</ref> *</type>
+        </param>
+        <param>
+          <type><ref refid="_model_8h_1a355cb23f6544eed68942646f4eab6868" kindref="member">microcell</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.h" line="12" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="153" bodyend="174"/>
+        <references refid="_dist_8cpp_1ab7ba98f0c6a45c97c22683e6136c538a" compoundref="_dist_8cpp" startline="14" endline="41">dist2UTM</references>
+        <references refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" compoundref="_param_8h" startline="38">PARAM::DoPeriodicBoundaries</references>
+        <references refid="struct_p_a_r_a_m_1a30b7d74419b69d0a4f15b690ea9c6eb2" compoundref="_param_8h" startline="33">PARAM::DoUTM_coords</references>
+        <references refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" compoundref="_param_8h" startline="62">PARAM::height</references>
+        <references refid="_model_8h_1a18a4086bf5451739e560c596813292a2" compoundref="_spatial_sim_8cpp" startline="78">Mcells</references>
+        <references refid="struct_p_a_r_a_m_1aae955603b1a19dca7f833e1c3645acf7" compoundref="_param_8h" startline="62">PARAM::mcheight</references>
+        <references refid="struct_p_a_r_a_m_1ad9b84a699d1484a2e70e27afde513da3" compoundref="_param_8h" startline="62">PARAM::mcwidth</references>
+        <references refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" compoundref="_param_8h" startline="33">PARAM::nmch</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" compoundref="_param_8h" startline="62">PARAM::width</references>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_dist_8h_1a0eff31f46681784383729edbd298469f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double dist2_raw</definition>
+        <argsstring>(double, double, double, double)</argsstring>
+        <name>dist2_raw</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.h" line="13" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="176" bodyend="193"/>
+        <references refid="_dist_8cpp_1ab7ba98f0c6a45c97c22683e6136c538a" compoundref="_dist_8cpp" startline="14" endline="41">dist2UTM</references>
+        <references refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" compoundref="_param_8h" startline="38">PARAM::DoPeriodicBoundaries</references>
+        <references refid="struct_p_a_r_a_m_1a30b7d74419b69d0a4f15b690ea9c6eb2" compoundref="_param_8h" startline="33">PARAM::DoUTM_coords</references>
+        <references refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" compoundref="_param_8h" startline="62">PARAM::height</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" compoundref="_param_8h" startline="62">PARAM::width</references>
+        <referencedby refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1ad03468c3ba7449e1859c1cb14a027dbd" compoundref="_spatial_sim_8cpp" startline="1875" endline="2021">ReadAirTravel</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a0f67fe6ead0cdcad78046cd32eb68b5d" compoundref="_spatial_sim_8cpp" startline="2593" endline="2674">SaveDistribs</referencedby>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SPATIALSIM_DIST_H_INCLUDED_</highlight></codeline>
+<codeline lineno="4" refid="_dist_8h_1afe99637df286d0b664caebbde74a305f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SPATIALSIM_DIST_H_INCLUDED_</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_model_8h" kindref="compound">Model.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_dist_8h_1a5baffc19d6fb04594862d931d834bc42" kindref="member">sinx</ref>[361],<sp/><ref refid="_dist_8h_1a2cdf5c1f48e4a1817ff82c92ced44876" kindref="member">cosx</ref>[361],<sp/><ref refid="_dist_8h_1ad53e5a9d6a4705bd452ec362ef9631ff" kindref="member">asin2sqx</ref>[1001];</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_dist_8h_1aa4ea666b4c09d15be7aa133b9c71a725" kindref="member">dist2UTM</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_dist_8h_1a89e4cad5bcf7cb635ad5117911dda6fd" kindref="member">dist2</ref>(<ref refid="struct_p_e_r_s_o_n" kindref="compound">person</ref>*,<sp/><ref refid="struct_p_e_r_s_o_n" kindref="compound">person</ref>*);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_dist_8h_1a09f16f2090b4306b2fe9e69671533f44" kindref="member">dist2_cc</ref>(<ref refid="struct_c_e_l_l" kindref="compound">cell</ref>*,<sp/><ref refid="struct_c_e_l_l" kindref="compound">cell</ref>*);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_dist_8h_1adbb6e2b2e13305ee29137e506495e330" kindref="member">dist2_cc_min</ref>(<ref refid="struct_c_e_l_l" kindref="compound">cell</ref>*,<sp/><ref refid="struct_c_e_l_l" kindref="compound">cell</ref>*);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_dist_8h_1a481ef07620fc736c511dbc2b3e15973b" kindref="member">dist2_mm</ref>(<ref refid="struct_m_i_c_r_o_c_e_l_l" kindref="compound">microcell</ref>*,<sp/><ref refid="struct_m_i_c_r_o_c_e_l_l" kindref="compound">microcell</ref>*);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_dist_8h_1a0eff31f46681784383729edbd298469f" kindref="member">dist2_raw</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SPATIALSIM_DIST_H_INCLUDED_</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.h"/>
+  </compounddef>
+</doxygen>

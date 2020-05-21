@@ -1,0 +1,969 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_setup_model_8h" kind="file">
+    <compoundname>SetupModel.h</compoundname>
+    <includedby refid="_setup_model_8cpp" local="yes">src/SetupModel.cpp</includedby>
+    <includedby refid="_spatial_sim_8cpp" local="yes">src/SpatialSim.cpp</includedby>
+    <invincdepgraph>
+      <node id="248">
+        <label>src/SetupModel.h</label>
+        <link refid="SetupModel.h"/>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
+        </childnode>
+      </node>
+      <node id="250">
+        <label>src/SpatialSim.cpp</label>
+        <link refid="_spatial_sim_8cpp"/>
+      </node>
+      <node id="249">
+        <label>src/SetupModel.cpp</label>
+        <link refid="_setup_model_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_b_i_n___f_i_l_e" prot="public">BIN_FILE</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_setup_model_8h_1a02b01de24d466ac8cccb155a1e191eee" prot="public" static="no">
+        <name>SPATIALSIM_SETUPMODEL_H_INCLUDED_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="4" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_setup_model_8h_1a11fcbc41d5548abbed1ba7df74aac0bf" prot="public" static="no">
+        <name>NETWORK_FILE_VERSION</name>
+        <initializer>(1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="19" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a33b6b75a4178a1ea3d826f2ebca4ea56" compoundref="_setup_model_8cpp" startline="2499" endline="2557">LoadPeopleToPlaces</referencedby>
+        <referencedby refid="_setup_model_8h_1adb12a5880a718c826089eca6f80add8b" compoundref="_setup_model_8cpp" startline="2558" endline="2591">SavePeopleToPlaces</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_setup_model_8h_1aae3c314b593c9a3125d5ab9ed10b8850" prot="public" static="no">
+        <type>struct <ref refid="struct_b_i_n___f_i_l_e" kindref="compound">BIN_FILE</ref></type>
+        <definition>typedef struct BIN_FILE  bin_file</definition>
+        <argsstring></argsstring>
+        <name>bin_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="24" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_setup_model_8h_1ab9fe6b18d78a69ff40e65dbb8785378d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char OutFile[1024]</definition>
+        <argsstring>[1024]</argsstring>
+        <name>OutFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="26" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SpatialSim.cpp" bodystart="106" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_spatial_sim_8cpp" startline="118" endline="455">main</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1ad03468c3ba7449e1859c1cb14a027dbd" compoundref="_spatial_sim_8cpp" startline="1875" endline="2021">ReadAirTravel</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a0f67fe6ead0cdcad78046cd32eb68b5d" compoundref="_spatial_sim_8cpp" startline="2593" endline="2674">SaveDistribs</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a22a6789fa951a7e3910b4e0a818d789b" compoundref="_spatial_sim_8cpp" startline="3428" endline="3451">SaveEvents</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1ab50e930046505b16a5aec6667a6e17af" compoundref="_spatial_sim_8cpp" startline="2675" endline="2704">SaveOriginDestMatrix</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a39af41c526831d62361a93924ee5af28" compoundref="_spatial_sim_8cpp" startline="3410" endline="3427">SaveRandomSeeds</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a746813f9761552763df6dcb0b0d80755" compoundref="_spatial_sim_8cpp" startline="2706" endline="2957">SaveResults</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a89d82884290fe79a7b2f8a16bd70eeb5" compoundref="_spatial_sim_8cpp" startline="2959" endline="3408">SaveSummaryResults</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_setup_model_8h_1ad8239b0090abca87b62396f20d4204cd" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char OutDensFile[1024]</definition>
+        <argsstring>[1024]</argsstring>
+        <name>OutDensFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="26" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SpatialSim.cpp" bodystart="106" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_spatial_sim_8cpp" startline="118" endline="455">main</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_setup_model_8h_1a52df845cef5cd397ca1495096ee23706" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char RoadNetworkFile[1024]</definition>
+        <argsstring>[1024]</argsstring>
+        <name>RoadNetworkFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="26" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetupModel</definition>
+        <argsstring>(char *, char *, char *, char *)</argsstring>
+        <name>SetupModel</name>
+        <param>
+          <type>char *</type>
+        </param>
+        <param>
+          <type>char *</type>
+        </param>
+        <param>
+          <type>char *</type>
+        </param>
+        <param>
+          <type>char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="6" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.cpp" bodystart="26" bodyend="625"/>
+        <references refid="struct_b_i_n___f_i_l_e_1a8235ec33c53928077ecd1a8b0845dcfc" compoundref="_setup_model_8h" startline="23">BIN_FILE::ad</references>
+        <references refid="struct_p_a_r_a_m_1aaa9c67507cb2e3aca5a133f051b6e53f" compoundref="_param_8h" startline="34">PARAM::AdunitLevel1Divisor</references>
+        <references refid="struct_p_a_r_a_m_1a109130171b55f0febcdc74d2426f75a8" compoundref="_param_8h" startline="35">PARAM::AdunitLevel1Lookup</references>
+        <references refid="struct_p_a_r_a_m_1abafc7bd1ca8b41e32f3be74ef2c6e15d" compoundref="_param_8h" startline="34">PARAM::AdunitLevel1Mask</references>
+        <references refid="_model_8h_1ae46ef51c0d02788795ea7858abc6685f" compoundref="_spatial_sim_8cpp" startline="80">AdUnits</references>
+        <references refid="struct_p_a_r_a_m_1a4ee8a4d1185a084343481943ba901da4" compoundref="_param_8h" startline="74">PARAM::AgeInfectiousness</references>
+        <references refid="struct_p_a_r_a_m_1af3581e569864d9289e57d8589b198d08" compoundref="_param_8h" startline="74">PARAM::AgeSusceptibility</references>
+        <references refid="_setup_model_8cpp_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</references>
+        <references refid="struct_p_a_r_a_m_1a28e0379395a8dc01fdcdf0bab9c19254" compoundref="_param_8h" startline="38">PARAM::bheight</references>
+        <references refid="struct_p_a_r_a_m_1a945c74dbb7d01557a0a3de71186f8028" compoundref="_param_8h" startline="38">PARAM::bheight2</references>
+        <references refid="_setup_model_8cpp_1aba8ad8707036efb669fe149355a2ca25" compoundref="_setup_model_8cpp" startline="20">BinFileBuf</references>
+        <references refid="struct_p_a_r_a_m_1a639c8a090583f096d529b442dee90f69" compoundref="_param_8h" startline="28">PARAM::BinFileLen</references>
+        <references refid="struct_p_a_r_a_m_1a8cf13788244423eddf1c161ce0ae761e" compoundref="_param_8h" startline="60">PARAM::BitmapAspectScale</references>
+        <references refid="struct_p_a_r_a_m_1a98126216151874f56e1a6fd644c4bef5" compoundref="_param_8h" startline="98">PARAM::BitmapScale</references>
+        <references refid="struct_p_a_r_a_m_1a63c41d5229685a4650325be98ce1413b" compoundref="_param_8h" startline="38">PARAM::bminx</references>
+        <references refid="struct_p_a_r_a_m_1a5a166622bc9b69a65ad82400b44ec25c" compoundref="_param_8h" startline="38">PARAM::bminy</references>
+        <references refid="struct_p_a_r_a_m_1a70f2da3a1912e3eb290e5953c974b6a9" compoundref="_param_8h" startline="98">PARAM::BoundingBox</references>
+        <references refid="struct_p_a_r_a_m_1af53ceef932a2c83bc2ff4ec99b3560e6" compoundref="_param_8h" startline="38">PARAM::bwidth</references>
+        <references refid="_machine_defines_8h_1af89f60b07247176687889ade776c8e10" compoundref="_machine_defines_8h" startline="11">CACHE_LINE_SIZE</references>
+        <references refid="_model_8h_1afa99b4488956195d303075adf219957d" compoundref="_spatial_sim_8cpp" startline="100">case_household_av</references>
+        <references refid="_constants_8h_1aea13911f89320cd19c39c76ddc03579c" compoundref="_constants_8h" startline="11">CDF_RES</references>
+        <references refid="struct_p_a_r_a_m_1a94eeb0fc2b24001dc8c796cc031e9af2" compoundref="_param_8h" startline="64">PARAM::CellPop2</references>
+        <references refid="_model_8h_1af0f221c6706ef7e154e5576e6df1ec89" compoundref="_spatial_sim_8cpp" startline="77">Cells</references>
+        <references refid="struct_p_a_r_a_m_1a6c70047b06fce8ff13b299a4bbbea14b" compoundref="_param_8h" startline="62">PARAM::cheight</references>
+        <references refid="struct_p_a_r_a_m_1a920821a1849a7ec734bd2a9081e0dd82" compoundref="_param_8h" startline="157">PARAM::ClusterDigitalContactUsers</references>
+        <references refid="struct_b_i_n___f_i_l_e_1a67eaf97ff8b060bc79662703a3c23cb3" compoundref="_setup_model_8h" startline="23">BIN_FILE::cnt</references>
+        <references refid="struct_a_d_m_i_n_u_n_i_t_1acb9db6282cd4cb4886f12b244be413aa" compoundref="_model_8h" startline="280">ADMINUNIT::cnt_id</references>
+        <references refid="struct_p_a_r_a_m_1a6c394a386add51b0ed05a610371360d0" compoundref="_param_8h" startline="34">PARAM::CountryDivisor</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a399b1cf86d8e8e79a6627c0dc7d4cd42" compoundref="_model_8h" startline="126">RESULTS::Critical</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a94a353fe8ebf25dd6a82731661731d8b" compoundref="_model_8h" startline="126">RESULTS::CritRecov</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a8c98d4c223937d67669ca3b9fe9a27dd" compoundref="_model_8h" startline="112">RESULTS::CT</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a72940d7f786d6a5399b372f3ffeaa6ee" compoundref="_model_8h" startline="128">RESULTS::cumCritical</references>
+        <references refid="struct_r_e_s_u_l_t_s_1af8d07e01671d3b56cd7efe8c1bb1157b" compoundref="_model_8h" startline="128">RESULTS::cumCritRecov</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a2bff0f9a1541762f4ff245c12e739c23" compoundref="_model_8h" startline="114">RESULTS::cumDC</references>
+        <references refid="struct_r_e_s_u_l_t_s_1af81946a11cf2197ac924180aa0771f66" compoundref="_model_8h" startline="128">RESULTS::cumILI</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a9d2a9d57ae25b1f9528036045d0c797d" compoundref="_model_8h" startline="128">RESULTS::cumMild</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a89fcc89e4531da46b7847d01357eb7e3" compoundref="_model_8h" startline="128">RESULTS::cumSARI</references>
+        <references refid="struct_r_e_s_u_l_t_s_1af0ece8d806b8058d08b06464262e68d6" compoundref="_model_8h" startline="114">RESULTS::cumT</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a4134487c6d55c8ed9c35c6de282d163f" compoundref="_model_8h" startline="114">RESULTS::cumTP</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a1dd8895b70106bd049b41a4abe989d51" compoundref="_model_8h" startline="114">RESULTS::cumUT</references>
+        <references refid="struct_r_e_s_u_l_t_s_1ac651aab89406dfc7d11ea3a3b27bbe1d" compoundref="_model_8h" startline="114">RESULTS::cumV</references>
+        <references refid="struct_p_a_r_a_m_1ac7700ebd7644ee1a272392b27f19a508" compoundref="_param_8h" startline="62">PARAM::cwidth</references>
+        <references refid="struct_r_e_s_u_l_t_s_1ac86fb559557094be0a3ad01889cc41ca" compoundref="_model_8h" startline="110">RESULTS::D</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a81d64d72550ad8097295286ae589fd5e" compoundref="_model_8h" startline="112">RESULTS::DCT</references>
+        <references refid="struct_p_e_r_s_o_n_1a3117a14aab6694aaaead1bfa132a48a7" compoundref="_model_8h" startline="40">PERSON::digitalContactTracingUser</references>
+        <references refid="_dist_8cpp_1aacda190e581d9fc7f2db0e873e5556c9" compoundref="_dist_8cpp" startline="60" endline="81">dist2_cc</references>
+        <references refid="_dist_8cpp_1aecee392689ca1b9464ac08f79ac2e0d5" compoundref="_dist_8cpp" startline="176" endline="193">dist2_raw</references>
+        <references refid="struct_p_a_r_a_m_1aba46848eae83536589ad5909a5cf143d" compoundref="_param_8h" startline="34">PARAM::DoAdunitBoundaries</references>
+        <references refid="struct_p_a_r_a_m_1afe11dfcb77ceb70f470bbbdb456d3fc3" compoundref="_param_8h" startline="34">PARAM::DoAdUnits</references>
+        <references refid="struct_p_a_r_a_m_1a595419381ad4e819b5f76bd5981b7d27" compoundref="_param_8h" startline="44">PARAM::DoAirports</references>
+        <references refid="struct_p_a_r_a_m_1a656752413416208a09cf136c98ad1295" compoundref="_param_8h" startline="29">PARAM::DoBin</references>
+        <references refid="struct_p_a_r_a_m_1a18b3d9e7166ca5211d9e478ace529d15" compoundref="_param_8h" startline="157">PARAM::DoDigitalContactTracing</references>
+        <references refid="struct_p_a_r_a_m_1a5138b57e7f9a4181cb780410020cbca2" compoundref="_param_8h" startline="38">PARAM::DoHeteroDensity</references>
+        <references refid="struct_p_a_r_a_m_1a6d49af4e61530cde39a652b79518518d" compoundref="_param_8h" startline="39">PARAM::DoHouseholds</references>
+        <references refid="_model_8h_1a39ecb32eb3901ff301e31bc19e03f85e" compoundref="_spatial_sim_8cpp" startline="108">DoInitUpdateProbs</references>
+        <references refid="struct_p_a_r_a_m_1a167d7ddee2154bbced2a95e9f01f1f72" compoundref="_param_8h" startline="142">PARAM::DoMassVacc</references>
+        <references refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" compoundref="_param_8h" startline="38">PARAM::DoPeriodicBoundaries</references>
+        <references refid="struct_p_a_r_a_m_1ab61004148c86d9110106a409ecc1dbfe" compoundref="_param_8h" startline="39">PARAM::DoPlaces</references>
+        <references refid="struct_p_a_r_a_m_1a558c99efa20f555c093c9454f5cee906" compoundref="_param_8h" startline="152">PARAM::DoRecordInfEvents</references>
+        <references refid="struct_p_a_r_a_m_1ab296118d2a6b7126650378b21f76d821" compoundref="_param_8h" startline="61">PARAM::DoSeverity</references>
+        <references refid="struct_p_a_r_a_m_1a5aa97f6709a22ef248f476f2a726487e" compoundref="_param_8h" startline="38">PARAM::DoSI</references>
+        <references refid="struct_p_a_r_a_m_1a9aba363b31ff9f61ff5fd8a9e34fd585" compoundref="_param_8h" startline="43">PARAM::DoSpatial</references>
+        <references refid="struct_p_a_r_a_m_1a67c589992548feaff409b730de46703c" compoundref="_param_8h" startline="35">PARAM::DoSpecifyPop</references>
+        <references refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" compoundref="_error_8h" startline="6">ERR_CRITICAL</references>
+        <references refid="struct_p_a_r_a_m_1aa40109ee1f39c2491b9977a7ce725ee5" compoundref="_param_8h" startline="119">PARAM::ESocProportionCompliant</references>
+        <references refid="struct_h_o_u_s_e_h_o_l_d_1a865df4654230b4d92a901da6cca71226" compoundref="_model_8h" startline="46">HOUSEHOLD::FirstPerson</references>
+        <references refid="binio_8cpp_1a1bc8d1ad11acf37bf8af06899bb5eef5" compoundref="binio_8cpp" startline="27" endline="44">fread_big</references>
+        <references refid="_rand_8cpp_1aac2e3d788928f8d0ee1ea769152fa8a7" compoundref="_rand_8cpp" startline="2180" endline="2241">gen_gamma_mt</references>
+        <references refid="struct_r_e_s_u_l_t_s_1ad17e53e13fe685f1d5a71d8e29b68d12" compoundref="_model_8h" startline="111">RESULTS::H</references>
+        <references refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" compoundref="_param_8h" startline="62">PARAM::height</references>
+        <references refid="struct_p_e_r_s_o_n_1a5d37d138a852ba758b2acf4d48919f69" compoundref="_model_8h" startline="20">PERSON::hh</references>
+        <references refid="_model_macros_8h_1aa5a6525c77db4abd9464ac6a40adaf52" compoundref="_model_macros_8h" startline="27">HOST_AGE_GROUP</references>
+        <references refid="_model_macros_8h_1a25a9f97e729e19c3afdd9e94ef9bf1f5" compoundref="_model_macros_8h" startline="26">HOST_AGE_YEAR</references>
+        <references refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" compoundref="_spatial_sim_8cpp" startline="74">Hosts</references>
+        <references refid="_country_8h_1a81d3648af23be63733befe3c9890ff1f" compoundref="_country_8h" startline="24">HOTEL_PLACE_TYPE</references>
+        <references refid="struct_p_a_r_a_m_1a664d860bfeeb94a5dcc7299e26f2c1d9" compoundref="_param_8h" startline="80">PARAM::HouseholdDenomLookup</references>
+        <references refid="_model_8h_1aa73f7cf5ecb1acf206c5c14987bd9d89" compoundref="_spatial_sim_8cpp" startline="75">Households</references>
+        <references refid="struct_p_a_r_a_m_1a9270518795ad737f98034946fb2e19b4" compoundref="_param_8h" startline="79">PARAM::HouseholdSizeDistrib</references>
+        <references refid="struct_p_a_r_a_m_1a2c84e09a718656caf6e4ee13d53f1aa0" compoundref="_param_8h" startline="79">PARAM::HouseholdTrans</references>
+        <references refid="struct_r_e_s_u_l_t_s_1ae90fdf02bd852cac1bbde78dc98fe9c2" compoundref="_model_8h" startline="110">RESULTS::I</references>
+        <references refid="struct_c_e_l_l_1ad826b6df0986ef754170511ccd619411" compoundref="_model_8h" startline="235">CELL::I</references>
+        <references refid="struct_a_d_m_i_n_u_n_i_t_1a88a036834ebfe2a6bac1aaef4d744e23" compoundref="_model_8h" startline="280">ADMINUNIT::id</references>
+        <references refid="struct_r_e_s_u_l_t_s_1ae4352071001ebd69be9f12884ceb94b3" compoundref="_model_8h" startline="126">RESULTS::ILI</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a188f4af8be77bc2563b178192d65b933" compoundref="_model_8h" startline="115">RESULTS::incAA</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a09e67575c21f325dfab9f7f205cc9381" compoundref="_model_8h" startline="115">RESULTS::incACS</references>
+        <references refid="struct_r_e_s_u_l_t_s_1ab581f1a38d15e07196c14b6d626cc527" compoundref="_model_8h" startline="115">RESULTS::incAH</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a0e666d8af6d602e90d0c5d529afef3b4" compoundref="_model_8h" startline="115">RESULTS::incAPA</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a2c121382ef9832b074efb4da33e33574" compoundref="_model_8h" startline="115">RESULTS::incAPC</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a3c189376e2eab5968ae9ed2ce1617ece" compoundref="_model_8h" startline="115">RESULTS::incAPCS</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a19786b24a61366dfef47a03a402a7d92" compoundref="_model_8h" startline="110">RESULTS::incC</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a3f7151bfbd50733d24a631f72d329091" compoundref="_model_8h" startline="112">RESULTS::incCC</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a90b596c1e52e0bdea143fdbfbee979a2" compoundref="_model_8h" startline="127">RESULTS::incCritical</references>
+        <references refid="struct_r_e_s_u_l_t_s_1ab1a4485e3fd07dfd5cb0c7a149bbd31c" compoundref="_model_8h" startline="127">RESULTS::incCritRecov</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a51499746f69ec625ea46f34bc32fafc4" compoundref="_model_8h" startline="112">RESULTS::incCT</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a4c94204d6a0bca97aaecffea0bd4a0e5" compoundref="_model_8h" startline="110">RESULTS::incD</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a19039f23eb18424327bde4e27a0ec76b" compoundref="_model_8h" startline="110">RESULTS::incDC</references>
+        <references refid="struct_r_e_s_u_l_t_s_1abf85478134120197024e431585583ea5" compoundref="_model_8h" startline="112">RESULTS::incDCT</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a62389c7b554829df7dea78590a48824e" compoundref="_model_8h" startline="111">RESULTS::incH</references>
+        <references refid="struct_r_e_s_u_l_t_s_1ac4251a69b92da8e947bfffb45e507701" compoundref="_model_8h" startline="110">RESULTS::incI</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a4646ad2b0a68feb9302e6caa86ff14ce" compoundref="_model_8h" startline="127">RESULTS::incILI</references>
+        <references refid="struct_r_e_s_u_l_t_s_1add1932de0e485031b8d08f3405ec1751" compoundref="_model_8h" startline="110">RESULTS::incL</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a45c78eb7b2b5d563ae460745b686c997" compoundref="_model_8h" startline="127">RESULTS::incMild</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a8b5f6aaff90555dff217f1442b5d19c6" compoundref="_model_8h" startline="110">RESULTS::incR</references>
+        <references refid="struct_r_e_s_u_l_t_s_1af9c496aa0507831d6754620ca71cb99d" compoundref="_model_8h" startline="127">RESULTS::incSARI</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a34c8916ee9c0ab17bdab993e1cb475d8" compoundref="_model_8h" startline="110">RESULTS::incTC</references>
+        <references refid="_model_8h_1a8d81b937b829e07d587caa239759e85a" compoundref="_spatial_sim_8cpp" startline="97">indivR0_av</references>
+        <references refid="_model_8h_1a67600b471c90b01b3ad88167bfb54c11" compoundref="_spatial_sim_8cpp" startline="99">inf_household_av</references>
+        <references refid="_model_8h_1a9d024685958f7a6344fcaf2e2574fb0a" compoundref="_spatial_sim_8cpp" startline="96">infcountry_av</references>
+        <references refid="_model_8h_1af1f6f21788c2c2af5fe82dd02fe7c9e4" compoundref="_spatial_sim_8cpp" startline="96">infcountry_num</references>
+        <references refid="_constants_8h_1a6594f145a52ef782d2568f3c9d21f44e" compoundref="_constants_8h" startline="18">INFECT_TYPE_MASK</references>
+        <references refid="struct_p_a_r_a_m_1ab540b27a7981748db19676da5f969131" compoundref="_param_8h" startline="50">PARAM::infectious_icdf</references>
+        <references refid="struct_p_e_r_s_o_n_1a9e6f6745b8c18608e72334c96bfd2632" compoundref="_model_8h" startline="29">PERSON::infectiousness</references>
+        <references refid="struct_p_a_r_a_m_1a1b614d58327852d13250cef335e1219c" compoundref="_param_8h" startline="50">PARAM::infectiousness</references>
+        <references refid="struct_p_a_r_a_m_1ac80e5b942708efcdad9311f48abae557" compoundref="_param_8h" startline="67">PARAM::InfectiousnessGamA</references>
+        <references refid="struct_p_a_r_a_m_1adc2c74926deb48b66a1db5e9818daa1f" compoundref="_param_8h" startline="67">PARAM::InfectiousnessGamR</references>
+        <references refid="struct_p_a_r_a_m_1a15cc5f1efe9187b906186907abf62a4b" compoundref="_param_8h" startline="67">PARAM::InfectiousnessSD</references>
+        <references refid="struct_p_a_r_a_m_1ad1b0ad336b398307bbdc3bbe64b855c1" compoundref="_param_8h" startline="65">PARAM::InfectiousPeriod</references>
+        <references refid="_model_8h_1ad9e96c663eff7a933317640a2fa339c7" compoundref="_spatial_sim_8cpp" startline="88">InfEventLog</references>
+        <references refid="_inf_stat_8h_1a3a1773b8cb15cfcdefa709e4a1f421e1" compoundref="_inf_stat_8h" startline="7">InfStat_Susceptible</references>
+        <references refid="_model_8h_1a96d4b085ee46ead89e0f6d0bc90095b6" compoundref="_spatial_sim_8cpp" startline="96">inftype_av</references>
+        <references refid="_bitmap_8cpp_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</references>
+        <references refid="_kernels_8cpp_1a6cc2e92595dce20560d13e2f65ab3e1b" compoundref="_kernels_8cpp" startline="11" endline="50">InitKernel</references>
+        <references refid="struct_p_a_r_a_m_1a1e46a8a935ee1cd9435b6eee590b6d2d" compoundref="_param_8h" startline="63">PARAM::KernelDelta</references>
+        <references refid="struct_p_a_r_a_m_1a33b209904af2564feca951d3ef849745" compoundref="_param_8h" startline="63">PARAM::KernelP3</references>
+        <references refid="struct_p_a_r_a_m_1ae4a868d4bdf8fa8ebb24d7dc4f426bd4" compoundref="_param_8h" startline="63">PARAM::KernelP4</references>
+        <references refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" compoundref="_param_8h" startline="63">PARAM::KernelScale</references>
+        <references refid="struct_p_a_r_a_m_1a5e0188923545f5597470b3a43cdd9a96" compoundref="_param_8h" startline="63">PARAM::KernelShape</references>
+        <references refid="struct_p_a_r_a_m_1a560c35fb4f1881b16c87ebff8b732517" compoundref="_param_8h" startline="25">PARAM::KernelType</references>
+        <references refid="struct_p_e_r_s_o_n_1abd0522b309d5a0d9fd54a02b0b13449f" compoundref="_model_8h" startline="24">PERSON::keyworker</references>
+        <references refid="struct_p_a_r_a_m_1ad49f6b82ef881c14a61c694325d2cd53" compoundref="_param_8h" startline="129">PARAM::KeyWorkerHouseProp</references>
+        <references refid="struct_p_a_r_a_m_1a9fc5c6cfe71723e52651dcc77d29885b" compoundref="_param_8h" startline="141">PARAM::KeyWorkerIncHouseNum</references>
+        <references refid="struct_p_a_r_a_m_1a08a47d966a42535f17a307763326c749" compoundref="_param_8h" startline="141">PARAM::KeyWorkerNum</references>
+        <references refid="struct_p_a_r_a_m_1ae4716bb6968f70d75dc2ab752d892482" compoundref="_param_8h" startline="141">PARAM::KeyWorkerPlaceNum</references>
+        <references refid="struct_p_a_r_a_m_1a470b95a16aa8c14fe96a20d874322594" compoundref="_param_8h" startline="141">PARAM::KeyWorkerPopNum</references>
+        <references refid="struct_p_a_r_a_m_1a29e617ee9b1d19d1bac5ba08c1a697a4" compoundref="_param_8h" startline="129">PARAM::KeyWorkerPropInKeyPlaces</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a30ae962785be6e157a5c62b568f13cb5" compoundref="_model_8h" startline="110">RESULTS::L</references>
+        <references refid="struct_c_e_l_l_1aa6b711cc331c1d42cdfc3ee981012cb6" compoundref="_model_8h" startline="235">CELL::L</references>
+        <references refid="struct_p_a_r_a_m_1a8f00afec718fde8328fe923388e2edf4" compoundref="_param_8h" startline="68">PARAM::LatentToSymptDelay</references>
+        <references refid="_setup_model_8cpp_1aa29b782aef9904f648c6a241cc3c89fa" compoundref="_setup_model_8cpp" startline="2499" endline="2557">LoadPeopleToPlaces</references>
+        <references refid="struct_p_a_r_a_m_1ada44a5a99d3a2da7c46cac72fd2fb860" compoundref="_param_8h" startline="42">PARAM::LoadSaveNetwork</references>
+        <references refid="struct_p_a_r_a_m_1a323ddf7e1f7dd4063f285d8087ee3a5f" compoundref="_param_8h" startline="65">PARAM::LocalBeta</references>
+        <references refid="struct_p_a_r_a_m_1aa20a1804d83f5616981b8294e7b680b2" compoundref="_param_8h" startline="48">PARAM::LocationInitialInfection</references>
+        <references refid="_constants_8h_1a84bfa512ba2269b77a80f391fbdde0a3" compoundref="_constants_8h" startline="28">MAX_CONTACTS</references>
+        <references refid="_country_8h_1a6703e361d6219325ad611153e92c420e" compoundref="_country_8h" startline="27">MAX_COUNTRIES</references>
+        <references refid="_constants_8h_1aeecc4d8aacdc72eea3dd2a8654456333" compoundref="_constants_8h" startline="19">MAX_GEN_REC</references>
+        <references refid="_country_8h_1a75411503a9ee195c6edf66e992be5d99" compoundref="_country_8h" startline="5">MAX_HOUSEHOLD_SIZE</references>
+        <references refid="_machine_defines_8h_1a5747ce5beae65002b9ee2c4a4cf8c329" compoundref="_machine_defines_8h" startline="9">MAX_NUM_THREADS</references>
+        <references refid="_constants_8h_1a7f4ea069228ebd6cfa95ce5013c8578f" compoundref="_constants_8h" startline="20">MAX_SEC_REC</references>
+        <references refid="struct_p_a_r_a_m_1ab7ce7811602d2095d98bf06d6a0f46be" compoundref="_param_8h" startline="152">PARAM::MaxInfEvents</references>
+        <references refid="_model_8h_1a18a4086bf5451739e560c596813292a2" compoundref="_spatial_sim_8cpp" startline="78">Mcells</references>
+        <references refid="struct_p_a_r_a_m_1aae955603b1a19dca7f833e1c3645acf7" compoundref="_param_8h" startline="62">PARAM::mcheight</references>
+        <references refid="struct_p_a_r_a_m_1ad9b84a699d1484a2e70e27afde513da3" compoundref="_param_8h" startline="62">PARAM::mcwidth</references>
+        <references refid="struct_p_l_a_c_e_1ae3415edaa9041a88f50010a72284448d" compoundref="_model_8h" startline="261">PLACE::members</references>
+        <references refid="struct_r_e_s_u_l_t_s_1af539086b0c217f847adf969b52d7a523" compoundref="_model_8h" startline="126">RESULTS::Mild</references>
+        <references refid="struct_p_a_r_a_m_1af13ae1e81ea2e063b360e94336a75eca" compoundref="_param_8h" startline="63">PARAM::MoveKernelP3</references>
+        <references refid="struct_p_a_r_a_m_1a519605039b01e0870c30baba8a5cd178" compoundref="_param_8h" startline="63">PARAM::MoveKernelP4</references>
+        <references refid="struct_p_a_r_a_m_1a05efb0db110e38eb5d669faa00fe2632" compoundref="_param_8h" startline="63">PARAM::MoveKernelScale</references>
+        <references refid="struct_p_a_r_a_m_1a36c8dd8db882dc5f15356b2ab5fef298" compoundref="_param_8h" startline="63">PARAM::MoveKernelShape</references>
+        <references refid="struct_p_a_r_a_m_1a2f2aa634507efbd8247ba8b886180380" compoundref="_param_8h" startline="26">PARAM::MoveKernelType</references>
+        <references refid="struct_p_o_p_v_a_r_1a69e66a8ab92b0595e89ce1b55bc07527" compoundref="_model_8h" startline="78">POPVAR::mvacc_queue</references>
+        <references refid="struct_p_a_r_a_m_1a492528cce9934bd664972ebcb26c00ae" compoundref="_param_8h" startline="16">PARAM::N</references>
+        <references refid="struct_c_e_l_l_1a5cbf467112a3cf29e1c33122c038a1e8" compoundref="_model_8h" startline="235">CELL::n</references>
+        <references refid="struct_p_o_p_v_a_r_1a62098fc98f541448051ac94c7160463d" compoundref="_model_8h" startline="73">POPVAR::n_mvacc</references>
+        <references refid="struct_p_a_r_a_m_1a11b86b68219991c58eb4727a0e866874" compoundref="_param_8h" startline="31">PARAM::NC</references>
+        <references refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" compoundref="_param_8h" startline="33">PARAM::nch</references>
+        <references refid="struct_p_a_r_a_m_1ac10cf7f912ee515d2360aefc3392c3f1" compoundref="_param_8h" startline="33">PARAM::ncw</references>
+        <references refid="struct_p_a_r_a_m_1ab708c5f2bff9c76f7048b33ba207ec37" compoundref="_param_8h" startline="157">PARAM::NDigitalContactUsers</references>
+        <references refid="struct_p_a_r_a_m_1a4e173abf7593a93c497d44e456d60daa" compoundref="_param_8h" startline="157">PARAM::NDigitalHouseholdUsers</references>
+        <references refid="_model_8h_1a1560c6762d92beedd0cb615d04cafc23" compoundref="_spatial_sim_8cpp" startline="89">nEvents</references>
+        <references refid="struct_p_a_r_a_m_1ac5752c7d5d3c910cde1e8223a874c976" compoundref="_param_8h" startline="17">PARAM::NH</references>
+        <references refid="struct_h_o_u_s_e_h_o_l_d_1ad03a412402244fb96d495903dc8649b4" compoundref="_model_8h" startline="47">HOUSEHOLD::nh</references>
+        <references refid="struct_h_o_u_s_e_h_o_l_d_1ab4193b63654511a90e1bd4e256e51ad3" compoundref="_model_8h" startline="49">HOUSEHOLD::nhr</references>
+        <references refid="_kernels_8cpp_1ae989621a2ab4f680bf8a538a86d5b1dd" compoundref="_kernels_8cpp" startline="10">nKernel</references>
+        <references refid="_kernels_8cpp_1a9108701e0e905fd7aa0c0575ac7aa793" compoundref="_kernels_8cpp" startline="10">nKernelHR</references>
+        <references refid="_country_8h_1a93921b6d8b05706d35781e69cdca59c5" compoundref="_country_8h" startline="40">NKR</references>
+        <references refid="struct_p_a_r_a_m_1abeee4d92a09a1c33621b39c3cfa3afbd" compoundref="_param_8h" startline="31">PARAM::NMC</references>
+        <references refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" compoundref="_param_8h" startline="33">PARAM::nmch</references>
+        <references refid="struct_p_a_r_a_m_1ac60cdfac43c4bc86a6bb1906f7aa3725" compoundref="_param_8h" startline="31">PARAM::NMCL</references>
+        <references refid="struct_p_a_r_a_m_1adc67f3221a21be493ad222bfb2123d45" compoundref="_param_8h" startline="33">PARAM::nmcw</references>
+        <references refid="struct_p_a_r_a_m_1a010ffd25e346d25a0b0a98a71d887da9" compoundref="_param_8h" startline="39">PARAM::Nplace</references>
+        <references refid="struct_p_a_r_a_m_1adeb0e934117fa26124ed532704647534" compoundref="_param_8h" startline="21">PARAM::NRactE</references>
+        <references refid="struct_p_a_r_a_m_1afb62c1ae900ef81b834bb61bdd32f66e" compoundref="_param_8h" startline="22">PARAM::NRactNE</references>
+        <references refid="_constants_8h_1a60272d047c68590cd8b70e52cf385e80" compoundref="_constants_8h" startline="15">NUM_AGE_GROUPS</references>
+        <references refid="_country_8h_1a1de60bef27543db06a6c6e1010b8ca82" compoundref="_country_8h" startline="22">NUM_PLACE_TYPES</references>
+        <references refid="_country_8h_1ae0c3190896d3df30d7ee33a320df6825" compoundref="_country_8h" startline="23">NUM_PLACE_TYPES_NOAIR</references>
+        <references refid="struct_p_a_r_a_m_1aed31482c983adfaebf4174a9442defa2" compoundref="_param_8h" startline="34">PARAM::NumAdunits</references>
+        <references refid="struct_p_a_r_a_m_1a2bfb9fb4adc5c43bb1683f48c4ac2728" compoundref="_param_8h" startline="24">PARAM::NumSamples</references>
+        <references refid="struct_p_a_r_a_m_1a07a30c39fa9b10e400a33af7ac298ca7" compoundref="_param_8h" startline="41">PARAM::NumSeedLocations</references>
+        <references refid="struct_p_a_r_a_m_1a189133627f0af23ff3041ece9c003e92" compoundref="_param_8h" startline="37">PARAM::NumThreads</references>
+        <references refid="struct_p_a_r_a_m_1a97559c9f1532aee6e8b9400b6bee66db" compoundref="_param_8h" startline="38">PARAM::OutputBitmap</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="_model_8h_1af4f2e081c3ad78493c1938e472af56d5" compoundref="_spatial_sim_8cpp" startline="103">PeakHeightSS</references>
+        <references refid="_model_8h_1ae7882172f7d3e05d940677339dd95a66" compoundref="_spatial_sim_8cpp" startline="103">PeakHeightSum</references>
+        <references refid="_model_8h_1ae6f6f1ace04ba374d267a8947ded83bb" compoundref="_spatial_sim_8cpp" startline="103">PeakTimeSS</references>
+        <references refid="_model_8h_1a0a56aa0c956946a39dc7b80657afdab3" compoundref="_spatial_sim_8cpp" startline="103">PeakTimeSum</references>
+        <references refid="struct_p_a_r_a_m_1af16322872ca5ce45f8773d5abd2ac8e8" compoundref="_param_8h" startline="139">PARAM::PlaceCloseAdunitPlaceTypes</references>
+        <references refid="struct_p_e_r_s_o_n_1aedcff60c3c6810b6ee5ac2679139ee6c" compoundref="_model_8h" startline="28">PERSON::PlaceLinks</references>
+        <references refid="_model_8h_1a8fdf6eda77ae1326e361fcaca3e18a31" compoundref="_spatial_sim_8cpp" startline="79">Places</references>
+        <references refid="struct_p_a_r_a_m_1acba714907de5726806e4f6fe485e2dbf" compoundref="_param_8h" startline="90">PARAM::PlaceTypeGroupSizeParam1</references>
+        <references refid="struct_p_a_r_a_m_1a1c1232ed6f79783107aeb47f25124b1c" compoundref="_param_8h" startline="39">PARAM::PlaceTypeNum</references>
+        <references refid="struct_p_a_r_a_m_1aa7e7796ea1446209e45d73ec3d120551" compoundref="_param_8h" startline="88">PARAM::PlaceTypePropBetweenGroupLinks</references>
+        <references refid="struct_p_a_r_a_m_1ac21d10a6aa3cd3d2153391eed0fb3eec" compoundref="_param_8h" startline="87">PARAM::PlaceTypeTrans</references>
+        <references refid="struct_b_i_n___f_i_l_e_1a28c58df5c57d3aa34f6d1dc8d56eb507" compoundref="_setup_model_8h" startline="22">BIN_FILE::pop</references>
+        <references refid="struct_p_a_r_a_m_1aedf6ca3705090f9275e01bc6df107127" compoundref="_param_8h" startline="91">PARAM::PropAgeGroup</references>
+        <references refid="struct_p_a_r_a_m_1aafec623bac0690cbb10752e0a2724775" compoundref="_param_8h" startline="158">PARAM::ProportionSmartphoneUsersByAge</references>
+        <references refid="struct_p_a_r_a_m_1a6810bc4162545e3651ff936d6f85f307" compoundref="_param_8h" startline="68">PARAM::ProportionSymptomatic</references>
+        <references refid="struct_p_a_r_a_m_1aea02e87f607e08d3aa27b977603fa468" compoundref="_param_8h" startline="158">PARAM::PropPopUsingDigitalContactTracing</references>
+        <references refid="struct_r_e_s_u_l_t_s_1ad5ba36ab7f09de607c0e378499308e36" compoundref="_model_8h" startline="110">RESULTS::R</references>
+        <references refid="struct_c_e_l_l_1a233c1443ef2751916dd28cc42056796b" compoundref="_model_8h" startline="235">CELL::R</references>
+        <references refid="struct_p_a_r_a_m_1a6dd0972add1d7960f40218c59fe04c91" compoundref="_param_8h" startline="65">PARAM::R0</references>
+        <references refid="struct_p_a_r_a_m_1a8762a7349c7b3b9cb9cc8c02e9404878" compoundref="_param_8h" startline="65">PARAM::R0household</references>
+        <references refid="struct_p_a_r_a_m_1a3d9c827d0f6d676bab12ad8279c184eb" compoundref="_param_8h" startline="65">PARAM::R0places</references>
+        <references refid="struct_p_a_r_a_m_1a65b54034173ff1a278bc57c77cdb31f2" compoundref="_param_8h" startline="65">PARAM::R0scale</references>
+        <references refid="struct_p_a_r_a_m_1a8868bb178d57c0f906f238f15dd72653" compoundref="_param_8h" startline="65">PARAM::R0spatial</references>
+        <references refid="_rand_8cpp_1a0576ba455127db74f31b5a8eee738f44" compoundref="_rand_8cpp" startline="24" endline="47">ranf</references>
+        <references refid="_rand_8cpp_1a9d6753048d256a545575a035578a85bf" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a538a65aad1061eabffc9d8c563897b73" compoundref="_model_8h" startline="117">RESULTS::Rdenom</references>
+        <references refid="struct_p_e_r_s_o_n_1a0ee97b73c88633b7e1951981a15bdae0" compoundref="_model_8h" startline="32">PERSON::recovery_time</references>
+        <references refid="struct_p_a_r_a_m_1a41f9a5d71b2f35af1f4d484c77c66bcf" compoundref="_param_8h" startline="73">PARAM::RelativeSpatialContact</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a63782e7529013322c8e2049a5bdbb935" compoundref="_model_8h" startline="110">RESULTS::S</references>
+        <references refid="struct_c_e_l_l_1a00c41c0474ff22744ce62c4112314037" compoundref="_model_8h" startline="235">CELL::S</references>
+        <references refid="struct_r_e_s_u_l_t_s_1a0605f8d7f6bd2fe52544415aaaee1e45" compoundref="_model_8h" startline="126">RESULTS::SARI</references>
+        <references refid="_setup_model_8cpp_1a956cf6f26e0f72b807deddf295466980" compoundref="_setup_model_8cpp" startline="2593" endline="2618">SaveAgeDistrib</references>
+        <references refid="_setup_model_8cpp_1add6304cb8b7a6e9593da9b54343f842e" compoundref="_setup_model_8cpp" startline="2558" endline="2591">SavePeopleToPlaces</references>
+        <references refid="struct_p_a_r_a_m_1a9655125c1c1fbcdb1832b4b9804dd285" compoundref="_param_8h" startline="62">PARAM::scalex</references>
+        <references refid="struct_p_a_r_a_m_1a2fd7ee7a09e76088ce5c2459e79ee65c" compoundref="_param_8h" startline="62">PARAM::scaley</references>
+        <references refid="struct_p_a_r_a_m_1aa9ee0fdc5b80168c7cdf8b8931af6a98" compoundref="_param_8h" startline="45">PARAM::seed1</references>
+        <references refid="struct_p_a_r_a_m_1a5f88303f927b83c7f99615e9c77a9a85" compoundref="_param_8h" startline="45">PARAM::seed2</references>
+        <references refid="_rand_8cpp_1a08fd05c50ad9d801b1a127e7b890501b" compoundref="_rand_8cpp" startline="69" endline="96">setall</references>
+        <references refid="_setup_model_8cpp_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</references>
+        <references refid="_setup_model_8cpp_1ab023b5363936cdcc349a6afdbd054e70" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</references>
+        <references refid="struct_p_a_r_a_m_1a16d8205d18cb443129ed404ab0d694bb" compoundref="_param_8h" startline="48">PARAM::SpatialBoundingBox</references>
+        <references refid="_model_8h_1a69f225da64a62e8750c954c8a117d4fb" compoundref="_spatial_sim_8cpp" startline="76">State</references>
+        <references refid="_setup_model_8cpp_1af4a2b8ba6f8b3bdedd5011d2d9eb2900" compoundref="_setup_model_8cpp" startline="2365" endline="2498">StratifyPlaces</references>
+        <references refid="struct_p_a_r_a_m_1afee33664cb107ae82b17f41a1e9c62e7" compoundref="_param_8h" startline="68">PARAM::SymptInfectiousness</references>
+        <references refid="struct_p_a_r_a_m_1a27f86a3ca109477c477864dbce39e766" compoundref="_param_8h" startline="69">PARAM::SymptPlaceTypeContactRate</references>
+        <references refid="struct_p_a_r_a_m_1a71c3e7712ebf06be08ebfa59574307d0" compoundref="_param_8h" startline="70">PARAM::SymptPlaceTypeWithdrawalProp</references>
+        <references refid="struct_p_a_r_a_m_1aee1ae1ba614309763ca81faf5e68412e" compoundref="_param_8h" startline="69">PARAM::SymptSpatialContactRate</references>
+        <references refid="_model_8h_1a03bafcf4ee6329e64108ee957e96f428" compoundref="_spatial_sim_8cpp" startline="84">TimeSeries</references>
+        <references refid="struct_p_a_r_a_m_1a8b4e0dc355df37e45f7e996535dd0a7f" compoundref="_param_8h" startline="60">PARAM::TimeStep</references>
+        <references refid="_model_8h_1a00cd32a1cfe2822a673486822cca5bf0" compoundref="_spatial_sim_8cpp" startline="84">TSMean</references>
+        <references refid="_model_8h_1a9efc7f01a60565c9171afecb9a30ac84" compoundref="_spatial_sim_8cpp" startline="84">TSMeanE</references>
+        <references refid="_model_8h_1a0a6c86e8cafc54a6e49695f5137d9d29" compoundref="_spatial_sim_8cpp" startline="84">TSMeanNE</references>
+        <references refid="_model_8h_1a08c041e90021b3bad3663b3e4517f4c1" compoundref="_spatial_sim_8cpp" startline="84">TSVar</references>
+        <references refid="_model_8h_1ae3fbfa84e599e2389c44d08be7e96e17" compoundref="_spatial_sim_8cpp" startline="84">TSVarE</references>
+        <references refid="_model_8h_1a5acb1872a63d4f7f6da8cd08d09e6f98" compoundref="_spatial_sim_8cpp" startline="84">TSVarNE</references>
+        <references refid="_shared_funcs_8h_1a6ebb780665387c6f7da35b342664df09" compoundref="_spatial_sim_8cpp" startline="3588" endline="3637">UpdateProbs</references>
+        <references refid="struct_p_a_r_a_m_1a0d01cd66228f36aa6afc8de9a67f7a7c" compoundref="_param_8h" startline="137">PARAM::VaccPriorityGroupAge</references>
+        <references refid="struct_p_a_r_a_m_1a1e7eba337945c6973beef24887ea533e" compoundref="_param_8h" startline="106">PARAM::VaccProp</references>
+        <references refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" compoundref="_param_8h" startline="62">PARAM::width</references>
+        <references refid="struct_b_i_n___f_i_l_e_1aaac09e251de80deb3076c36680256fc8" compoundref="_setup_model_8h" startline="22">BIN_FILE::x</references>
+        <references refid="_rand_8cpp_1a4378c16f4004f0ff416835647afaa4e3" compoundref="_rand_8cpp" startline="17">Xcg1</references>
+        <references refid="_rand_8cpp_1a0d35c9badaebae83a7e920acefa4aa83" compoundref="_rand_8cpp" startline="17">Xcg2</references>
+        <references refid="struct_b_i_n___f_i_l_e_1ac2183407eb99f9704e8246297408f82d" compoundref="_setup_model_8h" startline="22">BIN_FILE::y</references>
+        <referencedby refid="_spatial_sim_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_spatial_sim_8cpp" startline="118" endline="455">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetupPopulation</definition>
+        <argsstring>(char *, char *, char *)</argsstring>
+        <name>SetupPopulation</name>
+        <param>
+          <type>char *</type>
+        </param>
+        <param>
+          <type>char *</type>
+        </param>
+        <param>
+          <type>char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="7" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.cpp" bodystart="627" bodyend="1448"/>
+        <references refid="struct_b_i_n___f_i_l_e_1a8235ec33c53928077ecd1a8b0845dcfc" compoundref="_setup_model_8h" startline="23">BIN_FILE::ad</references>
+        <references refid="struct_m_i_c_r_o_c_e_l_l_1a4a20215addcd365735798c41fa39b6e3" compoundref="_model_8h" startline="212">MICROCELL::adunit</references>
+        <references refid="struct_p_a_r_a_m_1aaa9c67507cb2e3aca5a133f051b6e53f" compoundref="_param_8h" startline="34">PARAM::AdunitLevel1Divisor</references>
+        <references refid="struct_p_a_r_a_m_1a109130171b55f0febcdc74d2426f75a8" compoundref="_param_8h" startline="35">PARAM::AdunitLevel1Lookup</references>
+        <references refid="struct_p_a_r_a_m_1abafc7bd1ca8b41e32f3be74ef2c6e15d" compoundref="_param_8h" startline="34">PARAM::AdunitLevel1Mask</references>
+        <references refid="_model_8h_1ae46ef51c0d02788795ea7858abc6685f" compoundref="_spatial_sim_8cpp" startline="80">AdUnits</references>
+        <references refid="struct_p_e_r_s_o_n_1a3e840067bfddd4b16ad08635817b93e9" compoundref="_model_8h" startline="21">PERSON::age</references>
+        <references refid="_constants_8h_1a84d95d9674690907eeb9bd94bd69e919" compoundref="_constants_8h" startline="16">AGE_GROUP_WIDTH</references>
+        <references refid="_model_8h_1afba453a55f70b5bd34cb7ec9a9e8efb8" compoundref="_spatial_sim_8cpp" startline="99">AgeDist</references>
+        <references refid="_model_8h_1adcb5809ea899ce36627ec090c3b44488" compoundref="_spatial_sim_8cpp" startline="99">AgeDist2</references>
+        <references refid="_setup_model_8cpp_1ab0495adcfe30e2475f5cdde704e11c63" compoundref="_setup_model_8cpp" startline="1626" endline="1871">AssignHouseholdAges</references>
+        <references refid="struct_p_l_a_c_e_1ae4378420c830fef061cb0af3ee8aa2c2" compoundref="_model_8h" startline="256">PLACE::AvailByAge</references>
+        <references refid="_setup_model_8cpp_1aba8ad8707036efb669fe149355a2ca25" compoundref="_setup_model_8cpp" startline="20">BinFileBuf</references>
+        <references refid="struct_p_a_r_a_m_1a639c8a090583f096d529b442dee90f69" compoundref="_param_8h" startline="28">PARAM::BinFileLen</references>
+        <references refid="_machine_defines_8h_1af89f60b07247176687889ade776c8e10" compoundref="_machine_defines_8h" startline="11">CACHE_LINE_SIZE</references>
+        <references refid="_model_8h_1a9a44edd4d69afa6fcace5ddce0dbb029" compoundref="_spatial_sim_8cpp" startline="77">CellLookup</references>
+        <references refid="struct_p_o_p_v_a_r_1afd593840262ffb7f77b775abf3c0122d" compoundref="_model_8h" startline="76">POPVAR::CellMemberArray</references>
+        <references refid="_model_8h_1af0f221c6706ef7e154e5576e6df1ec89" compoundref="_spatial_sim_8cpp" startline="77">Cells</references>
+        <references refid="struct_p_o_p_v_a_r_1a476a45cb0ce9e2b2601ae8916cc41e60" compoundref="_model_8h" startline="76">POPVAR::CellSuscMemberArray</references>
+        <references refid="struct_p_a_r_a_m_1a6c70047b06fce8ff13b299a4bbbea14b" compoundref="_param_8h" startline="62">PARAM::cheight</references>
+        <references refid="struct_b_i_n___f_i_l_e_1a67eaf97ff8b060bc79662703a3c23cb3" compoundref="_setup_model_8h" startline="23">BIN_FILE::cnt</references>
+        <references refid="struct_a_d_m_i_n_u_n_i_t_1acb9db6282cd4cb4886f12b244be413aa" compoundref="_model_8h" startline="280">ADMINUNIT::cnt_id</references>
+        <references refid="struct_m_i_c_r_o_c_e_l_l_1ac99bf943394f39e824f7d6c5d7cf24c0" compoundref="_model_8h" startline="214">MICROCELL::country</references>
+        <references refid="struct_p_l_a_c_e_1a1d00014c3ed30d81778e9a25bca9acea" compoundref="_model_8h" startline="254">PLACE::country</references>
+        <references refid="struct_c_e_l_l_1a6844575de9edb34464bcf8f9af142b0c" compoundref="_model_8h" startline="235">CELL::cumTC</references>
+        <references refid="struct_p_a_r_a_m_1ac7700ebd7644ee1a272392b27f19a508" compoundref="_param_8h" startline="62">PARAM::cwidth</references>
+        <references refid="_model_8h_1a4fcf0aa1d49b2a3c3e1f41f7423f5757" compoundref="_spatial_sim_8cpp" startline="98">denom_household</references>
+        <references refid="struct_p_a_r_a_m_1aba46848eae83536589ad5909a5cf143d" compoundref="_param_8h" startline="34">PARAM::DoAdunitBoundaries</references>
+        <references refid="struct_p_a_r_a_m_1a7fc142460f4e7e3f2981deb6c028c653" compoundref="_param_8h" startline="35">PARAM::DoAdunitDemog</references>
+        <references refid="struct_p_a_r_a_m_1afe11dfcb77ceb70f470bbbdb456d3fc3" compoundref="_param_8h" startline="34">PARAM::DoAdUnits</references>
+        <references refid="struct_p_a_r_a_m_1a656752413416208a09cf136c98ad1295" compoundref="_param_8h" startline="29">PARAM::DoBin</references>
+        <references refid="struct_p_a_r_a_m_1ac4ab02af778a08f1e2d23cb19aeb46e4" compoundref="_param_8h" startline="35">PARAM::DoCorrectAdunitPop</references>
+        <references refid="struct_p_a_r_a_m_1a5ad694bfde7daebdcf128e0cb5c17008" compoundref="_param_8h" startline="33">PARAM::DoCorrectAgeDist</references>
+        <references refid="struct_p_a_r_a_m_1a18b3d9e7166ca5211d9e478ace529d15" compoundref="_param_8h" startline="157">PARAM::DoDigitalContactTracing</references>
+        <references refid="struct_p_a_r_a_m_1a5138b57e7f9a4181cb780410020cbca2" compoundref="_param_8h" startline="38">PARAM::DoHeteroDensity</references>
+        <references refid="struct_p_a_r_a_m_1a6d49af4e61530cde39a652b79518518d" compoundref="_param_8h" startline="39">PARAM::DoHouseholds</references>
+        <references refid="struct_p_a_r_a_m_1aff55511d5c2db3077aeee9e59d7792f8" compoundref="_param_8h" startline="161">PARAM::DoOriginDestinationMatrix</references>
+        <references refid="struct_p_a_r_a_m_1ab61004148c86d9110106a409ecc1dbfe" compoundref="_param_8h" startline="39">PARAM::DoPlaces</references>
+        <references refid="struct_p_a_r_a_m_1abaafa700696dd48cfd7b9b7dec1b55a1" compoundref="_param_8h" startline="40">PARAM::DoRandomInitialInfectionLoc</references>
+        <references refid="struct_p_a_r_a_m_1ad07cc3a6fb86418b065a58ab49cb57e9" compoundref="_param_8h" startline="44">PARAM::DoSchoolFile</references>
+        <references refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" compoundref="_error_8h" startline="6">ERR_CRITICAL</references>
+        <references refid="struct_h_o_u_s_e_h_o_l_d_1a865df4654230b4d92a901da6cca71226" compoundref="_model_8h" startline="46">HOUSEHOLD::FirstPerson</references>
+        <references refid="binio_8cpp_1a1bc8d1ad11acf37bf8af06899bb5eef5" compoundref="binio_8cpp" startline="27" endline="44">fread_big</references>
+        <references refid="binio_8cpp_1a9dfa82809bd434bd7d6e2a8dc9d2f18a" compoundref="binio_8cpp" startline="8" endline="25">fwrite_big</references>
+        <references refid="struct_p_e_r_s_o_n_1a5d37d138a852ba758b2acf4d48919f69" compoundref="_model_8h" startline="20">PERSON::hh</references>
+        <references refid="_model_macros_8h_1aa5a6525c77db4abd9464ac6a40adaf52" compoundref="_model_macros_8h" startline="27">HOST_AGE_GROUP</references>
+        <references refid="_model_macros_8h_1a25a9f97e729e19c3afdd9e94ef9bf1f5" compoundref="_model_macros_8h" startline="26">HOST_AGE_YEAR</references>
+        <references refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" compoundref="_spatial_sim_8cpp" startline="74">Hosts</references>
+        <references refid="_country_8h_1a81d3648af23be63733befe3c9890ff1f" compoundref="_country_8h" startline="24">HOTEL_PLACE_TYPE</references>
+        <references refid="_model_8h_1aa73f7cf5ecb1acf206c5c14987bd9d89" compoundref="_spatial_sim_8cpp" startline="75">Households</references>
+        <references refid="struct_p_a_r_a_m_1a9270518795ad737f98034946fb2e19b4" compoundref="_param_8h" startline="79">PARAM::HouseholdSizeDistrib</references>
+        <references refid="struct_c_e_l_l_1ad826b6df0986ef754170511ccd619411" compoundref="_model_8h" startline="235">CELL::I</references>
+        <references refid="struct_a_d_m_i_n_u_n_i_t_1a88a036834ebfe2a6bac1aaef4d744e23" compoundref="_model_8h" startline="280">ADMINUNIT::id</references>
+        <references refid="_rand_8cpp_1a5efb4220d658f7dd6056a98264616d4f" compoundref="_rand_8cpp" startline="922" endline="1183">ignbin_mt</references>
+        <references refid="struct_p_e_r_s_o_n_1a273b352348cb66c459ca0bd7c5e2ff1d" compoundref="_model_8h" startline="30">PERSON::inf</references>
+        <references refid="_constants_8h_1a94b0747c533e5cd35f65055877713b8c" compoundref="_constants_8h" startline="21">INF_QUEUE_SCALE</references>
+        <references refid="struct_p_a_r_a_m_1a8e2ff1d21c6d283307661f0fc8b8bc1a" compoundref="_param_8h" startline="37">PARAM::InfQueuePeakLength</references>
+        <references refid="_inf_stat_8h_1a3a1773b8cb15cfcdefa709e4a1f421e1" compoundref="_inf_stat_8h" startline="7">InfStat_Susceptible</references>
+        <references refid="struct_p_o_p_v_a_r_1a5d3bc52ee918c6d9b370dce924c811b2" compoundref="_model_8h" startline="77">POPVAR::InvAgeDist</references>
+        <references refid="struct_c_e_l_l_1aa6b711cc331c1d42cdfc3ee981012cb6" compoundref="_model_8h" startline="235">CELL::L</references>
+        <references refid="struct_p_e_r_s_o_n_1aa25bab041ff1bfe030af775090a1dae9" compoundref="_model_8h" startline="20">PERSON::listpos</references>
+        <references refid="struct_h_o_u_s_e_h_o_l_d_1ad768cf85dab1509562da38257ebc6250" compoundref="_model_8h" startline="48">HOUSEHOLD::loc_x</references>
+        <references refid="struct_p_l_a_c_e_1a2dd9b894dfcaec3fa8bc5eaf08b975b6" compoundref="_model_8h" startline="260">PLACE::loc_x</references>
+        <references refid="struct_h_o_u_s_e_h_o_l_d_1a54b006bcef7d22ef1127ac53f37b0299" compoundref="_model_8h" startline="48">HOUSEHOLD::loc_y</references>
+        <references refid="struct_p_l_a_c_e_1aaeb86044e41d5230813efc46eed73bcf" compoundref="_model_8h" startline="260">PLACE::loc_y</references>
+        <references refid="struct_p_a_r_a_m_1aa20a1804d83f5616981b8294e7b680b2" compoundref="_param_8h" startline="48">PARAM::LocationInitialInfection</references>
+        <references refid="_country_8h_1a3f92bcdc829631594764cb71807809fd" compoundref="_country_8h" startline="25">MAX_ADUNITS</references>
+        <references refid="_country_8h_1a75411503a9ee195c6edf66e992be5d99" compoundref="_country_8h" startline="5">MAX_HOUSEHOLD_SIZE</references>
+        <references refid="_constants_8h_1ada26848e9bfb32c816a5de5b62388b06" compoundref="_constants_8h" startline="8">MAX_PLACE_SIZE</references>
+        <references refid="struct_p_e_r_s_o_n_1a342f190b57650519102ce7d44c19b693" compoundref="_model_8h" startline="19">PERSON::mcell</references>
+        <references refid="struct_p_l_a_c_e_1a10b191f65d501bfe2e08d977089162e1" compoundref="_model_8h" startline="253">PLACE::mcell</references>
+        <references refid="_model_8h_1a5e1fcd4ee6f85c53e934997524dffe59" compoundref="_spatial_sim_8cpp" startline="95">mcell_adunits</references>
+        <references refid="_model_8h_1aedd1843fe61fd35e5f0ae9a20e784802" compoundref="_spatial_sim_8cpp" startline="95">mcell_country</references>
+        <references refid="_model_8h_1aad37a637d4cb42caf653f60dd3e03c92" compoundref="_spatial_sim_8cpp" startline="94">mcell_dens</references>
+        <references refid="_model_8h_1aab6fc6931f54a0d93fe58e228d5befb1" compoundref="_spatial_sim_8cpp" startline="95">mcell_num</references>
+        <references refid="_model_8h_1a7ff687197a30b495bf6f528730aeb577" compoundref="_spatial_sim_8cpp" startline="78">McellLookup</references>
+        <references refid="_model_8h_1a18a4086bf5451739e560c596813292a2" compoundref="_spatial_sim_8cpp" startline="78">Mcells</references>
+        <references refid="struct_p_a_r_a_m_1aae955603b1a19dca7f833e1c3645acf7" compoundref="_param_8h" startline="62">PARAM::mcheight</references>
+        <references refid="struct_p_a_r_a_m_1ad9b84a699d1484a2e70e27afde513da3" compoundref="_param_8h" startline="62">PARAM::mcwidth</references>
+        <references refid="struct_m_i_c_r_o_c_e_l_l_1ac80c96b77397e62c650dbb4cf5d03ebb" compoundref="_model_8h" startline="213">MICROCELL::members</references>
+        <references refid="struct_c_e_l_l_1a28587d6eb9c56ba9d0431f0be75ed339" compoundref="_model_8h" startline="236">CELL::members</references>
+        <references refid="struct_p_a_r_a_m_1a492528cce9934bd664972ebcb26c00ae" compoundref="_param_8h" startline="16">PARAM::N</references>
+        <references refid="struct_m_i_c_r_o_c_e_l_l_1a82351d0d9079697b6ab7631d0ee35da1" compoundref="_model_8h" startline="212">MICROCELL::n</references>
+        <references refid="struct_c_e_l_l_1a5cbf467112a3cf29e1c33122c038a1e8" compoundref="_model_8h" startline="235">CELL::n</references>
+        <references refid="struct_p_l_a_c_e_1ab4ca75ec49d3c2c003081203a9a8b51f" compoundref="_model_8h" startline="253">PLACE::n</references>
+        <references refid="struct_a_d_m_i_n_u_n_i_t_1a6ede8982e08e694d1b6bc312df15ea2d" compoundref="_model_8h" startline="280">ADMINUNIT::n</references>
+        <references refid="struct_p_a_r_a_m_1a11b86b68219991c58eb4727a0e866874" compoundref="_param_8h" startline="31">PARAM::NC</references>
+        <references refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" compoundref="_param_8h" startline="33">PARAM::nch</references>
+        <references refid="struct_p_a_r_a_m_1a69cb3cdd2a3942ab05c22b6babffabe0" compoundref="_param_8h" startline="32">PARAM::NCP</references>
+        <references refid="struct_p_a_r_a_m_1ac5752c7d5d3c910cde1e8223a874c976" compoundref="_param_8h" startline="17">PARAM::NH</references>
+        <references refid="struct_h_o_u_s_e_h_o_l_d_1ad03a412402244fb96d495903dc8649b4" compoundref="_model_8h" startline="47">HOUSEHOLD::nh</references>
+        <references refid="struct_h_o_u_s_e_h_o_l_d_1ab4193b63654511a90e1bd4e256e51ad3" compoundref="_model_8h" startline="49">HOUSEHOLD::nhr</references>
+        <references refid="struct_p_a_r_a_m_1abeee4d92a09a1c33621b39c3cfa3afbd" compoundref="_param_8h" startline="31">PARAM::NMC</references>
+        <references refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" compoundref="_param_8h" startline="33">PARAM::nmch</references>
+        <references refid="struct_p_a_r_a_m_1ac60cdfac43c4bc86a6bb1906f7aa3725" compoundref="_param_8h" startline="31">PARAM::NMCL</references>
+        <references refid="struct_p_a_r_a_m_1ad2596bba6a994116f7e5062247b70069" compoundref="_param_8h" startline="33">PARAM::NMCP</references>
+        <references refid="struct_m_i_c_r_o_c_e_l_l_1afb3d3b5fe6b4de08e4310b84c45b7257" compoundref="_model_8h" startline="217">MICROCELL::np</references>
+        <references refid="struct_p_a_r_a_m_1a010ffd25e346d25a0b0a98a71d887da9" compoundref="_param_8h" startline="39">PARAM::Nplace</references>
+        <references refid="struct_p_a_r_a_m_1ab17a58e51aecc55689fb9abc2b3d0eb2" compoundref="_param_8h" startline="33">PARAM::nsp</references>
+        <references refid="_constants_8h_1a60272d047c68590cd8b70e52cf385e80" compoundref="_constants_8h" startline="15">NUM_AGE_GROUPS</references>
+        <references refid="struct_p_a_r_a_m_1aed31482c983adfaebf4174a9442defa2" compoundref="_param_8h" startline="34">PARAM::NumAdunits</references>
+        <references refid="struct_p_a_r_a_m_1af2782bf129a070602017601f77d1be33" compoundref="_param_8h" startline="40">PARAM::NumInitialInfections</references>
+        <references refid="struct_p_a_r_a_m_1a189133627f0af23ff3041ece9c003e92" compoundref="_param_8h" startline="37">PARAM::NumThreads</references>
+        <references refid="struct_a_d_m_i_n_u_n_i_t_1a77a52e1a59eb59f52179e7d9f04198fc" compoundref="_model_8h" startline="291">ADMINUNIT::origin_dest</references>
+        <references refid="_setup_model_8h_1ad8239b0090abca87b62396f20d4204cd" compoundref="_spatial_sim_8cpp" startline="106">OutDensFile</references>
+        <references refid="struct_p_a_r_a_m_1ac1fd88af4900982d024e5f44cf9cb6e0" compoundref="_param_8h" startline="36">PARAM::OutputDensFile</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_e_r_s_o_n_1a54ad5b22ddaa1c20f263ce96a4ce5a35" compoundref="_model_8h" startline="18">PERSON::pcell</references>
+        <references refid="_constants_8h_1a598a3330b3c21701223ee0ca14316eca" compoundref="_constants_8h" startline="4">PI</references>
+        <references refid="struct_m_i_c_r_o_c_e_l_l_1aca04ae7561d23ed68c7396a8f7389474" compoundref="_model_8h" startline="216">MICROCELL::places</references>
+        <references refid="_model_8h_1a8fdf6eda77ae1326e361fcaca3e18a31" compoundref="_spatial_sim_8cpp" startline="79">Places</references>
+        <references refid="struct_p_a_r_a_m_1ac4c8ef3e4899a256ab2f83db3eafc09d" compoundref="_param_8h" startline="81">PARAM::PlaceTypeAgeMax</references>
+        <references refid="struct_p_a_r_a_m_1a4a16d1a560dbcb5592f1c009aca87ad0" compoundref="_param_8h" startline="82">PARAM::PlaceTypeAgeMax2</references>
+        <references refid="struct_p_a_r_a_m_1a06c83e3b6a966bd4b841d84d1953588d" compoundref="_param_8h" startline="83">PARAM::PlaceTypeAgeMax3</references>
+        <references refid="struct_p_a_r_a_m_1aea63cf699c33ebd39d36de3fa4bd10fc" compoundref="_param_8h" startline="81">PARAM::PlaceTypeAgeMin</references>
+        <references refid="struct_p_a_r_a_m_1aa068c585b1b1bfa16630ad7552e44c9c" compoundref="_param_8h" startline="82">PARAM::PlaceTypeAgeMin2</references>
+        <references refid="struct_p_a_r_a_m_1aecdf92b2195f2a37dc758ef53e2256c1" compoundref="_param_8h" startline="83">PARAM::PlaceTypeAgeMin3</references>
+        <references refid="struct_p_a_r_a_m_1ab7fc1608960e0342e948eac89743b833" compoundref="_param_8h" startline="81">PARAM::PlaceTypeMaxAgeRead</references>
+        <references refid="struct_p_a_r_a_m_1a490e62d7d095584e9e71bf0d6403eaee" compoundref="_param_8h" startline="88">PARAM::PlaceTypeMeanSize</references>
+        <references refid="struct_p_a_r_a_m_1a1c1232ed6f79783107aeb47f25124b1c" compoundref="_param_8h" startline="39">PARAM::PlaceTypeNum</references>
+        <references refid="struct_p_a_r_a_m_1ab26da331a3997c6863738331d9828886" compoundref="_param_8h" startline="85">PARAM::PlaceTypePropAgeGroup</references>
+        <references refid="struct_p_a_r_a_m_1af6e8d971b342104f7727a8ecb71070ce" compoundref="_param_8h" startline="85">PARAM::PlaceTypePropAgeGroup2</references>
+        <references refid="struct_p_a_r_a_m_1a29197176dba6b8c9b3c6f1cd376c0b0b" compoundref="_param_8h" startline="86">PARAM::PlaceTypePropAgeGroup3</references>
+        <references refid="struct_b_i_n___f_i_l_e_1a28c58df5c57d3aa34f6d1dc8d56eb507" compoundref="_setup_model_8h" startline="22">BIN_FILE::pop</references>
+        <references refid="struct_p_a_r_a_m_1aad7a53ce8930f24af90bd63bfd2d8b6f" compoundref="_param_8h" startline="91">PARAM::PopByAdunit</references>
+        <references refid="struct_p_a_r_a_m_1aedf6ca3705090f9275e01bc6df107127" compoundref="_param_8h" startline="91">PARAM::PropAgeGroup</references>
+        <references refid="_model_8h_1a8c05c99e8015f166ac551705321ded2a" compoundref="_spatial_sim_8cpp" startline="101">PropPlaces</references>
+        <references refid="_model_8h_1a1bafa04a72ffd3e74e477673bb54567c" compoundref="_spatial_sim_8cpp" startline="102">PropPlacesC</references>
+        <references refid="_rand_8cpp_1a0576ba455127db74f31b5a8eee738f44" compoundref="_rand_8cpp" startline="24" endline="47">ranf</references>
+        <references refid="_rand_8cpp_1a9d6753048d256a545575a035578a85bf" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</references>
+        <references refid="_model_8h_1ab117e43a17006256f5abe12ac1248992" compoundref="_spatial_sim_8cpp" startline="90">RevCellLookup</references>
+        <references refid="struct_c_e_l_l_1a00c41c0474ff22744ce62c4112314037" compoundref="_model_8h" startline="235">CELL::S</references>
+        <references refid="_rand_8cpp_1a27488915fe3fa82c70d9166c321fd510" compoundref="_rand_8cpp" startline="18">SamplingQueue</references>
+        <references refid="struct_p_a_r_a_m_1a16d8205d18cb443129ed404ab0d694bb" compoundref="_param_8h" startline="48">PARAM::SpatialBoundingBox</references>
+        <references refid="_model_8h_1a69f225da64a62e8750c954c8a117d4fb" compoundref="_spatial_sim_8cpp" startline="76">State</references>
+        <references refid="_model_8h_1a032534a177b1f496c9fe278ae055d963" compoundref="_spatial_sim_8cpp" startline="76">StateT</references>
+        <references refid="struct_c_e_l_l_1a09f7d71bb3fc167138fa113bb0427461" compoundref="_model_8h" startline="236">CELL::susceptible</references>
+        <references refid="struct_b_i_n___f_i_l_e_1aaac09e251de80deb3076c36680256fc8" compoundref="_setup_model_8h" startline="22">BIN_FILE::x</references>
+        <references refid="struct_b_i_n___f_i_l_e_1ac2183407eb99f9704e8246297408f82d" compoundref="_setup_model_8h" startline="22">BIN_FILE::y</references>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetupAirports</definition>
+        <argsstring>(void)</argsstring>
+        <name>SetupAirports</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="8" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.cpp" bodystart="1449" bodyend="1621"/>
+        <references refid="struct_p_a_r_a_m_1a88a08bbcc6b4ff2737c397b099d3a695" compoundref="_param_8h" startline="64">PARAM::AirportKernelP3</references>
+        <references refid="struct_p_a_r_a_m_1af766acacd2d33e0963605b14b3597a72" compoundref="_param_8h" startline="64">PARAM::AirportKernelP4</references>
+        <references refid="struct_p_a_r_a_m_1ab2e67e37059617691b7e6201b0126c0a" compoundref="_param_8h" startline="64">PARAM::AirportKernelScale</references>
+        <references refid="struct_p_a_r_a_m_1aec94768c20824b784b4a41d95169d23f" compoundref="_param_8h" startline="64">PARAM::AirportKernelShape</references>
+        <references refid="struct_p_a_r_a_m_1a7fd971935ff7851fe5c87e77a8e7cb52" compoundref="_param_8h" startline="27">PARAM::AirportKernelType</references>
+        <references refid="struct_m_i_c_r_o_c_e_l_l_1a3ff8e5ed960ac72d927bbb784b04b57f" compoundref="_model_8h" startline="224">MICROCELL::AirportList</references>
+        <references refid="_model_8h_1a6f372eab14df734baf3d066094dfdda5" compoundref="_spatial_sim_8cpp" startline="85">Airports</references>
+        <references refid="struct_a_i_r_p_o_r_t_1a8bc33e6b8b09c030a5330a143b840390" compoundref="_model_8h" startline="198">AIRPORT::DestMcells</references>
+        <references refid="struct_a_i_r_p_o_r_t_1aeb85794cbbaf765ff29dc83c2b248009" compoundref="_model_8h" startline="198">AIRPORT::DestPlaces</references>
+        <references refid="_dist_8cpp_1aecee392689ca1b9464ac08f79ac2e0d5" compoundref="_dist_8cpp" startline="176" endline="193">dist2_raw</references>
+        <references refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" compoundref="_error_8h" startline="6">ERR_CRITICAL</references>
+        <references refid="_country_8h_1a81d3648af23be63733befe3c9890ff1f" compoundref="_country_8h" startline="24">HOTEL_PLACE_TYPE</references>
+        <references refid="_constants_8h_1a300a3bb30e49af541eed470ed14ca0a8" compoundref="_constants_8h" startline="36">HOTELS_PER_1000PASSENGER</references>
+        <references refid="struct_i_n_d_e_x_l_i_s_t_1adead40691d9c85aa2913a2fb4b6c9769" compoundref="_model_8h" startline="183">INDEXLIST::id</references>
+        <references refid="_kernels_8cpp_1a6cc2e92595dce20560d13e2f65ab3e1b" compoundref="_kernels_8cpp" startline="11" endline="50">InitKernel</references>
+        <references refid="struct_a_i_r_p_o_r_t_1ad0029a462b5d383a0155cf31d84481a3" compoundref="_model_8h" startline="194">AIRPORT::Inv_DestMcells</references>
+        <references refid="struct_a_i_r_p_o_r_t_1a6f19b1dfb3d1c634a8094766f8e9fcd8" compoundref="_model_8h" startline="194">AIRPORT::Inv_DestPlaces</references>
+        <references refid="struct_p_a_r_a_m_1a33b209904af2564feca951d3ef849745" compoundref="_param_8h" startline="63">PARAM::KernelP3</references>
+        <references refid="struct_p_a_r_a_m_1ae4a868d4bdf8fa8ebb24d7dc4f426bd4" compoundref="_param_8h" startline="63">PARAM::KernelP4</references>
+        <references refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" compoundref="_param_8h" startline="63">PARAM::KernelScale</references>
+        <references refid="struct_p_a_r_a_m_1a5e0188923545f5597470b3a43cdd9a96" compoundref="_param_8h" startline="63">PARAM::KernelShape</references>
+        <references refid="struct_p_a_r_a_m_1a560c35fb4f1881b16c87ebff8b732517" compoundref="_param_8h" startline="25">PARAM::KernelType</references>
+        <references refid="_constants_8h_1acde3cebbdcf97ae6d6c4084148d1d748" compoundref="_constants_8h" startline="34">MAX_DIST_AIRPORT_TO_HOTEL</references>
+        <references refid="_model_8h_1a18a4086bf5451739e560c596813292a2" compoundref="_spatial_sim_8cpp" startline="78">Mcells</references>
+        <references refid="struct_p_a_r_a_m_1aae955603b1a19dca7f833e1c3645acf7" compoundref="_param_8h" startline="62">PARAM::mcheight</references>
+        <references refid="struct_p_a_r_a_m_1ad9b84a699d1484a2e70e27afde513da3" compoundref="_param_8h" startline="62">PARAM::mcwidth</references>
+        <references refid="_constants_8h_1a315d54e5ec7dcdbabe7ff326d9739db6" compoundref="_constants_8h" startline="35">MIN_HOTELS_PER_AIRPORT</references>
+        <references refid="struct_p_a_r_a_m_1af13ae1e81ea2e063b360e94336a75eca" compoundref="_param_8h" startline="63">PARAM::MoveKernelP3</references>
+        <references refid="struct_p_a_r_a_m_1a519605039b01e0870c30baba8a5cd178" compoundref="_param_8h" startline="63">PARAM::MoveKernelP4</references>
+        <references refid="struct_p_a_r_a_m_1a05efb0db110e38eb5d669faa00fe2632" compoundref="_param_8h" startline="63">PARAM::MoveKernelScale</references>
+        <references refid="struct_p_a_r_a_m_1a36c8dd8db882dc5f15356b2ab5fef298" compoundref="_param_8h" startline="63">PARAM::MoveKernelShape</references>
+        <references refid="struct_p_a_r_a_m_1a2f2aa634507efbd8247ba8b886180380" compoundref="_param_8h" startline="26">PARAM::MoveKernelType</references>
+        <references refid="struct_p_a_r_a_m_1a89eec7b0525c0f79cc77ec07318a13c5" compoundref="_param_8h" startline="44">PARAM::Nairports</references>
+        <references refid="struct_p_a_r_a_m_1abeee4d92a09a1c33621b39c3cfa3afbd" compoundref="_param_8h" startline="31">PARAM::NMC</references>
+        <references refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" compoundref="_param_8h" startline="33">PARAM::nmch</references>
+        <references refid="struct_p_a_r_a_m_1ad2596bba6a994116f7e5062247b70069" compoundref="_param_8h" startline="33">PARAM::NMCP</references>
+        <references refid="_constants_8h_1a5a5487a75a95b999ca1efc617b993ddb" compoundref="_constants_8h" startline="33">NNA</references>
+        <references refid="struct_p_a_r_a_m_1a010ffd25e346d25a0b0a98a71d887da9" compoundref="_param_8h" startline="39">PARAM::Nplace</references>
+        <references refid="struct_a_i_r_p_o_r_t_1a73eeed7ca5197d0bd47340c920c0bb96" compoundref="_model_8h" startline="194">AIRPORT::num_mcell</references>
+        <references refid="struct_a_i_r_p_o_r_t_1a2359800240786a5fd7804a0ab6d6da20" compoundref="_model_8h" startline="194">AIRPORT::num_place</references>
+        <references refid="_kernels_8cpp_1a4554988cce0ded4c9a7717faf9baa2f0" compoundref="_kernels_8cpp" startline="100" endline="122">numKernel</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="_model_8h_1a8fdf6eda77ae1326e361fcaca3e18a31" compoundref="_spatial_sim_8cpp" startline="79">Places</references>
+        <references refid="struct_i_n_d_e_x_l_i_s_t_1a64ebcda22548a3343287239a6eecdb0a" compoundref="_model_8h" startline="184">INDEXLIST::prob</references>
+        <references refid="struct_a_i_r_p_o_r_t_1a3eba459c281ca76c49c9e5b72b3b08b7" compoundref="_model_8h" startline="196">AIRPORT::total_traffic</references>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_setup_model_8h_1a1726da386d4af30c0348e99302399ff2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetupRoads</definition>
+        <argsstring>(void)</argsstring>
+        <name>SetupRoads</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="_setup_model_8h_1a4d19838a80a5d05bb9dcdebc0fce648e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AssignHouseholdAges</definition>
+        <argsstring>(int, int, int)</argsstring>
+        <name>AssignHouseholdAges</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="10" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.cpp" bodystart="1626" bodyend="1871"/>
+        <references refid="_constants_8h_1a84d95d9674690907eeb9bd94bd69e919" compoundref="_constants_8h" startline="16">AGE_GROUP_WIDTH</references>
+        <references refid="struct_p_a_r_a_m_1a7fc142460f4e7e3f2981deb6c028c653" compoundref="_param_8h" startline="35">PARAM::DoAdunitDemog</references>
+        <references refid="struct_p_a_r_a_m_1afe11dfcb77ceb70f470bbbdb456d3fc3" compoundref="_param_8h" startline="34">PARAM::DoAdUnits</references>
+        <references refid="struct_p_a_r_a_m_1a6d49af4e61530cde39a652b79518518d" compoundref="_param_8h" startline="39">PARAM::DoHouseholds</references>
+        <references refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" compoundref="_spatial_sim_8cpp" startline="74">Hosts</references>
+        <references refid="_rand_8cpp_1a50a53c3fed7a411386c5424c72eeb32a" compoundref="_rand_8cpp" startline="688" endline="921">ignpoi_mt</references>
+        <references refid="struct_p_o_p_v_a_r_1a5d3bc52ee918c6d9b370dce924c811b2" compoundref="_model_8h" startline="77">POPVAR::InvAgeDist</references>
+        <references refid="_country_8h_1acfea9e995eb6f9a95703babdc7dd16f8" compoundref="_country_8h" startline="98">MAX_CHILD_AGE</references>
+        <references refid="_country_8h_1a4060598b4bf84efb0aebf27ba139e55a" compoundref="_country_8h" startline="95">MAX_FM_PARTNER_AGE_GAP</references>
+        <references refid="_country_8h_1a75411503a9ee195c6edf66e992be5d99" compoundref="_country_8h" startline="5">MAX_HOUSEHOLD_SIZE</references>
+        <references refid="_country_8h_1aab5ff5ffb1e11d65725ac53f8e28ec25" compoundref="_country_8h" startline="94">MAX_MF_PARTNER_AGE_GAP</references>
+        <references refid="_country_8h_1a3f0025d39baab75b3bf07f5613baafd9" compoundref="_country_8h" startline="97">MAX_PARENT_AGE_GAP</references>
+        <references refid="_model_8h_1a18a4086bf5451739e560c596813292a2" compoundref="_spatial_sim_8cpp" startline="78">Mcells</references>
+        <references refid="_country_8h_1af0a845362b2c43aa0e9b08eb95ba5658" compoundref="_country_8h" startline="92">MEAN_CHILD_AGE_GAP</references>
+        <references refid="_country_8h_1adf38c47272a6f95b4195f5c4f093056f" compoundref="_country_8h" startline="93">MIN_ADULT_AGE</references>
+        <references refid="_country_8h_1a5fa596e37efc30a79fe6d187f00f1312" compoundref="_country_8h" startline="96">MIN_PARENT_AGE_GAP</references>
+        <references refid="_country_8h_1a1a8c5912dc97e8c26e1185c0210138b9" compoundref="_country_8h" startline="112">NOCHILD_PERS_AGE</references>
+        <references refid="_constants_8h_1a60272d047c68590cd8b70e52cf385e80" compoundref="_constants_8h" startline="15">NUM_AGE_GROUPS</references>
+        <references refid="_country_8h_1ae66f0ba8851ca49b478725b243296707" compoundref="_country_8h" startline="113">OLD_PERS_AGE</references>
+        <references refid="_country_8h_1a2f0045ab700eb88f9fee3a9e1ef2cac5" compoundref="_country_8h" startline="115">OLDER_GEN_GAP</references>
+        <references refid="_country_8h_1a2830b6bc12a76d36aa5bb15826fd33fc" compoundref="_country_8h" startline="109">ONE_CHILD_FOUR_PERS_PROB</references>
+        <references refid="_country_8h_1a57921abad26eb818062377d67cbb6e86" compoundref="_country_8h" startline="105">ONE_CHILD_PROB_YOUNGEST_CHILD_UNDER_FIVE</references>
+        <references refid="_country_8h_1a4ebce5a4f8386038747a57f7863bfec6" compoundref="_country_8h" startline="99">ONE_CHILD_TWO_PERS_PROB</references>
+        <references refid="_country_8h_1ac42b8e39b2cc1d249e9a5f5ea75ba118" compoundref="_country_8h" startline="101">ONE_PERS_HOUSE_PROB_OLD</references>
+        <references refid="_country_8h_1a844167d898bed3feb31fed1f79637b91" compoundref="_country_8h" startline="103">ONE_PERS_HOUSE_PROB_YOUNG</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="_country_8h_1a973e54c6d5dd2f561c74e90636853475" compoundref="_country_8h" startline="107">PROB_YOUNGEST_CHILD_UNDER_FIVE</references>
+        <references refid="_setup_model_8cpp_1ad1eb17ad77734897306fd4905e3c3443" compoundref="_setup_model_8cpp" startline="1623">PROP_OTHER_PARENT_AWAY</references>
+        <references refid="_rand_8cpp_1a9d6753048d256a545575a035578a85bf" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</references>
+        <references refid="_model_8h_1a69f225da64a62e8750c954c8a117d4fb" compoundref="_spatial_sim_8cpp" startline="76">State</references>
+        <references refid="_country_8h_1a24e4715f0c12ec74c4cdf204949bd11e" compoundref="_country_8h" startline="114">THREE_CHILD_FIVE_PERS_PROB</references>
+        <references refid="_country_8h_1aec0885438ad134026a48227dee5ca4dc" compoundref="_country_8h" startline="100">TWO_CHILD_THREE_PERS_PROB</references>
+        <references refid="_country_8h_1a1cd73ddf100114f4411b4783cfbc3de6" compoundref="_country_8h" startline="106">TWO_CHILDREN_PROB_YOUNGEST_UNDER_FIVE</references>
+        <references refid="_country_8h_1a216b911947e05be332d320da73808d64" compoundref="_country_8h" startline="102">TWO_PERS_HOUSE_PROB_OLD</references>
+        <references refid="_country_8h_1a4ec5821ba8e541ab7093b4185579549b" compoundref="_country_8h" startline="104">TWO_PERS_HOUSE_PROB_YOUNG</references>
+        <references refid="_country_8h_1a133c10838aebf45f406a05ab3cbe6740" compoundref="_country_8h" startline="111">YOUNG_AND_SINGLE</references>
+        <references refid="_country_8h_1a109cbd939aec528632a5ca9011cfbbf7" compoundref="_country_8h" startline="110">YOUNG_AND_SINGLE_SLOPE</references>
+        <references refid="_country_8h_1a0d325afbf6ef097f2faf30ec6b567444" compoundref="_country_8h" startline="108">ZERO_CHILD_THREE_PERS_PROB</references>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AssignPeopleToPlaces</definition>
+        <argsstring>(void)</argsstring>
+        <name>AssignPeopleToPlaces</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="11" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.cpp" bodystart="1873" bodyend="2364"/>
+        <references refid="struct_p_l_a_c_e_1ae4378420c830fef061cb0af3ee8aa2c2" compoundref="_model_8h" startline="256">PLACE::AvailByAge</references>
+        <references refid="_machine_defines_8h_1af89f60b07247176687889ade776c8e10" compoundref="_machine_defines_8h" startline="11">CACHE_LINE_SIZE</references>
+        <references refid="_model_8h_1a9a44edd4d69afa6fcace5ddce0dbb029" compoundref="_spatial_sim_8cpp" startline="77">CellLookup</references>
+        <references refid="_model_8h_1af0f221c6706ef7e154e5576e6df1ec89" compoundref="_spatial_sim_8cpp" startline="77">Cells</references>
+        <references refid="struct_p_a_r_a_m_1a6c70047b06fce8ff13b299a4bbbea14b" compoundref="_param_8h" startline="62">PARAM::cheight</references>
+        <references refid="struct_c_e_l_l_1a6844575de9edb34464bcf8f9af142b0c" compoundref="_model_8h" startline="235">CELL::cumTC</references>
+        <references refid="struct_p_a_r_a_m_1ac7700ebd7644ee1a272392b27f19a508" compoundref="_param_8h" startline="62">PARAM::cwidth</references>
+        <references refid="_dist_8cpp_1aecee392689ca1b9464ac08f79ac2e0d5" compoundref="_dist_8cpp" startline="176" endline="193">dist2_raw</references>
+        <references refid="struct_p_a_r_a_m_1afe11dfcb77ceb70f470bbbdb456d3fc3" compoundref="_param_8h" startline="34">PARAM::DoAdUnits</references>
+        <references refid="struct_p_a_r_a_m_1ab61004148c86d9110106a409ecc1dbfe" compoundref="_param_8h" startline="39">PARAM::DoPlaces</references>
+        <references refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" compoundref="_error_8h" startline="6">ERR_CRITICAL</references>
+        <references refid="_rand_8cpp_1a7f4cb1b7c802a4dd32cb1f17e9774d64" compoundref="_rand_8cpp" startline="2253" endline="2261">gen_lognormal</references>
+        <references refid="_model_macros_8h_1a25a9f97e729e19c3afdd9e94ef9bf1f5" compoundref="_model_macros_8h" startline="26">HOST_AGE_YEAR</references>
+        <references refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" compoundref="_spatial_sim_8cpp" startline="74">Hosts</references>
+        <references refid="_country_8h_1a81d3648af23be63733befe3c9890ff1f" compoundref="_country_8h" startline="24">HOTEL_PLACE_TYPE</references>
+        <references refid="_model_8h_1aa73f7cf5ecb1acf206c5c14987bd9d89" compoundref="_spatial_sim_8cpp" startline="75">Households</references>
+        <references refid="struct_c_e_l_l_1ad826b6df0986ef754170511ccd619411" compoundref="_model_8h" startline="235">CELL::I</references>
+        <references refid="_rand_8cpp_1a8de5c26fb07fe351e491d65b683eb9f3" compoundref="_rand_8cpp" startline="454" endline="687">ignpoi</references>
+        <references refid="struct_c_e_l_l_1a7cbf491c70d2f349f00ccdb8e65132a8" compoundref="_model_8h" startline="236">CELL::infected</references>
+        <references refid="struct_p_a_r_a_m_1a9a16951226c049d979394d3b9485e15d" compoundref="_param_8h" startline="69">PARAM::InhibitInterAdunitPlaceAssignment</references>
+        <references refid="_kernels_8cpp_1a6cc2e92595dce20560d13e2f65ab3e1b" compoundref="_kernels_8cpp" startline="11" endline="50">InitKernel</references>
+        <references refid="struct_c_e_l_l_1a45b7b168e715739b2121699b26b503c7" compoundref="_model_8h" startline="237">CELL::InvCDF</references>
+        <references refid="struct_p_a_r_a_m_1a33b209904af2564feca951d3ef849745" compoundref="_param_8h" startline="63">PARAM::KernelP3</references>
+        <references refid="struct_p_a_r_a_m_1ae4a868d4bdf8fa8ebb24d7dc4f426bd4" compoundref="_param_8h" startline="63">PARAM::KernelP4</references>
+        <references refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" compoundref="_param_8h" startline="63">PARAM::KernelScale</references>
+        <references refid="struct_p_a_r_a_m_1a5e0188923545f5597470b3a43cdd9a96" compoundref="_param_8h" startline="63">PARAM::KernelShape</references>
+        <references refid="struct_p_a_r_a_m_1a560c35fb4f1881b16c87ebff8b732517" compoundref="_param_8h" startline="25">PARAM::KernelType</references>
+        <references refid="struct_c_e_l_l_1aa6b711cc331c1d42cdfc3ee981012cb6" compoundref="_model_8h" startline="235">CELL::L</references>
+        <references refid="struct_p_l_a_c_e_1aaeb86044e41d5230813efc46eed73bcf" compoundref="_model_8h" startline="260">PLACE::loc_y</references>
+        <references refid="_machine_defines_8h_1a5747ce5beae65002b9ee2c4a4cf8c329" compoundref="_machine_defines_8h" startline="9">MAX_NUM_THREADS</references>
+        <references refid="struct_c_e_l_l_1acb762fe000c726a012dfb8868d06de97" compoundref="_model_8h" startline="238">CELL::max_trans</references>
+        <references refid="struct_p_e_r_s_o_n_1a342f190b57650519102ce7d44c19b693" compoundref="_model_8h" startline="19">PERSON::mcell</references>
+        <references refid="_model_8h_1a18a4086bf5451739e560c596813292a2" compoundref="_spatial_sim_8cpp" startline="78">Mcells</references>
+        <references refid="struct_c_e_l_l_1a28587d6eb9c56ba9d0431f0be75ed339" compoundref="_model_8h" startline="236">CELL::members</references>
+        <references refid="struct_p_a_r_a_m_1af13ae1e81ea2e063b360e94336a75eca" compoundref="_param_8h" startline="63">PARAM::MoveKernelP3</references>
+        <references refid="struct_p_a_r_a_m_1a519605039b01e0870c30baba8a5cd178" compoundref="_param_8h" startline="63">PARAM::MoveKernelP4</references>
+        <references refid="struct_p_a_r_a_m_1a05efb0db110e38eb5d669faa00fe2632" compoundref="_param_8h" startline="63">PARAM::MoveKernelScale</references>
+        <references refid="struct_p_a_r_a_m_1a36c8dd8db882dc5f15356b2ab5fef298" compoundref="_param_8h" startline="63">PARAM::MoveKernelShape</references>
+        <references refid="struct_p_a_r_a_m_1a2f2aa634507efbd8247ba8b886180380" compoundref="_param_8h" startline="26">PARAM::MoveKernelType</references>
+        <references refid="struct_p_a_r_a_m_1a492528cce9934bd664972ebcb26c00ae" compoundref="_param_8h" startline="16">PARAM::N</references>
+        <references refid="struct_c_e_l_l_1a5cbf467112a3cf29e1c33122c038a1e8" compoundref="_model_8h" startline="235">CELL::n</references>
+        <references refid="struct_p_l_a_c_e_1ab4ca75ec49d3c2c003081203a9a8b51f" compoundref="_model_8h" startline="253">PLACE::n</references>
+        <references refid="struct_p_a_r_a_m_1a11b86b68219991c58eb4727a0e866874" compoundref="_param_8h" startline="31">PARAM::NC</references>
+        <references refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" compoundref="_param_8h" startline="33">PARAM::nch</references>
+        <references refid="struct_p_a_r_a_m_1a69cb3cdd2a3942ab05c22b6babffabe0" compoundref="_param_8h" startline="32">PARAM::NCP</references>
+        <references refid="struct_p_a_r_a_m_1ac10cf7f912ee515d2360aefc3392c3f1" compoundref="_param_8h" startline="33">PARAM::ncw</references>
+        <references refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" compoundref="_param_8h" startline="33">PARAM::nmch</references>
+        <references refid="struct_p_a_r_a_m_1adc67f3221a21be493ad222bfb2123d45" compoundref="_param_8h" startline="33">PARAM::nmcw</references>
+        <references refid="struct_m_i_c_r_o_c_e_l_l_1afb3d3b5fe6b4de08e4310b84c45b7257" compoundref="_model_8h" startline="217">MICROCELL::np</references>
+        <references refid="struct_p_a_r_a_m_1a010ffd25e346d25a0b0a98a71d887da9" compoundref="_param_8h" startline="39">PARAM::Nplace</references>
+        <references refid="struct_p_a_r_a_m_1ab17a58e51aecc55689fb9abc2b3d0eb2" compoundref="_param_8h" startline="33">PARAM::nsp</references>
+        <references refid="_country_8h_1a1de60bef27543db06a6c6e1010b8ca82" compoundref="_country_8h" startline="22">NUM_PLACE_TYPES</references>
+        <references refid="_kernels_8cpp_1a4554988cce0ded4c9a7717faf9baa2f0" compoundref="_kernels_8cpp" startline="100" endline="122">numKernel</references>
+        <references refid="struct_p_a_r_a_m_1a189133627f0af23ff3041ece9c003e92" compoundref="_param_8h" startline="37">PARAM::NumThreads</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_e_r_s_o_n_1a54ad5b22ddaa1c20f263ce96a4ce5a35" compoundref="_model_8h" startline="18">PERSON::pcell</references>
+        <references refid="struct_p_e_r_s_o_n_1aedcff60c3c6810b6ee5ac2679139ee6c" compoundref="_model_8h" startline="28">PERSON::PlaceLinks</references>
+        <references refid="struct_m_i_c_r_o_c_e_l_l_1aca04ae7561d23ed68c7396a8f7389474" compoundref="_model_8h" startline="216">MICROCELL::places</references>
+        <references refid="_model_8h_1a8fdf6eda77ae1326e361fcaca3e18a31" compoundref="_spatial_sim_8cpp" startline="79">Places</references>
+        <references refid="struct_p_a_r_a_m_1a570efe64d083ccdbc8f3ae398354f448" compoundref="_param_8h" startline="87">PARAM::PlaceTypeKernelP3</references>
+        <references refid="struct_p_a_r_a_m_1a4546c2fb1612f76ae8433e7f0d015094" compoundref="_param_8h" startline="87">PARAM::PlaceTypeKernelP4</references>
+        <references refid="struct_p_a_r_a_m_1a0f1fd2c40a4b356e07d0a2106d4ae71e" compoundref="_param_8h" startline="86">PARAM::PlaceTypeKernelScale</references>
+        <references refid="struct_p_a_r_a_m_1ae5e384972035fe56b54975cbabcebf78" compoundref="_param_8h" startline="86">PARAM::PlaceTypeKernelShape</references>
+        <references refid="struct_p_a_r_a_m_1aa47166faa30e680111502804e52e1acc" compoundref="_param_8h" startline="84">PARAM::PlaceTypeKernelType</references>
+        <references refid="struct_p_a_r_a_m_1ab7fc1608960e0342e948eac89743b833" compoundref="_param_8h" startline="81">PARAM::PlaceTypeMaxAgeRead</references>
+        <references refid="struct_p_a_r_a_m_1a490e62d7d095584e9e71bf0d6403eaee" compoundref="_param_8h" startline="88">PARAM::PlaceTypeMeanSize</references>
+        <references refid="struct_p_a_r_a_m_1aa6063f2c0dff3f0634eda867884320fb" compoundref="_param_8h" startline="84">PARAM::PlaceTypeNearestNeighb</references>
+        <references refid="struct_p_a_r_a_m_1a1c1232ed6f79783107aeb47f25124b1c" compoundref="_param_8h" startline="39">PARAM::PlaceTypeNum</references>
+        <references refid="struct_p_a_r_a_m_1afbcdb25b45be4091fe90c31fe34ebc51" compoundref="_param_8h" startline="89">PARAM::PlaceTypeSizeMax</references>
+        <references refid="struct_p_a_r_a_m_1a2aac017962a90300ae77d757715196c9" compoundref="_param_8h" startline="89">PARAM::PlaceTypeSizeOffset</references>
+        <references refid="struct_p_a_r_a_m_1a39ae3ab8a193530ec01c610272af7544" compoundref="_param_8h" startline="89">PARAM::PlaceTypeSizePower</references>
+        <references refid="struct_p_a_r_a_m_1ac4cff51a2d2bf912cfba825886ec102c" compoundref="_param_8h" startline="88">PARAM::PlaceTypeSizeSD</references>
+        <references refid="_model_8h_1a8c05c99e8015f166ac551705321ded2a" compoundref="_spatial_sim_8cpp" startline="101">PropPlaces</references>
+        <references refid="struct_c_e_l_l_1a233c1443ef2751916dd28cc42056796b" compoundref="_model_8h" startline="235">CELL::R</references>
+        <references refid="_rand_8cpp_1a0576ba455127db74f31b5a8eee738f44" compoundref="_rand_8cpp" startline="24" endline="47">ranf</references>
+        <references refid="_rand_8cpp_1a9d6753048d256a545575a035578a85bf" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</references>
+        <references refid="struct_c_e_l_l_1a00c41c0474ff22744ce62c4112314037" compoundref="_model_8h" startline="235">CELL::S</references>
+        <references refid="struct_c_e_l_l_1a38e9dd838b31b26a2dcb8d3b20333107" compoundref="_model_8h" startline="235">CELL::S0</references>
+        <references refid="struct_c_e_l_l_1a09f7d71bb3fc167138fa113bb0427461" compoundref="_model_8h" startline="236">CELL::susceptible</references>
+        <references refid="struct_p_l_a_c_e_1aaad630546938b520b18ed1b2e4bd62f7" compoundref="_model_8h" startline="255">PLACE::treat_end_time</references>
+        <references refid="_shared_funcs_8h_1a6ebb780665387c6f7da35b342664df09" compoundref="_spatial_sim_8cpp" startline="3588" endline="3637">UpdateProbs</references>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_setup_model_8h_1af4a2b8ba6f8b3bdedd5011d2d9eb2900" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StratifyPlaces</definition>
+        <argsstring>(void)</argsstring>
+        <name>StratifyPlaces</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="12" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.cpp" bodystart="2365" bodyend="2498"/>
+        <references refid="struct_p_a_r_a_m_1a1c166eee34693e10a4df38c0be7ff601" compoundref="_param_8h" startline="39">PARAM::DoPlaceGroupTreat</references>
+        <references refid="struct_p_a_r_a_m_1ab61004148c86d9110106a409ecc1dbfe" compoundref="_param_8h" startline="39">PARAM::DoPlaces</references>
+        <references refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" compoundref="_error_8h" startline="6">ERR_CRITICAL</references>
+        <references refid="struct_p_l_a_c_e_1ab6f304297537ce534e7d4d840716c1df" compoundref="_model_8h" startline="261">PLACE::group_size</references>
+        <references refid="struct_p_l_a_c_e_1a4de41fec1aa95648b35aeb7ea9cca7de" compoundref="_model_8h" startline="261">PLACE::group_start</references>
+        <references refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" compoundref="_spatial_sim_8cpp" startline="74">Hosts</references>
+        <references refid="_country_8h_1a81d3648af23be63733befe3c9890ff1f" compoundref="_country_8h" startline="24">HOTEL_PLACE_TYPE</references>
+        <references refid="_rand_8cpp_1a5efb4220d658f7dd6056a98264616d4f" compoundref="_rand_8cpp" startline="922" endline="1183">ignbin_mt</references>
+        <references refid="_rand_8cpp_1a50a53c3fed7a411386c5424c72eeb32a" compoundref="_rand_8cpp" startline="688" endline="921">ignpoi_mt</references>
+        <references refid="struct_p_l_a_c_e_1ae3415edaa9041a88f50010a72284448d" compoundref="_model_8h" startline="261">PLACE::members</references>
+        <references refid="struct_p_a_r_a_m_1a492528cce9934bd664972ebcb26c00ae" compoundref="_param_8h" startline="16">PARAM::N</references>
+        <references refid="struct_p_l_a_c_e_1ab4ca75ec49d3c2c003081203a9a8b51f" compoundref="_model_8h" startline="253">PLACE::n</references>
+        <references refid="struct_p_l_a_c_e_1a4ad6be9872b3950d830a53275db2deb0" compoundref="_model_8h" startline="254">PLACE::ng</references>
+        <references refid="struct_p_a_r_a_m_1a010ffd25e346d25a0b0a98a71d887da9" compoundref="_param_8h" startline="39">PARAM::Nplace</references>
+        <references refid="_country_8h_1a1de60bef27543db06a6c6e1010b8ca82" compoundref="_country_8h" startline="22">NUM_PLACE_TYPES</references>
+        <references refid="struct_p_a_r_a_m_1a189133627f0af23ff3041ece9c003e92" compoundref="_param_8h" startline="37">PARAM::NumThreads</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_e_r_s_o_n_1a9c4c7fe68cb3a7fa46a255aefd7b026a" compoundref="_model_8h" startline="27">PERSON::PlaceGroupLinks</references>
+        <references refid="struct_p_e_r_s_o_n_1aedcff60c3c6810b6ee5ac2679139ee6c" compoundref="_model_8h" startline="28">PERSON::PlaceLinks</references>
+        <references refid="_model_8h_1a8fdf6eda77ae1326e361fcaca3e18a31" compoundref="_spatial_sim_8cpp" startline="79">Places</references>
+        <references refid="struct_p_a_r_a_m_1acba714907de5726806e4f6fe485e2dbf" compoundref="_param_8h" startline="90">PARAM::PlaceTypeGroupSizeParam1</references>
+        <references refid="struct_p_a_r_a_m_1a490e62d7d095584e9e71bf0d6403eaee" compoundref="_param_8h" startline="88">PARAM::PlaceTypeMeanSize</references>
+        <references refid="struct_p_a_r_a_m_1a1c1232ed6f79783107aeb47f25124b1c" compoundref="_param_8h" startline="39">PARAM::PlaceTypeNum</references>
+        <references refid="_rand_8cpp_1a9d6753048d256a545575a035578a85bf" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</references>
+        <references refid="_model_8h_1a032534a177b1f496c9fe278ae055d963" compoundref="_spatial_sim_8cpp" startline="76">StateT</references>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_setup_model_8h_1a33b6b75a4178a1ea3d826f2ebca4ea56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LoadPeopleToPlaces</definition>
+        <argsstring>(char *)</argsstring>
+        <name>LoadPeopleToPlaces</name>
+        <param>
+          <type>char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="13" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.cpp" bodystart="2499" bodyend="2557"/>
+        <references refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" compoundref="_error_8h" startline="6">ERR_CRITICAL</references>
+        <references refid="binio_8cpp_1a1bc8d1ad11acf37bf8af06899bb5eef5" compoundref="binio_8cpp" startline="27" endline="44">fread_big</references>
+        <references refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" compoundref="_spatial_sim_8cpp" startline="74">Hosts</references>
+        <references refid="struct_p_a_r_a_m_1a33b209904af2564feca951d3ef849745" compoundref="_param_8h" startline="63">PARAM::KernelP3</references>
+        <references refid="struct_p_a_r_a_m_1ae4a868d4bdf8fa8ebb24d7dc4f426bd4" compoundref="_param_8h" startline="63">PARAM::KernelP4</references>
+        <references refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" compoundref="_param_8h" startline="63">PARAM::KernelScale</references>
+        <references refid="struct_p_a_r_a_m_1a5e0188923545f5597470b3a43cdd9a96" compoundref="_param_8h" startline="63">PARAM::KernelShape</references>
+        <references refid="struct_p_a_r_a_m_1af13ae1e81ea2e063b360e94336a75eca" compoundref="_param_8h" startline="63">PARAM::MoveKernelP3</references>
+        <references refid="struct_p_a_r_a_m_1a519605039b01e0870c30baba8a5cd178" compoundref="_param_8h" startline="63">PARAM::MoveKernelP4</references>
+        <references refid="struct_p_a_r_a_m_1a05efb0db110e38eb5d669faa00fe2632" compoundref="_param_8h" startline="63">PARAM::MoveKernelScale</references>
+        <references refid="struct_p_a_r_a_m_1a36c8dd8db882dc5f15356b2ab5fef298" compoundref="_param_8h" startline="63">PARAM::MoveKernelShape</references>
+        <references refid="struct_p_a_r_a_m_1a492528cce9934bd664972ebcb26c00ae" compoundref="_param_8h" startline="16">PARAM::N</references>
+        <references refid="_setup_model_8cpp_1aa479b55efd2f933142ea4664531934cd" compoundref="_setup_model_8cpp" startline="22">netbuf</references>
+        <references refid="_setup_model_8h_1a11fcbc41d5548abbed1ba7df74aac0bf" compoundref="_setup_model_8h" startline="19">NETWORK_FILE_VERSION</references>
+        <references refid="struct_p_a_r_a_m_1a010ffd25e346d25a0b0a98a71d887da9" compoundref="_param_8h" startline="39">PARAM::Nplace</references>
+        <references refid="_country_8h_1ae0c3190896d3df30d7ee33a320df6825" compoundref="_country_8h" startline="23">NUM_PLACE_TYPES_NOAIR</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_e_r_s_o_n_1aedcff60c3c6810b6ee5ac2679139ee6c" compoundref="_model_8h" startline="28">PERSON::PlaceLinks</references>
+        <references refid="struct_p_a_r_a_m_1a1c1232ed6f79783107aeb47f25124b1c" compoundref="_param_8h" startline="39">PARAM::PlaceTypeNum</references>
+        <references refid="struct_p_a_r_a_m_1aa9ee0fdc5b80168c7cdf8b8931af6a98" compoundref="_param_8h" startline="45">PARAM::seed1</references>
+        <references refid="struct_p_a_r_a_m_1a5f88303f927b83c7f99615e9c77a9a85" compoundref="_param_8h" startline="45">PARAM::seed2</references>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_setup_model_8h_1adb12a5880a718c826089eca6f80add8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SavePeopleToPlaces</definition>
+        <argsstring>(char *)</argsstring>
+        <name>SavePeopleToPlaces</name>
+        <param>
+          <type>char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="14" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.cpp" bodystart="2558" bodyend="2591"/>
+        <references refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" compoundref="_error_8h" startline="6">ERR_CRITICAL</references>
+        <references refid="binio_8cpp_1a9dfa82809bd434bd7d6e2a8dc9d2f18a" compoundref="binio_8cpp" startline="8" endline="25">fwrite_big</references>
+        <references refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" compoundref="_spatial_sim_8cpp" startline="74">Hosts</references>
+        <references refid="struct_p_a_r_a_m_1a492528cce9934bd664972ebcb26c00ae" compoundref="_param_8h" startline="16">PARAM::N</references>
+        <references refid="_setup_model_8h_1a11fcbc41d5548abbed1ba7df74aac0bf" compoundref="_setup_model_8h" startline="19">NETWORK_FILE_VERSION</references>
+        <references refid="struct_p_a_r_a_m_1a010ffd25e346d25a0b0a98a71d887da9" compoundref="_param_8h" startline="39">PARAM::Nplace</references>
+        <references refid="_country_8h_1ae0c3190896d3df30d7ee33a320df6825" compoundref="_country_8h" startline="23">NUM_PLACE_TYPES_NOAIR</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_a_r_a_m_1a1c1232ed6f79783107aeb47f25124b1c" compoundref="_param_8h" startline="39">PARAM::PlaceTypeNum</references>
+        <references refid="struct_p_a_r_a_m_1aa9ee0fdc5b80168c7cdf8b8931af6a98" compoundref="_param_8h" startline="45">PARAM::seed1</references>
+        <references refid="struct_p_a_r_a_m_1a5f88303f927b83c7f99615e9c77a9a85" compoundref="_param_8h" startline="45">PARAM::seed2</references>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_setup_model_8h_1a956cf6f26e0f72b807deddf295466980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SaveAgeDistrib</definition>
+        <argsstring>(void)</argsstring>
+        <name>SaveAgeDistrib</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="15" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.cpp" bodystart="2593" bodyend="2618"/>
+        <references refid="_model_8h_1afba453a55f70b5bd34cb7ec9a9e8efb8" compoundref="_spatial_sim_8cpp" startline="99">AgeDist</references>
+        <references refid="_model_8h_1adcb5809ea899ce36627ec090c3b44488" compoundref="_spatial_sim_8cpp" startline="99">AgeDist2</references>
+        <references refid="struct_p_a_r_a_m_1a98d826064898b16d6dcefaca7ae8e9e0" compoundref="_param_8h" startline="43">PARAM::DoDeath</references>
+        <references refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" compoundref="_error_8h" startline="6">ERR_CRITICAL</references>
+        <references refid="struct_p_o_p_v_a_r_1a5d3bc52ee918c6d9b370dce924c811b2" compoundref="_model_8h" startline="77">POPVAR::InvAgeDist</references>
+        <references refid="struct_p_a_r_a_m_1a7f50d8999c0b3ecdbe9bbd8a68935b9f" compoundref="_param_8h" startline="92">PARAM::InvLifeExpecDist</references>
+        <references refid="_constants_8h_1a60272d047c68590cd8b70e52cf385e80" compoundref="_constants_8h" startline="15">NUM_AGE_GROUPS</references>
+        <references refid="_bitmap_8cpp_1ab9fe6b18d78a69ff40e65dbb8785378d" compoundref="_spatial_sim_8cpp" startline="106">OutFile</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="_model_8h_1a69f225da64a62e8750c954c8a117d4fb" compoundref="_spatial_sim_8cpp" startline="76">State</references>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SPATIALSIM_SETUPMODEL_H_INCLUDED_</highlight></codeline>
+<codeline lineno="4" refid="_setup_model_8h_1a02b01de24d466ac8cccb155a1e191eee" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SPATIALSIM_SETUPMODEL_H_INCLUDED_</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" kindref="member">SetupModel</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" kindref="member">SetupPopulation</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" kindref="member">SetupAirports</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_setup_model_8h_1a1726da386d4af30c0348e99302399ff2" kindref="member">SetupRoads</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//added<sp/>new<sp/>function<sp/>to<sp/>take<sp/>care<sp/>of<sp/>roads:<sp/>ggilani<sp/>-<sp/>12/02/15</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_setup_model_8h_1a4d19838a80a5d05bb9dcdebc0fce648e" kindref="member">AssignHouseholdAges</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" kindref="member">AssignPeopleToPlaces</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_setup_model_8h_1af4a2b8ba6f8b3bdedd5011d2d9eb2900" kindref="member">StratifyPlaces</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_setup_model_8h_1a33b6b75a4178a1ea3d826f2ebca4ea56" kindref="member">LoadPeopleToPlaces</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_setup_model_8h_1adb12a5880a718c826089eca6f80add8b" kindref="member">SavePeopleToPlaces</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_setup_model_8h_1a956cf6f26e0f72b807deddf295466980" kindref="member">SaveAgeDistrib</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>network<sp/>file<sp/>format<sp/>version;<sp/>update<sp/>this<sp/>number<sp/>when<sp/>you<sp/>make<sp/>changes<sp/>to<sp/>the<sp/>format<sp/>of<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>network<sp/>file,<sp/>to<sp/>ensure<sp/>old/incompatible<sp/>files<sp/>are<sp/>not<sp/>loaded.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="_setup_model_8h_1a11fcbc41d5548abbed1ba7df74aac0bf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NETWORK_FILE_VERSION<sp/>(1)</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="struct_b_i_n___f_i_l_e" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_b_i_n___f_i_l_e" kindref="compound">BIN_FILE</ref><sp/>{</highlight></codeline>
+<codeline lineno="22" refid="struct_b_i_n___f_i_l_e_1ac2183407eb99f9704e8246297408f82d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="struct_b_i_n___f_i_l_e_1aaac09e251de80deb3076c36680256fc8" kindref="member">x</ref>,<sp/><ref refid="struct_b_i_n___f_i_l_e_1ac2183407eb99f9704e8246297408f82d" kindref="member">y</ref>,<sp/><ref refid="struct_b_i_n___f_i_l_e_1a28c58df5c57d3aa34f6d1dc8d56eb507" kindref="member">pop</ref>;</highlight></codeline>
+<codeline lineno="23" refid="struct_b_i_n___f_i_l_e_1a67eaf97ff8b060bc79662703a3c23cb3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_b_i_n___f_i_l_e_1a67eaf97ff8b060bc79662703a3c23cb3" kindref="member">cnt</ref>,<sp/><ref refid="struct_b_i_n___f_i_l_e_1a8235ec33c53928077ecd1a8b0845dcfc" kindref="member">ad</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}<sp/><ref refid="_setup_model_8h_1aae3c314b593c9a3125d5ab9ed10b8850" kindref="member">bin_file</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="_setup_model_8h_1ab9fe6b18d78a69ff40e65dbb8785378d" kindref="member">OutFile</ref>[1024],<ref refid="_setup_model_8h_1ad8239b0090abca87b62396f20d4204cd" kindref="member">OutDensFile</ref>[1024],<sp/><ref refid="_setup_model_8h_1a52df845cef5cd397ca1495096ee23706" kindref="member">RoadNetworkFile</ref>[1024];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SPATIALSIM_SETUPMODEL_H_INCLUDED_</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h"/>
+  </compounddef>
+</doxygen>

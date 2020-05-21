@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_i_n_d_e_x_l_i_s_t" kind="struct" prot="public">
+    <compoundname>INDEXLIST</compoundname>
+    <includes refid="_model_8h" local="no">Model.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_i_n_d_e_x_l_i_s_t_1adead40691d9c85aa2913a2fb4b6c9769" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int INDEXLIST::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="183" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="183" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_i_n_d_e_x_l_i_s_t_1a64ebcda22548a3343287239a6eecdb0a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float INDEXLIST::prob</definition>
+        <argsstring></argsstring>
+        <name>prob</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="184" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="184" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Used for computing spatial interactions more efficiently. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="182" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="182" bodyend="185"/>
+    <listofallmembers>
+      <member refid="struct_i_n_d_e_x_l_i_s_t_1adead40691d9c85aa2913a2fb4b6c9769" prot="public" virt="non-virtual"><scope>INDEXLIST</scope><name>id</name></member>
+      <member refid="struct_i_n_d_e_x_l_i_s_t_1a64ebcda22548a3343287239a6eecdb0a" prot="public" virt="non-virtual"><scope>INDEXLIST</scope><name>prob</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

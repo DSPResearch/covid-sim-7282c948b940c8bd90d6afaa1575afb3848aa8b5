@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="binio_8cpp" kind="file">
+    <compoundname>binio.cpp</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes refid="binio_8h" local="yes">binio.h</includes>
+    <includes refid="_param_8h" local="yes">Param.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>Country.h</label>
+        <link refid="_country_8h"/>
+      </node>
+      <node id="3">
+        <label>Param.h</label>
+        <link refid="_param_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="0">
+        <label>src/binio.cpp</label>
+        <link refid="binio.cpp"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>binio.h</label>
+        <link refid="binio_8h"/>
+      </node>
+      <node id="5">
+        <label>Constants.h</label>
+        <link refid="_constants_8h"/>
+      </node>
+      <node id="1">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="binio_8cpp_1a68dbdba3db66e82334f63331df05a871" prot="public" static="no">
+        <name>COMP_LEVEL</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.cpp" line="6" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.cpp" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="binio_8cpp_1a9dfa82809bd434bd7d6e2a8dc9d2f18a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t fwrite_big</definition>
+        <argsstring>(void *buffer, size_t size, size_t count, FILE *stream)</argsstring>
+        <name>fwrite_big</name>
+        <param>
+          <type>void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.cpp" line="8" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.cpp" bodystart="8" bodyend="25"/>
+        <referencedby refid="_bitmap_8h_1a49bc4fdc1abb7b521e9c6706fe66e582" compoundref="_bitmap_8cpp" startline="108" endline="208">OutputBitmap</referencedby>
+        <referencedby refid="_setup_model_8h_1adb12a5880a718c826089eca6f80add8b" compoundref="_setup_model_8cpp" startline="2558" endline="2591">SavePeopleToPlaces</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1aab87105c4ca2f89d787375f56fc3400d" compoundref="_spatial_sim_8cpp" startline="3538" endline="3586">SaveSnapshot</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+        <referencedby refid="binio_8h_1ac145c6ac4051a278f42475933f42381c" compoundref="binio_8cpp" startline="46" endline="103">zfwrite_big</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="binio_8cpp_1a1bc8d1ad11acf37bf8af06899bb5eef5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t fread_big</definition>
+        <argsstring>(void *buffer, size_t size, size_t count, FILE *stream)</argsstring>
+        <name>fread_big</name>
+        <param>
+          <type>void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.cpp" line="27" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.cpp" bodystart="27" bodyend="44"/>
+        <referencedby refid="_setup_model_8h_1a33b6b75a4178a1ea3d826f2ebca4ea56" compoundref="_setup_model_8cpp" startline="2499" endline="2557">LoadPeopleToPlaces</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1aa8bc51eb89e7eb1aa3ec6e7485314774" compoundref="_spatial_sim_8cpp" startline="3453" endline="3536">LoadSnapshot</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+        <referencedby refid="binio_8h_1ab9ccbf114e53c42751b671655c64770b" compoundref="binio_8cpp" startline="105" endline="164">zfread_big</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="binio_8cpp_1a7a059c7ad9586ea2a8a3be7d43a7fd7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t zfwrite_big</definition>
+        <argsstring>(void *buffer, size_t size, size_t count, FILE *stream)</argsstring>
+        <name>zfwrite_big</name>
+        <param>
+          <type>void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.cpp" line="46" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.cpp" bodystart="46" bodyend="103"/>
+        <references refid="binio_8cpp_1a9dfa82809bd434bd7d6e2a8dc9d2f18a" compoundref="binio_8cpp" startline="8" endline="25">fwrite_big</references>
+        <referencedby refid="_spatial_sim_8cpp_1aab87105c4ca2f89d787375f56fc3400d" compoundref="_spatial_sim_8cpp" startline="3538" endline="3586">SaveSnapshot</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="binio_8cpp_1af967b000220dc847de2d086cbde6e5f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t zfread_big</definition>
+        <argsstring>(void *buffer, size_t size, size_t count, FILE *stream)</argsstring>
+        <name>zfread_big</name>
+        <param>
+          <type>void *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.cpp" line="105" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.cpp" bodystart="105" bodyend="164"/>
+        <references refid="binio_8cpp_1a1bc8d1ad11acf37bf8af06899bb5eef5" compoundref="binio_8cpp" startline="27" endline="44">fread_big</references>
+        <referencedby refid="_spatial_sim_8cpp_1aa8bc51eb89e7eb1aa3ec6e7485314774" compoundref="_spatial_sim_8cpp" startline="3453" endline="3536">LoadSnapshot</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="binio_8h" kindref="compound">binio.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_param_8h" kindref="compound">Param.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">/*#include<sp/>&quot;..\miniz_v111b\miniz.c&quot;</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="binio_8cpp_1a68dbdba3db66e82334f63331df05a871" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>COMP_LEVEL<sp/>1</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="binio_8h_1a881e8183b6e0e8468528614c63b68bab" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="binio_8cpp_1a9dfa82809bd434bd7d6e2a8dc9d2f18a" kindref="member">fwrite_big</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buffer,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>count,<sp/>FILE<sp/>*stream)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>mx=0x80000000;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>j,n,st;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>ret=0;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buf2;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>st=mx/((</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>long)<sp/>size);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>n=count/st;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(j=0;j&lt;n;j++)<sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buf2=((</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)buffer)+j*st*size;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret+=(fwrite(buf2,size,(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)<sp/>st,stream));</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>buf2=((</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)buffer)+n*st*size;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>ret+=(fwrite(buf2,size,(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)<sp/>(count-n*st),stream));</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="binio_8h_1a82ab0fc55645e5ad7771303f3f8b97bd" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="binio_8cpp_1a1bc8d1ad11acf37bf8af06899bb5eef5" kindref="member">fread_big</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buffer,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>count,<sp/>FILE<sp/>*stream)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>mx=0x80000000;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>j,n,st;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>ret=0;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buf2;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>st=mx/((</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>long)<sp/>size);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>n=count/st;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(j=0;j&lt;n;j++)<sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buf2=((</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)buffer)+j*st*size;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret+=(fread(buf2,size,(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)<sp/>st,stream));</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>buf2=((</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)buffer)+n*st*size;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>ret+=(fread(buf2,size,(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)<sp/>(count-n*st),stream));</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="binio_8h_1ac145c6ac4051a278f42475933f42381c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="binio_8cpp_1a7a059c7ad9586ea2a8a3be7d43a7fd7d" kindref="member">zfwrite_big</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buffer,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>count,<sp/>FILE<sp/>*stream)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="binio_8cpp_1a9dfa82809bd434bd7d6e2a8dc9d2f18a" kindref="member">fwrite_big</ref>(buffer,size,count,stream);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/><sp/><sp/><sp/>const<sp/>unsigned<sp/>long<sp/>long<sp/>mx=0x40000000;</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/>unsigned<sp/>long<sp/>long<sp/>j,n,st;</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/><sp/>unsigned<sp/>long<sp/>cbs,cs,ucs,scs;</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/>size_t<sp/>ret=0;</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/><sp/>unsigned<sp/>char<sp/>*buf2,*buf3,*tb,*ccbuf,*scbuf,*cbuf1,*cbuf2;</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"></highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/><sp/><sp/><sp/>cbs=mx+0x10000000;</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/>if(!(cbuf1=(unsigned<sp/>char<sp/>*)<sp/>malloc(((size_t)<sp/>cbs)*sizeof(unsigned<sp/>char))))<sp/>ERR_CRITICAL(&quot;Unable<sp/>to<sp/>allocate<sp/>compression<sp/>buffer\n&quot;);</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/>if(!(cbuf2=(unsigned<sp/>char<sp/>*)<sp/>malloc(((size_t)<sp/>cbs)*sizeof(unsigned<sp/>char))))<sp/>ERR_CRITICAL(&quot;Unable<sp/>to<sp/>allocate<sp/>compression<sp/>buffer\n&quot;);</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/>st=mx/((unsigned<sp/>long<sp/>long)<sp/>size);</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/>n=count/st;</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/>ucs=(n&gt;0)?((unsigned<sp/>long)<sp/>(st*size)):((unsigned<sp/>long)<sp/>(count*size));</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/>ccbuf=cbuf1;</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/>scbuf=cbuf2;</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/>buf2=buf3=((unsigned<sp/>char<sp/>*)buffer);</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/>cs=cbs;</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/>fprintf(stderr,&quot;Compress2<sp/>=<sp/>%i\n&quot;,compress2(ccbuf,<sp/>&amp;cs,<sp/>buf3,<sp/>ucs,<sp/>COMP_LEVEL));</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/><sp/>scs=cs;</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/><sp/>for(j=1;j&lt;=n;j++)<sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tb=scbuf;</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scbuf=ccbuf;</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ccbuf=tb;</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(j==n)<sp/>ucs=(unsigned<sp/>long)<sp/>((count-n*st)*size);</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buf3=buf2+ucs;</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cs=cbs;</highlight></codeline>
+<codeline lineno="76"><highlight class="comment">#pragma<sp/>omp<sp/>parallel<sp/>shared(j,cs,ucs,scs,ret,ccbuf,scbuf,buf3,stream)</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="comment">#pragma<sp/>omp<sp/>sections</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="comment">#pragma<sp/>omp<sp/>section</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,&quot;Compressing<sp/>%i\n&quot;,j);</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,&quot;Compress2<sp/>=<sp/>%i\n&quot;,compress2(ccbuf,<sp/>&amp;cs,<sp/>buf3,<sp/>ucs,<sp/>COMP_LEVEL));</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="comment">#pragma<sp/>omp<sp/>section</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,&quot;Saving<sp/>%i\n&quot;,j);</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fwrite(&amp;scs,sizeof(unsigned<sp/>long),1,stream);</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret+=(fwrite(scbuf,sizeof(unsigned<sp/>char),(size_t)<sp/>scs,stream));</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scs=cs;</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buf2=buf3;</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/><sp/><sp/><sp/>scbuf=ccbuf;</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/><sp/><sp/><sp/>fwrite(&amp;scs,sizeof(unsigned<sp/>long),1,stream);</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/><sp/><sp/><sp/>ret+=(fwrite(scbuf,sizeof(unsigned<sp/>char),(size_t)<sp/>scs,stream));</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/><sp/><sp/><sp/>free(cbuf2);</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/><sp/><sp/><sp/>free(cbuf1);</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/><sp/><sp/><sp/>return<sp/>ret;</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="binio_8h_1ab9ccbf114e53c42751b671655c64770b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="binio_8cpp_1af967b000220dc847de2d086cbde6e5f6" kindref="member">zfread_big</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buffer,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>count,<sp/>FILE<sp/>*stream)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="binio_8cpp_1a1bc8d1ad11acf37bf8af06899bb5eef5" kindref="member">fread_big</ref>(buffer,size,count,stream);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/><sp/><sp/><sp/>const<sp/>unsigned<sp/>long<sp/>long<sp/>mx=0x40000000;</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/><sp/><sp/><sp/>unsigned<sp/>long<sp/>long<sp/>j,n,st;</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/><sp/><sp/><sp/>unsigned<sp/>long<sp/>cbs,cs,ucs,scs,cs2;</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/><sp/><sp/><sp/>size_t<sp/>ret=0;</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/><sp/><sp/><sp/>unsigned<sp/>char<sp/>*buf3,*tb,*ccbuf,*scbuf,*cbuf1,*cbuf2;</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"></highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/><sp/><sp/><sp/>cbs=mx+0x10000000;</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/><sp/><sp/><sp/>if(!(cbuf1=(unsigned<sp/>char<sp/>*)<sp/>malloc(((size_t)<sp/>cbs)*sizeof(unsigned<sp/>char))))<sp/>ERR_CRITICAL(&quot;Unable<sp/>to<sp/>allocate<sp/>compression<sp/>buffer\n&quot;);</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/><sp/><sp/><sp/>if(!(cbuf2=(unsigned<sp/>char<sp/>*)<sp/>malloc(((size_t)<sp/>cbs)*sizeof(unsigned<sp/>char))))<sp/>ERR_CRITICAL(&quot;Unable<sp/>to<sp/>allocate<sp/>compression<sp/>buffer\n&quot;);</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/><sp/><sp/><sp/>st=mx/((unsigned<sp/>long<sp/>long)<sp/>size);</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/><sp/><sp/><sp/>n=count/st;</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/><sp/><sp/><sp/>ucs=(n&gt;0)?((unsigned<sp/>long)<sp/>(st*size)):((unsigned<sp/>long)<sp/>(count*size));</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/><sp/><sp/><sp/>ccbuf=cbuf1;</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/><sp/><sp/><sp/>scbuf=cbuf2;</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/><sp/><sp/><sp/>buf3=((unsigned<sp/>char<sp/>*)buffer);</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/><sp/><sp/><sp/>fread(&amp;cs2,sizeof(unsigned<sp/>long),1,stream);</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/><sp/><sp/><sp/>fread(scbuf,sizeof(unsigned<sp/>char),(size_t)<sp/>cs2,stream);</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/><sp/><sp/><sp/>scs=cs2;</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/><sp/><sp/><sp/>for(j=1;j&lt;=n;j++)<sp/></highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tb=scbuf;</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scbuf=ccbuf;</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ccbuf=tb;</highlight></codeline>
+<codeline lineno="132"><highlight class="comment">#pragma<sp/>omp<sp/>parallel<sp/>shared(j,cs,cs2,ucs,scs,ret,ccbuf,scbuf,stream)</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="134"><highlight class="comment">#pragma<sp/>omp<sp/>sections</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="comment">#pragma<sp/>omp<sp/>section</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cs=ucs;</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,&quot;Uncompress<sp/>=<sp/>%i\n&quot;,uncompress(buf3,&amp;cs,<sp/>ccbuf,<sp/>scs));</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(cs!=ucs)<sp/>ERR_CRITICAL(&quot;Compressed<sp/>block<sp/>size<sp/>mismatch.\n&quot;);</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret+=ucs;</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="comment">#pragma<sp/>omp<sp/>section</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fread(&amp;cs2,sizeof(unsigned<sp/>long),1,stream);</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fread(scbuf,sizeof(unsigned<sp/>char),(size_t)<sp/>cs2,stream);</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scs=cs2;</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buf3+=ucs;</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/><sp/><sp/><sp/>ccbuf=scbuf;</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/><sp/><sp/><sp/>ucs=(unsigned<sp/>long)<sp/>((count-n*st)*size);</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/><sp/><sp/><sp/>cs=ucs;</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/><sp/><sp/><sp/>fprintf(stderr,&quot;Uncompress<sp/>=<sp/>%i\n&quot;,uncompress(buf3,&amp;cs,<sp/>ccbuf,<sp/>scs));</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/><sp/><sp/><sp/>if(cs!=ucs)<sp/>ERR_CRITICAL(&quot;Compressed<sp/>block<sp/>size<sp/>mismatch.\n&quot;);</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/><sp/><sp/><sp/>ret+=ucs;</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"></highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/><sp/><sp/><sp/>free(cbuf2);</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/><sp/><sp/><sp/>free(cbuf1);</highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/><sp/><sp/><sp/>return<sp/>ret;</highlight></codeline>
+<codeline lineno="163"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.cpp"/>
+  </compounddef>
+</doxygen>

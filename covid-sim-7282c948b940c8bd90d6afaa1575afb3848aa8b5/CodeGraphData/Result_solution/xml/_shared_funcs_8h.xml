@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_shared_funcs_8h" kind="file">
+    <compoundname>SharedFuncs.h</compoundname>
+    <includedby refid="_setup_model_8cpp" local="yes">src/SetupModel.cpp</includedby>
+    <includedby refid="_spatial_sim_8cpp" local="yes">src/SpatialSim.cpp</includedby>
+    <includedby refid="_sweep_8cpp" local="yes">src/Sweep.cpp</includedby>
+    <invincdepgraph>
+      <node id="255">
+        <label>src/Sweep.cpp</label>
+        <link refid="_sweep_8cpp"/>
+      </node>
+      <node id="252">
+        <label>src/SharedFuncs.h</label>
+        <link refid="SharedFuncs.h"/>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
+      <node id="254">
+        <label>src/SpatialSim.cpp</label>
+        <link refid="_spatial_sim_8cpp"/>
+      </node>
+      <node id="253">
+        <label>src/SetupModel.cpp</label>
+        <link refid="_setup_model_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_shared_funcs_8h_1a57ced9a061f05f68388851a2a1550db3" prot="public" static="no">
+        <name>SPATIALSIM_SHAREDFUNCS_H_INCLUDED_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SharedFuncs.h" line="4" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SharedFuncs.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_shared_funcs_8h_1a6ebb780665387c6f7da35b342664df09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UpdateProbs</definition>
+        <argsstring>(int)</argsstring>
+        <name>UpdateProbs</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SharedFuncs.h" line="5" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SpatialSim.cpp" bodystart="3588" bodyend="3637"/>
+        <references refid="struct_c_e_l_l_1ab32f1aa49fa049722683cfac842fb802" compoundref="_model_8h" startline="238">CELL::cum_trans</references>
+        <references refid="struct_p_a_r_a_m_1a98d826064898b16d6dcefaca7ae8e9e0" compoundref="_param_8h" startline="43">PARAM::DoDeath</references>
+        <references refid="struct_p_a_r_a_m_1a13aa17539b6611afe01942a7830beb2a" compoundref="_param_8h" startline="33">PARAM::DoSIS</references>
+        <references refid="struct_c_e_l_l_1ad826b6df0986ef754170511ccd619411" compoundref="_model_8h" startline="235">CELL::I</references>
+        <references refid="struct_c_e_l_l_1a45b7b168e715739b2121699b26b503c7" compoundref="_model_8h" startline="237">CELL::InvCDF</references>
+        <references refid="struct_c_e_l_l_1aa6b711cc331c1d42cdfc3ee981012cb6" compoundref="_model_8h" startline="235">CELL::L</references>
+        <references refid="struct_c_e_l_l_1acb762fe000c726a012dfb8868d06de97" compoundref="_model_8h" startline="238">CELL::max_trans</references>
+        <references refid="struct_c_e_l_l_1a5cbf467112a3cf29e1c33122c038a1e8" compoundref="_model_8h" startline="235">CELL::n</references>
+        <references refid="struct_p_a_r_a_m_1a69cb3cdd2a3942ab05c22b6babffabe0" compoundref="_param_8h" startline="32">PARAM::NCP</references>
+        <references refid="struct_c_e_l_l_1a00c41c0474ff22744ce62c4112314037" compoundref="_model_8h" startline="235">CELL::S</references>
+        <references refid="struct_c_e_l_l_1a38e9dd838b31b26a2dcb8d3b20333107" compoundref="_model_8h" startline="235">CELL::S0</references>
+        <references refid="struct_c_e_l_l_1aa49a59c932a9b9187bb5d156dbf635b0" compoundref="_model_8h" startline="238">CELL::tot_prob</references>
+        <referencedby refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1ab984bb3a9f43d7e11998005ee1aaae7f" compoundref="_spatial_sim_8cpp" startline="2428" endline="2591">RunModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SPATIALSIM_SHAREDFUNCS_H_INCLUDED_</highlight></codeline>
+<codeline lineno="4" refid="_shared_funcs_8h_1a57ced9a061f05f68388851a2a1550db3" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SPATIALSIM_SHAREDFUNCS_H_INCLUDED_</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_shared_funcs_8h_1a6ebb780665387c6f7da35b342664df09" kindref="member">UpdateProbs</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SPATIALSIM_SHAREDFUNCS_H_INCLUDED_</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SharedFuncs.h"/>
+  </compounddef>
+</doxygen>

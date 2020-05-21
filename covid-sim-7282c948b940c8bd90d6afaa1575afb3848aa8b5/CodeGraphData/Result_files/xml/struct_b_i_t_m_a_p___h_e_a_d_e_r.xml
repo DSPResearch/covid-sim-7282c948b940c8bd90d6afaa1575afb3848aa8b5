@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_b_i_t_m_a_p___h_e_a_d_e_r" kind="struct" prot="public">
+    <compoundname>BITMAP_HEADER</compoundname>
+    <includes refid="_bitmap_8h" local="no">Bitmap.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a85856115f907af90388c27b10c7d79a2" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int BITMAP_HEADER::filesize</definition>
+        <argsstring></argsstring>
+        <name>filesize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" line="27" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a81118590de2bafef9a2ac8fafb8c8a8f" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int BITMAP_HEADER::spare</definition>
+        <argsstring></argsstring>
+        <name>spare</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" line="28" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ad3865a08a674bc35ae627d2303de8319" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int BITMAP_HEADER::boffset</definition>
+        <argsstring></argsstring>
+        <name>boffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" line="29" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a8cbe6bc00746605bc8e3cb27243e30f1" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int BITMAP_HEADER::headersize</definition>
+        <argsstring></argsstring>
+        <name>headersize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" line="30" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_i_t_m_a_p___h_e_a_d_e_r_1afb89186027dd782bde50fc2965639f23" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int BITMAP_HEADER::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" line="31" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1ab5f11e55d07bc69c85eed9235c5ec275" compoundref="_bitmap_8cpp" startline="30" endline="106">CaptureBitmap</referencedby>
+        <referencedby refid="_update_8h_1a40fd37d36e04ef9425c9e0e03d3bcd04" compoundref="_update_8cpp" startline="872" endline="914">DoDeath</referencedby>
+        <referencedby refid="_update_8h_1a74b2978d97098dec65e47e07aa526c68" compoundref="_update_8cpp" startline="19" endline="70">DoImmune</referencedby>
+        <referencedby refid="_update_8h_1a8ad2c14b52bb01fd0db7cd2a6870ef1d" compoundref="_update_8cpp" startline="71" endline="156">DoInfect</referencedby>
+        <referencedby refid="_update_8h_1a95cf2bc96e079a6a7a506bb8f2535463" compoundref="_update_8cpp" startline="952" endline="982">DoProph</referencedby>
+        <referencedby refid="_update_8h_1a63b2632de7776a923d79bfc8d18e9e0d" compoundref="_update_8cpp" startline="984" endline="1013">DoProphNoDelay</referencedby>
+        <referencedby refid="_update_8h_1a39ec37f10b16814497d4a2f981ca164d" compoundref="_update_8cpp" startline="779" endline="870">DoRecover</referencedby>
+        <referencedby refid="_update_8h_1ada9b92f29b3114c1eda74ab6f2f2e338" compoundref="_update_8cpp" startline="916" endline="950">DoTreatCase</referencedby>
+        <referencedby refid="_update_8h_1ab4dc94aeffa633e58bf01e7971400098" compoundref="_update_8cpp" startline="1183" endline="1220">DoVacc</referencedby>
+        <referencedby refid="_update_8h_1ab6e211abdd4a600f0c2588d2b07c7a85" compoundref="_update_8cpp" startline="1222" endline="1253">DoVaccNoDelay</referencedby>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_i_t_m_a_p___h_e_a_d_e_r_1abbb00d6c7d2ef4cfd762d077130731ce" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int BITMAP_HEADER::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" line="31" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a15c85e52c0c9d04b2d251b6d7e5639c8" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int BITMAP_HEADER::PlanesAndBitspp</definition>
+        <argsstring></argsstring>
+        <name>PlanesAndBitspp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" line="32" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a1d3c692d7c4c5b4ca896175c562a9ef5" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int BITMAP_HEADER::compr</definition>
+        <argsstring></argsstring>
+        <name>compr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" line="33" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ae82dfde4f4c5c5d4ce2912bfcf35652e" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int BITMAP_HEADER::imagesize</definition>
+        <argsstring></argsstring>
+        <name>imagesize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" line="34" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_bitmap_8h_1a49bc4fdc1abb7b521e9c6706fe66e582" compoundref="_bitmap_8cpp" startline="108" endline="208">OutputBitmap</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ab69060d30164e38aa921c361a70848b9" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int BITMAP_HEADER::hres</definition>
+        <argsstring></argsstring>
+        <name>hres</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" line="35" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_i_t_m_a_p___h_e_a_d_e_r_1aae0495a28288cc0f7400e4bdcb674bd2" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int BITMAP_HEADER::vres</definition>
+        <argsstring></argsstring>
+        <name>vres</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" line="35" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_i_t_m_a_p___h_e_a_d_e_r_1afd2617536f347bdc77bd85f796ed23e7" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int BITMAP_HEADER::colours</definition>
+        <argsstring></argsstring>
+        <name>colours</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" line="36" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a8091ddc4cc0dd86766576821e1458805" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int BITMAP_HEADER::impcol</definition>
+        <argsstring></argsstring>
+        <name>impcol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" line="36" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a7b1942a14c8cd122e7ec885d3ac5b222" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char BITMAP_HEADER::palette[BWCOLS *4][4]</definition>
+        <argsstring>[BWCOLS *4][4]</argsstring>
+        <name>palette</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" line="37" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" line="26" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.h" bodystart="26" bodyend="38"/>
+    <listofallmembers>
+      <member refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ad3865a08a674bc35ae627d2303de8319" prot="public" virt="non-virtual"><scope>BITMAP_HEADER</scope><name>boffset</name></member>
+      <member refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1afd2617536f347bdc77bd85f796ed23e7" prot="public" virt="non-virtual"><scope>BITMAP_HEADER</scope><name>colours</name></member>
+      <member refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a1d3c692d7c4c5b4ca896175c562a9ef5" prot="public" virt="non-virtual"><scope>BITMAP_HEADER</scope><name>compr</name></member>
+      <member refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a85856115f907af90388c27b10c7d79a2" prot="public" virt="non-virtual"><scope>BITMAP_HEADER</scope><name>filesize</name></member>
+      <member refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a8cbe6bc00746605bc8e3cb27243e30f1" prot="public" virt="non-virtual"><scope>BITMAP_HEADER</scope><name>headersize</name></member>
+      <member refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1abbb00d6c7d2ef4cfd762d077130731ce" prot="public" virt="non-virtual"><scope>BITMAP_HEADER</scope><name>height</name></member>
+      <member refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ab69060d30164e38aa921c361a70848b9" prot="public" virt="non-virtual"><scope>BITMAP_HEADER</scope><name>hres</name></member>
+      <member refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ae82dfde4f4c5c5d4ce2912bfcf35652e" prot="public" virt="non-virtual"><scope>BITMAP_HEADER</scope><name>imagesize</name></member>
+      <member refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a8091ddc4cc0dd86766576821e1458805" prot="public" virt="non-virtual"><scope>BITMAP_HEADER</scope><name>impcol</name></member>
+      <member refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a7b1942a14c8cd122e7ec885d3ac5b222" prot="public" virt="non-virtual"><scope>BITMAP_HEADER</scope><name>palette</name></member>
+      <member refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a15c85e52c0c9d04b2d251b6d7e5639c8" prot="public" virt="non-virtual"><scope>BITMAP_HEADER</scope><name>PlanesAndBitspp</name></member>
+      <member refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a81118590de2bafef9a2ac8fafb8c8a8f" prot="public" virt="non-virtual"><scope>BITMAP_HEADER</scope><name>spare</name></member>
+      <member refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1aae0495a28288cc0f7400e4bdcb674bd2" prot="public" virt="non-virtual"><scope>BITMAP_HEADER</scope><name>vres</name></member>
+      <member refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1afb89186027dd782bde50fc2965639f23" prot="public" virt="non-virtual"><scope>BITMAP_HEADER</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

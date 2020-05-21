@@ -1,0 +1,518 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_a_d_m_i_n_u_n_i_t" kind="struct" prot="public">
+    <compoundname>ADMINUNIT</compoundname>
+    <includes refid="_model_8h" local="no">Model.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a88a036834ebfe2a6bac1aaef4d744e23" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ADMINUNIT::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="280" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="280" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a3f760d56c99f7eed97d935bfb6c1fdfd" compoundref="_spatial_sim_8cpp" startline="4291" endline="4455">CalcOriginDestMatrix_adunit</referencedby>
+        <referencedby refid="_bitmap_8h_1ab5f11e55d07bc69c85eed9235c5ec275" compoundref="_bitmap_8cpp" startline="30" endline="106">CaptureBitmap</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a06701ee2bb1b97eabcabebc846738d2d" compoundref="_spatial_sim_8cpp" startline="1632" endline="1838">ReadInterventions</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a0f67fe6ead0cdcad78046cd32eb68b5d" compoundref="_spatial_sim_8cpp" startline="2593" endline="2674">SaveDistribs</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1acb9db6282cd4cb4886f12b244be413aa" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ADMINUNIT::cnt_id</definition>
+        <argsstring></argsstring>
+        <name>cnt_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="280" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="280" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1aaafb87342fbfdf3befce3e3887d23477" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ADMINUNIT::NI</definition>
+        <argsstring></argsstring>
+        <name>NI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="280" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="280" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a06701ee2bb1b97eabcabebc846738d2d" compoundref="_spatial_sim_8cpp" startline="1632" endline="1838">ReadInterventions</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1ae81f24e7452b5021c1388bfe810da485" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ADMINUNIT::NIactive[MAX_INTERVENTION_TYPES]</definition>
+        <argsstring>[MAX_INTERVENTION_TYPES]</argsstring>
+        <name>NIactive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="280" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a6ede8982e08e694d1b6bc312df15ea2d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ADMINUNIT::n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="280" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="280" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a2ceeeb170102f13ddd1d648955f19df9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ADMINUNIT::ActiveInterv[MAX_INTERVENTION_TYPES][MAX_INTERVENTIONS_PER_ADUNIT]</definition>
+        <argsstring>[MAX_INTERVENTION_TYPES][MAX_INTERVENTIONS_PER_ADUNIT]</argsstring>
+        <name>ActiveInterv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="281" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1ab0e8619348496e403980c0adb2f923ec" prot="public" static="no" mutable="no">
+        <type><ref refid="_model_8h_1aa3c611b24bb54ad5cace67b07fc08d6d" kindref="member">intervention</ref></type>
+        <definition>intervention ADMINUNIT::InterventionList[MAX_INTERVENTIONS_PER_ADUNIT]</definition>
+        <argsstring>[MAX_INTERVENTIONS_PER_ADUNIT]</argsstring>
+        <name>InterventionList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="282" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="282" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a06701ee2bb1b97eabcabebc846738d2d" compoundref="_spatial_sim_8cpp" startline="1632" endline="1838">ReadInterventions</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a8c638cfa50176b6b61cc9b9f1d1a03f1" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char ADMINUNIT::cnt_name[100]</definition>
+        <argsstring>[100]</argsstring>
+        <name>cnt_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="283" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="283" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a89946ff2660da84cc1a5dda0037cbc4b" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char ADMINUNIT::ad_name[200]</definition>
+        <argsstring>[200]</argsstring>
+        <name>ad_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="283" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="283" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a2377144af960bf3e00fe0815de7ce942" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ADMINUNIT::NP</definition>
+        <argsstring></argsstring>
+        <name>NP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="284" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="284" bodyend="-1"/>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a28789703090ba4a52cdd99b1b7b2e734" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ADMINUNIT::place_close_trig</definition>
+        <argsstring></argsstring>
+        <name>place_close_trig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="284" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="284" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a287f606f4005fbe01d44764c259da6db" compoundref="_update_8cpp" startline="1015" endline="1137">DoPlaceClose</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a981316c58d9e824725dfaaeb4d50994a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ADMINUNIT::CaseIsolationTimeStart</definition>
+        <argsstring></argsstring>
+        <name>CaseIsolationTimeStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="285" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="285" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a27d7aa9d3ff76bec620288823d8444b9" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ADMINUNIT::HQuarantineTimeStart</definition>
+        <argsstring></argsstring>
+        <name>HQuarantineTimeStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="285" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="285" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1ae6df3fa981c9859272bd76a2e995d61f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ADMINUNIT::DigitalContactTracingTimeStart</definition>
+        <argsstring></argsstring>
+        <name>DigitalContactTracingTimeStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="285" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="285" bodyend="-1"/>
+        <referencedby refid="_sweep_8h_1a1f931baf497c800af860bebf6b1554cc" compoundref="_sweep_8cpp" startline="897" endline="1003">DigitalContactTracingSweep</referencedby>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1afcc2fda80f0768eb354626e53c7cdbb3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ADMINUNIT::SocialDistanceTimeStart</definition>
+        <argsstring></argsstring>
+        <name>SocialDistanceTimeStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="286" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="286" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1aaf7aafb900661b5933c8427e738bea9f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ADMINUNIT::PlaceCloseTimeStart</definition>
+        <argsstring></argsstring>
+        <name>PlaceCloseTimeStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="286" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="286" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a6bb2e2673c90b778de00518ff1dc599c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ADMINUNIT::SocialDistanceDelay</definition>
+        <argsstring></argsstring>
+        <name>SocialDistanceDelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="288" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="288" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1af0b73ec8f7a44be9b1f6b7f3635fcfa1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ADMINUNIT::HQuarantineDelay</definition>
+        <argsstring></argsstring>
+        <name>HQuarantineDelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="288" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="288" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a467d44c85f8715448123929b890f809e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ADMINUNIT::CaseIsolationDelay</definition>
+        <argsstring></argsstring>
+        <name>CaseIsolationDelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="288" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="288" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a45524247d1888030887ad1cad62c16ec" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ADMINUNIT::PlaceCloseDelay</definition>
+        <argsstring></argsstring>
+        <name>PlaceCloseDelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="288" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="288" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a77490c9d4817090af1b83ffa55caae20" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ADMINUNIT::SocialDistanceDuration</definition>
+        <argsstring></argsstring>
+        <name>SocialDistanceDuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="289" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="289" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a09fbf79a374e900c5b25957166607cdc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ADMINUNIT::HQuarantineDuration</definition>
+        <argsstring></argsstring>
+        <name>HQuarantineDuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="289" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="289" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a3c95135652043ceb483a657ccfd1614f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ADMINUNIT::CaseIsolationDuration</definition>
+        <argsstring></argsstring>
+        <name>CaseIsolationDuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="289" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="289" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a03f25478804c734c81d4983f84232d3b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ADMINUNIT::PlaceCloseDuration</definition>
+        <argsstring></argsstring>
+        <name>PlaceCloseDuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="289" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="289" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a287f606f4005fbe01d44764c259da6db" compoundref="_update_8cpp" startline="1015" endline="1137">DoPlaceClose</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a6860d131a594448889b49970511661df" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* ADMINUNIT::dct_queue</definition>
+        <argsstring></argsstring>
+        <name>dct_queue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="290" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="290" bodyend="-1"/>
+        <referencedby refid="_sweep_8h_1a1f931baf497c800af860bebf6b1554cc" compoundref="_sweep_8cpp" startline="897" endline="1003">DigitalContactTracingSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a485d4c3fcfd9e8588ca2edc5877e8281" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ADMINUNIT::ndct_queue</definition>
+        <argsstring></argsstring>
+        <name>ndct_queue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="290" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="290" bodyend="-1"/>
+        <referencedby refid="_sweep_8h_1a1f931baf497c800af860bebf6b1554cc" compoundref="_sweep_8cpp" startline="897" endline="1003">DigitalContactTracingSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1aff4abd40b63e972db64dd66cbaa52fe6" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int * ADMINUNIT::dct</definition>
+        <argsstring></argsstring>
+        <name>dct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="290" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="290" bodyend="-1"/>
+        <referencedby refid="_sweep_8h_1a1f931baf497c800af860bebf6b1554cc" compoundref="_sweep_8cpp" startline="897" endline="1003">DigitalContactTracingSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1aa62977b37abddb7b0345fb509d2bc9ee" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ADMINUNIT::ndct</definition>
+        <argsstring></argsstring>
+        <name>ndct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="290" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="290" bodyend="-1"/>
+        <referencedby refid="_sweep_8h_1a1f931baf497c800af860bebf6b1554cc" compoundref="_sweep_8cpp" startline="897" endline="1003">DigitalContactTracingSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a77a52e1a59eb59f52179e7d9f04198fc" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* ADMINUNIT::origin_dest</definition>
+        <argsstring></argsstring>
+        <name>origin_dest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="291" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="291" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a3f760d56c99f7eed97d935bfb6c1fdfd" compoundref="_spatial_sim_8cpp" startline="4291" endline="4455">CalcOriginDestMatrix_adunit</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1af11615c6d7ceb5cd8a3fd233505927dc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ADMINUNIT::caseDetectRate</definition>
+        <argsstring></argsstring>
+        <name>caseDetectRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="292" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="292" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_m_i_n_u_n_i_t_1a3104d70c4e36d666a5a85eced8d0231b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ADMINUNIT::caseDetectInit</definition>
+        <argsstring></argsstring>
+        <name>caseDetectInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="293" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="293" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A political entity that administers a geographical area. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ADMINUNIT</label>
+        <link refid="struct_a_d_m_i_n_u_n_i_t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>InterventionList</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>INTERVENTION</label>
+        <link refid="struct_i_n_t_e_r_v_e_n_t_i_o_n"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="279" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="279" bodyend="294"/>
+    <listofallmembers>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a2ceeeb170102f13ddd1d648955f19df9" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>ActiveInterv</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a89946ff2660da84cc1a5dda0037cbc4b" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>ad_name</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a3104d70c4e36d666a5a85eced8d0231b" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>caseDetectInit</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1af11615c6d7ceb5cd8a3fd233505927dc" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>caseDetectRate</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a467d44c85f8715448123929b890f809e" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>CaseIsolationDelay</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a3c95135652043ceb483a657ccfd1614f" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>CaseIsolationDuration</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a981316c58d9e824725dfaaeb4d50994a" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>CaseIsolationTimeStart</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1acb9db6282cd4cb4886f12b244be413aa" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>cnt_id</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a8c638cfa50176b6b61cc9b9f1d1a03f1" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>cnt_name</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1aff4abd40b63e972db64dd66cbaa52fe6" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>dct</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a6860d131a594448889b49970511661df" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>dct_queue</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1ae6df3fa981c9859272bd76a2e995d61f" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>DigitalContactTracingTimeStart</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1af0b73ec8f7a44be9b1f6b7f3635fcfa1" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>HQuarantineDelay</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a09fbf79a374e900c5b25957166607cdc" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>HQuarantineDuration</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a27d7aa9d3ff76bec620288823d8444b9" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>HQuarantineTimeStart</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a88a036834ebfe2a6bac1aaef4d744e23" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>id</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1ab0e8619348496e403980c0adb2f923ec" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>InterventionList</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a6ede8982e08e694d1b6bc312df15ea2d" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>n</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1aa62977b37abddb7b0345fb509d2bc9ee" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>ndct</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a485d4c3fcfd9e8588ca2edc5877e8281" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>ndct_queue</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1aaafb87342fbfdf3befce3e3887d23477" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>NI</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1ae81f24e7452b5021c1388bfe810da485" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>NIactive</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a2377144af960bf3e00fe0815de7ce942" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>NP</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a77a52e1a59eb59f52179e7d9f04198fc" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>origin_dest</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a28789703090ba4a52cdd99b1b7b2e734" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>place_close_trig</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a45524247d1888030887ad1cad62c16ec" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>PlaceCloseDelay</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a03f25478804c734c81d4983f84232d3b" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>PlaceCloseDuration</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1aaf7aafb900661b5933c8427e738bea9f" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>PlaceCloseTimeStart</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a6bb2e2673c90b778de00518ff1dc599c" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>SocialDistanceDelay</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1a77490c9d4817090af1b83ffa55caae20" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>SocialDistanceDuration</name></member>
+      <member refid="struct_a_d_m_i_n_u_n_i_t_1afcc2fda80f0768eb354626e53c7cdbb3" prot="public" virt="non-virtual"><scope>ADMINUNIT</scope><name>SocialDistanceTimeStart</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

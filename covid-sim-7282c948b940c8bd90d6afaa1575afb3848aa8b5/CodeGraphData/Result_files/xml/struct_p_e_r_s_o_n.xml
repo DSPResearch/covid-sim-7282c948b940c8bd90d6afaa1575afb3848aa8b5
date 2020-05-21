@@ -1,0 +1,801 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_p_e_r_s_o_n" kind="struct" prot="public">
+    <compoundname>PERSON</compoundname>
+    <includes refid="_model_8h" local="no">Model.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a54ad5b22ddaa1c20f263ce96a4ce5a35" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PERSON::pcell</definition>
+        <argsstring></argsstring>
+        <name>pcell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="18" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</referencedby>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a40fd37d36e04ef9425c9e0e03d3bcd04" compoundref="_update_8cpp" startline="872" endline="914">DoDeath</referencedby>
+        <referencedby refid="_update_8h_1a74b2978d97098dec65e47e07aa526c68" compoundref="_update_8cpp" startline="19" endline="70">DoImmune</referencedby>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+        <referencedby refid="_update_8h_1a8ad2c14b52bb01fd0db7cd2a6870ef1d" compoundref="_update_8cpp" startline="71" endline="156">DoInfect</referencedby>
+        <referencedby refid="_update_8h_1a39ec37f10b16814497d4a2f981ca164d" compoundref="_update_8cpp" startline="779" endline="870">DoRecover</referencedby>
+        <referencedby refid="_update_8h_1ada9b92f29b3114c1eda74ab6f2f2e338" compoundref="_update_8cpp" startline="916" endline="950">DoTreatCase</referencedby>
+        <referencedby refid="_update_8h_1ab4dc94aeffa633e58bf01e7971400098" compoundref="_update_8cpp" startline="1183" endline="1220">DoVacc</referencedby>
+        <referencedby refid="_update_8h_1ab6e211abdd4a600f0c2588d2b07c7a85" compoundref="_update_8cpp" startline="1222" endline="1253">DoVaccNoDelay</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a342f190b57650519102ce7d44c19b693" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PERSON::mcell</definition>
+        <argsstring></argsstring>
+        <name>mcell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="19" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1a2232a985231d8c870271de5b2ed61405" compoundref="_calc_inf_susc_8cpp" startline="47" endline="52">CalcHouseSusc</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1af11eedbe70b814375d3f97b3c47fcddb" compoundref="_calc_inf_susc_8cpp" startline="53" endline="59">CalcPlaceSusc</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1ad46a77676e62126b7469ee0785e78f52" compoundref="_calc_inf_susc_8cpp" startline="60" endline="66">CalcSpatialSusc</referencedby>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a74ac3b1b9a31b34dcb7d3f21649ef5b0" compoundref="_update_8cpp" startline="275" endline="295">DoCritical</referencedby>
+        <referencedby refid="_update_8h_1a40fd37d36e04ef9425c9e0e03d3bcd04" compoundref="_update_8cpp" startline="872" endline="914">DoDeath</referencedby>
+        <referencedby refid="_update_8h_1a8ce005bac2566e116bd60f5f2c5aa300" compoundref="_update_8cpp" startline="320" endline="342">DoDeath_FromCriticalorSARI</referencedby>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_update_8cpp_1a4dc64748f9ef52a18672948c01bbccdc" compoundref="_update_8cpp" startline="236" endline="253">DoILI</referencedby>
+        <referencedby refid="_update_8h_1a8ad2c14b52bb01fd0db7cd2a6870ef1d" compoundref="_update_8cpp" startline="71" endline="156">DoInfect</referencedby>
+        <referencedby refid="_update_8h_1ac8d8439810d8f60e90d5f1c931ef532d" compoundref="_update_8cpp" startline="218" endline="235">DoMild</referencedby>
+        <referencedby refid="_update_8h_1a95cf2bc96e079a6a7a506bb8f2535463" compoundref="_update_8cpp" startline="952" endline="982">DoProph</referencedby>
+        <referencedby refid="_update_8h_1a63b2632de7776a923d79bfc8d18e9e0d" compoundref="_update_8cpp" startline="984" endline="1013">DoProphNoDelay</referencedby>
+        <referencedby refid="_update_8h_1ae2fb70d89cc1b6c9743907d06ef282fa" compoundref="_update_8cpp" startline="343" endline="380">DoRecover_FromSeverity</referencedby>
+        <referencedby refid="_update_8h_1a3a04a0c0cce61a8a00461442fdb316a7" compoundref="_update_8cpp" startline="296" endline="319">DoRecoveringFromCritical</referencedby>
+        <referencedby refid="_update_8h_1a40e857fe5c617ef3967767e47f0bf3d3" compoundref="_update_8cpp" startline="254" endline="274">DoSARI</referencedby>
+        <referencedby refid="_update_8h_1ada9b92f29b3114c1eda74ab6f2f2e338" compoundref="_update_8cpp" startline="916" endline="950">DoTreatCase</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a0f67fe6ead0cdcad78046cd32eb68b5d" compoundref="_spatial_sim_8cpp" startline="2593" endline="2674">SaveDistribs</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a66430df5622fb3fdfd7b9dd3bb335072" compoundref="_spatial_sim_8cpp" startline="2305" endline="2425">SeedInfection</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1aa25bab041ff1bfe030af775090a1dae9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PERSON::listpos</definition>
+        <argsstring></argsstring>
+        <name>listpos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="20" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a40fd37d36e04ef9425c9e0e03d3bcd04" compoundref="_update_8cpp" startline="872" endline="914">DoDeath</referencedby>
+        <referencedby refid="_update_8h_1a74b2978d97098dec65e47e07aa526c68" compoundref="_update_8cpp" startline="19" endline="70">DoImmune</referencedby>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+        <referencedby refid="_update_8h_1a8ad2c14b52bb01fd0db7cd2a6870ef1d" compoundref="_update_8cpp" startline="71" endline="156">DoInfect</referencedby>
+        <referencedby refid="_update_8h_1a39ec37f10b16814497d4a2f981ca164d" compoundref="_update_8cpp" startline="779" endline="870">DoRecover</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1aa68bc51ddd0a4a90e306fb54dcb05f23" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PERSON::infector</definition>
+        <argsstring></argsstring>
+        <name>infector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="20" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a39ec37f10b16814497d4a2f981ca164d" compoundref="_update_8cpp" startline="779" endline="870">DoRecover</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a66430df5622fb3fdfd7b9dd3bb335072" compoundref="_spatial_sim_8cpp" startline="2305" endline="2425">SeedInfection</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a5d37d138a852ba758b2acf4d48919f69" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PERSON::hh</definition>
+        <argsstring></argsstring>
+        <name>hh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="20" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="_calc_inf_susc_8h_1a0739431d1ec7f41e8a205caced5c2ec4" compoundref="_calc_inf_susc_8cpp" startline="12" endline="18">CalcHouseInf</referencedby>
+        <referencedby refid="_bitmap_8h_1ab5f11e55d07bc69c85eed9235c5ec275" compoundref="_bitmap_8cpp" startline="30" endline="106">CaptureBitmap</referencedby>
+        <referencedby refid="_dist_8h_1a89e4cad5bcf7cb635ad5117911dda6fd" compoundref="_dist_8cpp" startline="42" endline="59">dist2</referencedby>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a40fd37d36e04ef9425c9e0e03d3bcd04" compoundref="_update_8cpp" startline="872" endline="914">DoDeath</referencedby>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_update_8h_1a74b2978d97098dec65e47e07aa526c68" compoundref="_update_8cpp" startline="19" endline="70">DoImmune</referencedby>
+        <referencedby refid="_update_8h_1a8ad2c14b52bb01fd0db7cd2a6870ef1d" compoundref="_update_8cpp" startline="71" endline="156">DoInfect</referencedby>
+        <referencedby refid="_update_8h_1a287f606f4005fbe01d44764c259da6db" compoundref="_update_8cpp" startline="1015" endline="1137">DoPlaceClose</referencedby>
+        <referencedby refid="_update_8h_1ac365d0201bff7ca8dffddcc2cb5985fb" compoundref="_update_8cpp" startline="1139" endline="1180">DoPlaceOpen</referencedby>
+        <referencedby refid="_update_8h_1a39ec37f10b16814497d4a2f981ca164d" compoundref="_update_8cpp" startline="779" endline="870">DoRecover</referencedby>
+        <referencedby refid="_update_8h_1ab4dc94aeffa633e58bf01e7971400098" compoundref="_update_8cpp" startline="1183" endline="1220">DoVacc</referencedby>
+        <referencedby refid="_update_8h_1ab6e211abdd4a600f0c2588d2b07c7a85" compoundref="_update_8cpp" startline="1222" endline="1253">DoVaccNoDelay</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a66430df5622fb3fdfd7b9dd3bb335072" compoundref="_spatial_sim_8cpp" startline="2305" endline="2425">SeedInfection</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a3e840067bfddd4b16ad08635817b93e9" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::age</definition>
+        <argsstring></argsstring>
+        <name>age</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="21" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a07631563f56593aa79b58dc184e1d404" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::to_die</definition>
+        <argsstring></argsstring>
+        <name>to_die</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="22" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+        <referencedby refid="_update_8h_1a3a04a0c0cce61a8a00461442fdb316a7" compoundref="_update_8cpp" startline="296" endline="319">DoRecoveringFromCritical</referencedby>
+        <referencedby refid="_sweep_8h_1a28ea9814dd487a5716b0183860f34938" compoundref="_sweep_8cpp" startline="801" endline="895">IncubRecoverySweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a28bae7060c1b5d06c0ba1571d8289b6b" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::Travelling</definition>
+        <argsstring></argsstring>
+        <name>Travelling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="22" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+        <referencedby refid="_sweep_8h_1aaa1aa4d11b32251ba9cd8bffdd71a333" compoundref="_sweep_8cpp" startline="20" endline="65">TravelReturnSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a21265c39d3f3c5d6da84581c662d87e8" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::detected</definition>
+        <argsstring></argsstring>
+        <name>detected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="22" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a40fd37d36e04ef9425c9e0e03d3bcd04" compoundref="_update_8cpp" startline="872" endline="914">DoDeath</referencedby>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+        <referencedby refid="_update_8h_1a39ec37f10b16814497d4a2f981ca164d" compoundref="_update_8cpp" startline="779" endline="870">DoRecover</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a1c73f3068d39c6c778bc92fed8068dc2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PERSON::digitalContactTraced</definition>
+        <argsstring></argsstring>
+        <name>digitalContactTraced</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="23" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="_sweep_8h_1a1f931baf497c800af860bebf6b1554cc" compoundref="_sweep_8cpp" startline="897" endline="1003">DigitalContactTracingSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a6b71c3eea2032bedb7ee955a5c6aa7f6" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::esocdist_comply</definition>
+        <argsstring></argsstring>
+        <name>esocdist_comply</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="24" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a7eb38d22782a9f2f59275c232ddd69dc" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::quar_start_time</definition>
+        <argsstring></argsstring>
+        <name>quar_start_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="24" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a22898065afae8f3f29d4528e6dd15bd5" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::isolation_start_time</definition>
+        <argsstring></argsstring>
+        <name>isolation_start_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="24" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1af8286a69098a090da3e4248648ef0e18" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::isolation_stop_time</definition>
+        <argsstring></argsstring>
+        <name>isolation_stop_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="24" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1abd0522b309d5a0d9fd54a02b0b13449f" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::keyworker</definition>
+        <argsstring></argsstring>
+        <name>keyworker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="24" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a8ad2c14b52bb01fd0db7cd2a6870ef1d" compoundref="_update_8cpp" startline="71" endline="156">DoInfect</referencedby>
+        <referencedby refid="_update_8h_1a95cf2bc96e079a6a7a506bb8f2535463" compoundref="_update_8cpp" startline="952" endline="982">DoProph</referencedby>
+        <referencedby refid="_update_8h_1a63b2632de7776a923d79bfc8d18e9e0d" compoundref="_update_8cpp" startline="984" endline="1013">DoProphNoDelay</referencedby>
+        <referencedby refid="_update_8h_1ada9b92f29b3114c1eda74ab6f2f2e338" compoundref="_update_8cpp" startline="916" endline="950">DoTreatCase</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a5b7f4de81394db5c55671fe14bc86ac7" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char PERSON::quar_comply</definition>
+        <argsstring></argsstring>
+        <name>quar_comply</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="25" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a49caba244d5e7b0ccfa87c5d8f5a8f92" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::absent_start_time</definition>
+        <argsstring></argsstring>
+        <name>absent_start_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="26" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_update_8h_1a287f606f4005fbe01d44764c259da6db" compoundref="_update_8cpp" startline="1015" endline="1137">DoPlaceClose</referencedby>
+        <referencedby refid="_sweep_8h_1a28ea9814dd487a5716b0183860f34938" compoundref="_sweep_8cpp" startline="801" endline="895">IncubRecoverySweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a25c8cc4462245246938d6075542efebc" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::absent_stop_time</definition>
+        <argsstring></argsstring>
+        <name>absent_stop_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="26" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_update_8h_1a287f606f4005fbe01d44764c259da6db" compoundref="_update_8cpp" startline="1015" endline="1137">DoPlaceClose</referencedby>
+        <referencedby refid="_update_8h_1ac365d0201bff7ca8dffddcc2cb5985fb" compoundref="_update_8cpp" startline="1139" endline="1180">DoPlaceOpen</referencedby>
+        <referencedby refid="_sweep_8h_1a28ea9814dd487a5716b0183860f34938" compoundref="_sweep_8cpp" startline="801" endline="895">IncubRecoverySweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a9c4c7fe68cb3a7fa46a255aefd7b026a" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::PlaceGroupLinks[NUM_PLACE_TYPES]</definition>
+        <argsstring>[NUM_PLACE_TYPES]</argsstring>
+        <name>PlaceGroupLinks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="27" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_setup_model_8h_1af4a2b8ba6f8b3bdedd5011d2d9eb2900" compoundref="_setup_model_8cpp" startline="2365" endline="2498">StratifyPlaces</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1aedcff60c3c6810b6ee5ac2679139ee6c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PERSON::PlaceLinks[NUM_PLACE_TYPES]</definition>
+        <argsstring>[NUM_PLACE_TYPES]</argsstring>
+        <name>PlaceLinks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="28" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</referencedby>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_sweep_8h_1a28ea9814dd487a5716b0183860f34938" compoundref="_sweep_8cpp" startline="801" endline="895">IncubRecoverySweep</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a33b6b75a4178a1ea3d826f2ebca4ea56" compoundref="_setup_model_8cpp" startline="2499" endline="2557">LoadPeopleToPlaces</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a0f67fe6ead0cdcad78046cd32eb68b5d" compoundref="_spatial_sim_8cpp" startline="2593" endline="2674">SaveDistribs</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1af4a2b8ba6f8b3bdedd5011d2d9eb2900" compoundref="_setup_model_8cpp" startline="2365" endline="2498">StratifyPlaces</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+        <referencedby refid="_sweep_8h_1aaa1aa4d11b32251ba9cd8bffdd71a333" compoundref="_sweep_8cpp" startline="20" endline="65">TravelReturnSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a9e6f6745b8c18608e72334c96bfd2632" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PERSON::infectiousness</definition>
+        <argsstring></argsstring>
+        <name>infectiousness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="29" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a1e2871c04d8ee4aa4864dba37089296f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PERSON::susc</definition>
+        <argsstring></argsstring>
+        <name>susc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="29" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="29" bodyend="-1"/>
+        <referencedby refid="_calc_inf_susc_8h_1a99426de92bc581587a01d08031a1414e" compoundref="_calc_inf_susc_8cpp" startline="67" endline="73">CalcPersonSusc</referencedby>
+        <referencedby refid="_update_8h_1a39ec37f10b16814497d4a2f981ca164d" compoundref="_update_8cpp" startline="779" endline="870">DoRecover</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a3be4a55ff128f5182802b044e8e76137" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PERSON::vacc_eff</definition>
+        <argsstring></argsstring>
+        <name>vacc_eff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="29" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a273b352348cb66c459ca0bd7c5e2ff1d" prot="public" static="no" mutable="no">
+        <type>short int</type>
+        <definition>short int PERSON::inf</definition>
+        <argsstring></argsstring>
+        <name>inf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="30" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="_calc_inf_susc_8h_1a30b3257ca463d82e5f48cf25a8cd31ab" compoundref="_calc_inf_susc_8cpp" startline="19" endline="26">CalcPlaceInf</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1a90d608115d08694e09388109460e0cb6" compoundref="_calc_inf_susc_8cpp" startline="27" endline="35">CalcSpatialInf</referencedby>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a40fd37d36e04ef9425c9e0e03d3bcd04" compoundref="_update_8cpp" startline="872" endline="914">DoDeath</referencedby>
+        <referencedby refid="_update_8h_1a74b2978d97098dec65e47e07aa526c68" compoundref="_update_8cpp" startline="19" endline="70">DoImmune</referencedby>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+        <referencedby refid="_update_8h_1a8ad2c14b52bb01fd0db7cd2a6870ef1d" compoundref="_update_8cpp" startline="71" endline="156">DoInfect</referencedby>
+        <referencedby refid="_update_8h_1a39ec37f10b16814497d4a2f981ca164d" compoundref="_update_8cpp" startline="779" endline="870">DoRecover</referencedby>
+        <referencedby refid="_update_8h_1ae2fb70d89cc1b6c9743907d06ef282fa" compoundref="_update_8cpp" startline="343" endline="380">DoRecover_FromSeverity</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a6358eca159c470e53a3484d35a25e3dc" prot="public" static="no" mutable="no">
+        <type>short int</type>
+        <definition>short int PERSON::infect_type</definition>
+        <argsstring></argsstring>
+        <name>infect_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="30" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a8ad2c14b52bb01fd0db7cd2a6870ef1d" compoundref="_update_8cpp" startline="71" endline="156">DoInfect</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a66430df5622fb3fdfd7b9dd3bb335072" compoundref="_spatial_sim_8cpp" startline="2305" endline="2425">SeedInfection</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1af246f89cb7c8c7369ad2abfd06313b8a" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::infection_time</definition>
+        <argsstring></argsstring>
+        <name>infection_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="31" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a8ad2c14b52bb01fd0db7cd2a6870ef1d" compoundref="_update_8cpp" startline="71" endline="156">DoInfect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a4926ff3f9e59dada593e192f00403b58" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::latent_time</definition>
+        <argsstring></argsstring>
+        <name>latent_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="31" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="_calc_inf_susc_8h_1ae35c71b28edbe7e76e248fe680dbc9eb" compoundref="_calc_inf_susc_8cpp" startline="36" endline="43">CalcPersonInf</referencedby>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+        <referencedby refid="_update_8h_1a8ad2c14b52bb01fd0db7cd2a6870ef1d" compoundref="_update_8cpp" startline="71" endline="156">DoInfect</referencedby>
+        <referencedby refid="_sweep_8h_1a28ea9814dd487a5716b0183860f34938" compoundref="_sweep_8cpp" startline="801" endline="895">IncubRecoverySweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a0ee97b73c88633b7e1951981a15bdae0" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::recovery_time</definition>
+        <argsstring></argsstring>
+        <name>recovery_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="32" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+        <referencedby refid="_sweep_8h_1a28ea9814dd487a5716b0183860f34938" compoundref="_sweep_8cpp" startline="801" endline="895">IncubRecoverySweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1ad92bc0b32469d22b2dd23f38f3bb61c3" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::treat_start_time</definition>
+        <argsstring></argsstring>
+        <name>treat_start_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="33" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a95cf2bc96e079a6a7a506bb8f2535463" compoundref="_update_8cpp" startline="952" endline="982">DoProph</referencedby>
+        <referencedby refid="_update_8h_1a63b2632de7776a923d79bfc8d18e9e0d" compoundref="_update_8cpp" startline="984" endline="1013">DoProphNoDelay</referencedby>
+        <referencedby refid="_update_8h_1ada9b92f29b3114c1eda74ab6f2f2e338" compoundref="_update_8cpp" startline="916" endline="950">DoTreatCase</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1afd66bfb3a3e6c63991991a30fd4a911c" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::treat_stop_time</definition>
+        <argsstring></argsstring>
+        <name>treat_stop_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="33" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a95cf2bc96e079a6a7a506bb8f2535463" compoundref="_update_8cpp" startline="952" endline="982">DoProph</referencedby>
+        <referencedby refid="_update_8h_1a63b2632de7776a923d79bfc8d18e9e0d" compoundref="_update_8cpp" startline="984" endline="1013">DoProphNoDelay</referencedby>
+        <referencedby refid="_update_8h_1ada9b92f29b3114c1eda74ab6f2f2e338" compoundref="_update_8cpp" startline="916" endline="950">DoTreatCase</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1acefdb1c455451d7fb81d2cbedca7216c" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::vacc_start_time</definition>
+        <argsstring></argsstring>
+        <name>vacc_start_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="33" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="_update_8h_1ab4dc94aeffa633e58bf01e7971400098" compoundref="_update_8cpp" startline="1183" endline="1220">DoVacc</referencedby>
+        <referencedby refid="_update_8h_1ab6e211abdd4a600f0c2588d2b07c7a85" compoundref="_update_8cpp" startline="1222" endline="1253">DoVaccNoDelay</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a9284451061f87562cd4f654c41f09e43" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::dct_start_time</definition>
+        <argsstring></argsstring>
+        <name>dct_start_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="34" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="_sweep_8h_1a1f931baf497c800af860bebf6b1554cc" compoundref="_sweep_8cpp" startline="897" endline="1003">DigitalContactTracingSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1aca004a599885ae96a1481c6512ce2d4c" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::dct_end_time</definition>
+        <argsstring></argsstring>
+        <name>dct_end_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="34" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="_sweep_8h_1a1f931baf497c800af860bebf6b1554cc" compoundref="_sweep_8cpp" startline="897" endline="1003">DigitalContactTracingSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a5458f4d5fd7b438ca47c579f877fa36a" prot="public" static="no" mutable="no">
+        <type>short int</type>
+        <definition>short int PERSON::num_treats</definition>
+        <argsstring></argsstring>
+        <name>num_treats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="35" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a04eb14ddf49927d621662f2274f91f67" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char PERSON::Severity_Current</definition>
+        <argsstring></argsstring>
+        <name>Severity_Current</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="36" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a74ac3b1b9a31b34dcb7d3f21649ef5b0" compoundref="_update_8cpp" startline="275" endline="295">DoCritical</referencedby>
+        <referencedby refid="_update_8h_1a8ce005bac2566e116bd60f5f2c5aa300" compoundref="_update_8cpp" startline="320" endline="342">DoDeath_FromCriticalorSARI</referencedby>
+        <referencedby refid="_update_8cpp_1a4dc64748f9ef52a18672948c01bbccdc" compoundref="_update_8cpp" startline="236" endline="253">DoILI</referencedby>
+        <referencedby refid="_update_8h_1ac8d8439810d8f60e90d5f1c931ef532d" compoundref="_update_8cpp" startline="218" endline="235">DoMild</referencedby>
+        <referencedby refid="_update_8h_1ae2fb70d89cc1b6c9743907d06ef282fa" compoundref="_update_8cpp" startline="343" endline="380">DoRecover_FromSeverity</referencedby>
+        <referencedby refid="_update_8h_1a3a04a0c0cce61a8a00461442fdb316a7" compoundref="_update_8cpp" startline="296" endline="319">DoRecoveringFromCritical</referencedby>
+        <referencedby refid="_update_8h_1a40e857fe5c617ef3967767e47f0bf3d3" compoundref="_update_8cpp" startline="254" endline="274">DoSARI</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1ad2bdb1555cb15dc8366389b7a4742b1b" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char PERSON::Severity_Final</definition>
+        <argsstring></argsstring>
+        <name>Severity_Final</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="36" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a8cdb546a7bf7031bbd76e2fba6d61a64" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::SARI_time</definition>
+        <argsstring></argsstring>
+        <name>SARI_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="37" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+        <referencedby refid="_sweep_8h_1a28ea9814dd487a5716b0183860f34938" compoundref="_sweep_8cpp" startline="801" endline="895">IncubRecoverySweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1ac331ddc76467b9118b3dbbd6ff3023af" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::Critical_time</definition>
+        <argsstring></argsstring>
+        <name>Critical_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="37" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+        <referencedby refid="_sweep_8h_1a28ea9814dd487a5716b0183860f34938" compoundref="_sweep_8cpp" startline="801" endline="895">IncubRecoverySweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a814af0edff2ab6aa27c77bb4fc7a7cdd" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int PERSON::RecoveringFromCritical_time</definition>
+        <argsstring></argsstring>
+        <name>RecoveringFromCritical_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="37" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+        <referencedby refid="_sweep_8h_1a28ea9814dd487a5716b0183860f34938" compoundref="_sweep_8cpp" startline="801" endline="895">IncubRecoverySweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a3117a14aab6694aaaead1bfa132a48a7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PERSON::digitalContactTracingUser</definition>
+        <argsstring></argsstring>
+        <name>digitalContactTracingUser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="40" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1a8da76ce67edc65a2f0335e09dd0aa0ce" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int * PERSON::contacts</definition>
+        <argsstring></argsstring>
+        <name>contacts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="40" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_e_r_s_o_n_1ad98b632ec00b7d9fc116bfcd616d86eb" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short PERSON::ncontacts</definition>
+        <argsstring></argsstring>
+        <name>ncontacts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="41" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="41" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="16" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="16" bodyend="43"/>
+    <listofallmembers>
+      <member refid="struct_p_e_r_s_o_n_1a49caba244d5e7b0ccfa87c5d8f5a8f92" prot="public" virt="non-virtual"><scope>PERSON</scope><name>absent_start_time</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a25c8cc4462245246938d6075542efebc" prot="public" virt="non-virtual"><scope>PERSON</scope><name>absent_stop_time</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a3e840067bfddd4b16ad08635817b93e9" prot="public" virt="non-virtual"><scope>PERSON</scope><name>age</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a8da76ce67edc65a2f0335e09dd0aa0ce" prot="public" virt="non-virtual"><scope>PERSON</scope><name>contacts</name></member>
+      <member refid="struct_p_e_r_s_o_n_1ac331ddc76467b9118b3dbbd6ff3023af" prot="public" virt="non-virtual"><scope>PERSON</scope><name>Critical_time</name></member>
+      <member refid="struct_p_e_r_s_o_n_1aca004a599885ae96a1481c6512ce2d4c" prot="public" virt="non-virtual"><scope>PERSON</scope><name>dct_end_time</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a9284451061f87562cd4f654c41f09e43" prot="public" virt="non-virtual"><scope>PERSON</scope><name>dct_start_time</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a21265c39d3f3c5d6da84581c662d87e8" prot="public" virt="non-virtual"><scope>PERSON</scope><name>detected</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a1c73f3068d39c6c778bc92fed8068dc2" prot="public" virt="non-virtual"><scope>PERSON</scope><name>digitalContactTraced</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a3117a14aab6694aaaead1bfa132a48a7" prot="public" virt="non-virtual"><scope>PERSON</scope><name>digitalContactTracingUser</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a6b71c3eea2032bedb7ee955a5c6aa7f6" prot="public" virt="non-virtual"><scope>PERSON</scope><name>esocdist_comply</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a5d37d138a852ba758b2acf4d48919f69" prot="public" virt="non-virtual"><scope>PERSON</scope><name>hh</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a273b352348cb66c459ca0bd7c5e2ff1d" prot="public" virt="non-virtual"><scope>PERSON</scope><name>inf</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a6358eca159c470e53a3484d35a25e3dc" prot="public" virt="non-virtual"><scope>PERSON</scope><name>infect_type</name></member>
+      <member refid="struct_p_e_r_s_o_n_1af246f89cb7c8c7369ad2abfd06313b8a" prot="public" virt="non-virtual"><scope>PERSON</scope><name>infection_time</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a9e6f6745b8c18608e72334c96bfd2632" prot="public" virt="non-virtual"><scope>PERSON</scope><name>infectiousness</name></member>
+      <member refid="struct_p_e_r_s_o_n_1aa68bc51ddd0a4a90e306fb54dcb05f23" prot="public" virt="non-virtual"><scope>PERSON</scope><name>infector</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a22898065afae8f3f29d4528e6dd15bd5" prot="public" virt="non-virtual"><scope>PERSON</scope><name>isolation_start_time</name></member>
+      <member refid="struct_p_e_r_s_o_n_1af8286a69098a090da3e4248648ef0e18" prot="public" virt="non-virtual"><scope>PERSON</scope><name>isolation_stop_time</name></member>
+      <member refid="struct_p_e_r_s_o_n_1abd0522b309d5a0d9fd54a02b0b13449f" prot="public" virt="non-virtual"><scope>PERSON</scope><name>keyworker</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a4926ff3f9e59dada593e192f00403b58" prot="public" virt="non-virtual"><scope>PERSON</scope><name>latent_time</name></member>
+      <member refid="struct_p_e_r_s_o_n_1aa25bab041ff1bfe030af775090a1dae9" prot="public" virt="non-virtual"><scope>PERSON</scope><name>listpos</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a342f190b57650519102ce7d44c19b693" prot="public" virt="non-virtual"><scope>PERSON</scope><name>mcell</name></member>
+      <member refid="struct_p_e_r_s_o_n_1ad98b632ec00b7d9fc116bfcd616d86eb" prot="public" virt="non-virtual"><scope>PERSON</scope><name>ncontacts</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a5458f4d5fd7b438ca47c579f877fa36a" prot="public" virt="non-virtual"><scope>PERSON</scope><name>num_treats</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a54ad5b22ddaa1c20f263ce96a4ce5a35" prot="public" virt="non-virtual"><scope>PERSON</scope><name>pcell</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a9c4c7fe68cb3a7fa46a255aefd7b026a" prot="public" virt="non-virtual"><scope>PERSON</scope><name>PlaceGroupLinks</name></member>
+      <member refid="struct_p_e_r_s_o_n_1aedcff60c3c6810b6ee5ac2679139ee6c" prot="public" virt="non-virtual"><scope>PERSON</scope><name>PlaceLinks</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a5b7f4de81394db5c55671fe14bc86ac7" prot="public" virt="non-virtual"><scope>PERSON</scope><name>quar_comply</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a7eb38d22782a9f2f59275c232ddd69dc" prot="public" virt="non-virtual"><scope>PERSON</scope><name>quar_start_time</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a814af0edff2ab6aa27c77bb4fc7a7cdd" prot="public" virt="non-virtual"><scope>PERSON</scope><name>RecoveringFromCritical_time</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a0ee97b73c88633b7e1951981a15bdae0" prot="public" virt="non-virtual"><scope>PERSON</scope><name>recovery_time</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a8cdb546a7bf7031bbd76e2fba6d61a64" prot="public" virt="non-virtual"><scope>PERSON</scope><name>SARI_time</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a04eb14ddf49927d621662f2274f91f67" prot="public" virt="non-virtual"><scope>PERSON</scope><name>Severity_Current</name></member>
+      <member refid="struct_p_e_r_s_o_n_1ad2bdb1555cb15dc8366389b7a4742b1b" prot="public" virt="non-virtual"><scope>PERSON</scope><name>Severity_Final</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a1e2871c04d8ee4aa4864dba37089296f" prot="public" virt="non-virtual"><scope>PERSON</scope><name>susc</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a07631563f56593aa79b58dc184e1d404" prot="public" virt="non-virtual"><scope>PERSON</scope><name>to_die</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a28bae7060c1b5d06c0ba1571d8289b6b" prot="public" virt="non-virtual"><scope>PERSON</scope><name>Travelling</name></member>
+      <member refid="struct_p_e_r_s_o_n_1ad92bc0b32469d22b2dd23f38f3bb61c3" prot="public" virt="non-virtual"><scope>PERSON</scope><name>treat_start_time</name></member>
+      <member refid="struct_p_e_r_s_o_n_1afd66bfb3a3e6c63991991a30fd4a911c" prot="public" virt="non-virtual"><scope>PERSON</scope><name>treat_stop_time</name></member>
+      <member refid="struct_p_e_r_s_o_n_1a3be4a55ff128f5182802b044e8e76137" prot="public" virt="non-virtual"><scope>PERSON</scope><name>vacc_eff</name></member>
+      <member refid="struct_p_e_r_s_o_n_1acefdb1c455451d7fb81d2cbedca7216c" prot="public" virt="non-virtual"><scope>PERSON</scope><name>vacc_start_time</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

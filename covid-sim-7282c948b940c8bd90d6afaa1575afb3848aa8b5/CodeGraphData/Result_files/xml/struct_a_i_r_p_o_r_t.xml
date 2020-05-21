@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_a_i_r_p_o_r_t" kind="struct" prot="public">
+    <compoundname>AIRPORT</compoundname>
+    <includes refid="_model_8h" local="no">Model.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1a73eeed7ca5197d0bd47340c920c0bb96" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AIRPORT::num_mcell</definition>
+        <argsstring></argsstring>
+        <name>num_mcell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="194" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="194" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1a2359800240786a5fd7804a0ab6d6da20" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AIRPORT::num_place</definition>
+        <argsstring></argsstring>
+        <name>num_place</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="194" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="194" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1a1974b8fe6798ccf94ca68a25692ed0f1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AIRPORT::Inv_prop_traffic[129]</definition>
+        <argsstring>[129]</argsstring>
+        <name>Inv_prop_traffic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="194" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="194" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1ad03468c3ba7449e1859c1cb14a027dbd" compoundref="_spatial_sim_8cpp" startline="1875" endline="2021">ReadAirTravel</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1ad0029a462b5d383a0155cf31d84481a3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AIRPORT::Inv_DestMcells[1025]</definition>
+        <argsstring>[1025]</argsstring>
+        <name>Inv_DestMcells</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="194" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="194" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1a6f19b1dfb3d1c634a8094766f8e9fcd8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AIRPORT::Inv_DestPlaces[1025]</definition>
+        <argsstring>[1025]</argsstring>
+        <name>Inv_DestPlaces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="194" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="194" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1a95a156d7778dc6050e445144a4bfd9ca" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int AIRPORT::country</definition>
+        <argsstring></argsstring>
+        <name>country</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="195" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1a1c5f01edb58087ef93c0540bfa72ce00" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int AIRPORT::adunit</definition>
+        <argsstring></argsstring>
+        <name>adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="195" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1aa8417af5326e8f304dd4c27395f8afa1" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int AIRPORT::num_connected</definition>
+        <argsstring></argsstring>
+        <name>num_connected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="195" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="195" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1ad03468c3ba7449e1859c1cb14a027dbd" compoundref="_spatial_sim_8cpp" startline="1875" endline="2021">ReadAirTravel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1abdc601d27be4bda484f218ddd2617371" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int AIRPORT::control</definition>
+        <argsstring></argsstring>
+        <name>control</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="195" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1ade26813df108a0f45428d47109df200b" prot="public" static="no" mutable="no">
+        <type>unsigned short int *</type>
+        <definition>unsigned short int * AIRPORT::conn_airports</definition>
+        <argsstring></argsstring>
+        <name>conn_airports</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="195" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="195" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1ad03468c3ba7449e1859c1cb14a027dbd" compoundref="_spatial_sim_8cpp" startline="1875" endline="2021">ReadAirTravel</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1a427e6b50c6575dd5fc4120f30adb4052" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AIRPORT::int_traffic</definition>
+        <argsstring></argsstring>
+        <name>int_traffic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="196" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1a3eba459c281ca76c49c9e5b72b3b08b7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AIRPORT::total_traffic</definition>
+        <argsstring></argsstring>
+        <name>total_traffic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="196" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="196" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1ad03468c3ba7449e1859c1cb14a027dbd" compoundref="_spatial_sim_8cpp" startline="1875" endline="2021">ReadAirTravel</referencedby>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1a0f8c6e40efef50fbe6360c0eb8984da5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AIRPORT::loc_x</definition>
+        <argsstring></argsstring>
+        <name>loc_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="196" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="196" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1ad03468c3ba7449e1859c1cb14a027dbd" compoundref="_spatial_sim_8cpp" startline="1875" endline="2021">ReadAirTravel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1a7336d7f50bf3c7c9936fefa0e968d2c8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AIRPORT::loc_y</definition>
+        <argsstring></argsstring>
+        <name>loc_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="196" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="196" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1ad03468c3ba7449e1859c1cb14a027dbd" compoundref="_spatial_sim_8cpp" startline="1875" endline="2021">ReadAirTravel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1ade9c58a2d6972d8b1bbfe6b7fd62b7c5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AIRPORT::control_start_time</definition>
+        <argsstring></argsstring>
+        <name>control_start_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="196" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1a5d07f0a578a5bb0eef4aef78cc7b8a16" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AIRPORT::control_end_time</definition>
+        <argsstring></argsstring>
+        <name>control_end_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="196" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1aa3c690f739c789ba07748d39c6a31494" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* AIRPORT::prop_traffic</definition>
+        <argsstring></argsstring>
+        <name>prop_traffic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="197" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="197" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1ad03468c3ba7449e1859c1cb14a027dbd" compoundref="_spatial_sim_8cpp" startline="1875" endline="2021">ReadAirTravel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1a8bc33e6b8b09c030a5330a143b840390" prot="public" static="no" mutable="no">
+        <type><ref refid="_model_8h_1af38e7fb29230b81b527b3e76fcb4763b" kindref="member">indexlist</ref> *</type>
+        <definition>indexlist* AIRPORT::DestMcells</definition>
+        <argsstring></argsstring>
+        <name>DestMcells</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="198" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="198" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_i_r_p_o_r_t_1aeb85794cbbaf765ff29dc83c2b248009" prot="public" static="no" mutable="no">
+        <type><ref refid="_model_8h_1af38e7fb29230b81b527b3e76fcb4763b" kindref="member">indexlist</ref> *</type>
+        <definition>indexlist * AIRPORT::DestPlaces</definition>
+        <argsstring></argsstring>
+        <name>DestPlaces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="198" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="198" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Airport state. </para>    </briefdescription>
+    <detaileddescription>
+<para>Not used for COVID-19 right now. Might be more relevant for USA and other countries that have lots of internal flights. Slows the simulation. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>INDEXLIST</label>
+        <link refid="struct_i_n_d_e_x_l_i_s_t"/>
+      </node>
+      <node id="4">
+        <label>AIRPORT</label>
+        <link refid="struct_a_i_r_p_o_r_t"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>DestMcells</edgelabel>
+          <edgelabel>DestPlaces</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="193" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="193" bodyend="199"/>
+    <listofallmembers>
+      <member refid="struct_a_i_r_p_o_r_t_1a1c5f01edb58087ef93c0540bfa72ce00" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>adunit</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1ade26813df108a0f45428d47109df200b" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>conn_airports</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1abdc601d27be4bda484f218ddd2617371" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>control</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1a5d07f0a578a5bb0eef4aef78cc7b8a16" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>control_end_time</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1ade9c58a2d6972d8b1bbfe6b7fd62b7c5" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>control_start_time</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1a95a156d7778dc6050e445144a4bfd9ca" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>country</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1a8bc33e6b8b09c030a5330a143b840390" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>DestMcells</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1aeb85794cbbaf765ff29dc83c2b248009" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>DestPlaces</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1a427e6b50c6575dd5fc4120f30adb4052" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>int_traffic</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1ad0029a462b5d383a0155cf31d84481a3" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>Inv_DestMcells</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1a6f19b1dfb3d1c634a8094766f8e9fcd8" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>Inv_DestPlaces</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1a1974b8fe6798ccf94ca68a25692ed0f1" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>Inv_prop_traffic</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1a0f8c6e40efef50fbe6360c0eb8984da5" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>loc_x</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1a7336d7f50bf3c7c9936fefa0e968d2c8" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>loc_y</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1aa8417af5326e8f304dd4c27395f8afa1" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>num_connected</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1a73eeed7ca5197d0bd47340c920c0bb96" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>num_mcell</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1a2359800240786a5fd7804a0ab6d6da20" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>num_place</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1aa3c690f739c789ba07748d39c6a31494" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>prop_traffic</name></member>
+      <member refid="struct_a_i_r_p_o_r_t_1a3eba459c281ca76c49c9e5b72b3b08b7" prot="public" virt="non-virtual"><scope>AIRPORT</scope><name>total_traffic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

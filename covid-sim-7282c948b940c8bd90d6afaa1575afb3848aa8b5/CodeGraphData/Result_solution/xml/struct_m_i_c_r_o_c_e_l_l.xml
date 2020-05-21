@@ -1,0 +1,500 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_m_i_c_r_o_c_e_l_l" kind="struct" prot="public">
+    <compoundname>MICROCELL</compoundname>
+    <includes refid="_model_8h" local="no">Model.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1a82351d0d9079697b6ab7631d0ee35da1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MICROCELL::n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="212" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="212" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1ab5f11e55d07bc69c85eed9235c5ec275" compoundref="_bitmap_8cpp" startline="30" endline="106">CaptureBitmap</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a66430df5622fb3fdfd7b9dd3bb335072" compoundref="_spatial_sim_8cpp" startline="2305" endline="2425">SeedInfection</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1a4a20215addcd365735798c41fa39b6e3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MICROCELL::adunit</definition>
+        <argsstring></argsstring>
+        <name>adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="212" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="212" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a3f760d56c99f7eed97d935bfb6c1fdfd" compoundref="_spatial_sim_8cpp" startline="4291" endline="4455">CalcOriginDestMatrix_adunit</referencedby>
+        <referencedby refid="_bitmap_8h_1ab5f11e55d07bc69c85eed9235c5ec275" compoundref="_bitmap_8cpp" startline="30" endline="106">CaptureBitmap</referencedby>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a74ac3b1b9a31b34dcb7d3f21649ef5b0" compoundref="_update_8cpp" startline="275" endline="295">DoCritical</referencedby>
+        <referencedby refid="_update_8h_1a40fd37d36e04ef9425c9e0e03d3bcd04" compoundref="_update_8cpp" startline="872" endline="914">DoDeath</referencedby>
+        <referencedby refid="_update_8h_1a8ce005bac2566e116bd60f5f2c5aa300" compoundref="_update_8cpp" startline="320" endline="342">DoDeath_FromCriticalorSARI</referencedby>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_update_8cpp_1a4dc64748f9ef52a18672948c01bbccdc" compoundref="_update_8cpp" startline="236" endline="253">DoILI</referencedby>
+        <referencedby refid="_update_8h_1a8ad2c14b52bb01fd0db7cd2a6870ef1d" compoundref="_update_8cpp" startline="71" endline="156">DoInfect</referencedby>
+        <referencedby refid="_update_8h_1ac8d8439810d8f60e90d5f1c931ef532d" compoundref="_update_8cpp" startline="218" endline="235">DoMild</referencedby>
+        <referencedby refid="_update_8h_1a287f606f4005fbe01d44764c259da6db" compoundref="_update_8cpp" startline="1015" endline="1137">DoPlaceClose</referencedby>
+        <referencedby refid="_update_8h_1a95cf2bc96e079a6a7a506bb8f2535463" compoundref="_update_8cpp" startline="952" endline="982">DoProph</referencedby>
+        <referencedby refid="_update_8h_1a63b2632de7776a923d79bfc8d18e9e0d" compoundref="_update_8cpp" startline="984" endline="1013">DoProphNoDelay</referencedby>
+        <referencedby refid="_update_8h_1ae2fb70d89cc1b6c9743907d06ef282fa" compoundref="_update_8cpp" startline="343" endline="380">DoRecover_FromSeverity</referencedby>
+        <referencedby refid="_update_8h_1a3a04a0c0cce61a8a00461442fdb316a7" compoundref="_update_8cpp" startline="296" endline="319">DoRecoveringFromCritical</referencedby>
+        <referencedby refid="_update_8h_1a40e857fe5c617ef3967767e47f0bf3d3" compoundref="_update_8cpp" startline="254" endline="274">DoSARI</referencedby>
+        <referencedby refid="_update_8h_1ada9b92f29b3114c1eda74ab6f2f2e338" compoundref="_update_8cpp" startline="916" endline="950">DoTreatCase</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a0f67fe6ead0cdcad78046cd32eb68b5d" compoundref="_spatial_sim_8cpp" startline="2593" endline="2674">SaveDistribs</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1ac80c96b77397e62c650dbb4cf5d03ebb" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* MICROCELL::members</definition>
+        <argsstring></argsstring>
+        <name>members</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="213" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="213" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa8bc51eb89e7eb1aa3ec6e7485314774" compoundref="_spatial_sim_8cpp" startline="3453" endline="3536">LoadSnapshot</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a66430df5622fb3fdfd7b9dd3bb335072" compoundref="_spatial_sim_8cpp" startline="2305" endline="2425">SeedInfection</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1ac99bf943394f39e824f7d6c5d7cf24c0" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::country</definition>
+        <argsstring></argsstring>
+        <name>country</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="214" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="214" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1ab5f11e55d07bc69c85eed9235c5ec275" compoundref="_bitmap_8cpp" startline="30" endline="106">CaptureBitmap</referencedby>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1aca04ae7561d23ed68c7396a8f7389474" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* MICROCELL::places[NUM_PLACE_TYPES]</definition>
+        <argsstring>[NUM_PLACE_TYPES]</argsstring>
+        <name>places</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="216" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="216" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1afb3d3b5fe6b4de08e4310b84c45b7257" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::np[NUM_PLACE_TYPES]</definition>
+        <argsstring>[NUM_PLACE_TYPES]</argsstring>
+        <name>np</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="217" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="217" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1ac5d13861e17a90cd15909099761de700" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::moverest</definition>
+        <argsstring></argsstring>
+        <name>moverest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="218" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="218" bodyend="-1"/>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1ad98b90bf29c1de82412ba361e40778f1" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::placeclose</definition>
+        <argsstring></argsstring>
+        <name>placeclose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="218" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="218" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1a195c2c7334e975e13ff857c963e75cbc" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::socdist</definition>
+        <argsstring></argsstring>
+        <name>socdist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="218" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="218" bodyend="-1"/>
+        <referencedby refid="_calc_inf_susc_8h_1a2232a985231d8c870271de5b2ed61405" compoundref="_calc_inf_susc_8cpp" startline="47" endline="52">CalcHouseSusc</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1af11eedbe70b814375d3f97b3c47fcddb" compoundref="_calc_inf_susc_8cpp" startline="53" endline="59">CalcPlaceSusc</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1ad46a77676e62126b7469ee0785e78f52" compoundref="_calc_inf_susc_8cpp" startline="60" endline="66">CalcSpatialSusc</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1ad4bca7c52c8b9060aaaa7d9335b42ff5" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::keyworkerproph</definition>
+        <argsstring></argsstring>
+        <name>keyworkerproph</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="218" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="218" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1a88386477f9e908ead14595d7f4c3b211" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::move_trig</definition>
+        <argsstring></argsstring>
+        <name>move_trig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="218" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="218" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1a78696f349b2112c55f24ea026cb12b6e" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::place_trig</definition>
+        <argsstring></argsstring>
+        <name>place_trig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="218" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="218" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1accfaa8b6402423eeb52e297874858855" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::socdist_trig</definition>
+        <argsstring></argsstring>
+        <name>socdist_trig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="218" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="218" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1a3af76bbacf9898d409267e16d9e51c06" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::keyworkerproph_trig</definition>
+        <argsstring></argsstring>
+        <name>keyworkerproph_trig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="218" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="218" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1a8b70256a7dca5e18e3b89f2a72229770" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::move_start_time</definition>
+        <argsstring></argsstring>
+        <name>move_start_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="219" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="219" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1ae1703da8d572ae2faa9c02277cb02b58" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::move_end_time</definition>
+        <argsstring></argsstring>
+        <name>move_end_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="219" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="219" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1a0c3c0ba23031183be24b33b6ca17f713" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::place_end_time</definition>
+        <argsstring></argsstring>
+        <name>place_end_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="220" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="220" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1a31e58304896c25ba6969ab4b2d176a16" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::socdist_end_time</definition>
+        <argsstring></argsstring>
+        <name>socdist_end_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="220" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="220" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1ae3ca34135dd7449fa7099f8364106879" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::keyworkerproph_end_time</definition>
+        <argsstring></argsstring>
+        <name>keyworkerproph_end_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="220" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="220" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1ab0a12340d63a1ce8dc7574edcd4e4a82" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::treat</definition>
+        <argsstring></argsstring>
+        <name>treat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="221" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="221" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1ab9a21492e8030461ec02d4f0a3d043ad" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::vacc</definition>
+        <argsstring></argsstring>
+        <name>vacc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="221" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="221" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1ada62e686338005639eceb35b3be13dd8" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::treat_trig</definition>
+        <argsstring></argsstring>
+        <name>treat_trig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="221" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="221" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1a075d409c77f0bb59254558746b029a00" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::vacc_trig</definition>
+        <argsstring></argsstring>
+        <name>vacc_trig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="221" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="221" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1a7c87c6bdd6ba1ac14e3940a138acd163" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::treat_start_time</definition>
+        <argsstring></argsstring>
+        <name>treat_start_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="222" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="222" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1afe34b7f43d80fefd809befcf594230fc" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::treat_end_time</definition>
+        <argsstring></argsstring>
+        <name>treat_end_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="222" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="222" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1a7628ad79803806f50b84a85e7b8662b8" prot="public" static="no" mutable="no">
+        <type>unsigned short int</type>
+        <definition>unsigned short int MICROCELL::vacc_start_time</definition>
+        <argsstring></argsstring>
+        <name>vacc_start_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="223" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="223" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_m_i_c_r_o_c_e_l_l_1a3ff8e5ed960ac72d927bbb784b04b57f" prot="public" static="no" mutable="no">
+        <type><ref refid="_model_8h_1af38e7fb29230b81b527b3e76fcb4763b" kindref="member">indexlist</ref> *</type>
+        <definition>indexlist* MICROCELL::AirportList</definition>
+        <argsstring></argsstring>
+        <name>AirportList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="224" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="224" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The basic unit of the simulation and is associated to a geographical location. </para>    </briefdescription>
+    <detaileddescription>
+<para>Interventions (e.g., school closures) are tracked at this level. It contains a list of its members (people), places (schools, universities, workplaces etc.), road networks, links to airports etc. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="22">
+        <label>INDEXLIST</label>
+        <link refid="struct_i_n_d_e_x_l_i_s_t"/>
+      </node>
+      <node id="21">
+        <label>MICROCELL</label>
+        <link refid="struct_m_i_c_r_o_c_e_l_l"/>
+        <childnode refid="22" relation="usage">
+          <edgelabel>AirportList</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="208" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="208" bodyend="225"/>
+    <listofallmembers>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1a4a20215addcd365735798c41fa39b6e3" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>adunit</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1a3ff8e5ed960ac72d927bbb784b04b57f" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>AirportList</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1ac99bf943394f39e824f7d6c5d7cf24c0" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>country</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1ad4bca7c52c8b9060aaaa7d9335b42ff5" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>keyworkerproph</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1ae3ca34135dd7449fa7099f8364106879" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>keyworkerproph_end_time</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1a3af76bbacf9898d409267e16d9e51c06" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>keyworkerproph_trig</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1ac80c96b77397e62c650dbb4cf5d03ebb" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>members</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1ae1703da8d572ae2faa9c02277cb02b58" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>move_end_time</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1a8b70256a7dca5e18e3b89f2a72229770" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>move_start_time</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1a88386477f9e908ead14595d7f4c3b211" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>move_trig</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1ac5d13861e17a90cd15909099761de700" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>moverest</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1a82351d0d9079697b6ab7631d0ee35da1" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>n</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1afb3d3b5fe6b4de08e4310b84c45b7257" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>np</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1a0c3c0ba23031183be24b33b6ca17f713" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>place_end_time</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1a78696f349b2112c55f24ea026cb12b6e" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>place_trig</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1ad98b90bf29c1de82412ba361e40778f1" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>placeclose</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1aca04ae7561d23ed68c7396a8f7389474" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>places</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1a195c2c7334e975e13ff857c963e75cbc" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>socdist</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1a31e58304896c25ba6969ab4b2d176a16" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>socdist_end_time</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1accfaa8b6402423eeb52e297874858855" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>socdist_trig</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1ab0a12340d63a1ce8dc7574edcd4e4a82" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>treat</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1afe34b7f43d80fefd809befcf594230fc" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>treat_end_time</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1a7c87c6bdd6ba1ac14e3940a138acd163" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>treat_start_time</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1ada62e686338005639eceb35b3be13dd8" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>treat_trig</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1ab9a21492e8030461ec02d4f0a3d043ad" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>vacc</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1a7628ad79803806f50b84a85e7b8662b8" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>vacc_start_time</name></member>
+      <member refid="struct_m_i_c_r_o_c_e_l_l_1a075d409c77f0bb59254558746b029a00" prot="public" virt="non-virtual"><scope>MICROCELL</scope><name>vacc_trig</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

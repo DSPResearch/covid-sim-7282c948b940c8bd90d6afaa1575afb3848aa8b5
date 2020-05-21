@@ -1,0 +1,526 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_dist_8cpp" kind="file">
+    <compoundname>Dist.cpp</compoundname>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">math.h</includes>
+    <includes refid="_constants_8h" local="yes">Constants.h</includes>
+    <includes refid="_dist_8h" local="yes">Dist.h</includes>
+    <includes refid="_param_8h" local="yes">Param.h</includes>
+    <incdepgraph>
+      <node id="88">
+        <label>src/Dist.cpp</label>
+        <link refid="Dist.cpp"/>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>stdlib.h</label>
+      </node>
+      <node id="94">
+        <label>Country.h</label>
+        <link refid="_country_8h"/>
+      </node>
+      <node id="96">
+        <label>Param.h</label>
+        <link refid="_param_8h"/>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>Dist.h</label>
+        <link refid="_dist_8h"/>
+        <childnode refid="93" relation="include">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>MachineDefines.h</label>
+        <link refid="_machine_defines_8h"/>
+      </node>
+      <node id="93">
+        <label>Model.h</label>
+        <link refid="_model_8h"/>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>math.h</label>
+      </node>
+      <node id="91">
+        <label>Constants.h</label>
+        <link refid="_constants_8h"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_dist_8cpp_1a5baffc19d6fb04594862d931d834bc42" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double sinx[361]</definition>
+        <argsstring>[361]</argsstring>
+        <name>sinx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" line="8" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="8" bodyend="-1"/>
+        <referencedby refid="_dist_8h_1aa4ea666b4c09d15be7aa133b9c71a725" compoundref="_dist_8cpp" startline="14" endline="41">dist2UTM</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_dist_8cpp_1a2cdf5c1f48e4a1817ff82c92ced44876" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double cosx[361]</definition>
+        <argsstring>[361]</argsstring>
+        <name>cosx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" line="8" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="8" bodyend="-1"/>
+        <referencedby refid="_dist_8h_1aa4ea666b4c09d15be7aa133b9c71a725" compoundref="_dist_8cpp" startline="14" endline="41">dist2UTM</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_dist_8cpp_1ad53e5a9d6a4705bd452ec362ef9631ff" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double asin2sqx[1001]</definition>
+        <argsstring>[1001]</argsstring>
+        <name>asin2sqx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" line="8" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="8" bodyend="-1"/>
+        <referencedby refid="_dist_8h_1aa4ea666b4c09d15be7aa133b9c71a725" compoundref="_dist_8cpp" startline="14" endline="41">dist2UTM</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_dist_8cpp_1ab7ba98f0c6a45c97c22683e6136c538a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double dist2UTM</definition>
+        <argsstring>(double x1, double y1, double x2, double y2)</argsstring>
+        <name>dist2UTM</name>
+        <param>
+          <type>double</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" line="14" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="14" bodyend="41"/>
+        <references refid="_dist_8cpp_1ad53e5a9d6a4705bd452ec362ef9631ff" compoundref="_dist_8cpp" startline="8">asin2sqx</references>
+        <references refid="_dist_8cpp_1a2cdf5c1f48e4a1817ff82c92ced44876" compoundref="_dist_8cpp" startline="8">cosx</references>
+        <references refid="_constants_8h_1aa3270b347ccf1c183729014926a4a88f" compoundref="_constants_8h" startline="5">EARTHRADIUS</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="_dist_8cpp_1a5baffc19d6fb04594862d931d834bc42" compoundref="_dist_8cpp" startline="8">sinx</references>
+        <references refid="struct_p_a_r_a_m_1a16d8205d18cb443129ed404ab0d694bb" compoundref="_param_8h" startline="48">PARAM::SpatialBoundingBox</references>
+        <referencedby refid="_dist_8h_1a89e4cad5bcf7cb635ad5117911dda6fd" compoundref="_dist_8cpp" startline="42" endline="59">dist2</referencedby>
+        <referencedby refid="_dist_8h_1a09f16f2090b4306b2fe9e69671533f44" compoundref="_dist_8cpp" startline="60" endline="81">dist2_cc</referencedby>
+        <referencedby refid="_dist_8h_1adbb6e2b2e13305ee29137e506495e330" compoundref="_dist_8cpp" startline="82" endline="152">dist2_cc_min</referencedby>
+        <referencedby refid="_dist_8h_1a481ef07620fc736c511dbc2b3e15973b" compoundref="_dist_8cpp" startline="153" endline="174">dist2_mm</referencedby>
+        <referencedby refid="_dist_8h_1a0eff31f46681784383729edbd298469f" compoundref="_dist_8cpp" startline="176" endline="193">dist2_raw</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_dist_8cpp_1af3dcb57fe3f8165855e443a8852a57ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double dist2</definition>
+        <argsstring>(person *a, person *b)</argsstring>
+        <name>dist2</name>
+        <param>
+          <type><ref refid="_model_8h_1a992b1dfc6110d08e46ccf43153d4eda1" kindref="member">person</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="_model_8h_1a992b1dfc6110d08e46ccf43153d4eda1" kindref="member">person</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" line="42" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="42" bodyend="59"/>
+        <references refid="_dist_8cpp_1ab7ba98f0c6a45c97c22683e6136c538a" compoundref="_dist_8cpp" startline="14" endline="41">dist2UTM</references>
+        <references refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" compoundref="_param_8h" startline="38">PARAM::DoPeriodicBoundaries</references>
+        <references refid="struct_p_a_r_a_m_1a30b7d74419b69d0a4f15b690ea9c6eb2" compoundref="_param_8h" startline="33">PARAM::DoUTM_coords</references>
+        <references refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" compoundref="_param_8h" startline="62">PARAM::height</references>
+        <references refid="struct_p_e_r_s_o_n_1a5d37d138a852ba758b2acf4d48919f69" compoundref="_model_8h" startline="20">PERSON::hh</references>
+        <references refid="_model_8h_1aa73f7cf5ecb1acf206c5c14987bd9d89" compoundref="_spatial_sim_8cpp" startline="75">Households</references>
+        <references refid="struct_h_o_u_s_e_h_o_l_d_1ad768cf85dab1509562da38257ebc6250" compoundref="_model_8h" startline="48">HOUSEHOLD::loc_x</references>
+        <references refid="struct_h_o_u_s_e_h_o_l_d_1a54b006bcef7d22ef1127ac53f37b0299" compoundref="_model_8h" startline="48">HOUSEHOLD::loc_y</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" compoundref="_param_8h" startline="62">PARAM::width</references>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_dist_8cpp_1aacda190e581d9fc7f2db0e873e5556c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double dist2_cc</definition>
+        <argsstring>(cell *a, cell *b)</argsstring>
+        <name>dist2_cc</name>
+        <param>
+          <type><ref refid="_model_8h_1a1bde3bc296da1c4cd75c289bb86fe399" kindref="member">cell</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="_model_8h_1a1bde3bc296da1c4cd75c289bb86fe399" kindref="member">cell</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" line="60" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="60" bodyend="81"/>
+        <references refid="_model_8h_1af0f221c6706ef7e154e5576e6df1ec89" compoundref="_spatial_sim_8cpp" startline="77">Cells</references>
+        <references refid="struct_p_a_r_a_m_1a6c70047b06fce8ff13b299a4bbbea14b" compoundref="_param_8h" startline="62">PARAM::cheight</references>
+        <references refid="struct_p_a_r_a_m_1ac7700ebd7644ee1a272392b27f19a508" compoundref="_param_8h" startline="62">PARAM::cwidth</references>
+        <references refid="_dist_8cpp_1ab7ba98f0c6a45c97c22683e6136c538a" compoundref="_dist_8cpp" startline="14" endline="41">dist2UTM</references>
+        <references refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" compoundref="_param_8h" startline="38">PARAM::DoPeriodicBoundaries</references>
+        <references refid="struct_p_a_r_a_m_1a30b7d74419b69d0a4f15b690ea9c6eb2" compoundref="_param_8h" startline="33">PARAM::DoUTM_coords</references>
+        <references refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" compoundref="_param_8h" startline="62">PARAM::height</references>
+        <references refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" compoundref="_param_8h" startline="33">PARAM::nch</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" compoundref="_param_8h" startline="62">PARAM::width</references>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_dist_8cpp_1a809307a9ebbfa5e84c7e639e7497e5ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double dist2_cc_min</definition>
+        <argsstring>(cell *a, cell *b)</argsstring>
+        <name>dist2_cc_min</name>
+        <param>
+          <type><ref refid="_model_8h_1a1bde3bc296da1c4cd75c289bb86fe399" kindref="member">cell</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="_model_8h_1a1bde3bc296da1c4cd75c289bb86fe399" kindref="member">cell</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" line="82" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="82" bodyend="152"/>
+        <references refid="_model_8h_1af0f221c6706ef7e154e5576e6df1ec89" compoundref="_spatial_sim_8cpp" startline="77">Cells</references>
+        <references refid="struct_p_a_r_a_m_1a6c70047b06fce8ff13b299a4bbbea14b" compoundref="_param_8h" startline="62">PARAM::cheight</references>
+        <references refid="struct_p_a_r_a_m_1ac7700ebd7644ee1a272392b27f19a508" compoundref="_param_8h" startline="62">PARAM::cwidth</references>
+        <references refid="_dist_8cpp_1ab7ba98f0c6a45c97c22683e6136c538a" compoundref="_dist_8cpp" startline="14" endline="41">dist2UTM</references>
+        <references refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" compoundref="_param_8h" startline="38">PARAM::DoPeriodicBoundaries</references>
+        <references refid="struct_p_a_r_a_m_1a30b7d74419b69d0a4f15b690ea9c6eb2" compoundref="_param_8h" startline="33">PARAM::DoUTM_coords</references>
+        <references refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" compoundref="_param_8h" startline="62">PARAM::height</references>
+        <references refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" compoundref="_param_8h" startline="33">PARAM::nch</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="_constants_8h_1a598a3330b3c21701223ee0ca14316eca" compoundref="_constants_8h" startline="4">PI</references>
+        <references refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" compoundref="_param_8h" startline="62">PARAM::width</references>
+        <referencedby refid="_kernels_8h_1ad1a228a6ad4cc1cfb92da9fbc78fd46b" compoundref="_kernels_8cpp" startline="11" endline="50">InitKernel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_dist_8cpp_1a02cb40f11434c6917e2236b8c3e1a779" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double dist2_mm</definition>
+        <argsstring>(microcell *a, microcell *b)</argsstring>
+        <name>dist2_mm</name>
+        <param>
+          <type><ref refid="_model_8h_1a355cb23f6544eed68942646f4eab6868" kindref="member">microcell</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="_model_8h_1a355cb23f6544eed68942646f4eab6868" kindref="member">microcell</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" line="153" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="153" bodyend="174"/>
+        <references refid="_dist_8cpp_1ab7ba98f0c6a45c97c22683e6136c538a" compoundref="_dist_8cpp" startline="14" endline="41">dist2UTM</references>
+        <references refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" compoundref="_param_8h" startline="38">PARAM::DoPeriodicBoundaries</references>
+        <references refid="struct_p_a_r_a_m_1a30b7d74419b69d0a4f15b690ea9c6eb2" compoundref="_param_8h" startline="33">PARAM::DoUTM_coords</references>
+        <references refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" compoundref="_param_8h" startline="62">PARAM::height</references>
+        <references refid="_model_8h_1a18a4086bf5451739e560c596813292a2" compoundref="_spatial_sim_8cpp" startline="78">Mcells</references>
+        <references refid="struct_p_a_r_a_m_1aae955603b1a19dca7f833e1c3645acf7" compoundref="_param_8h" startline="62">PARAM::mcheight</references>
+        <references refid="struct_p_a_r_a_m_1ad9b84a699d1484a2e70e27afde513da3" compoundref="_param_8h" startline="62">PARAM::mcwidth</references>
+        <references refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" compoundref="_param_8h" startline="33">PARAM::nmch</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" compoundref="_param_8h" startline="62">PARAM::width</references>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_dist_8cpp_1aecee392689ca1b9464ac08f79ac2e0d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double dist2_raw</definition>
+        <argsstring>(double ax, double ay, double bx, double by)</argsstring>
+        <name>dist2_raw</name>
+        <param>
+          <type>double</type>
+          <declname>ax</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ay</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>bx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>by</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" line="176" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp" bodystart="176" bodyend="193"/>
+        <references refid="_dist_8cpp_1ab7ba98f0c6a45c97c22683e6136c538a" compoundref="_dist_8cpp" startline="14" endline="41">dist2UTM</references>
+        <references refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" compoundref="_param_8h" startline="38">PARAM::DoPeriodicBoundaries</references>
+        <references refid="struct_p_a_r_a_m_1a30b7d74419b69d0a4f15b690ea9c6eb2" compoundref="_param_8h" startline="33">PARAM::DoUTM_coords</references>
+        <references refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" compoundref="_param_8h" startline="62">PARAM::height</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" compoundref="_param_8h" startline="62">PARAM::width</references>
+        <referencedby refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1ad03468c3ba7449e1859c1cb14a027dbd" compoundref="_spatial_sim_8cpp" startline="1875" endline="2021">ReadAirTravel</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a0f67fe6ead0cdcad78046cd32eb68b5d" compoundref="_spatial_sim_8cpp" startline="2593" endline="2674">SaveDistribs</referencedby>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_constants_8h" kindref="compound">Constants.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_dist_8h" kindref="compound">Dist.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_param_8h" kindref="compound">Param.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="_dist_8h_1a5baffc19d6fb04594862d931d834bc42" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_dist_8cpp_1a5baffc19d6fb04594862d931d834bc42" kindref="member">sinx</ref>[361],<sp/><ref refid="_dist_8cpp_1a2cdf5c1f48e4a1817ff82c92ced44876" kindref="member">cosx</ref>[361],<sp/><ref refid="_dist_8cpp_1ad53e5a9d6a4705bd452ec362ef9631ff" kindref="member">asin2sqx</ref>[1001];</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="_dist_8h_1aa4ea666b4c09d15be7aa133b9c71a725" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_dist_8cpp_1ab7ba98f0c6a45c97c22683e6136c538a" kindref="member">dist2UTM</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y2)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/>y,<sp/>cy1,<sp/>cy2,<sp/>yt,<sp/>xi,<sp/>yi;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>=<sp/>fabs(x1<sp/>-<sp/>x2)<sp/>/<sp/>2;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>y<sp/>=<sp/>fabs(y1<sp/>-<sp/>y2)<sp/>/<sp/>2;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>xi<sp/>=<sp/>floor(x);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>yi<sp/>=<sp/>floor(y);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>-=<sp/>xi;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>y<sp/>-=<sp/>yi;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>=<sp/>(1<sp/>-<sp/>x)<sp/>*<sp/><ref refid="_dist_8cpp_1a5baffc19d6fb04594862d931d834bc42" kindref="member">sinx</ref>[(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)xi]<sp/>+<sp/>x<sp/>*<sp/><ref refid="_dist_8cpp_1a5baffc19d6fb04594862d931d834bc42" kindref="member">sinx</ref>[((int)xi)<sp/>+<sp/>1];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>=<sp/>x<sp/>*<sp/>x;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>y<sp/>=<sp/>(1<sp/>-<sp/>y)<sp/>*<sp/>sinx[(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)yi]<sp/>+<sp/>y<sp/>*<sp/>sinx[((int)yi)<sp/>+<sp/>1];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>y<sp/>=<sp/>y<sp/>*<sp/>y;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>yt<sp/>=<sp/>fabs(y1<sp/>+<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a16d8205d18cb443129ed404ab0d694bb" kindref="member">SpatialBoundingBox</ref>[1]);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>yi<sp/>=<sp/>floor(yt);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>cy1<sp/>=<sp/>yt<sp/>-<sp/>yi;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>cy1<sp/>=<sp/>(1<sp/>-<sp/>cy1)<sp/>*<sp/><ref refid="_dist_8cpp_1a2cdf5c1f48e4a1817ff82c92ced44876" kindref="member">cosx</ref>[((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)yi)]<sp/>+<sp/>cy1<sp/>*<sp/><ref refid="_dist_8cpp_1a2cdf5c1f48e4a1817ff82c92ced44876" kindref="member">cosx</ref>[((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)yi)<sp/>+<sp/>1];</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>yt<sp/>=<sp/>fabs(y2<sp/>+<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a16d8205d18cb443129ed404ab0d694bb" kindref="member">SpatialBoundingBox</ref>[1]);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>yi<sp/>=<sp/>floor(yt);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>cy2<sp/>=<sp/>yt<sp/>-<sp/>yi;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>cy2<sp/>=<sp/>(1<sp/>-<sp/>cy2)<sp/>*<sp/><ref refid="_dist_8cpp_1a2cdf5c1f48e4a1817ff82c92ced44876" kindref="member">cosx</ref>[((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)yi)]<sp/>+<sp/>cy2<sp/>*<sp/><ref refid="_dist_8cpp_1a2cdf5c1f48e4a1817ff82c92ced44876" kindref="member">cosx</ref>[((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)yi)<sp/>+<sp/>1];</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>=<sp/>fabs(1000<sp/>*<sp/>(y<sp/>+<sp/>x<sp/>*<sp/>cy1<sp/>*<sp/>cy2));</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>xi<sp/>=<sp/>floor(x);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>-=<sp/>xi;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>y<sp/>=<sp/>(1<sp/>-<sp/>x)<sp/>*<sp/><ref refid="_dist_8cpp_1ad53e5a9d6a4705bd452ec362ef9631ff" kindref="member">asin2sqx</ref>[((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)xi)]<sp/>+<sp/>x<sp/>*<sp/><ref refid="_dist_8cpp_1ad53e5a9d6a4705bd452ec362ef9631ff" kindref="member">asin2sqx</ref>[((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)xi)<sp/>+<sp/>1];</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>4<sp/>*<sp/><ref refid="_constants_8h_1aa3270b347ccf1c183729014926a4a88f" kindref="member">EARTHRADIUS</ref><sp/>*<sp/><ref refid="_constants_8h_1aa3270b347ccf1c183729014926a4a88f" kindref="member">EARTHRADIUS</ref><sp/>*<sp/>y;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42" refid="_dist_8h_1a89e4cad5bcf7cb635ad5117911dda6fd" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_dist_8cpp_1af3dcb57fe3f8165855e443a8852a57ad" kindref="member">dist2</ref>(<ref refid="struct_p_e_r_s_o_n" kindref="compound">person</ref>*<sp/>a,<sp/><ref refid="struct_p_e_r_s_o_n" kindref="compound">person</ref>*<sp/>b)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/>y;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a30b7d74419b69d0a4f15b690ea9c6eb2" kindref="member">DoUTM_coords</ref>)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_dist_8cpp_1ab7ba98f0c6a45c97c22683e6136c538a" kindref="member">dist2UTM</ref>(<ref refid="_model_8h_1aa73f7cf5ecb1acf206c5c14987bd9d89" kindref="member">Households</ref>[a-&gt;<ref refid="struct_p_e_r_s_o_n_1a5d37d138a852ba758b2acf4d48919f69" kindref="member">hh</ref>].<ref refid="struct_h_o_u_s_e_h_o_l_d_1ad768cf85dab1509562da38257ebc6250" kindref="member">loc_x</ref>,<sp/><ref refid="_model_8h_1aa73f7cf5ecb1acf206c5c14987bd9d89" kindref="member">Households</ref>[a-&gt;<ref refid="struct_p_e_r_s_o_n_1a5d37d138a852ba758b2acf4d48919f69" kindref="member">hh</ref>].<ref refid="struct_h_o_u_s_e_h_o_l_d_1a54b006bcef7d22ef1127ac53f37b0299" kindref="member">loc_y</ref>,<sp/><ref refid="_model_8h_1aa73f7cf5ecb1acf206c5c14987bd9d89" kindref="member">Households</ref>[b-&gt;<ref refid="struct_p_e_r_s_o_n_1a5d37d138a852ba758b2acf4d48919f69" kindref="member">hh</ref>].<ref refid="struct_h_o_u_s_e_h_o_l_d_1ad768cf85dab1509562da38257ebc6250" kindref="member">loc_x</ref>,<sp/><ref refid="_model_8h_1aa73f7cf5ecb1acf206c5c14987bd9d89" kindref="member">Households</ref>[b-&gt;<ref refid="struct_p_e_r_s_o_n_1a5d37d138a852ba758b2acf4d48919f69" kindref="member">hh</ref>].<ref refid="struct_h_o_u_s_e_h_o_l_d_1a54b006bcef7d22ef1127ac53f37b0299" kindref="member">loc_y</ref>);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>=<sp/>fabs(<ref refid="_model_8h_1aa73f7cf5ecb1acf206c5c14987bd9d89" kindref="member">Households</ref>[a-&gt;<ref refid="struct_p_e_r_s_o_n_1a5d37d138a852ba758b2acf4d48919f69" kindref="member">hh</ref>].<ref refid="struct_h_o_u_s_e_h_o_l_d_1ad768cf85dab1509562da38257ebc6250" kindref="member">loc_x</ref><sp/>-<sp/><ref refid="_model_8h_1aa73f7cf5ecb1acf206c5c14987bd9d89" kindref="member">Households</ref>[b-&gt;<ref refid="struct_p_e_r_s_o_n_1a5d37d138a852ba758b2acf4d48919f69" kindref="member">hh</ref>].<ref refid="struct_h_o_u_s_e_h_o_l_d_1ad768cf85dab1509562da38257ebc6250" kindref="member">loc_x</ref>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y<sp/>=<sp/>fabs(<ref refid="_model_8h_1aa73f7cf5ecb1acf206c5c14987bd9d89" kindref="member">Households</ref>[a-&gt;<ref refid="struct_p_e_r_s_o_n_1a5d37d138a852ba758b2acf4d48919f69" kindref="member">hh</ref>].<ref refid="struct_h_o_u_s_e_h_o_l_d_1a54b006bcef7d22ef1127ac53f37b0299" kindref="member">loc_y</ref><sp/>-<sp/><ref refid="_model_8h_1aa73f7cf5ecb1acf206c5c14987bd9d89" kindref="member">Households</ref>[b-&gt;<ref refid="struct_p_e_r_s_o_n_1a5d37d138a852ba758b2acf4d48919f69" kindref="member">hh</ref>].<ref refid="struct_h_o_u_s_e_h_o_l_d_1a54b006bcef7d22ef1127ac53f37b0299" kindref="member">loc_y</ref>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" kindref="member">DoPeriodicBoundaries</ref>)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x<sp/>&gt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" kindref="member">width</ref><sp/>*<sp/>0.5)<sp/>x<sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" kindref="member">width</ref><sp/>-<sp/>x;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(y<sp/>&gt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" kindref="member">height</ref><sp/>*<sp/>0.5)<sp/>y<sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" kindref="member">height</ref><sp/>-<sp/>y;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x<sp/>*<sp/>x<sp/>+<sp/>y<sp/>*<sp/>y;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60" refid="_dist_8h_1a09f16f2090b4306b2fe9e69671533f44" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_dist_8cpp_1aacda190e581d9fc7f2db0e873e5556c9" kindref="member">dist2_cc</ref>(<ref refid="struct_c_e_l_l" kindref="compound">cell</ref>*<sp/>a,<sp/><ref refid="struct_c_e_l_l" kindref="compound">cell</ref>*<sp/>b)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/>y;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l,<sp/>m;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>l<sp/>=<sp/>(int)(a<sp/>-<sp/><ref refid="_model_8h_1af0f221c6706ef7e154e5576e6df1ec89" kindref="member">Cells</ref>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>m<sp/>=<sp/>(int)(b<sp/>-<sp/><ref refid="_model_8h_1af0f221c6706ef7e154e5576e6df1ec89" kindref="member">Cells</ref>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a30b7d74419b69d0a4f15b690ea9c6eb2" kindref="member">DoUTM_coords</ref>)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_dist_8cpp_1ab7ba98f0c6a45c97c22683e6136c538a" kindref="member">dist2UTM</ref>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ac7700ebd7644ee1a272392b27f19a508" kindref="member">cwidth</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(l<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)),<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a6c70047b06fce8ff13b299a4bbbea14b" kindref="member">cheight</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(l<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)),</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ac7700ebd7644ee1a272392b27f19a508" kindref="member">cwidth</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(m<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)),<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a6c70047b06fce8ff13b299a4bbbea14b" kindref="member">cheight</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(m<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)));</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ac7700ebd7644ee1a272392b27f19a508" kindref="member">cwidth</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(l<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>-<sp/>m<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>));</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y<sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a6c70047b06fce8ff13b299a4bbbea14b" kindref="member">cheight</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(l<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>-<sp/>m<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>));</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" kindref="member">DoPeriodicBoundaries</ref>)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x<sp/>&gt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" kindref="member">width</ref><sp/>*<sp/>0.5)<sp/>x<sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" kindref="member">width</ref><sp/>-<sp/>x;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(y<sp/>&gt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" kindref="member">height</ref><sp/>*<sp/>0.5)<sp/>y<sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" kindref="member">height</ref><sp/>-<sp/>y;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x<sp/>*<sp/>x<sp/>+<sp/>y<sp/>*<sp/>y;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="82" refid="_dist_8h_1adbb6e2b2e13305ee29137e506495e330" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_dist_8cpp_1a809307a9ebbfa5e84c7e639e7497e5ff" kindref="member">dist2_cc_min</ref>(<ref refid="struct_c_e_l_l" kindref="compound">cell</ref>*<sp/>a,<sp/><ref refid="struct_c_e_l_l" kindref="compound">cell</ref>*<sp/>b)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/>y;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l,<sp/>m,<sp/>i,<sp/>j;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>l<sp/>=<sp/>(int)(a<sp/>-<sp/><ref refid="_model_8h_1af0f221c6706ef7e154e5576e6df1ec89" kindref="member">Cells</ref>);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>m<sp/>=<sp/>(int)(b<sp/>-<sp/><ref refid="_model_8h_1af0f221c6706ef7e154e5576e6df1ec89" kindref="member">Cells</ref>);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>i<sp/>=<sp/>l;<sp/>j<sp/>=<sp/>m;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a30b7d74419b69d0a4f15b690ea9c6eb2" kindref="member">DoUTM_coords</ref>)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ac7700ebd7644ee1a272392b27f19a508" kindref="member">cwidth</ref><sp/>*<sp/>((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)abs(m<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>-<sp/>l<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>))<sp/>&gt;<sp/><ref refid="_constants_8h_1a598a3330b3c21701223ee0ca14316eca" kindref="member">PI</ref>)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>&gt;<sp/>l<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>j<sp/>+=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>&lt;<sp/>l<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i<sp/>+=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>&gt;<sp/>l<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i<sp/>+=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>&lt;<sp/>l<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>j<sp/>+=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>&gt;<sp/>l<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i++;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>&lt;<sp/>l<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>j++;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_dist_8cpp_1ab7ba98f0c6a45c97c22683e6136c538a" kindref="member">dist2UTM</ref>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ac7700ebd7644ee1a272392b27f19a508" kindref="member">cwidth</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(i<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)),<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a6c70047b06fce8ff13b299a4bbbea14b" kindref="member">cheight</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(i<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)),</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ac7700ebd7644ee1a272392b27f19a508" kindref="member">cwidth</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(j<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)),<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a6c70047b06fce8ff13b299a4bbbea14b" kindref="member">cheight</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(j<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)));</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" kindref="member">DoPeriodicBoundaries</ref>)<sp/>&amp;&amp;<sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ac7700ebd7644ee1a272392b27f19a508" kindref="member">cwidth</ref><sp/>*<sp/>((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)abs(m<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>-<sp/>l<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>))<sp/>&gt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" kindref="member">width</ref><sp/>*<sp/>0.5))</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>&gt;<sp/>l<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>j<sp/>+=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>&lt;<sp/>l<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i<sp/>+=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>&gt;<sp/>l<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i<sp/>+=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>&lt;<sp/>l<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>j<sp/>+=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" kindref="member">DoPeriodicBoundaries</ref>)<sp/>&amp;&amp;<sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" kindref="member">height</ref><sp/>*<sp/>((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)abs(m<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>-<sp/>l<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>))<sp/>&gt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" kindref="member">height</ref><sp/>*<sp/>0.5))</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>&gt;<sp/>l<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>j++;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>&lt;<sp/>l<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i++;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>&gt;<sp/>l<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i++;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>&lt;<sp/>l<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>)</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>j++;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ac7700ebd7644ee1a272392b27f19a508" kindref="member">cwidth</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(i<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>-<sp/>j<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>));</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y<sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a6c70047b06fce8ff13b299a4bbbea14b" kindref="member">cheight</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(i<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref><sp/>-<sp/>j<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad517382fb307243b25f78a6428c0204d" kindref="member">nch</ref>));</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" kindref="member">DoPeriodicBoundaries</ref>)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x<sp/>&gt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" kindref="member">width</ref><sp/>*<sp/>0.5)<sp/>x<sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" kindref="member">width</ref><sp/>-<sp/>x;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(y<sp/>&gt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" kindref="member">height</ref><sp/>*<sp/>0.5)<sp/>y<sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" kindref="member">height</ref><sp/>-<sp/>y;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x<sp/>*<sp/>x<sp/>+<sp/>y<sp/>*<sp/>y;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="153" refid="_dist_8h_1a481ef07620fc736c511dbc2b3e15973b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_dist_8cpp_1a02cb40f11434c6917e2236b8c3e1a779" kindref="member">dist2_mm</ref>(<ref refid="struct_m_i_c_r_o_c_e_l_l" kindref="compound">microcell</ref>*<sp/>a,<sp/><ref refid="struct_m_i_c_r_o_c_e_l_l" kindref="compound">microcell</ref>*<sp/>b)</highlight></codeline>
+<codeline lineno="154"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/>y;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l,<sp/>m;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>l<sp/>=<sp/>(int)(a<sp/>-<sp/><ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>m<sp/>=<sp/>(int)(b<sp/>-<sp/><ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a30b7d74419b69d0a4f15b690ea9c6eb2" kindref="member">DoUTM_coords</ref>)</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_dist_8cpp_1ab7ba98f0c6a45c97c22683e6136c538a" kindref="member">dist2UTM</ref>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad9b84a699d1484a2e70e27afde513da3" kindref="member">mcwidth</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(l<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref>)),<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1aae955603b1a19dca7f833e1c3645acf7" kindref="member">mcheight</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(l<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref>)),</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad9b84a699d1484a2e70e27afde513da3" kindref="member">mcwidth</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(m<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref>)),<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1aae955603b1a19dca7f833e1c3645acf7" kindref="member">mcheight</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(m<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref>)));</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad9b84a699d1484a2e70e27afde513da3" kindref="member">mcwidth</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(l<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref><sp/>-<sp/>m<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref>));</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y<sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1aae955603b1a19dca7f833e1c3645acf7" kindref="member">mcheight</ref><sp/>*<sp/>fabs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(l<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref><sp/>-<sp/>m<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref>));</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" kindref="member">DoPeriodicBoundaries</ref>)</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x<sp/>&gt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" kindref="member">width</ref><sp/>*<sp/>0.5)<sp/>x<sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" kindref="member">width</ref><sp/>-<sp/>x;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(y<sp/>&gt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" kindref="member">height</ref><sp/>*<sp/>0.5)<sp/>y<sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" kindref="member">height</ref><sp/>-<sp/>y;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x<sp/>*<sp/>x<sp/>+<sp/>y<sp/>*<sp/>y;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="_dist_8h_1a0eff31f46681784383729edbd298469f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_dist_8cpp_1aecee392689ca1b9464ac08f79ac2e0d5" kindref="member">dist2_raw</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ax,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ay,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>bx,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>by)</highlight></codeline>
+<codeline lineno="177"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/>y;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a30b7d74419b69d0a4f15b690ea9c6eb2" kindref="member">DoUTM_coords</ref>)</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_dist_8cpp_1ab7ba98f0c6a45c97c22683e6136c538a" kindref="member">dist2UTM</ref>(ax,<sp/>ay,<sp/>bx,<sp/>by);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>=<sp/>fabs(ax<sp/>-<sp/>bx);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y<sp/>=<sp/>fabs(ay<sp/>-<sp/>by);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae4a2e9ec33170bc98aa2e90d4eb22b5d" kindref="member">DoPeriodicBoundaries</ref>)</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x<sp/>&gt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" kindref="member">width</ref><sp/>*<sp/>0.5)<sp/>x<sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae2ecafd86b6a736026ab6d1adc4d0d38" kindref="member">width</ref><sp/>-<sp/>x;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(y<sp/>&gt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" kindref="member">height</ref><sp/>*<sp/>0.5)<sp/>y<sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a0e0b3b20184372666a014ff553539838" kindref="member">height</ref><sp/>-<sp/>y;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x<sp/>*<sp/>x<sp/>+<sp/>y<sp/>*<sp/>y;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Dist.cpp"/>
+  </compounddef>
+</doxygen>

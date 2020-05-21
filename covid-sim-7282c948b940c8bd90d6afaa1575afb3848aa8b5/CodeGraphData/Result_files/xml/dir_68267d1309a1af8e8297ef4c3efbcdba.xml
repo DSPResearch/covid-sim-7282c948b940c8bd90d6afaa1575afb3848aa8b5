@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <compoundname>src</compoundname>
+    <innerfile refid="binio_8cpp">binio.cpp</innerfile>
+    <innerfile refid="binio_8h">binio.h</innerfile>
+    <innerfile refid="_bitmap_8cpp">Bitmap.cpp</innerfile>
+    <innerfile refid="_bitmap_8h">Bitmap.h</innerfile>
+    <innerfile refid="_calc_inf_susc_8cpp">CalcInfSusc.cpp</innerfile>
+    <innerfile refid="_calc_inf_susc_8h">CalcInfSusc.h</innerfile>
+    <innerfile refid="_constants_8h">Constants.h</innerfile>
+    <innerfile refid="_country_8h">Country.h</innerfile>
+    <innerfile refid="_dist_8cpp">Dist.cpp</innerfile>
+    <innerfile refid="_dist_8h">Dist.h</innerfile>
+    <innerfile refid="_error_8cpp">Error.cpp</innerfile>
+    <innerfile refid="_error_8h">Error.h</innerfile>
+    <innerfile refid="_inf_stat_8h">InfStat.h</innerfile>
+    <innerfile refid="_kernels_8cpp">Kernels.cpp</innerfile>
+    <innerfile refid="_kernels_8h">Kernels.h</innerfile>
+    <innerfile refid="_machine_defines_8h">MachineDefines.h</innerfile>
+    <innerfile refid="_model_8h">Model.h</innerfile>
+    <innerfile refid="_model_macros_8h">ModelMacros.h</innerfile>
+    <innerfile refid="_param_8h">Param.h</innerfile>
+    <innerfile refid="_rand_8cpp">Rand.cpp</innerfile>
+    <innerfile refid="_rand_8h">Rand.h</innerfile>
+    <innerfile refid="_setup_model_8cpp">SetupModel.cpp</innerfile>
+    <innerfile refid="_setup_model_8h">SetupModel.h</innerfile>
+    <innerfile refid="_shared_funcs_8h">SharedFuncs.h</innerfile>
+    <innerfile refid="_spatial_sim_8cpp">SpatialSim.cpp</innerfile>
+    <innerfile refid="_spatial_sim_8h">SpatialSim.h</innerfile>
+    <innerfile refid="_sweep_8cpp">Sweep.cpp</innerfile>
+    <innerfile refid="_sweep_8h">Sweep.h</innerfile>
+    <innerfile refid="_update_8cpp">Update.cpp</innerfile>
+    <innerfile refid="_update_8h">Update.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/"/>
+  </compounddef>
+</doxygen>

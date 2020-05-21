@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_calc_inf_susc_8h" kind="file">
+    <compoundname>CalcInfSusc.h</compoundname>
+    <includedby refid="_calc_inf_susc_8cpp" local="yes">src/CalcInfSusc.cpp</includedby>
+    <includedby refid="_spatial_sim_8cpp" local="yes">src/SpatialSim.cpp</includedby>
+    <includedby refid="_sweep_8cpp" local="yes">src/Sweep.cpp</includedby>
+    <invincdepgraph>
+      <node id="56">
+        <label>src/Sweep.cpp</label>
+        <link refid="_sweep_8cpp"/>
+      </node>
+      <node id="54">
+        <label>src/CalcInfSusc.cpp</label>
+        <link refid="_calc_inf_susc_8cpp"/>
+      </node>
+      <node id="55">
+        <label>src/SpatialSim.cpp</label>
+        <link refid="_spatial_sim_8cpp"/>
+      </node>
+      <node id="53">
+        <label>src/CalcInfSusc.h</label>
+        <link refid="CalcInfSusc.h"/>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_calc_inf_susc_8h_1a8d1f1002eaadf50ae4be915d9c889631" prot="public" static="no">
+        <name>SPATIALSIM_CALCINFSUSC_H_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.h" line="4" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_calc_inf_susc_8h_1a0739431d1ec7f41e8a205caced5c2ec4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CalcHouseInf</definition>
+        <argsstring>(int, unsigned short int)</argsstring>
+        <name>CalcHouseInf</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>int</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.h" line="6" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.cpp" bodystart="12" bodyend="18"/>
+        <references refid="_calc_inf_susc_8cpp_1ae7c7dab2fa98f3e3ffde025256582d2c" compoundref="_calc_inf_susc_8cpp" startline="36" endline="43">CalcPersonInf</references>
+        <references refid="struct_p_a_r_a_m_1a5a9cbe5656f1da1ed1e9c3700e9de7b1" compoundref="_param_8h" startline="113">PARAM::CaseIsolationHouseEffectiveness</references>
+        <references refid="struct_p_e_r_s_o_n_1a5d37d138a852ba758b2acf4d48919f69" compoundref="_model_8h" startline="20">PERSON::hh</references>
+        <references refid="_model_macros_8h_1a7069485bb50594d378b9a84d4e4facf5" compoundref="_model_macros_8h" startline="17">HOST_ISOLATED</references>
+        <references refid="_model_macros_8h_1a17c7abc9b4cd6ecb65cdf0835e037e4d" compoundref="_model_macros_8h" startline="20">HOST_ISOLATED_DCT</references>
+        <references refid="_model_macros_8h_1a82ea6b7b910b7c937d8a8c861adbdcc0" compoundref="_model_macros_8h" startline="15">HOST_QUARANTINED</references>
+        <references refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" compoundref="_spatial_sim_8cpp" startline="74">Hosts</references>
+        <references refid="struct_p_a_r_a_m_1a664d860bfeeb94a5dcc7299e26f2c1d9" compoundref="_param_8h" startline="80">PARAM::HouseholdDenomLookup</references>
+        <references refid="_model_8h_1aa73f7cf5ecb1acf206c5c14987bd9d89" compoundref="_spatial_sim_8cpp" startline="75">Households</references>
+        <references refid="struct_p_a_r_a_m_1ab31b0ab6084f0f192ff83b489b08bd03" compoundref="_param_8h" startline="116">PARAM::HQuarantineHouseEffect</references>
+        <references refid="struct_h_o_u_s_e_h_o_l_d_1ab4193b63654511a90e1bd4e256e51ad3" compoundref="_model_8h" startline="49">HOUSEHOLD::nhr</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_calc_inf_susc_8h_1a30b3257ca463d82e5f48cf25a8cd31ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CalcPlaceInf</definition>
+        <argsstring>(int, int, unsigned short int)</argsstring>
+        <name>CalcPlaceInf</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>int</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.h" line="7" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.cpp" bodystart="19" bodyend="26"/>
+        <references refid="_calc_inf_susc_8cpp_1ae7c7dab2fa98f3e3ffde025256582d2c" compoundref="_calc_inf_susc_8cpp" startline="36" endline="43">CalcPersonInf</references>
+        <references refid="struct_p_a_r_a_m_1aef8ec714de6679991f53fad7ffff63ae" compoundref="_param_8h" startline="113">PARAM::CaseIsolationEffectiveness</references>
+        <references refid="_model_macros_8h_1a7069485bb50594d378b9a84d4e4facf5" compoundref="_model_macros_8h" startline="17">HOST_ISOLATED</references>
+        <references refid="_model_macros_8h_1a17c7abc9b4cd6ecb65cdf0835e037e4d" compoundref="_model_macros_8h" startline="20">HOST_ISOLATED_DCT</references>
+        <references refid="_model_macros_8h_1a82ea6b7b910b7c937d8a8c861adbdcc0" compoundref="_model_macros_8h" startline="15">HOST_QUARANTINED</references>
+        <references refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" compoundref="_spatial_sim_8cpp" startline="74">Hosts</references>
+        <references refid="struct_p_a_r_a_m_1a1a358fedc90a576f9d26e759ff13cb6e" compoundref="_param_8h" startline="116">PARAM::HQuarantinePlaceEffect</references>
+        <references refid="struct_p_e_r_s_o_n_1a273b352348cb66c459ca0bd7c5e2ff1d" compoundref="_model_8h" startline="30">PERSON::inf</references>
+        <references refid="_inf_stat_8h_1a20ba70b5c5da06ba9d2846846a73144c" compoundref="_inf_stat_8h" startline="11">InfStat_Case</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_a_r_a_m_1acba714907de5726806e4f6fe485e2dbf" compoundref="_param_8h" startline="90">PARAM::PlaceTypeGroupSizeParam1</references>
+        <references refid="struct_p_a_r_a_m_1ac21d10a6aa3cd3d2153391eed0fb3eec" compoundref="_param_8h" startline="87">PARAM::PlaceTypeTrans</references>
+        <references refid="struct_p_a_r_a_m_1a27f86a3ca109477c477864dbce39e766" compoundref="_param_8h" startline="69">PARAM::SymptPlaceTypeContactRate</references>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_calc_inf_susc_8h_1a90d608115d08694e09388109460e0cb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CalcSpatialInf</definition>
+        <argsstring>(int, unsigned short int)</argsstring>
+        <name>CalcSpatialInf</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>int</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.h" line="8" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.cpp" bodystart="27" bodyend="35"/>
+        <references refid="_calc_inf_susc_8cpp_1ae7c7dab2fa98f3e3ffde025256582d2c" compoundref="_calc_inf_susc_8cpp" startline="36" endline="43">CalcPersonInf</references>
+        <references refid="struct_p_a_r_a_m_1aef8ec714de6679991f53fad7ffff63ae" compoundref="_param_8h" startline="113">PARAM::CaseIsolationEffectiveness</references>
+        <references refid="_model_macros_8h_1aa5a6525c77db4abd9464ac6a40adaf52" compoundref="_model_macros_8h" startline="27">HOST_AGE_GROUP</references>
+        <references refid="_model_macros_8h_1a7069485bb50594d378b9a84d4e4facf5" compoundref="_model_macros_8h" startline="17">HOST_ISOLATED</references>
+        <references refid="_model_macros_8h_1a17c7abc9b4cd6ecb65cdf0835e037e4d" compoundref="_model_macros_8h" startline="20">HOST_ISOLATED_DCT</references>
+        <references refid="_model_macros_8h_1a82ea6b7b910b7c937d8a8c861adbdcc0" compoundref="_model_macros_8h" startline="15">HOST_QUARANTINED</references>
+        <references refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" compoundref="_spatial_sim_8cpp" startline="74">Hosts</references>
+        <references refid="struct_p_a_r_a_m_1ae3dbcc8b8c9ab9847c90ccfd764ed8ed" compoundref="_param_8h" startline="116">PARAM::HQuarantineSpatialEffect</references>
+        <references refid="struct_p_e_r_s_o_n_1a273b352348cb66c459ca0bd7c5e2ff1d" compoundref="_model_8h" startline="30">PERSON::inf</references>
+        <references refid="_inf_stat_8h_1a20ba70b5c5da06ba9d2846846a73144c" compoundref="_inf_stat_8h" startline="11">InfStat_Case</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_a_r_a_m_1a41f9a5d71b2f35af1f4d484c77c66bcf" compoundref="_param_8h" startline="73">PARAM::RelativeSpatialContact</references>
+        <references refid="struct_p_a_r_a_m_1aee1ae1ba614309763ca81faf5e68412e" compoundref="_param_8h" startline="69">PARAM::SymptSpatialContactRate</references>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_calc_inf_susc_8h_1ae35c71b28edbe7e76e248fe680dbc9eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CalcPersonInf</definition>
+        <argsstring>(int, unsigned short int)</argsstring>
+        <name>CalcPersonInf</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>int</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.h" line="9" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.cpp" bodystart="36" bodyend="43"/>
+        <references refid="_model_macros_8h_1ae66746e1f11d41f53bed6d04cddeac6f" compoundref="_model_macros_8h" startline="8">HOST_TREATED</references>
+        <references refid="_model_macros_8h_1ae543c325159c7f6e54f956391f871d80" compoundref="_model_macros_8h" startline="13">HOST_VACCED</references>
+        <references refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" compoundref="_spatial_sim_8cpp" startline="74">Hosts</references>
+        <references refid="struct_p_a_r_a_m_1a1b614d58327852d13250cef335e1219c" compoundref="_param_8h" startline="50">PARAM::infectiousness</references>
+        <references refid="struct_p_e_r_s_o_n_1a4926ff3f9e59dada593e192f00403b58" compoundref="_model_8h" startline="31">PERSON::latent_time</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_a_r_a_m_1af576c4ef8fbf04f07d917a33088e9719" compoundref="_param_8h" startline="99">PARAM::TreatInfDrop</references>
+        <references refid="struct_p_a_r_a_m_1a5ea2f656f37498768a3a795e26cc0ab3" compoundref="_param_8h" startline="105">PARAM::VaccInfDrop</references>
+        <referencedby refid="_calc_inf_susc_8h_1a0739431d1ec7f41e8a205caced5c2ec4" compoundref="_calc_inf_susc_8cpp" startline="12" endline="18">CalcHouseInf</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1a30b3257ca463d82e5f48cf25a8cd31ab" compoundref="_calc_inf_susc_8cpp" startline="19" endline="26">CalcPlaceInf</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1a90d608115d08694e09388109460e0cb6" compoundref="_calc_inf_susc_8cpp" startline="27" endline="35">CalcSpatialInf</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_calc_inf_susc_8h_1a2232a985231d8c870271de5b2ed61405" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CalcHouseSusc</definition>
+        <argsstring>(int, unsigned short int, int, int)</argsstring>
+        <name>CalcHouseSusc</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>int</declname>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.h" line="10" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.cpp" bodystart="47" bodyend="52"/>
+        <references refid="_calc_inf_susc_8cpp_1aa8eff74bc82cbd3ccae0701f1cc40cd6" compoundref="_calc_inf_susc_8cpp" startline="67" endline="73">CalcPersonSusc</references>
+        <references refid="struct_p_a_r_a_m_1a5a9cbe5656f1da1ed1e9c3700e9de7b1" compoundref="_param_8h" startline="113">PARAM::CaseIsolationHouseEffectiveness</references>
+        <references refid="struct_p_a_r_a_m_1a52b23e0d9dffb1d8b1a4dc35a3c83f4e" compoundref="_param_8h" startline="125">PARAM::ESocDistHouseholdEffectC</references>
+        <references refid="_model_macros_8h_1a17c7abc9b4cd6ecb65cdf0835e037e4d" compoundref="_model_macros_8h" startline="20">HOST_ISOLATED_DCT</references>
+        <references refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" compoundref="_spatial_sim_8cpp" startline="74">Hosts</references>
+        <references refid="struct_p_e_r_s_o_n_1a342f190b57650519102ce7d44c19b693" compoundref="_model_8h" startline="19">PERSON::mcell</references>
+        <references refid="_model_8h_1a18a4086bf5451739e560c596813292a2" compoundref="_spatial_sim_8cpp" startline="78">Mcells</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_m_i_c_r_o_c_e_l_l_1a195c2c7334e975e13ff857c963e75cbc" compoundref="_model_8h" startline="218">MICROCELL::socdist</references>
+        <references refid="struct_p_a_r_a_m_1a5ae809af21b5b1ed435290521a96cd2f" compoundref="_param_8h" startline="124">PARAM::SocDistHouseholdEffectC</references>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_calc_inf_susc_8h_1af11eedbe70b814375d3f97b3c47fcddb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CalcPlaceSusc</definition>
+        <argsstring>(int, int, unsigned short int, int, int)</argsstring>
+        <name>CalcPlaceSusc</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>int</declname>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.h" line="11" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.cpp" bodystart="53" bodyend="59"/>
+        <references refid="_calc_inf_susc_8cpp_1aa8eff74bc82cbd3ccae0701f1cc40cd6" compoundref="_calc_inf_susc_8cpp" startline="67" endline="73">CalcPersonSusc</references>
+        <references refid="struct_p_a_r_a_m_1aef8ec714de6679991f53fad7ffff63ae" compoundref="_param_8h" startline="113">PARAM::CaseIsolationEffectiveness</references>
+        <references refid="struct_p_a_r_a_m_1ae411010fbf780673a9eb492861040702" compoundref="_param_8h" startline="125">PARAM::ESocDistPlaceEffectC</references>
+        <references refid="_model_macros_8h_1a17c7abc9b4cd6ecb65cdf0835e037e4d" compoundref="_model_macros_8h" startline="20">HOST_ISOLATED_DCT</references>
+        <references refid="_model_macros_8h_1a82ea6b7b910b7c937d8a8c861adbdcc0" compoundref="_model_macros_8h" startline="15">HOST_QUARANTINED</references>
+        <references refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" compoundref="_spatial_sim_8cpp" startline="74">Hosts</references>
+        <references refid="struct_p_a_r_a_m_1a1a358fedc90a576f9d26e759ff13cb6e" compoundref="_param_8h" startline="116">PARAM::HQuarantinePlaceEffect</references>
+        <references refid="struct_p_e_r_s_o_n_1a342f190b57650519102ce7d44c19b693" compoundref="_model_8h" startline="19">PERSON::mcell</references>
+        <references refid="_model_8h_1a18a4086bf5451739e560c596813292a2" compoundref="_spatial_sim_8cpp" startline="78">Mcells</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_m_i_c_r_o_c_e_l_l_1a195c2c7334e975e13ff857c963e75cbc" compoundref="_model_8h" startline="218">MICROCELL::socdist</references>
+        <references refid="struct_p_a_r_a_m_1ae4a8ace8b6083a3fc6d2812b8aa0e386" compoundref="_param_8h" startline="124">PARAM::SocDistPlaceEffectC</references>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_calc_inf_susc_8h_1ad46a77676e62126b7469ee0785e78f52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CalcSpatialSusc</definition>
+        <argsstring>(int, unsigned short int, int, int)</argsstring>
+        <name>CalcSpatialSusc</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>int</declname>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.h" line="12" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.cpp" bodystart="60" bodyend="66"/>
+        <references refid="_calc_inf_susc_8cpp_1aa8eff74bc82cbd3ccae0701f1cc40cd6" compoundref="_calc_inf_susc_8cpp" startline="67" endline="73">CalcPersonSusc</references>
+        <references refid="struct_p_a_r_a_m_1aef8ec714de6679991f53fad7ffff63ae" compoundref="_param_8h" startline="113">PARAM::CaseIsolationEffectiveness</references>
+        <references refid="struct_p_a_r_a_m_1a62f3c7c06107c5d32ba48c7d2842f549" compoundref="_param_8h" startline="125">PARAM::ESocDistSpatialEffectC</references>
+        <references refid="_model_macros_8h_1a17c7abc9b4cd6ecb65cdf0835e037e4d" compoundref="_model_macros_8h" startline="20">HOST_ISOLATED_DCT</references>
+        <references refid="_model_macros_8h_1a82ea6b7b910b7c937d8a8c861adbdcc0" compoundref="_model_macros_8h" startline="15">HOST_QUARANTINED</references>
+        <references refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" compoundref="_spatial_sim_8cpp" startline="74">Hosts</references>
+        <references refid="struct_p_a_r_a_m_1ae3dbcc8b8c9ab9847c90ccfd764ed8ed" compoundref="_param_8h" startline="116">PARAM::HQuarantineSpatialEffect</references>
+        <references refid="struct_p_e_r_s_o_n_1a342f190b57650519102ce7d44c19b693" compoundref="_model_8h" startline="19">PERSON::mcell</references>
+        <references refid="_model_8h_1a18a4086bf5451739e560c596813292a2" compoundref="_spatial_sim_8cpp" startline="78">Mcells</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_m_i_c_r_o_c_e_l_l_1a195c2c7334e975e13ff857c963e75cbc" compoundref="_model_8h" startline="218">MICROCELL::socdist</references>
+        <references refid="struct_p_a_r_a_m_1adda038b56e4ca09cb982137a3dca8183" compoundref="_param_8h" startline="124">PARAM::SocDistSpatialEffectC</references>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_calc_inf_susc_8h_1a99426de92bc581587a01d08031a1414e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double CalcPersonSusc</definition>
+        <argsstring>(int, unsigned short int, int, int)</argsstring>
+        <name>CalcPersonSusc</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>int</declname>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.h" line="13" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.cpp" bodystart="67" bodyend="73"/>
+        <references refid="struct_p_a_r_a_m_1af3581e569864d9289e57d8589b198d08" compoundref="_param_8h" startline="74">PARAM::AgeSusceptibility</references>
+        <references refid="_model_macros_8h_1aa5a6525c77db4abd9464ac6a40adaf52" compoundref="_model_macros_8h" startline="27">HOST_AGE_GROUP</references>
+        <references refid="_model_macros_8h_1ae66746e1f11d41f53bed6d04cddeac6f" compoundref="_model_macros_8h" startline="8">HOST_TREATED</references>
+        <references refid="_model_macros_8h_1ae543c325159c7f6e54f956391f871d80" compoundref="_model_macros_8h" startline="13">HOST_VACCED</references>
+        <references refid="_model_macros_8h_1aab91d3a8d606d0cbc5c41ca8f4c86d53" compoundref="_model_macros_8h" startline="14">HOST_VACCED_SWITCH</references>
+        <references refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" compoundref="_spatial_sim_8cpp" startline="74">Hosts</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_e_r_s_o_n_1a1e2871c04d8ee4aa4864dba37089296f" compoundref="_model_8h" startline="29">PERSON::susc</references>
+        <references refid="struct_p_a_r_a_m_1af1d39db10a829d4cb5743a13bf088e07" compoundref="_param_8h" startline="99">PARAM::TreatSuscDrop</references>
+        <references refid="struct_p_a_r_a_m_1adbb8bc82cab238cc232c2d3f44adb20f" compoundref="_param_8h" startline="105">PARAM::VaccSuscDrop</references>
+        <references refid="struct_p_a_r_a_m_1afd118a043de203533b6aaf538b69f166" compoundref="_param_8h" startline="105">PARAM::VaccSuscDrop2</references>
+        <references refid="struct_p_a_r_a_m_1a860e96fe102d785201efea7e889b2ded" compoundref="_param_8h" startline="75">PARAM::WAIFW_Matrix</references>
+        <referencedby refid="_calc_inf_susc_8h_1a2232a985231d8c870271de5b2ed61405" compoundref="_calc_inf_susc_8cpp" startline="47" endline="52">CalcHouseSusc</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1af11eedbe70b814375d3f97b3c47fcddb" compoundref="_calc_inf_susc_8cpp" startline="53" endline="59">CalcPlaceSusc</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1ad46a77676e62126b7469ee0785e78f52" compoundref="_calc_inf_susc_8cpp" startline="60" endline="66">CalcSpatialSusc</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a66430df5622fb3fdfd7b9dd3bb335072" compoundref="_spatial_sim_8cpp" startline="2305" endline="2425">SeedInfection</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SPATIALSIM_CALCINFSUSC_H_</highlight></codeline>
+<codeline lineno="4" refid="_calc_inf_susc_8h_1a8d1f1002eaadf50ae4be915d9c889631" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SPATIALSIM_CALCINFSUSC_H_</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_calc_inf_susc_8h_1a0739431d1ec7f41e8a205caced5c2ec4" kindref="member">CalcHouseInf</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_calc_inf_susc_8h_1a30b3257ca463d82e5f48cf25a8cd31ab" kindref="member">CalcPlaceInf</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_calc_inf_susc_8h_1a90d608115d08694e09388109460e0cb6" kindref="member">CalcSpatialInf</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_calc_inf_susc_8h_1ae35c71b28edbe7e76e248fe680dbc9eb" kindref="member">CalcPersonInf</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_calc_inf_susc_8h_1a2232a985231d8c870271de5b2ed61405" kindref="member">CalcHouseSusc</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_calc_inf_susc_8h_1af11eedbe70b814375d3f97b3c47fcddb" kindref="member">CalcPlaceSusc</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_calc_inf_susc_8h_1ad46a77676e62126b7469ee0785e78f52" kindref="member">CalcSpatialSusc</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_calc_inf_susc_8h_1a99426de92bc581587a01d08031a1414e" kindref="member">CalcPersonSusc</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SPATIALSIM_CALCINFSUSC_</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/CalcInfSusc.h"/>
+  </compounddef>
+</doxygen>

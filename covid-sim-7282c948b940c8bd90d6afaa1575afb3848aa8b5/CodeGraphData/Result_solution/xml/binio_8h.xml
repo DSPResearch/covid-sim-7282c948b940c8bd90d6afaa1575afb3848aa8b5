@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="binio_8h" kind="file">
+    <compoundname>binio.h</compoundname>
+    <includedby refid="binio_8cpp" local="yes">src/binio.cpp</includedby>
+    <includedby refid="_bitmap_8cpp" local="yes">src/Bitmap.cpp</includedby>
+    <includedby refid="_setup_model_8cpp" local="yes">src/SetupModel.cpp</includedby>
+    <includedby refid="_spatial_sim_8cpp" local="yes">src/SpatialSim.cpp</includedby>
+    <invincdepgraph>
+      <node id="9">
+        <label>src/binio.cpp</label>
+        <link refid="binio_8cpp"/>
+      </node>
+      <node id="10">
+        <label>src/Bitmap.cpp</label>
+        <link refid="_bitmap_8cpp"/>
+      </node>
+      <node id="8">
+        <label>src/binio.h</label>
+        <link refid="binio.h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>src/SpatialSim.cpp</label>
+        <link refid="_spatial_sim_8cpp"/>
+      </node>
+      <node id="11">
+        <label>src/SetupModel.cpp</label>
+        <link refid="_setup_model_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="binio_8h_1a881e8183b6e0e8468528614c63b68bab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t fwrite_big</definition>
+        <argsstring>(void *, size_t, size_t, FILE *)</argsstring>
+        <name>fwrite_big</name>
+        <param>
+          <type>void *</type>
+        </param>
+        <param>
+          <type>size_t</type>
+        </param>
+        <param>
+          <type>size_t</type>
+        </param>
+        <param>
+          <type>FILE *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.h" line="1" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.cpp" bodystart="8" bodyend="25"/>
+        <referencedby refid="_bitmap_8h_1a49bc4fdc1abb7b521e9c6706fe66e582" compoundref="_bitmap_8cpp" startline="108" endline="208">OutputBitmap</referencedby>
+        <referencedby refid="_setup_model_8h_1adb12a5880a718c826089eca6f80add8b" compoundref="_setup_model_8cpp" startline="2558" endline="2591">SavePeopleToPlaces</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1aab87105c4ca2f89d787375f56fc3400d" compoundref="_spatial_sim_8cpp" startline="3538" endline="3586">SaveSnapshot</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+        <referencedby refid="binio_8h_1ac145c6ac4051a278f42475933f42381c" compoundref="binio_8cpp" startline="46" endline="103">zfwrite_big</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="binio_8h_1a82ab0fc55645e5ad7771303f3f8b97bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t fread_big</definition>
+        <argsstring>(void *, size_t, size_t, FILE *)</argsstring>
+        <name>fread_big</name>
+        <param>
+          <type>void *</type>
+        </param>
+        <param>
+          <type>size_t</type>
+        </param>
+        <param>
+          <type>size_t</type>
+        </param>
+        <param>
+          <type>FILE *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.h" line="2" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.cpp" bodystart="27" bodyend="44"/>
+        <referencedby refid="_setup_model_8h_1a33b6b75a4178a1ea3d826f2ebca4ea56" compoundref="_setup_model_8cpp" startline="2499" endline="2557">LoadPeopleToPlaces</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1aa8bc51eb89e7eb1aa3ec6e7485314774" compoundref="_spatial_sim_8cpp" startline="3453" endline="3536">LoadSnapshot</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+        <referencedby refid="binio_8h_1ab9ccbf114e53c42751b671655c64770b" compoundref="binio_8cpp" startline="105" endline="164">zfread_big</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="binio_8h_1ac145c6ac4051a278f42475933f42381c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t zfwrite_big</definition>
+        <argsstring>(void *, size_t, size_t, FILE *)</argsstring>
+        <name>zfwrite_big</name>
+        <param>
+          <type>void *</type>
+        </param>
+        <param>
+          <type>size_t</type>
+        </param>
+        <param>
+          <type>size_t</type>
+        </param>
+        <param>
+          <type>FILE *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.h" line="4" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.cpp" bodystart="46" bodyend="103"/>
+        <references refid="binio_8cpp_1a9dfa82809bd434bd7d6e2a8dc9d2f18a" compoundref="binio_8cpp" startline="8" endline="25">fwrite_big</references>
+        <referencedby refid="_spatial_sim_8cpp_1aab87105c4ca2f89d787375f56fc3400d" compoundref="_spatial_sim_8cpp" startline="3538" endline="3586">SaveSnapshot</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="binio_8h_1ab9ccbf114e53c42751b671655c64770b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t zfread_big</definition>
+        <argsstring>(void *, size_t, size_t, FILE *)</argsstring>
+        <name>zfread_big</name>
+        <param>
+          <type>void *</type>
+        </param>
+        <param>
+          <type>size_t</type>
+        </param>
+        <param>
+          <type>size_t</type>
+        </param>
+        <param>
+          <type>FILE *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.h" line="5" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.cpp" bodystart="105" bodyend="164"/>
+        <references refid="binio_8cpp_1a1bc8d1ad11acf37bf8af06899bb5eef5" compoundref="binio_8cpp" startline="27" endline="44">fread_big</references>
+        <referencedby refid="_spatial_sim_8cpp_1aa8bc51eb89e7eb1aa3ec6e7485314774" compoundref="_spatial_sim_8cpp" startline="3453" endline="3536">LoadSnapshot</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="binio_8h_1a881e8183b6e0e8468528614c63b68bab" kindref="member">fwrite_big</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>,<sp/>FILE<sp/>*);</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="binio_8h_1a82ab0fc55645e5ad7771303f3f8b97bd" kindref="member">fread_big</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>,<sp/>FILE<sp/>*);</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="binio_8h_1ac145c6ac4051a278f42475933f42381c" kindref="member">zfwrite_big</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>,<sp/>FILE<sp/>*);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="binio_8h_1ab9ccbf114e53c42751b671655c64770b" kindref="member">zfread_big</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>,<sp/>FILE<sp/>*);</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/binio.h"/>
+  </compounddef>
+</doxygen>

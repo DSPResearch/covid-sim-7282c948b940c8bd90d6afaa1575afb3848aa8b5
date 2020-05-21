@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_machine_defines_8h" kind="file">
+    <compoundname>MachineDefines.h</compoundname>
+    <includedby refid="_model_8h" local="yes">src/Model.h</includedby>
+    <includedby refid="_rand_8cpp" local="yes">src/Rand.cpp</includedby>
+    <includedby refid="_setup_model_8cpp" local="yes">src/SetupModel.cpp</includedby>
+    <includedby refid="_spatial_sim_8h" local="yes">src/SpatialSim.h</includedby>
+    <invincdepgraph>
+      <node id="163">
+        <label>src/Dist.cpp</label>
+        <link refid="_dist_8cpp"/>
+      </node>
+      <node id="167">
+        <label>src/Sweep.cpp</label>
+        <link refid="_sweep_8cpp"/>
+      </node>
+      <node id="168">
+        <label>src/Update.cpp</label>
+        <link refid="_update_8cpp"/>
+      </node>
+      <node id="170">
+        <label>src/SpatialSim.h</label>
+        <link refid="_spatial_sim_8h"/>
+        <childnode refid="166" relation="include">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>src/Bitmap.cpp</label>
+        <link refid="_bitmap_8cpp"/>
+      </node>
+      <node id="162">
+        <label>src/Dist.h</label>
+        <link refid="_dist_8h"/>
+        <childnode refid="163" relation="include">
+        </childnode>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+      </node>
+      <node id="158">
+        <label>src/MachineDefines.h</label>
+        <link refid="MachineDefines.h"/>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="169" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+        <childnode refid="170" relation="include">
+        </childnode>
+      </node>
+      <node id="164">
+        <label>src/Kernels.cpp</label>
+        <link refid="_kernels_8cpp"/>
+      </node>
+      <node id="159">
+        <label>src/Model.h</label>
+        <link refid="_model_8h"/>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>src/CalcInfSusc.cpp</label>
+        <link refid="_calc_inf_susc_8cpp"/>
+      </node>
+      <node id="166">
+        <label>src/SpatialSim.cpp</label>
+        <link refid="_spatial_sim_8cpp"/>
+      </node>
+      <node id="169">
+        <label>src/Rand.cpp</label>
+        <link refid="_rand_8cpp"/>
+      </node>
+      <node id="165">
+        <label>src/SetupModel.cpp</label>
+        <link refid="_setup_model_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_machine_defines_8h_1ac99411b96f9e6cbefebace5131843999" prot="public" static="no">
+        <name>SPATIALSIM_MACHINEDEFINES_H_INCLUDED_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/MachineDefines.h" line="4" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/MachineDefines.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_machine_defines_8h_1a5747ce5beae65002b9ee2c4a4cf8c329" prot="public" static="no">
+        <name>MAX_NUM_THREADS</name>
+        <initializer>36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/MachineDefines.h" line="9" column="10" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/MachineDefines.h" bodystart="9" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_spatial_sim_8cpp" startline="118" endline="455">main</referencedby>
+        <referencedby refid="_rand_8h_1a23e81ccf74a1adcf51cc1ddcdef837b3" compoundref="_rand_8cpp" startline="69" endline="96">setall</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_machine_defines_8h_1af89f60b07247176687889ade776c8e10" prot="public" static="no">
+        <name>CACHE_LINE_SIZE</name>
+        <initializer>256</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/MachineDefines.h" line="11" column="10" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/MachineDefines.h" bodystart="11" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</referencedby>
+        <referencedby refid="_rand_8h_1a0576ba455127db74f31b5a8eee738f44" compoundref="_rand_8cpp" startline="24" endline="47">ranf</referencedby>
+        <referencedby refid="_rand_8h_1a33e03205fbf5318c3adaebcc76b50264" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</referencedby>
+        <referencedby refid="_rand_8h_1a23e81ccf74a1adcf51cc1ddcdef837b3" compoundref="_rand_8cpp" startline="69" endline="96">setall</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SPATIALSIM_MACHINEDEFINES_H_INCLUDED_</highlight></codeline>
+<codeline lineno="4" refid="_machine_defines_8h_1ac99411b96f9e6cbefebace5131843999" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SPATIALSIM_MACHINEDEFINES_H_INCLUDED_</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>COUNTRY_US</highlight></codeline>
+<codeline lineno="7"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MAX_NUM_THREADS<sp/>36</highlight></codeline>
+<codeline lineno="8"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="9" refid="_machine_defines_8h_1a5747ce5beae65002b9ee2c4a4cf8c329" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MAX_NUM_THREADS<sp/>36</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="11" refid="_machine_defines_8h_1af89f60b07247176687889ade776c8e10" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CACHE_LINE_SIZE<sp/>256</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SPATIALSIM_MACHINEDEFINES_H_INCLUDED_</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/MachineDefines.h"/>
+  </compounddef>
+</doxygen>

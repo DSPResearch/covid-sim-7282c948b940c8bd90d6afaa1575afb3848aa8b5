@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_b_i_n___f_i_l_e" kind="struct" prot="public">
+    <compoundname>BIN_FILE</compoundname>
+    <includes refid="_setup_model_8h" local="no">SetupModel.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_b_i_n___f_i_l_e_1aaac09e251de80deb3076c36680256fc8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double BIN_FILE::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="22" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_i_n___f_i_l_e_1ac2183407eb99f9704e8246297408f82d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double BIN_FILE::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="22" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_i_n___f_i_l_e_1a28c58df5c57d3aa34f6d1dc8d56eb507" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double BIN_FILE::pop</definition>
+        <argsstring></argsstring>
+        <name>pop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="22" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_i_n___f_i_l_e_1a67eaf97ff8b060bc79662703a3c23cb3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BIN_FILE::cnt</definition>
+        <argsstring></argsstring>
+        <name>cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="23" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_b_i_n___f_i_l_e_1a8235ec33c53928077ecd1a8b0845dcfc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int BIN_FILE::ad</definition>
+        <argsstring></argsstring>
+        <name>ad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="23" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" line="21" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SetupModel.h" bodystart="21" bodyend="24"/>
+    <listofallmembers>
+      <member refid="struct_b_i_n___f_i_l_e_1a8235ec33c53928077ecd1a8b0845dcfc" prot="public" virt="non-virtual"><scope>BIN_FILE</scope><name>ad</name></member>
+      <member refid="struct_b_i_n___f_i_l_e_1a67eaf97ff8b060bc79662703a3c23cb3" prot="public" virt="non-virtual"><scope>BIN_FILE</scope><name>cnt</name></member>
+      <member refid="struct_b_i_n___f_i_l_e_1a28c58df5c57d3aa34f6d1dc8d56eb507" prot="public" virt="non-virtual"><scope>BIN_FILE</scope><name>pop</name></member>
+      <member refid="struct_b_i_n___f_i_l_e_1aaac09e251de80deb3076c36680256fc8" prot="public" virt="non-virtual"><scope>BIN_FILE</scope><name>x</name></member>
+      <member refid="struct_b_i_n___f_i_l_e_1ac2183407eb99f9704e8246297408f82d" prot="public" virt="non-virtual"><scope>BIN_FILE</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

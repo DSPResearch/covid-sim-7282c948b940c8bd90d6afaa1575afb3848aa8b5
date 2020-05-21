@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_model_macros_8h" kind="file">
+    <compoundname>ModelMacros.h</compoundname>
+    <includes local="no">limits.h</includes>
+    <includedby refid="_calc_inf_susc_8cpp" local="yes">src/CalcInfSusc.cpp</includedby>
+    <includedby refid="_setup_model_8cpp" local="yes">src/SetupModel.cpp</includedby>
+    <includedby refid="_spatial_sim_8cpp" local="yes">src/SpatialSim.cpp</includedby>
+    <includedby refid="_sweep_8cpp" local="yes">src/Sweep.cpp</includedby>
+    <includedby refid="_update_8cpp" local="yes">src/Update.cpp</includedby>
+    <incdepgraph>
+      <node id="186">
+        <label>limits.h</label>
+      </node>
+      <node id="185">
+        <label>src/ModelMacros.h</label>
+        <link refid="ModelMacros.h"/>
+        <childnode refid="186" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="191">
+        <label>src/Sweep.cpp</label>
+        <link refid="_sweep_8cpp"/>
+      </node>
+      <node id="192">
+        <label>src/Update.cpp</label>
+        <link refid="_update_8cpp"/>
+      </node>
+      <node id="187">
+        <label>src/ModelMacros.h</label>
+        <link refid="ModelMacros.h"/>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+        <childnode refid="190" relation="include">
+        </childnode>
+        <childnode refid="191" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
+      </node>
+      <node id="188">
+        <label>src/CalcInfSusc.cpp</label>
+        <link refid="_calc_inf_susc_8cpp"/>
+      </node>
+      <node id="190">
+        <label>src/SpatialSim.cpp</label>
+        <link refid="_spatial_sim_8cpp"/>
+      </node>
+      <node id="189">
+        <label>src/SetupModel.cpp</label>
+        <link refid="_setup_model_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_model_macros_8h_1a429870c60495f46d4e793a2a6bb78ca0" prot="public" static="no">
+        <name>SPATIALSIM_MODELMACROS_H_INCLUDED_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" line="4" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_model_macros_8h_1ae66746e1f11d41f53bed6d04cddeac6f" prot="public" static="no">
+        <name>HOST_TREATED</name>
+        <param><defname>x</defname></param>
+        <initializer>((<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].treat_stop_time &gt; ts) &amp;&amp; (<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].treat_start_time &lt;= ts))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" line="8" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" bodystart="8" bodyend="-1"/>
+        <referencedby refid="_calc_inf_susc_8h_1ae35c71b28edbe7e76e248fe680dbc9eb" compoundref="_calc_inf_susc_8cpp" startline="36" endline="43">CalcPersonInf</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1a99426de92bc581587a01d08031a1414e" compoundref="_calc_inf_susc_8cpp" startline="67" endline="73">CalcPersonSusc</referencedby>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+        <referencedby refid="_sweep_8h_1a28ea9814dd487a5716b0183860f34938" compoundref="_sweep_8cpp" startline="801" endline="895">IncubRecoverySweep</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_model_macros_8h_1a021c0d276055369d1583da0064dcc251" prot="public" static="no">
+        <name>HOST_TO_BE_TREATED</name>
+        <param><defname>x</defname></param>
+        <initializer>(<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].treat_stop_time &gt; ts)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" line="9" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" bodystart="9" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_update_8h_1ada9b92f29b3114c1eda74ab6f2f2e338" compoundref="_update_8cpp" startline="916" endline="950">DoTreatCase</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_model_macros_8h_1ae5e3b8fc412a10167255a8928f2e25ef" prot="public" static="no">
+        <name>PLACE_TREATED</name>
+        <param><defname>x</defname></param>
+        <param><defname>y</defname></param>
+        <initializer>(<ref refid="_spatial_sim_8cpp_1a8fdf6eda77ae1326e361fcaca3e18a31" kindref="member">Places</ref>[x][y].treat_end_time &gt; ts)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" line="10" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" bodystart="10" bodyend="-1"/>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_model_macros_8h_1a92ebefcf70cd50355d2b12e7aabfe939" prot="public" static="no">
+        <name>PLACE_CLOSED</name>
+        <param><defname>x</defname></param>
+        <param><defname>y</defname></param>
+        <initializer>((<ref refid="_spatial_sim_8cpp_1a8fdf6eda77ae1326e361fcaca3e18a31" kindref="member">Places</ref>[x][y].close_start_time &lt;= ts) &amp;&amp; (<ref refid="_spatial_sim_8cpp_1a8fdf6eda77ae1326e361fcaca3e18a31" kindref="member">Places</ref>[x][y].close_end_time &gt; ts))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" line="11" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" bodystart="11" bodyend="-1"/>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_model_macros_8h_1a3f398fd88fc61d6287e532b89650dc54" prot="public" static="no">
+        <name>HOST_TO_BE_VACCED</name>
+        <param><defname>x</defname></param>
+        <initializer>(<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].vacc_start_time &lt; USHRT_MAX - 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" line="12" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" bodystart="12" bodyend="-1"/>
+        <referencedby refid="_update_8h_1ab4dc94aeffa633e58bf01e7971400098" compoundref="_update_8cpp" startline="1183" endline="1220">DoVacc</referencedby>
+        <referencedby refid="_update_8h_1ab6e211abdd4a600f0c2588d2b07c7a85" compoundref="_update_8cpp" startline="1222" endline="1253">DoVaccNoDelay</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_model_macros_8h_1ae543c325159c7f6e54f956391f871d80" prot="public" static="no">
+        <name>HOST_VACCED</name>
+        <param><defname>x</defname></param>
+        <initializer>(<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].vacc_start_time+P.usVaccTimeToEfficacy&lt;=ts)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" line="13" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" bodystart="13" bodyend="-1"/>
+        <referencedby refid="_calc_inf_susc_8h_1ae35c71b28edbe7e76e248fe680dbc9eb" compoundref="_calc_inf_susc_8cpp" startline="36" endline="43">CalcPersonInf</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1a99426de92bc581587a01d08031a1414e" compoundref="_calc_inf_susc_8cpp" startline="67" endline="73">CalcPersonSusc</referencedby>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_model_macros_8h_1aab91d3a8d606d0cbc5c41ca8f4c86d53" prot="public" static="no">
+        <name>HOST_VACCED_SWITCH</name>
+        <param><defname>x</defname></param>
+        <initializer>(<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].vacc_start_time &gt;= P.usVaccTimeEfficacySwitch)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" line="14" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" bodystart="14" bodyend="-1"/>
+        <referencedby refid="_calc_inf_susc_8h_1a99426de92bc581587a01d08031a1414e" compoundref="_calc_inf_susc_8cpp" startline="67" endline="73">CalcPersonSusc</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_model_macros_8h_1a82ea6b7b910b7c937d8a8c861adbdcc0" prot="public" static="no">
+        <name>HOST_QUARANTINED</name>
+        <param><defname>x</defname></param>
+        <initializer>((<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].quar_comply == 1) &amp;&amp; (<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].quar_start_time + P.usHQuarantineHouseDuration &gt; ts) &amp;&amp; (<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].quar_start_time &lt;= ts))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" line="15" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" bodystart="15" bodyend="-1"/>
+        <referencedby refid="_calc_inf_susc_8h_1a0739431d1ec7f41e8a205caced5c2ec4" compoundref="_calc_inf_susc_8cpp" startline="12" endline="18">CalcHouseInf</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1a30b3257ca463d82e5f48cf25a8cd31ab" compoundref="_calc_inf_susc_8cpp" startline="19" endline="26">CalcPlaceInf</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1af11eedbe70b814375d3f97b3c47fcddb" compoundref="_calc_inf_susc_8cpp" startline="53" endline="59">CalcPlaceSusc</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1a90d608115d08694e09388109460e0cb6" compoundref="_calc_inf_susc_8cpp" startline="27" endline="35">CalcSpatialInf</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1ad46a77676e62126b7469ee0785e78f52" compoundref="_calc_inf_susc_8cpp" startline="60" endline="66">CalcSpatialSusc</referencedby>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_update_8h_1a287f606f4005fbe01d44764c259da6db" compoundref="_update_8cpp" startline="1015" endline="1137">DoPlaceClose</referencedby>
+        <referencedby refid="_update_8h_1ac365d0201bff7ca8dffddcc2cb5985fb" compoundref="_update_8cpp" startline="1139" endline="1180">DoPlaceOpen</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_model_macros_8h_1a1ec4282cd891a55eee846cc5659f486f" prot="public" static="no">
+        <name>HOST_TO_BE_QUARANTINED</name>
+        <param><defname>x</defname></param>
+        <initializer>((<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].quar_start_time + P.usHQuarantineHouseDuration &gt; ts) &amp;&amp; (<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].quar_comply &lt; 2))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" line="16" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" bodystart="16" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_model_macros_8h_1a7069485bb50594d378b9a84d4e4facf5" prot="public" static="no">
+        <name>HOST_ISOLATED</name>
+        <param><defname>x</defname></param>
+        <initializer>((<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].isolation_start_time + P.usCaseIsolationDelay &lt;= ts) &amp;&amp; (<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].isolation_start_time + P.usCaseIsolationDelay + P.usCaseIsolationDuration &gt; ts))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" line="17" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" bodystart="17" bodyend="-1"/>
+        <referencedby refid="_calc_inf_susc_8h_1a0739431d1ec7f41e8a205caced5c2ec4" compoundref="_calc_inf_susc_8cpp" startline="12" endline="18">CalcHouseInf</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1a30b3257ca463d82e5f48cf25a8cd31ab" compoundref="_calc_inf_susc_8cpp" startline="19" endline="26">CalcPlaceInf</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1a90d608115d08694e09388109460e0cb6" compoundref="_calc_inf_susc_8cpp" startline="27" endline="35">CalcSpatialInf</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_model_macros_8h_1a647e3cd1890f495c063a9537cc2c6b72" prot="public" static="no">
+        <name>HOST_ABSENT</name>
+        <param><defname>x</defname></param>
+        <initializer>((<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].absent_start_time &lt;= ts) &amp;&amp; (<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].absent_stop_time &gt; ts))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" line="18" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_update_8h_1a287f606f4005fbe01d44764c259da6db" compoundref="_update_8cpp" startline="1015" endline="1137">DoPlaceClose</referencedby>
+        <referencedby refid="_update_8h_1ac365d0201bff7ca8dffddcc2cb5985fb" compoundref="_update_8cpp" startline="1139" endline="1180">DoPlaceOpen</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_model_macros_8h_1a17c7abc9b4cd6ecb65cdf0835e037e4d" prot="public" static="no">
+        <name>HOST_ISOLATED_DCT</name>
+        <param><defname>x</defname></param>
+        <initializer>((<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].dct_start_time &lt;= ts) &amp;&amp; (<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].dct_end_time &gt; ts))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" line="20" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="_calc_inf_susc_8h_1a0739431d1ec7f41e8a205caced5c2ec4" compoundref="_calc_inf_susc_8cpp" startline="12" endline="18">CalcHouseInf</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1a2232a985231d8c870271de5b2ed61405" compoundref="_calc_inf_susc_8cpp" startline="47" endline="52">CalcHouseSusc</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1a30b3257ca463d82e5f48cf25a8cd31ab" compoundref="_calc_inf_susc_8cpp" startline="19" endline="26">CalcPlaceInf</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1af11eedbe70b814375d3f97b3c47fcddb" compoundref="_calc_inf_susc_8cpp" startline="53" endline="59">CalcPlaceSusc</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1a90d608115d08694e09388109460e0cb6" compoundref="_calc_inf_susc_8cpp" startline="27" endline="35">CalcSpatialInf</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1ad46a77676e62126b7469ee0785e78f52" compoundref="_calc_inf_susc_8cpp" startline="60" endline="66">CalcSpatialSusc</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_model_macros_8h_1a25a9f97e729e19c3afdd9e94ef9bf1f5" prot="public" static="no">
+        <name>HOST_AGE_YEAR</name>
+        <param><defname>x</defname></param>
+        <initializer>(<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].age)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" line="26" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</referencedby>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_update_8h_1a287f606f4005fbe01d44764c259da6db" compoundref="_update_8cpp" startline="1015" endline="1137">DoPlaceClose</referencedby>
+        <referencedby refid="_update_8h_1ac365d0201bff7ca8dffddcc2cb5985fb" compoundref="_update_8cpp" startline="1139" endline="1180">DoPlaceOpen</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a746813f9761552763df6dcb0b0d80755" compoundref="_spatial_sim_8cpp" startline="2706" endline="2957">SaveResults</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_model_macros_8h_1aa5a6525c77db4abd9464ac6a40adaf52" prot="public" static="no">
+        <name>HOST_AGE_GROUP</name>
+        <param><defname>x</defname></param>
+        <initializer>(<ref refid="_spatial_sim_8cpp_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[x].age / <ref refid="_constants_8h_1a84d95d9674690907eeb9bd94bd69e919" kindref="member">AGE_GROUP_WIDTH</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" line="27" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="_calc_inf_susc_8h_1a99426de92bc581587a01d08031a1414e" compoundref="_calc_inf_susc_8cpp" startline="67" endline="73">CalcPersonSusc</referencedby>
+        <referencedby refid="_calc_inf_susc_8h_1a90d608115d08694e09388109460e0cb6" compoundref="_calc_inf_susc_8cpp" startline="27" endline="35">CalcSpatialInf</referencedby>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a40fd37d36e04ef9425c9e0e03d3bcd04" compoundref="_update_8cpp" startline="872" endline="914">DoDeath</referencedby>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+        <referencedby refid="_update_8h_1a8ad2c14b52bb01fd0db7cd2a6870ef1d" compoundref="_update_8cpp" startline="71" endline="156">DoInfect</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1ab984bb3a9f43d7e11998005ee1aaae7f" compoundref="_spatial_sim_8cpp" startline="2428" endline="2591">RunModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SPATIALSIM_MODELMACROS_H_INCLUDED_</highlight></codeline>
+<codeline lineno="4" refid="_model_macros_8h_1a429870c60495f46d4e793a2a6bb78ca0" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SPATIALSIM_MODELMACROS_H_INCLUDED_</highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;limits.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="_model_macros_8h_1ae66746e1f11d41f53bed6d04cddeac6f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HOST_TREATED(x)<sp/>((Hosts[x].treat_stop_time<sp/>&gt;<sp/>ts)<sp/>&amp;&amp;<sp/>(Hosts[x].treat_start_time<sp/>&lt;=<sp/>ts))</highlight></codeline>
+<codeline lineno="9" refid="_model_macros_8h_1a021c0d276055369d1583da0064dcc251" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>HOST_TO_BE_TREATED(x)<sp/>(Hosts[x].treat_stop_time<sp/>&gt;<sp/>ts)</highlight></codeline>
+<codeline lineno="10" refid="_model_macros_8h_1ae5e3b8fc412a10167255a8928f2e25ef" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PLACE_TREATED(x,<sp/>y)<sp/>(Places[x][y].treat_end_time<sp/>&gt;<sp/>ts)</highlight></codeline>
+<codeline lineno="11" refid="_model_macros_8h_1a92ebefcf70cd50355d2b12e7aabfe939" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PLACE_CLOSED(x,<sp/>y)<sp/>((Places[x][y].close_start_time<sp/>&lt;=<sp/>ts)<sp/>&amp;&amp;<sp/>(Places[x][y].close_end_time<sp/>&gt;<sp/>ts))</highlight></codeline>
+<codeline lineno="12" refid="_model_macros_8h_1a3f398fd88fc61d6287e532b89650dc54" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>HOST_TO_BE_VACCED(x)<sp/>(Hosts[x].vacc_start_time<sp/>&lt;<sp/>USHRT_MAX<sp/>-<sp/>1)</highlight></codeline>
+<codeline lineno="13" refid="_model_macros_8h_1ae543c325159c7f6e54f956391f871d80" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>HOST_VACCED(x)<sp/>(Hosts[x].vacc_start_time+P.usVaccTimeToEfficacy&lt;=ts)</highlight></codeline>
+<codeline lineno="14" refid="_model_macros_8h_1aab91d3a8d606d0cbc5c41ca8f4c86d53" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>HOST_VACCED_SWITCH(x)<sp/>(Hosts[x].vacc_start_time<sp/>&gt;=<sp/>P.usVaccTimeEfficacySwitch)</highlight></codeline>
+<codeline lineno="15" refid="_model_macros_8h_1a82ea6b7b910b7c937d8a8c861adbdcc0" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>HOST_QUARANTINED(x)<sp/>((Hosts[x].quar_comply<sp/>==<sp/>1)<sp/>&amp;&amp;<sp/>(Hosts[x].quar_start_time<sp/>+<sp/>P.usHQuarantineHouseDuration<sp/>&gt;<sp/>ts)<sp/>&amp;&amp;<sp/>(Hosts[x].quar_start_time<sp/>&lt;=<sp/>ts))</highlight></codeline>
+<codeline lineno="16" refid="_model_macros_8h_1a1ec4282cd891a55eee846cc5659f486f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>HOST_TO_BE_QUARANTINED(x)<sp/>((Hosts[x].quar_start_time<sp/>+<sp/>P.usHQuarantineHouseDuration<sp/>&gt;<sp/>ts)<sp/>&amp;&amp;<sp/>(Hosts[x].quar_comply<sp/>&lt;<sp/>2))</highlight></codeline>
+<codeline lineno="17" refid="_model_macros_8h_1a7069485bb50594d378b9a84d4e4facf5" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>HOST_ISOLATED(x)<sp/>((Hosts[x].isolation_start_time<sp/>+<sp/>P.usCaseIsolationDelay<sp/>&lt;=<sp/>ts)<sp/>&amp;&amp;<sp/>(Hosts[x].isolation_start_time<sp/>+<sp/>P.usCaseIsolationDelay<sp/>+<sp/>P.usCaseIsolationDuration<sp/>&gt;<sp/>ts))</highlight></codeline>
+<codeline lineno="18" refid="_model_macros_8h_1a647e3cd1890f495c063a9537cc2c6b72" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>HOST_ABSENT(x)<sp/>((Hosts[x].absent_start_time<sp/>&lt;=<sp/>ts)<sp/>&amp;&amp;<sp/>(Hosts[x].absent_stop_time<sp/>&gt;<sp/>ts))</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="comment">//add<sp/>macro<sp/>to<sp/>see<sp/>if<sp/>host<sp/>is<sp/>isolated<sp/>due<sp/>to<sp/>digital<sp/>contact<sp/>tracing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="_model_macros_8h_1a17c7abc9b4cd6ecb65cdf0835e037e4d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HOST_ISOLATED_DCT(x)<sp/>((Hosts[x].dct_start_time<sp/>&lt;=<sp/>ts)<sp/>&amp;&amp;<sp/>(Hosts[x].dct_end_time<sp/>&gt;<sp/>ts))</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/><sp/>#define<sp/>NO_TREAT_PROPH_CASES</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="_model_macros_8h_1a25a9f97e729e19c3afdd9e94ef9bf1f5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HOST_AGE_YEAR(x)<sp/>(Hosts[x].age)</highlight></codeline>
+<codeline lineno="27" refid="_model_macros_8h_1aa5a6525c77db4abd9464ac6a40adaf52" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>HOST_AGE_GROUP(x)<sp/>(Hosts[x].age<sp/>/<sp/>AGE_GROUP_WIDTH)</highlight></codeline>
+<codeline lineno="28"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SPATIALSIM_MODELMACROS_H_INCLUDED_</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/ModelMacros.h"/>
+  </compounddef>
+</doxygen>

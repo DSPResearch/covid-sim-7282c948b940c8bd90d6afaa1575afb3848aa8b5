@@ -1,0 +1,1572 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_r_e_s_u_l_t_s" kind="struct" prot="public">
+    <compoundname>RESULTS</compoundname>
+    <includes refid="_model_8h" local="no">Model.h</includes>
+      <sectiondef kind="user-defined">
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1af539086b0c217f847adf969b52d7a523" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::Mild</definition>
+        <argsstring></argsstring>
+        <name>Mild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Severity States track the COVID-19 states (e.g., mild, critical, etc.) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="126" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="126" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1ae4352071001ebd69be9f12884ceb94b3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::ILI</definition>
+        <argsstring></argsstring>
+        <name>ILI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="126" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="126" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a0605f8d7f6bd2fe52544415aaaee1e45" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::SARI</definition>
+        <argsstring></argsstring>
+        <name>SARI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="126" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="126" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a399b1cf86d8e8e79a6627c0dc7d4cd42" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::Critical</definition>
+        <argsstring></argsstring>
+        <name>Critical</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="126" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="126" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a94a353fe8ebf25dd6a82731661731d8b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::CritRecov</definition>
+        <argsstring></argsstring>
+        <name>CritRecov</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="126" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="126" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a45c78eb7b2b5d563ae460745b686c997" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incMild</definition>
+        <argsstring></argsstring>
+        <name>incMild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="127" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="127" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a4646ad2b0a68feb9302e6caa86ff14ce" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incILI</definition>
+        <argsstring></argsstring>
+        <name>incILI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="127" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="127" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1af9c496aa0507831d6754620ca71cb99d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incSARI</definition>
+        <argsstring></argsstring>
+        <name>incSARI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="127" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="127" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a90b596c1e52e0bdea143fdbfbee979a2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incCritical</definition>
+        <argsstring></argsstring>
+        <name>incCritical</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="127" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="127" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1ab1a4485e3fd07dfd5cb0c7a149bbd31c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incCritRecov</definition>
+        <argsstring></argsstring>
+        <name>incCritRecov</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="127" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="127" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a9d2a9d57ae25b1f9528036045d0c797d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumMild</definition>
+        <argsstring></argsstring>
+        <name>cumMild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="128" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="128" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1af81946a11cf2197ac924180aa0771f66" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumILI</definition>
+        <argsstring></argsstring>
+        <name>cumILI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="128" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="128" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a89fcc89e4531da46b7847d01357eb7e3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumSARI</definition>
+        <argsstring></argsstring>
+        <name>cumSARI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="128" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="128" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a72940d7f786d6a5399b372f3ffeaa6ee" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumCritical</definition>
+        <argsstring></argsstring>
+        <name>cumCritical</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="128" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="128" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1af8d07e01671d3b56cd7efe8c1bb1157b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumCritRecov</definition>
+        <argsstring></argsstring>
+        <name>cumCritRecov</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="128" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="128" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1aaa9fe217b298bb37ff4af1490309d784" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::t</definition>
+        <argsstring></argsstring>
+        <name>t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="110" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="110" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a63782e7529013322c8e2049a5bdbb935" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::S</definition>
+        <argsstring></argsstring>
+        <name>S</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="110" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="110" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a30ae962785be6e157a5c62b568f13cb5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::L</definition>
+        <argsstring></argsstring>
+        <name>L</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="110" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="110" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1ae90fdf02bd852cac1bbde78dc98fe9c2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::I</definition>
+        <argsstring></argsstring>
+        <name>I</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="110" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="110" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1ad5ba36ab7f09de607c0e378499308e36" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::R</definition>
+        <argsstring></argsstring>
+        <name>R</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="110" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="110" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1ac86fb559557094be0a3ad01889cc41ca" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::D</definition>
+        <argsstring></argsstring>
+        <name>D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="110" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="110" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a19786b24a61366dfef47a03a402a7d92" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incC</definition>
+        <argsstring></argsstring>
+        <name>incC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="110" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="110" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a34c8916ee9c0ab17bdab993e1cb475d8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incTC</definition>
+        <argsstring></argsstring>
+        <name>incTC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="110" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="110" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a73bbef822c21e202ff59c4ee0e297973" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incFC</definition>
+        <argsstring></argsstring>
+        <name>incFC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="110" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="110" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1add1932de0e485031b8d08f3405ec1751" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incL</definition>
+        <argsstring></argsstring>
+        <name>incL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="110" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="110" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1ac4251a69b92da8e947bfffb45e507701" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incI</definition>
+        <argsstring></argsstring>
+        <name>incI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="110" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="110" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a8b5f6aaff90555dff217f1442b5d19c6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incR</definition>
+        <argsstring></argsstring>
+        <name>incR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="110" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="110" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a4c94204d6a0bca97aaecffea0bd4a0e5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incD</definition>
+        <argsstring></argsstring>
+        <name>incD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="110" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="110" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a19039f23eb18424327bde4e27a0ec76b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incDC</definition>
+        <argsstring></argsstring>
+        <name>incDC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="110" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="110" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1ad17e53e13fe685f1d5a71d8e29b68d12" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::H</definition>
+        <argsstring></argsstring>
+        <name>H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="111" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="111" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a62389c7b554829df7dea78590a48824e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incH</definition>
+        <argsstring></argsstring>
+        <name>incH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="111" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="111" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a8c98d4c223937d67669ca3b9fe9a27dd" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::CT</definition>
+        <argsstring></argsstring>
+        <name>CT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="112" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="112" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a51499746f69ec625ea46f34bc32fafc4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incCT</definition>
+        <argsstring></argsstring>
+        <name>incCT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="112" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="112" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a4683fd0e34321dbb0469d167e92baf37" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::CC</definition>
+        <argsstring></argsstring>
+        <name>CC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="112" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a3f7151bfbd50733d24a631f72d329091" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incCC</definition>
+        <argsstring></argsstring>
+        <name>incCC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="112" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="112" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a81d64d72550ad8097295286ae589fd5e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::DCT</definition>
+        <argsstring></argsstring>
+        <name>DCT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="112" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="112" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1abf85478134120197024e431585583ea5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incDCT</definition>
+        <argsstring></argsstring>
+        <name>incDCT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="112" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="112" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1ac353064b440351f7036849b62afbaa61" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incC_country[MAX_COUNTRIES]</definition>
+        <argsstring>[MAX_COUNTRIES]</argsstring>
+        <name>incC_country</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="113" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1af0ece8d806b8058d08b06464262e68d6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumT</definition>
+        <argsstring></argsstring>
+        <name>cumT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="114" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="114" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a1dd8895b70106bd049b41a4abe989d51" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumUT</definition>
+        <argsstring></argsstring>
+        <name>cumUT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="114" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="114" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a4134487c6d55c8ed9c35c6de282d163f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumTP</definition>
+        <argsstring></argsstring>
+        <name>cumTP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="114" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="114" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1ac651aab89406dfc7d11ea3a3b27bbe1d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumV</definition>
+        <argsstring></argsstring>
+        <name>cumV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="114" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="114" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a2ee4822b9bef8e70532d2ce6487232af" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumTmax</definition>
+        <argsstring></argsstring>
+        <name>cumTmax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="114" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="114" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a24a89c1a6434470cd951810246cd9e70" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumVmax</definition>
+        <argsstring></argsstring>
+        <name>cumVmax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="114" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="114" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a2bff0f9a1541762f4ff245c12e739c23" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumDC</definition>
+        <argsstring></argsstring>
+        <name>cumDC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="114" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="114" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a8a692442ed6817474fc3258e240939ff" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::extinct</definition>
+        <argsstring></argsstring>
+        <name>extinct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="114" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="114" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_spatial_sim_8cpp" startline="118" endline="455">main</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a1faa4850ef5c4f0fe943d61f909c560a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumVG</definition>
+        <argsstring></argsstring>
+        <name>cumVG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="114" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="114" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1abb00e8c6f4d3cef3ddd65a6ab95f6206" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incHQ</definition>
+        <argsstring></argsstring>
+        <name>incHQ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="115" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="115" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a3af5dc441eb2c358f307686bc295737a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incAC</definition>
+        <argsstring></argsstring>
+        <name>incAC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="115" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="115" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1ab581f1a38d15e07196c14b6d626cc527" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incAH</definition>
+        <argsstring></argsstring>
+        <name>incAH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="115" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="115" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a188f4af8be77bc2563b178192d65b933" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incAA</definition>
+        <argsstring></argsstring>
+        <name>incAA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="115" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="115" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a09e67575c21f325dfab9f7f205cc9381" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incACS</definition>
+        <argsstring></argsstring>
+        <name>incACS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="115" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="115" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a2c121382ef9832b074efb4da33e33574" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incAPC</definition>
+        <argsstring></argsstring>
+        <name>incAPC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="115" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="115" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a0e666d8af6d602e90d0c5d529afef3b4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incAPA</definition>
+        <argsstring></argsstring>
+        <name>incAPA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="115" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="115" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a3c189376e2eab5968ae9ed2ce1617ece" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incAPCS</definition>
+        <argsstring></argsstring>
+        <name>incAPCS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="115" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="115" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a69ad3186f0cce21b0f508fe9feb9f097" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incIa[NUM_AGE_GROUPS]</definition>
+        <argsstring>[NUM_AGE_GROUPS]</argsstring>
+        <name>incIa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="116" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="116" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a1ee3ee2d4845732b6bed2c145d3c0f09" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incCa[NUM_AGE_GROUPS]</definition>
+        <argsstring>[NUM_AGE_GROUPS]</argsstring>
+        <name>incCa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="116" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="116" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a04b64a611b41c657e6ff034efae067ef" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incDa[NUM_AGE_GROUPS]</definition>
+        <argsstring>[NUM_AGE_GROUPS]</argsstring>
+        <name>incDa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="116" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="116" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a6f6204098708166fea7e0a399ffeadd8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incItype[INFECT_TYPE_MASK]</definition>
+        <argsstring>[INFECT_TYPE_MASK]</argsstring>
+        <name>incItype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="117" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="117" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a1a4ec682414835d3cb4d1e2fcc1bcbe8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::Rtype[INFECT_TYPE_MASK]</definition>
+        <argsstring>[INFECT_TYPE_MASK]</argsstring>
+        <name>Rtype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="117" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="117" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a9582bb7b2a15b7f893c07f888eaabce8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::Rage[NUM_AGE_GROUPS]</definition>
+        <argsstring>[NUM_AGE_GROUPS]</argsstring>
+        <name>Rage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="117" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="117" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a538a65aad1061eabffc9d8c563897b73" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::Rdenom</definition>
+        <argsstring></argsstring>
+        <name>Rdenom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="117" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="117" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a47e4892f238dd36360ed3979f68199b2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::rmsRad</definition>
+        <argsstring></argsstring>
+        <name>rmsRad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="118" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="118" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a25260afa9dcaf0a761b2c7eb38460bdb" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::maxRad</definition>
+        <argsstring></argsstring>
+        <name>maxRad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="118" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="118" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a137c012ebd992e081cc2ea86194611ea" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::PropPlacesClosed[NUM_PLACE_TYPES]</definition>
+        <argsstring>[NUM_PLACE_TYPES]</argsstring>
+        <name>PropPlacesClosed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="118" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="118" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a68256256d0f185d52ac68e33dcffb8d4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::PropSocDist</definition>
+        <argsstring></argsstring>
+        <name>PropSocDist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="118" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="118" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a3a087817b25cd5fd39daa6578d406fb5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incI_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>incI_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="119" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="119" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a2551229bbc951d8f747c6182baab176c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incC_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>incC_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="119" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="119" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a7dfbd7ca86984bec86314e31b178f4b1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumT_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>cumT_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="119" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="119" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1abba33b4497798cbd159ee06f2899f587" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incD_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>incD_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="119" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="119" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a2a263f596d501a8abeb80c218dadd0dd" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumD_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>cumD_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="119" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="119" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a871cdca7eb507275157e6be34d85f6e3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incH_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>incH_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="119" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="119" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a7df8aea58c56f8caf4ed593e049c930d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::H_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>H_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="119" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1aee951f645dd779243fb6c31d6c96857e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incDC_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>incDC_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="119" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="119" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a18ca851bae3263fa4b0aafe5a7766999" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incCT_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>incCT_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="120" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="120" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1ac03c49a2cb692d36b8637672368cf5f4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::CT_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>CT_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="120" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1af87bf3ab9028e6b7f36e4e53e1f0626a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incCC_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>incCC_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="120" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="120" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1aaeb308c2e40464ff97fb4ea11b782097" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::CC_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>CC_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="120" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a04daa9e414e0f019860e7a7298171efb" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incDCT_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>incDCT_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="120" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="120" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1aa9bc88bc022b4b8200cbaa5f693bec14" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::DCT_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>DCT_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="120" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a90781133ac67d407605bfda8326ebb68" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incI_keyworker[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>incI_keyworker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="121" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="121" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1ae7d2d4d715bcaef83bb986a0a65efcf4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incC_keyworker[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>incC_keyworker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="121" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="121" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a2c42b581ae6878bd2dd3edc7d83842b7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumT_keyworker[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>cumT_keyworker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="121" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="121" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a0a592f54bead415143eb7748618ec030" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* RESULTS::bmi2</definition>
+        <argsstring></argsstring>
+        <name>bmi2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="122" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a3eb00d88086885ea0c2d730effb73548" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float * RESULTS::bmi3</definition>
+        <argsstring></argsstring>
+        <name>bmi3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="122" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a0850cda1c7df62816a9917eae77f6d49" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float * RESULTS::bmi4</definition>
+        <argsstring></argsstring>
+        <name>bmi4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="122" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a12e19d5a0a63cbad7820e6370e4169bd" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::Mild_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>Mild_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="132" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="132" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a5abb0ae3a8740ca99c0452915095cb91" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::ILI_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>ILI_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="132" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="132" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a66206f891e21dd75e71fccd8b2eb671f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::SARI_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>SARI_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="132" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="132" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1ab1aaf47ed1edf48d021348ce480fca9c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::Critical_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>Critical_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="132" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="132" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a0c23b9aa8aa0ac0fbe94a5cc92400802" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::CritRecov_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>CritRecov_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="132" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="132" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1aa784c173d8f0de8fb116ec9d4605a4a6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incMild_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>incMild_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="133" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="133" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a16077e4819b9240a70df2e07dd987001" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incILI_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>incILI_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="133" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="133" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a5c9e1aa8e03ee1e46f08be5604067089" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incSARI_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>incSARI_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="133" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="133" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1aefa2837681b1d3f5bcc584fe0d3d6640" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incCritical_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>incCritical_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="133" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="133" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a510d112ffc85ebd1aa684f9772440a6f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::incCritRecov_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>incCritRecov_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="133" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="133" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a5d40c99ed9521a852811ae4565fed27c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumMild_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>cumMild_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="134" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="134" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a842fa09ccb1df144b008663572075886" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumILI_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>cumILI_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="134" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="134" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a226cb8943b73568c666d06e408f100be" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumSARI_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>cumSARI_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="134" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="134" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1a317464720d729438a0df6c642dfdc0f5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumCritical_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>cumCritical_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="134" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="134" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_e_s_u_l_t_s_1ad7d46dd7731c36d636391114d52ce263" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RESULTS::cumCritRecov_adunit[MAX_ADUNITS]</definition>
+        <argsstring>[MAX_ADUNITS]</argsstring>
+        <name>cumCritRecov_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="134" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="134" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Recorded time-series variables (typically populated from the <computeroutput><ref refid="struct_p_o_p_v_a_r" kindref="compound">POPVAR</ref></computeroutput> state) </para>    </briefdescription>
+    <detaileddescription>
+<para>In the function <computeroutput>RecordSample</computeroutput> we transform (copy parts, calculate summary statistics) of the <computeroutput><ref refid="struct_p_o_p_v_a_r" kindref="compound">POPVAR</ref></computeroutput> state into a time-stamped <computeroutput><ref refid="struct_r_e_s_u_l_t_s" kindref="compound">RESULTS</ref></computeroutput> structure. </para>    </detaileddescription>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="108" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="108" bodyend="149"/>
+    <listofallmembers>
+      <member refid="struct_r_e_s_u_l_t_s_1a0a592f54bead415143eb7748618ec030" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>bmi2</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a3eb00d88086885ea0c2d730effb73548" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>bmi3</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a0850cda1c7df62816a9917eae77f6d49" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>bmi4</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a4683fd0e34321dbb0469d167e92baf37" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>CC</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1aaeb308c2e40464ff97fb4ea11b782097" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>CC_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a399b1cf86d8e8e79a6627c0dc7d4cd42" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>Critical</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1ab1aaf47ed1edf48d021348ce480fca9c" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>Critical_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a94a353fe8ebf25dd6a82731661731d8b" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>CritRecov</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a0c23b9aa8aa0ac0fbe94a5cc92400802" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>CritRecov_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a8c98d4c223937d67669ca3b9fe9a27dd" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>CT</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1ac03c49a2cb692d36b8637672368cf5f4" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>CT_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a72940d7f786d6a5399b372f3ffeaa6ee" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumCritical</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a317464720d729438a0df6c642dfdc0f5" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumCritical_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1af8d07e01671d3b56cd7efe8c1bb1157b" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumCritRecov</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1ad7d46dd7731c36d636391114d52ce263" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumCritRecov_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a2a263f596d501a8abeb80c218dadd0dd" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumD_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a2bff0f9a1541762f4ff245c12e739c23" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumDC</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1af81946a11cf2197ac924180aa0771f66" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumILI</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a842fa09ccb1df144b008663572075886" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumILI_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a9d2a9d57ae25b1f9528036045d0c797d" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumMild</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a5d40c99ed9521a852811ae4565fed27c" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumMild_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a89fcc89e4531da46b7847d01357eb7e3" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumSARI</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a226cb8943b73568c666d06e408f100be" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumSARI_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1af0ece8d806b8058d08b06464262e68d6" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumT</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a7dfbd7ca86984bec86314e31b178f4b1" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumT_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a2c42b581ae6878bd2dd3edc7d83842b7" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumT_keyworker</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a2ee4822b9bef8e70532d2ce6487232af" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumTmax</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a4134487c6d55c8ed9c35c6de282d163f" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumTP</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a1dd8895b70106bd049b41a4abe989d51" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumUT</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1ac651aab89406dfc7d11ea3a3b27bbe1d" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumV</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a1faa4850ef5c4f0fe943d61f909c560a" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumVG</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a24a89c1a6434470cd951810246cd9e70" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>cumVmax</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1ac86fb559557094be0a3ad01889cc41ca" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>D</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a81d64d72550ad8097295286ae589fd5e" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>DCT</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1aa9bc88bc022b4b8200cbaa5f693bec14" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>DCT_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a8a692442ed6817474fc3258e240939ff" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>extinct</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1ad17e53e13fe685f1d5a71d8e29b68d12" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>H</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a7df8aea58c56f8caf4ed593e049c930d" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>H_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1ae90fdf02bd852cac1bbde78dc98fe9c2" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>I</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1ae4352071001ebd69be9f12884ceb94b3" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>ILI</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a5abb0ae3a8740ca99c0452915095cb91" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>ILI_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a188f4af8be77bc2563b178192d65b933" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incAA</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a3af5dc441eb2c358f307686bc295737a" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incAC</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a09e67575c21f325dfab9f7f205cc9381" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incACS</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1ab581f1a38d15e07196c14b6d626cc527" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incAH</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a0e666d8af6d602e90d0c5d529afef3b4" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incAPA</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a2c121382ef9832b074efb4da33e33574" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incAPC</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a3c189376e2eab5968ae9ed2ce1617ece" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incAPCS</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a19786b24a61366dfef47a03a402a7d92" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incC</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a2551229bbc951d8f747c6182baab176c" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incC_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1ac353064b440351f7036849b62afbaa61" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incC_country</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1ae7d2d4d715bcaef83bb986a0a65efcf4" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incC_keyworker</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a1ee3ee2d4845732b6bed2c145d3c0f09" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incCa</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a3f7151bfbd50733d24a631f72d329091" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incCC</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1af87bf3ab9028e6b7f36e4e53e1f0626a" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incCC_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a90b596c1e52e0bdea143fdbfbee979a2" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incCritical</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1aefa2837681b1d3f5bcc584fe0d3d6640" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incCritical_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1ab1a4485e3fd07dfd5cb0c7a149bbd31c" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incCritRecov</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a510d112ffc85ebd1aa684f9772440a6f" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incCritRecov_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a51499746f69ec625ea46f34bc32fafc4" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incCT</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a18ca851bae3263fa4b0aafe5a7766999" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incCT_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a4c94204d6a0bca97aaecffea0bd4a0e5" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incD</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1abba33b4497798cbd159ee06f2899f587" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incD_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a04b64a611b41c657e6ff034efae067ef" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incDa</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a19039f23eb18424327bde4e27a0ec76b" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incDC</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1aee951f645dd779243fb6c31d6c96857e" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incDC_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1abf85478134120197024e431585583ea5" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incDCT</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a04daa9e414e0f019860e7a7298171efb" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incDCT_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a73bbef822c21e202ff59c4ee0e297973" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incFC</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a62389c7b554829df7dea78590a48824e" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incH</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a871cdca7eb507275157e6be34d85f6e3" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incH_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1abb00e8c6f4d3cef3ddd65a6ab95f6206" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incHQ</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1ac4251a69b92da8e947bfffb45e507701" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incI</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a3a087817b25cd5fd39daa6578d406fb5" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incI_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a90781133ac67d407605bfda8326ebb68" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incI_keyworker</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a69ad3186f0cce21b0f508fe9feb9f097" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incIa</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a4646ad2b0a68feb9302e6caa86ff14ce" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incILI</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a16077e4819b9240a70df2e07dd987001" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incILI_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a6f6204098708166fea7e0a399ffeadd8" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incItype</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1add1932de0e485031b8d08f3405ec1751" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incL</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a45c78eb7b2b5d563ae460745b686c997" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incMild</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1aa784c173d8f0de8fb116ec9d4605a4a6" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incMild_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a8b5f6aaff90555dff217f1442b5d19c6" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incR</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1af9c496aa0507831d6754620ca71cb99d" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incSARI</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a5c9e1aa8e03ee1e46f08be5604067089" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incSARI_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a34c8916ee9c0ab17bdab993e1cb475d8" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>incTC</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a30ae962785be6e157a5c62b568f13cb5" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>L</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a25260afa9dcaf0a761b2c7eb38460bdb" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>maxRad</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1af539086b0c217f847adf969b52d7a523" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>Mild</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a12e19d5a0a63cbad7820e6370e4169bd" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>Mild_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a137c012ebd992e081cc2ea86194611ea" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>PropPlacesClosed</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a68256256d0f185d52ac68e33dcffb8d4" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>PropSocDist</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1ad5ba36ab7f09de607c0e378499308e36" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>R</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a9582bb7b2a15b7f893c07f888eaabce8" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>Rage</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a538a65aad1061eabffc9d8c563897b73" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>Rdenom</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a47e4892f238dd36360ed3979f68199b2" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>rmsRad</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a1a4ec682414835d3cb4d1e2fcc1bcbe8" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>Rtype</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a63782e7529013322c8e2049a5bdbb935" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>S</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a0605f8d7f6bd2fe52544415aaaee1e45" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>SARI</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1a66206f891e21dd75e71fccd8b2eb671f" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>SARI_adunit</name></member>
+      <member refid="struct_r_e_s_u_l_t_s_1aaa9fe217b298bb37ff4af1490309d784" prot="public" virt="non-virtual"><scope>RESULTS</scope><name>t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

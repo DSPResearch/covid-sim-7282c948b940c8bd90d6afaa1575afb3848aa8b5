@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_constants_8h" kind="file">
+    <compoundname>Constants.h</compoundname>
+    <includedby refid="_param_8h" local="yes">src/Param.h</includedby>
+    <includedby refid="_model_8h" local="yes">src/Model.h</includedby>
+    <includedby refid="_calc_inf_susc_8cpp" local="yes">src/CalcInfSusc.cpp</includedby>
+    <includedby refid="_dist_8cpp" local="yes">src/Dist.cpp</includedby>
+    <includedby refid="_rand_8cpp" local="yes">src/Rand.cpp</includedby>
+    <includedby refid="_spatial_sim_8h" local="yes">src/SpatialSim.h</includedby>
+    <invincdepgraph>
+      <node id="63">
+        <label>src/Dist.cpp</label>
+        <link refid="_dist_8cpp"/>
+      </node>
+      <node id="67">
+        <label>src/Sweep.cpp</label>
+        <link refid="_sweep_8cpp"/>
+      </node>
+      <node id="68">
+        <label>src/Update.cpp</label>
+        <link refid="_update_8cpp"/>
+      </node>
+      <node id="72">
+        <label>src/SpatialSim.h</label>
+        <link refid="_spatial_sim_8h"/>
+        <childnode refid="66" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>src/Param.h</label>
+        <link refid="_param_8h"/>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>src/binio.cpp</label>
+        <link refid="binio_8cpp"/>
+      </node>
+      <node id="61">
+        <label>src/Bitmap.cpp</label>
+        <link refid="_bitmap_8cpp"/>
+      </node>
+      <node id="70">
+        <label>src/Dist.h</label>
+        <link refid="_dist_8h"/>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>src/Kernels.cpp</label>
+        <link refid="_kernels_8cpp"/>
+      </node>
+      <node id="69">
+        <label>src/Model.h</label>
+        <link refid="_model_8h"/>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>src/Constants.h</label>
+        <link refid="Constants.h"/>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>src/CalcInfSusc.cpp</label>
+        <link refid="_calc_inf_susc_8cpp"/>
+      </node>
+      <node id="66">
+        <label>src/SpatialSim.cpp</label>
+        <link refid="_spatial_sim_8cpp"/>
+      </node>
+      <node id="71">
+        <label>src/Rand.cpp</label>
+        <link refid="_rand_8cpp"/>
+      </node>
+      <node id="65">
+        <label>src/SetupModel.cpp</label>
+        <link refid="_setup_model_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_constants_8h_1a598a3330b3c21701223ee0ca14316eca" prot="public" static="no">
+        <name>PI</name>
+        <initializer>3.1415926535</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="4" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="4" bodyend="-1"/>
+        <referencedby refid="_dist_8h_1adbb6e2b2e13305ee29137e506495e330" compoundref="_dist_8cpp" startline="82" endline="152">dist2_cc_min</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+        <referencedby refid="_rand_8h_1a59edf589d35955c31cbc0f5b46935cc4" compoundref="_rand_8cpp" startline="2281" endline="2415">SampleWithoutReplacement</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1aa3270b347ccf1c183729014926a4a88f" prot="public" static="no">
+        <name>EARTHRADIUS</name>
+        <initializer>6366707.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="5" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="5" bodyend="-1"/>
+        <referencedby refid="_dist_8h_1aa4ea666b4c09d15be7aa133b9c71a725" compoundref="_dist_8cpp" startline="14" endline="41">dist2UTM</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1aeb451d55dc170a297329e41347ef0dce" prot="public" static="no">
+        <name>OUTPUT_DIST_SCALE</name>
+        <initializer>1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="7" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="7" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1ad03468c3ba7449e1859c1cb14a027dbd" compoundref="_spatial_sim_8cpp" startline="1875" endline="2021">ReadAirTravel</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a0f67fe6ead0cdcad78046cd32eb68b5d" compoundref="_spatial_sim_8cpp" startline="2593" endline="2674">SaveDistribs</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1ada26848e9bfb32c816a5de5b62388b06" prot="public" static="no">
+        <name>MAX_PLACE_SIZE</name>
+        <initializer>20000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="8" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="8" bodyend="-1"/>
+        <referencedby refid="_rand_8h_1a59edf589d35955c31cbc0f5b46935cc4" compoundref="_rand_8cpp" startline="2281" endline="2415">SampleWithoutReplacement</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a0f67fe6ead0cdcad78046cd32eb68b5d" compoundref="_spatial_sim_8cpp" startline="2593" endline="2674">SaveDistribs</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1ae05eb88a838662c977461ede1b3d2238" prot="public" static="no">
+        <name>MAX_NUM_SEED_LOCATIONS</name>
+        <initializer>10000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="9" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="9" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1ab984bb3a9f43d7e11998005ee1aaae7f" compoundref="_spatial_sim_8cpp" startline="2428" endline="2591">RunModel</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1aea13911f89320cd19c39c76ddc03579c" prot="public" static="no">
+        <name>CDF_RES</name>
+        <initializer>20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="11" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="11" bodyend="-1"/>
+        <referencedby refid="_update_8cpp_1add695640ad936019a5de195e52ffbaef" compoundref="_update_8cpp" startline="1271" endline="1283">ChooseFromICDF</referencedby>
+        <referencedby refid="_update_8h_1a8ad2c14b52bb01fd0db7cd2a6870ef1d" compoundref="_update_8cpp" startline="71" endline="156">DoInfect</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1a447653fa5dc42023c7cb795f5f65dbe8" prot="public" static="no">
+        <name>INFPROF_RES</name>
+        <initializer>56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="12" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="12" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1a60272d047c68590cd8b70e52cf385e80" prot="public" static="no">
+        <name>NUM_AGE_GROUPS</name>
+        <initializer>17</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="15" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="15" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a4d19838a80a5d05bb9dcdebc0fce648e" compoundref="_setup_model_8cpp" startline="1626" endline="1871">AssignHouseholdAges</referencedby>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_setup_model_8h_1a956cf6f26e0f72b807deddf295466980" compoundref="_setup_model_8cpp" startline="2593" endline="2618">SaveAgeDistrib</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a89d82884290fe79a7b2f8a16bd70eeb5" compoundref="_spatial_sim_8cpp" startline="2959" endline="3408">SaveSummaryResults</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1a84d95d9674690907eeb9bd94bd69e919" prot="public" static="no">
+        <name>AGE_GROUP_WIDTH</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="16" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="16" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a4d19838a80a5d05bb9dcdebc0fce648e" compoundref="_setup_model_8cpp" startline="1626" endline="1871">AssignHouseholdAges</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a89d82884290fe79a7b2f8a16bd70eeb5" compoundref="_spatial_sim_8cpp" startline="2959" endline="3408">SaveSummaryResults</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1ab8b198f8809cbf6e5135c0a7750b3b45" prot="public" static="no">
+        <name>DAYS_PER_YEAR</name>
+        <initializer>364</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="17" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="17" bodyend="-1"/>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a06701ee2bb1b97eabcabebc846738d2d" compoundref="_spatial_sim_8cpp" startline="1632" endline="1838">ReadInterventions</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1a6594f145a52ef782d2568f3c9d21f44e" prot="public" static="no">
+        <name>INFECT_TYPE_MASK</name>
+        <initializer>16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="18" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="_update_8h_1a8ad2c14b52bb01fd0db7cd2a6870ef1d" compoundref="_update_8cpp" startline="71" endline="156">DoInfect</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a746813f9761552763df6dcb0b0d80755" compoundref="_spatial_sim_8cpp" startline="2706" endline="2957">SaveResults</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a89d82884290fe79a7b2f8a16bd70eeb5" compoundref="_spatial_sim_8cpp" startline="2959" endline="3408">SaveSummaryResults</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a66430df5622fb3fdfd7b9dd3bb335072" compoundref="_spatial_sim_8cpp" startline="2305" endline="2425">SeedInfection</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1aeecc4d8aacdc72eea3dd2a8654456333" prot="public" static="no">
+        <name>MAX_GEN_REC</name>
+        <initializer>20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="19" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a89d82884290fe79a7b2f8a16bd70eeb5" compoundref="_spatial_sim_8cpp" startline="2959" endline="3408">SaveSummaryResults</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1a7f4ea069228ebd6cfa95ce5013c8578f" prot="public" static="no">
+        <name>MAX_SEC_REC</name>
+        <initializer>500</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="20" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a1c2c7815dfcfb156ee17352e42c68268" compoundref="_spatial_sim_8cpp" startline="4137" endline="4288">RecordInfTypes</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a89d82884290fe79a7b2f8a16bd70eeb5" compoundref="_spatial_sim_8cpp" startline="2959" endline="3408">SaveSummaryResults</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1a94b0747c533e5cd35f65055877713b8c" prot="public" static="no">
+        <name>INF_QUEUE_SCALE</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="21" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1a9b00abc6a03c3a27b2aa27be29367e33" prot="public" static="no">
+        <name>MAX_TRAVEL_TIME</name>
+        <initializer>14</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="22" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="22" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1ab984bb3a9f43d7e11998005ee1aaae7f" compoundref="_spatial_sim_8cpp" startline="2428" endline="2591">RunModel</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+        <referencedby refid="_sweep_8h_1aaa1aa4d11b32251ba9cd8bffdd71a333" compoundref="_sweep_8cpp" startline="20" endline="65">TravelReturnSweep</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1a8ea6fec714b1f86a086aa848bf25afc4" prot="public" static="no">
+        <name>MAX_INFECTIOUS_STEPS</name>
+        <initializer>2550</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="25" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1a84bfa512ba2269b77a80f391fbdde0a3" prot="public" static="no">
+        <name>MAX_CONTACTS</name>
+        <initializer>250</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="28" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1a99c90393bd788408fb22e34686ecef5a" prot="public" static="no">
+        <name>MAX_DUR_IMPORT_PROFILE</name>
+        <initializer>10245</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="30" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1a9a7bde8188a888eb93376efa48b3e176" compoundref="_spatial_sim_8cpp" startline="458" endline="1631">ReadParams</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1a06194fdcf31c0d7bf1e38e07e9ef5cce" prot="public" static="no">
+        <name>MAX_AIRPORTS</name>
+        <initializer>5000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="32" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1ad03468c3ba7449e1859c1cb14a027dbd" compoundref="_spatial_sim_8cpp" startline="1875" endline="2021">ReadAirTravel</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1a5a5487a75a95b999ca1efc617b993ddb" prot="public" static="no">
+        <name>NNA</name>
+        <initializer>10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="33" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1acde3cebbdcf97ae6d6c4084148d1d748" prot="public" static="no">
+        <name>MAX_DIST_AIRPORT_TO_HOTEL</name>
+        <initializer>200000.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="34" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1a315d54e5ec7dcdbabe7ff326d9739db6" prot="public" static="no">
+        <name>MIN_HOTELS_PER_AIRPORT</name>
+        <initializer>20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="35" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1a300a3bb30e49af541eed470ed14ca0a8" prot="public" static="no">
+        <name>HOTELS_PER_1000PASSENGER</name>
+        <initializer>10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="36" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_constants_8h_1a740e8c611eaef87446b7ab4040cf9c91" prot="public" static="no">
+        <name>PLACE_CLOSE_ROUND_HOUSEHOLD</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" line="37" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SPATIALSIM_CONSTANTS_H_INCLUDED_</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SPATIALSIM_CONSTANTS_H_INCLUDED_</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="_constants_8h_1a598a3330b3c21701223ee0ca14316eca" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PI<sp/>3.1415926535</highlight></codeline>
+<codeline lineno="5" refid="_constants_8h_1aa3270b347ccf1c183729014926a4a88f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EARTHRADIUS<sp/>6366707.0</highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="_constants_8h_1aeb451d55dc170a297329e41347ef0dce" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>OUTPUT_DIST_SCALE<sp/>1000</highlight></codeline>
+<codeline lineno="8" refid="_constants_8h_1ada26848e9bfb32c816a5de5b62388b06" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MAX_PLACE_SIZE<sp/>20000</highlight></codeline>
+<codeline lineno="9" refid="_constants_8h_1ae05eb88a838662c977461ede1b3d2238" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MAX_NUM_SEED_LOCATIONS<sp/>10000</highlight></codeline>
+<codeline lineno="10"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="_constants_8h_1aea13911f89320cd19c39c76ddc03579c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CDF_RES<sp/>20</highlight></codeline>
+<codeline lineno="12" refid="_constants_8h_1a447653fa5dc42023c7cb795f5f65dbe8" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>INFPROF_RES<sp/>56</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight><highlight class="comment">/*<sp/>Max<sp/>household<sp/>size<sp/>of<sp/>16<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="_constants_8h_1a60272d047c68590cd8b70e52cf385e80" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NUM_AGE_GROUPS<sp/>17</highlight></codeline>
+<codeline lineno="16" refid="_constants_8h_1a84d95d9674690907eeb9bd94bd69e919" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>AGE_GROUP_WIDTH<sp/>5</highlight></codeline>
+<codeline lineno="17" refid="_constants_8h_1ab8b198f8809cbf6e5135c0a7750b3b45" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>DAYS_PER_YEAR<sp/>364</highlight></codeline>
+<codeline lineno="18" refid="_constants_8h_1a6594f145a52ef782d2568f3c9d21f44e" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>INFECT_TYPE_MASK<sp/>16</highlight></codeline>
+<codeline lineno="19" refid="_constants_8h_1aeecc4d8aacdc72eea3dd2a8654456333" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MAX_GEN_REC<sp/>20</highlight></codeline>
+<codeline lineno="20" refid="_constants_8h_1a7f4ea069228ebd6cfa95ce5013c8578f" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MAX_SEC_REC<sp/>500</highlight></codeline>
+<codeline lineno="21" refid="_constants_8h_1a94b0747c533e5cd35f65055877713b8c" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>INF_QUEUE_SCALE<sp/>5</highlight></codeline>
+<codeline lineno="22" refid="_constants_8h_1a9b00abc6a03c3a27b2aa27be29367e33" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MAX_TRAVEL_TIME<sp/>14</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>MAX_INFECTIOUS_STEPS<sp/>255<sp/>////<sp/>orig</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="_constants_8h_1a8ea6fec714b1f86a086aa848bf25afc4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAX_INFECTIOUS_STEPS<sp/>2550</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>define<sp/>maximum<sp/>number<sp/>of<sp/>contacts</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="_constants_8h_1a84bfa512ba2269b77a80f391fbdde0a3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAX_CONTACTS<sp/>250</highlight></codeline>
+<codeline lineno="29"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="_constants_8h_1a99c90393bd788408fb22e34686ecef5a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAX_DUR_IMPORT_PROFILE<sp/>10245</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="_constants_8h_1a06194fdcf31c0d7bf1e38e07e9ef5cce" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAX_AIRPORTS<sp/>5000</highlight></codeline>
+<codeline lineno="33" refid="_constants_8h_1a5a5487a75a95b999ca1efc617b993ddb" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NNA<sp/>10</highlight></codeline>
+<codeline lineno="34" refid="_constants_8h_1acde3cebbdcf97ae6d6c4084148d1d748" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MAX_DIST_AIRPORT_TO_HOTEL<sp/>200000.0</highlight></codeline>
+<codeline lineno="35" refid="_constants_8h_1a315d54e5ec7dcdbabe7ff326d9739db6" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MIN_HOTELS_PER_AIRPORT<sp/>20</highlight></codeline>
+<codeline lineno="36" refid="_constants_8h_1a300a3bb30e49af541eed470ed14ca0a8" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>HOTELS_PER_1000PASSENGER<sp/>10</highlight></codeline>
+<codeline lineno="37" refid="_constants_8h_1a740e8c611eaef87446b7ab4040cf9c91" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PLACE_CLOSE_ROUND_HOUSEHOLD<sp/>1</highlight></codeline>
+<codeline lineno="38"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SPATIALSIM_CONSTANTS_H_INCLUDED_</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Constants.h"/>
+  </compounddef>
+</doxygen>

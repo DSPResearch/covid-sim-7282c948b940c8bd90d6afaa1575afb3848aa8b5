@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_e_v_e_n_t_s" kind="struct" prot="public">
+    <compoundname>EVENTS</compoundname>
+    <includes refid="_model_8h" local="no">Model.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_e_v_e_n_t_s_1acf1b3500f3e871a4e0336c759ae47f99" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double EVENTS::infectee_x</definition>
+        <argsstring></argsstring>
+        <name>infectee_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="158" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="158" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_v_e_n_t_s_1ae8a1f2a5d0280f981ba0e1941f39473d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double EVENTS::infectee_y</definition>
+        <argsstring></argsstring>
+        <name>infectee_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="158" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="158" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_v_e_n_t_s_1a5befabbd1ab2b6fd20f648b73415114b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double EVENTS::t</definition>
+        <argsstring></argsstring>
+        <name>t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="158" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="158" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_v_e_n_t_s_1a851a6e71970bc19a576c1b65371ee282" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double EVENTS::t_infector</definition>
+        <argsstring></argsstring>
+        <name>t_infector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="158" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="158" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_v_e_n_t_s_1ac4bd94604d60591d2db4c8100818f19f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EVENTS::run</definition>
+        <argsstring></argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="159" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="159" bodyend="-1"/>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_v_e_n_t_s_1a0ba718e66ca097dd22ea458c9e326c1c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EVENTS::infectee_ind</definition>
+        <argsstring></argsstring>
+        <name>infectee_ind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="159" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="159" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_v_e_n_t_s_1ab1e4b0e837379288b840568055126ae7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EVENTS::infector_ind</definition>
+        <argsstring></argsstring>
+        <name>infector_ind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="159" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="159" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_v_e_n_t_s_1a62870b6892fb2db02ee1c3deba2f044b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EVENTS::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="159" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="159" bodyend="-1"/>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_v_e_n_t_s_1a2b9ed5998bcb06c3c9fa270cb9d8a078" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EVENTS::infectee_adunit</definition>
+        <argsstring></argsstring>
+        <name>infectee_adunit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="159" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="159" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_v_e_n_t_s_1a2be247b23246ccb55d52d4b99bce6a97" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EVENTS::listpos</definition>
+        <argsstring></argsstring>
+        <name>listpos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="159" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="159" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_v_e_n_t_s_1a7717a1002a2108bee4d9a8a2af24a918" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EVENTS::infectee_cell</definition>
+        <argsstring></argsstring>
+        <name>infectee_cell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="159" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="159" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_v_e_n_t_s_1a3d69efa0dfb4bace25ba5c6b67d5da99" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EVENTS::infector_cell</definition>
+        <argsstring></argsstring>
+        <name>infector_cell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="159" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="159" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_v_e_n_t_s_1a0dae60d25b192d2da48ecadfee0f1460" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EVENTS::thread</definition>
+        <argsstring></argsstring>
+        <name>thread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="159" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="159" bodyend="-1"/>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_update_8cpp_1af3d4fbe93164da2a5a16fc60764db452" compoundref="_update_8cpp" startline="157" endline="216">RecordEvent</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Supports producing individual infection events from the simulation (and is not used that much because it was developed for Ebola, and slows the simulation).</para><para>Added Events struct to allow us to log and write out infection events: ggilani 10/10/14 </para>    </detaileddescription>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" line="157" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Model.h" bodystart="157" bodyend="160"/>
+    <listofallmembers>
+      <member refid="struct_e_v_e_n_t_s_1a2b9ed5998bcb06c3c9fa270cb9d8a078" prot="public" virt="non-virtual"><scope>EVENTS</scope><name>infectee_adunit</name></member>
+      <member refid="struct_e_v_e_n_t_s_1a7717a1002a2108bee4d9a8a2af24a918" prot="public" virt="non-virtual"><scope>EVENTS</scope><name>infectee_cell</name></member>
+      <member refid="struct_e_v_e_n_t_s_1a0ba718e66ca097dd22ea458c9e326c1c" prot="public" virt="non-virtual"><scope>EVENTS</scope><name>infectee_ind</name></member>
+      <member refid="struct_e_v_e_n_t_s_1acf1b3500f3e871a4e0336c759ae47f99" prot="public" virt="non-virtual"><scope>EVENTS</scope><name>infectee_x</name></member>
+      <member refid="struct_e_v_e_n_t_s_1ae8a1f2a5d0280f981ba0e1941f39473d" prot="public" virt="non-virtual"><scope>EVENTS</scope><name>infectee_y</name></member>
+      <member refid="struct_e_v_e_n_t_s_1a3d69efa0dfb4bace25ba5c6b67d5da99" prot="public" virt="non-virtual"><scope>EVENTS</scope><name>infector_cell</name></member>
+      <member refid="struct_e_v_e_n_t_s_1ab1e4b0e837379288b840568055126ae7" prot="public" virt="non-virtual"><scope>EVENTS</scope><name>infector_ind</name></member>
+      <member refid="struct_e_v_e_n_t_s_1a2be247b23246ccb55d52d4b99bce6a97" prot="public" virt="non-virtual"><scope>EVENTS</scope><name>listpos</name></member>
+      <member refid="struct_e_v_e_n_t_s_1ac4bd94604d60591d2db4c8100818f19f" prot="public" virt="non-virtual"><scope>EVENTS</scope><name>run</name></member>
+      <member refid="struct_e_v_e_n_t_s_1a5befabbd1ab2b6fd20f648b73415114b" prot="public" virt="non-virtual"><scope>EVENTS</scope><name>t</name></member>
+      <member refid="struct_e_v_e_n_t_s_1a851a6e71970bc19a576c1b65371ee282" prot="public" virt="non-virtual"><scope>EVENTS</scope><name>t_infector</name></member>
+      <member refid="struct_e_v_e_n_t_s_1a0dae60d25b192d2da48ecadfee0f1460" prot="public" virt="non-virtual"><scope>EVENTS</scope><name>thread</name></member>
+      <member refid="struct_e_v_e_n_t_s_1a62870b6892fb2db02ee1c3deba2f044b" prot="public" virt="non-virtual"><scope>EVENTS</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

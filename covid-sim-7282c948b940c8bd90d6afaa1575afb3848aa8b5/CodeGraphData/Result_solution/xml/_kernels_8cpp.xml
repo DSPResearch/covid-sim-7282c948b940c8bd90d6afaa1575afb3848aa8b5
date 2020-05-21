@@ -1,0 +1,527 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_kernels_8cpp" kind="file">
+    <compoundname>Kernels.cpp</compoundname>
+    <includes local="no">cmath</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/include/yvals.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/include/cstdlib</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/include/yvals_core.h</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt/math.h</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt/stdlib.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/include/xtr1common</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">cstddef</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt/stddef.h</includes>
+    <includes refid="_kernels_8h" local="yes">Kernels.h</includes>
+    <includes refid="_error_8h" local="yes">Error.h</includes>
+    <includes refid="_dist_8h" local="yes">Dist.h</includes>
+    <includes refid="_param_8h" local="yes">Param.h</includes>
+    <incdepgraph>
+      <node id="134">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/include/cstdlib</label>
+      </node>
+      <node id="136">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt/math.h</label>
+      </node>
+      <node id="146">
+        <label>Country.h</label>
+        <link refid="_country_8h"/>
+      </node>
+      <node id="133">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/include/yvals.h</label>
+      </node>
+      <node id="132">
+        <label>cmath</label>
+      </node>
+      <node id="149">
+        <label>Param.h</label>
+        <link refid="_param_8h"/>
+        <childnode refid="146" relation="include">
+        </childnode>
+        <childnode refid="148" relation="include">
+        </childnode>
+      </node>
+      <node id="142">
+        <label>Kernels.h</label>
+        <link refid="_kernels_8h"/>
+      </node>
+      <node id="141">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt/stddef.h</label>
+      </node>
+      <node id="144">
+        <label>Dist.h</label>
+        <link refid="_dist_8h"/>
+        <childnode refid="145" relation="include">
+        </childnode>
+      </node>
+      <node id="147">
+        <label>MachineDefines.h</label>
+        <link refid="_machine_defines_8h"/>
+      </node>
+      <node id="138">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/include/xtr1common</label>
+      </node>
+      <node id="131">
+        <label>src/Kernels.cpp</label>
+        <link refid="Kernels.cpp"/>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="136" relation="include">
+        </childnode>
+        <childnode refid="137" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="143" relation="include">
+        </childnode>
+        <childnode refid="144" relation="include">
+        </childnode>
+        <childnode refid="149" relation="include">
+        </childnode>
+      </node>
+      <node id="143">
+        <label>Error.h</label>
+        <link refid="_error_8h"/>
+      </node>
+      <node id="145">
+        <label>Model.h</label>
+        <link refid="_model_8h"/>
+        <childnode refid="146" relation="include">
+        </childnode>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="148" relation="include">
+        </childnode>
+      </node>
+      <node id="148">
+        <label>Constants.h</label>
+        <link refid="_constants_8h"/>
+      </node>
+      <node id="140">
+        <label>cstddef</label>
+      </node>
+      <node id="135">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/include/yvals_core.h</label>
+      </node>
+      <node id="139">
+        <label>stdio.h</label>
+      </node>
+      <node id="137">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt/stdlib.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_kernels_8cpp_1acaac1d282e1984f90c9f6fc49fa4be4c" prot="public" static="no" mutable="no">
+        <type>double(*</type>
+        <definition>double(* Kernel)(double)</definition>
+        <argsstring>)(double)</argsstring>
+        <name>Kernel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" line="9" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" bodystart="9" bodyend="-1"/>
+        <referencedby refid="_kernels_8h_1ad1a228a6ad4cc1cfb92da9fbc78fd46b" compoundref="_kernels_8cpp" startline="11" endline="50">InitKernel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_kernels_8cpp_1ae989621a2ab4f680bf8a538a86d5b1dd" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* nKernel</definition>
+        <argsstring></argsstring>
+        <name>nKernel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" line="10" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" bodystart="10" bodyend="-1"/>
+        <referencedby refid="_kernels_8h_1ad1a228a6ad4cc1cfb92da9fbc78fd46b" compoundref="_kernels_8cpp" startline="11" endline="50">InitKernel</referencedby>
+        <referencedby refid="_kernels_8h_1a86fa3469d2f9435cd4630faa06da583a" compoundref="_kernels_8cpp" startline="100" endline="122">numKernel</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_kernels_8cpp_1a9108701e0e905fd7aa0c0575ac7aa793" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double * nKernelHR</definition>
+        <argsstring></argsstring>
+        <name>nKernelHR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" line="10" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" bodystart="10" bodyend="-1"/>
+        <referencedby refid="_kernels_8h_1ad1a228a6ad4cc1cfb92da9fbc78fd46b" compoundref="_kernels_8cpp" startline="11" endline="50">InitKernel</referencedby>
+        <referencedby refid="_kernels_8h_1a86fa3469d2f9435cd4630faa06da583a" compoundref="_kernels_8cpp" startline="100" endline="122">numKernel</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_kernels_8cpp_1a6cc2e92595dce20560d13e2f65ab3e1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InitKernel</definition>
+        <argsstring>(int DoPlaces, double norm)</argsstring>
+        <name>InitKernel</name>
+        <param>
+          <type>int</type>
+          <declname>DoPlaces</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>norm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" line="11" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" bodystart="11" bodyend="50"/>
+        <references refid="_model_8h_1a9a44edd4d69afa6fcace5ddce0dbb029" compoundref="_spatial_sim_8cpp" startline="77">CellLookup</references>
+        <references refid="_model_8h_1af0f221c6706ef7e154e5576e6df1ec89" compoundref="_spatial_sim_8cpp" startline="77">Cells</references>
+        <references refid="_dist_8cpp_1a809307a9ebbfa5e84c7e639e7497e5ff" compoundref="_dist_8cpp" startline="82" endline="152">dist2_cc_min</references>
+        <references refid="_kernels_8cpp_1a2515bd672caf564c9c1d92f9bf64f915" compoundref="_kernels_8cpp" startline="55" endline="58">ExpKernel</references>
+        <references refid="_kernels_8cpp_1ad3ad2ce82635158050a3082d0bd9097b" compoundref="_kernels_8cpp" startline="83" endline="86">GaussianKernel</references>
+        <references refid="_kernels_8cpp_1acaac1d282e1984f90c9f6fc49fa4be4c" compoundref="_kernels_8cpp" startline="9">Kernel</references>
+        <references refid="struct_p_a_r_a_m_1a1e46a8a935ee1cd9435b6eee590b6d2d" compoundref="_param_8h" startline="63">PARAM::KernelDelta</references>
+        <references refid="struct_p_a_r_a_m_1a560c35fb4f1881b16c87ebff8b732517" compoundref="_param_8h" startline="25">PARAM::KernelType</references>
+        <references refid="struct_p_a_r_a_m_1a69cb3cdd2a3942ab05c22b6babffabe0" compoundref="_param_8h" startline="32">PARAM::NCP</references>
+        <references refid="_country_8h_1a39a0cf90dd026fc007ecb501fd45547f" compoundref="_country_8h" startline="39">NK_HR</references>
+        <references refid="_kernels_8cpp_1ae989621a2ab4f680bf8a538a86d5b1dd" compoundref="_kernels_8cpp" startline="10">nKernel</references>
+        <references refid="_kernels_8cpp_1a9108701e0e905fd7aa0c0575ac7aa793" compoundref="_kernels_8cpp" startline="10">nKernelHR</references>
+        <references refid="_country_8h_1a93921b6d8b05706d35781e69cdca59c5" compoundref="_country_8h" startline="40">NKR</references>
+        <references refid="_kernels_8cpp_1a4554988cce0ded4c9a7717faf9baa2f0" compoundref="_kernels_8cpp" startline="100" endline="122">numKernel</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="_kernels_8cpp_1af986ab81cee5735b56458a8b5335016d" compoundref="_kernels_8cpp" startline="91" endline="99">PowerExpKernel</references>
+        <references refid="_kernels_8cpp_1a4122875e488060f50d2b0fdd25ca73d6" compoundref="_kernels_8cpp" startline="59" endline="66">PowerKernel</references>
+        <references refid="_kernels_8cpp_1ae77495104849699a332612e23db19254" compoundref="_kernels_8cpp" startline="67" endline="74">PowerKernelB</references>
+        <references refid="_kernels_8cpp_1aa387fedd646e07d3ff8b7682c73579ae" compoundref="_kernels_8cpp" startline="75" endline="82">PowerKernelUS</references>
+        <references refid="_kernels_8cpp_1a6f366c4b8676003a939027261af2eb81" compoundref="_kernels_8cpp" startline="87" endline="90">StepKernel</references>
+        <references refid="struct_c_e_l_l_1aa49a59c932a9b9187bb5d156dbf635b0" compoundref="_model_8h" startline="238">CELL::tot_prob</references>
+        <referencedby refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</referencedby>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_kernels_8cpp_1a2515bd672caf564c9c1d92f9bf64f915" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double ExpKernel</definition>
+        <argsstring>(double r2)</argsstring>
+        <name>ExpKernel</name>
+        <param>
+          <type>double</type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" line="55" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" bodystart="55" bodyend="58"/>
+        <references refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" compoundref="_param_8h" startline="63">PARAM::KernelScale</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <referencedby refid="_kernels_8h_1ad1a228a6ad4cc1cfb92da9fbc78fd46b" compoundref="_kernels_8cpp" startline="11" endline="50">InitKernel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_kernels_8cpp_1a4122875e488060f50d2b0fdd25ca73d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PowerKernel</definition>
+        <argsstring>(double r2)</argsstring>
+        <name>PowerKernel</name>
+        <param>
+          <type>double</type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" line="59" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" bodystart="59" bodyend="66"/>
+        <references refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" compoundref="_param_8h" startline="63">PARAM::KernelScale</references>
+        <references refid="struct_p_a_r_a_m_1a5e0188923545f5597470b3a43cdd9a96" compoundref="_param_8h" startline="63">PARAM::KernelShape</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <referencedby refid="_kernels_8h_1ad1a228a6ad4cc1cfb92da9fbc78fd46b" compoundref="_kernels_8cpp" startline="11" endline="50">InitKernel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_kernels_8cpp_1ae77495104849699a332612e23db19254" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PowerKernelB</definition>
+        <argsstring>(double r2)</argsstring>
+        <name>PowerKernelB</name>
+        <param>
+          <type>double</type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" line="67" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" bodystart="67" bodyend="74"/>
+        <references refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" compoundref="_param_8h" startline="63">PARAM::KernelScale</references>
+        <references refid="struct_p_a_r_a_m_1a5e0188923545f5597470b3a43cdd9a96" compoundref="_param_8h" startline="63">PARAM::KernelShape</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <referencedby refid="_kernels_8h_1ad1a228a6ad4cc1cfb92da9fbc78fd46b" compoundref="_kernels_8cpp" startline="11" endline="50">InitKernel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_kernels_8cpp_1aa387fedd646e07d3ff8b7682c73579ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PowerKernelUS</definition>
+        <argsstring>(double r2)</argsstring>
+        <name>PowerKernelUS</name>
+        <param>
+          <type>double</type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" line="75" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" bodystart="75" bodyend="82"/>
+        <references refid="struct_p_a_r_a_m_1a33b209904af2564feca951d3ef849745" compoundref="_param_8h" startline="63">PARAM::KernelP3</references>
+        <references refid="struct_p_a_r_a_m_1ae4a868d4bdf8fa8ebb24d7dc4f426bd4" compoundref="_param_8h" startline="63">PARAM::KernelP4</references>
+        <references refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" compoundref="_param_8h" startline="63">PARAM::KernelScale</references>
+        <references refid="struct_p_a_r_a_m_1a5e0188923545f5597470b3a43cdd9a96" compoundref="_param_8h" startline="63">PARAM::KernelShape</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <referencedby refid="_kernels_8h_1ad1a228a6ad4cc1cfb92da9fbc78fd46b" compoundref="_kernels_8cpp" startline="11" endline="50">InitKernel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_kernels_8cpp_1ad3ad2ce82635158050a3082d0bd9097b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double GaussianKernel</definition>
+        <argsstring>(double r2)</argsstring>
+        <name>GaussianKernel</name>
+        <param>
+          <type>double</type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" line="83" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" bodystart="83" bodyend="86"/>
+        <references refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" compoundref="_param_8h" startline="63">PARAM::KernelScale</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <referencedby refid="_kernels_8h_1ad1a228a6ad4cc1cfb92da9fbc78fd46b" compoundref="_kernels_8cpp" startline="11" endline="50">InitKernel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_kernels_8cpp_1a6f366c4b8676003a939027261af2eb81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double StepKernel</definition>
+        <argsstring>(double r2)</argsstring>
+        <name>StepKernel</name>
+        <param>
+          <type>double</type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" line="87" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" bodystart="87" bodyend="90"/>
+        <references refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" compoundref="_param_8h" startline="63">PARAM::KernelScale</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <referencedby refid="_kernels_8h_1ad1a228a6ad4cc1cfb92da9fbc78fd46b" compoundref="_kernels_8cpp" startline="11" endline="50">InitKernel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_kernels_8cpp_1af986ab81cee5735b56458a8b5335016d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PowerExpKernel</definition>
+        <argsstring>(double r2)</argsstring>
+        <name>PowerExpKernel</name>
+        <param>
+          <type>double</type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" line="91" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" bodystart="91" bodyend="99"/>
+        <references refid="struct_p_a_r_a_m_1a33b209904af2564feca951d3ef849745" compoundref="_param_8h" startline="63">PARAM::KernelP3</references>
+        <references refid="struct_p_a_r_a_m_1ae4a868d4bdf8fa8ebb24d7dc4f426bd4" compoundref="_param_8h" startline="63">PARAM::KernelP4</references>
+        <references refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" compoundref="_param_8h" startline="63">PARAM::KernelScale</references>
+        <references refid="struct_p_a_r_a_m_1a5e0188923545f5597470b3a43cdd9a96" compoundref="_param_8h" startline="63">PARAM::KernelShape</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <referencedby refid="_kernels_8h_1ad1a228a6ad4cc1cfb92da9fbc78fd46b" compoundref="_kernels_8cpp" startline="11" endline="50">InitKernel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_kernels_8cpp_1a4554988cce0ded4c9a7717faf9baa2f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double numKernel</definition>
+        <argsstring>(double r2)</argsstring>
+        <name>numKernel</name>
+        <param>
+          <type>double</type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" line="100" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp" bodystart="100" bodyend="122"/>
+        <references refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" compoundref="_error_8h" startline="6">ERR_CRITICAL</references>
+        <references refid="struct_p_a_r_a_m_1a1e46a8a935ee1cd9435b6eee590b6d2d" compoundref="_param_8h" startline="63">PARAM::KernelDelta</references>
+        <references refid="_country_8h_1a39a0cf90dd026fc007ecb501fd45547f" compoundref="_country_8h" startline="39">NK_HR</references>
+        <references refid="_kernels_8cpp_1ae989621a2ab4f680bf8a538a86d5b1dd" compoundref="_kernels_8cpp" startline="10">nKernel</references>
+        <references refid="_kernels_8cpp_1a9108701e0e905fd7aa0c0575ac7aa793" compoundref="_kernels_8cpp" startline="10">nKernelHR</references>
+        <references refid="_country_8h_1a93921b6d8b05706d35781e69cdca59c5" compoundref="_country_8h" startline="40">NKR</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <referencedby refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_kernels_8h_1ad1a228a6ad4cc1cfb92da9fbc78fd46b" compoundref="_kernels_8cpp" startline="11" endline="50">InitKernel</referencedby>
+        <referencedby refid="_setup_model_8h_1a0e93852adf9f11a87967e8bb697fbd0d" compoundref="_setup_model_8cpp" startline="1449" endline="1621">SetupAirports</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstddef&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_kernels_8h" kindref="compound">Kernels.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_error_8h" kindref="compound">Error.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_dist_8h" kindref="compound">Dist.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_param_8h" kindref="compound">Param.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="_kernels_8cpp_1acaac1d282e1984f90c9f6fc49fa4be4c" refkind="member"><highlight class="normal">double(*<ref refid="_kernels_8cpp_1acaac1d282e1984f90c9f6fc49fa4be4c" kindref="member">Kernel</ref>)(double);</highlight></codeline>
+<codeline lineno="10" refid="_kernels_8h_1a9108701e0e905fd7aa0c0575ac7aa793" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="_kernels_8cpp_1ae989621a2ab4f680bf8a538a86d5b1dd" kindref="member">nKernel</ref>,<sp/>*<ref refid="_kernels_8cpp_1a9108701e0e905fd7aa0c0575ac7aa793" kindref="member">nKernelHR</ref>;</highlight></codeline>
+<codeline lineno="11" refid="_kernels_8h_1ad1a228a6ad4cc1cfb92da9fbc78fd46b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_kernels_8cpp_1a6cc2e92595dce20560d13e2f65ab3e1b" kindref="member">InitKernel</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>DoPlaces,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>norm)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/>j,<sp/>im;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>std::ptrdiff_t<sp/>l,<sp/>m;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t2;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a560c35fb4f1881b16c87ebff8b732517" kindref="member">KernelType</ref><sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_kernels_8cpp_1acaac1d282e1984f90c9f6fc49fa4be4c" kindref="member">Kernel</ref><sp/>=<sp/><ref refid="_kernels_8cpp_1a2515bd672caf564c9c1d92f9bf64f915" kindref="member">ExpKernel</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a560c35fb4f1881b16c87ebff8b732517" kindref="member">KernelType</ref><sp/>==<sp/>2)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_kernels_8cpp_1acaac1d282e1984f90c9f6fc49fa4be4c" kindref="member">Kernel</ref><sp/>=<sp/><ref refid="_kernels_8cpp_1a4122875e488060f50d2b0fdd25ca73d6" kindref="member">PowerKernel</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a560c35fb4f1881b16c87ebff8b732517" kindref="member">KernelType</ref><sp/>==<sp/>3)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_kernels_8cpp_1acaac1d282e1984f90c9f6fc49fa4be4c" kindref="member">Kernel</ref><sp/>=<sp/><ref refid="_kernels_8cpp_1ad3ad2ce82635158050a3082d0bd9097b" kindref="member">GaussianKernel</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a560c35fb4f1881b16c87ebff8b732517" kindref="member">KernelType</ref><sp/>==<sp/>4)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_kernels_8cpp_1acaac1d282e1984f90c9f6fc49fa4be4c" kindref="member">Kernel</ref><sp/>=<sp/><ref refid="_kernels_8cpp_1a6f366c4b8676003a939027261af2eb81" kindref="member">StepKernel</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a560c35fb4f1881b16c87ebff8b732517" kindref="member">KernelType</ref><sp/>==<sp/>5)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_kernels_8cpp_1acaac1d282e1984f90c9f6fc49fa4be4c" kindref="member">Kernel</ref><sp/>=<sp/><ref refid="_kernels_8cpp_1ae77495104849699a332612e23db19254" kindref="member">PowerKernelB</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a560c35fb4f1881b16c87ebff8b732517" kindref="member">KernelType</ref><sp/>==<sp/>6)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_kernels_8cpp_1acaac1d282e1984f90c9f6fc49fa4be4c" kindref="member">Kernel</ref><sp/>=<sp/><ref refid="_kernels_8cpp_1aa387fedd646e07d3ff8b7682c73579ae" kindref="member">PowerKernelUS</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a560c35fb4f1881b16c87ebff8b732517" kindref="member">KernelType</ref><sp/>==<sp/>7)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_kernels_8cpp_1acaac1d282e1984f90c9f6fc49fa4be4c" kindref="member">Kernel</ref><sp/>=<sp/><ref refid="_kernels_8cpp_1af986ab81cee5735b56458a8b5335016d" kindref="member">PowerExpKernel</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>t2<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>omp<sp/>parallel<sp/>for<sp/>private(i)<sp/>schedule(static,500)<sp/>//added<sp/>private<sp/>i</highlight></codeline>
+<codeline lineno="33"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;=<sp/><ref refid="_country_8h_1a93921b6d8b05706d35781e69cdca59c5" kindref="member">NKR</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_kernels_8cpp_1ae989621a2ab4f680bf8a538a86d5b1dd" kindref="member">nKernel</ref>[i]<sp/>=<sp/>(*Kernel)(((double)i)<sp/>*<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a1e46a8a935ee1cd9435b6eee590b6d2d" kindref="member">KernelDelta</ref>)<sp/>/<sp/>norm;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_kernels_8cpp_1a9108701e0e905fd7aa0c0575ac7aa793" kindref="member">nKernelHR</ref>[i]<sp/>=<sp/>(*Kernel)(((double)i)<sp/>*<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a1e46a8a935ee1cd9435b6eee590b6d2d" kindref="member">KernelDelta</ref><sp/>/<sp/><ref refid="_country_8h_1a39a0cf90dd026fc007ecb501fd45547f" kindref="member">NK_HR</ref>)<sp/>/<sp/>norm;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>omp<sp/>parallel<sp/>for<sp/>schedule(static,500)<sp/>private(i,j,l,m,im)</highlight></codeline>
+<codeline lineno="40"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a69cb3cdd2a3942ab05c22b6babffabe0" kindref="member">NCP</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>l<sp/>=<sp/><ref refid="_model_8h_1a9a44edd4d69afa6fcace5ddce0dbb029" kindref="member">CellLookup</ref>[i]<sp/>-<sp/><ref refid="_model_8h_1af0f221c6706ef7e154e5576e6df1ec89" kindref="member">Cells</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cells[l].<ref refid="struct_c_e_l_l_1aa49a59c932a9b9187bb5d156dbf635b0" kindref="member">tot_prob</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(j<sp/>=<sp/>im<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a69cb3cdd2a3942ab05c22b6babffabe0" kindref="member">NCP</ref>;<sp/>j++)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m<sp/>=<sp/><ref refid="_model_8h_1a9a44edd4d69afa6fcace5ddce0dbb029" kindref="member">CellLookup</ref>[j]<sp/>-<sp/><ref refid="_model_8h_1af0f221c6706ef7e154e5576e6df1ec89" kindref="member">Cells</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cells[l].<ref refid="struct_c_e_l_l_1aa49a59c932a9b9187bb5d156dbf635b0" kindref="member">tot_prob</ref><sp/>+=<sp/>(Cells[l].max_trans[j]<sp/>=<sp/>(float)<ref refid="_kernels_8cpp_1a4554988cce0ded4c9a7717faf9baa2f0" kindref="member">numKernel</ref>(<ref refid="_dist_8cpp_1a809307a9ebbfa5e84c7e639e7497e5ff" kindref="member">dist2_cc_min</ref>(Cells<sp/>+<sp/>l,<sp/>Cells<sp/>+<sp/>m)))<sp/>*<sp/>Cells[m].n;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="_kernels_8h_1a78b186257dfc32fe7aa36488759633b9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_kernels_8cpp_1a2515bd672caf564c9c1d92f9bf64f915" kindref="member">ExpKernel</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r2)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>exp(-sqrt(r2)<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" kindref="member">KernelScale</ref>);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59" refid="_kernels_8h_1a72bf9fe55395e9e9151590b0aea4db30" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_kernels_8cpp_1a4122875e488060f50d2b0fdd25ca73d6" kindref="member">PowerKernel</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r2)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>t<sp/>=<sp/>-<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a5e0188923545f5597470b3a43cdd9a96" kindref="member">KernelShape</ref><sp/>*<sp/>log(sqrt(r2)<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" kindref="member">KernelScale</ref><sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(t<sp/>&lt;<sp/>-690)<sp/>?<sp/>0<sp/>:<sp/>exp(t);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67" refid="_kernels_8h_1a7db84f44cd6aaa7b7844837e0fe9d0a0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_kernels_8cpp_1ae77495104849699a332612e23db19254" kindref="member">PowerKernelB</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r2)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>t<sp/>=<sp/>0.5<sp/>*<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a5e0188923545f5597470b3a43cdd9a96" kindref="member">KernelShape</ref><sp/>*<sp/>log(r2<sp/>/<sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" kindref="member">KernelScale</ref><sp/>*<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" kindref="member">KernelScale</ref>));</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(t<sp/>&gt;<sp/>690)<sp/>?<sp/>0<sp/>:<sp/>(1<sp/>/<sp/>(exp(t)<sp/>+<sp/>1));</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75" refid="_kernels_8h_1a70f029fa0f54145c2fd5e0322a677633" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_kernels_8cpp_1aa387fedd646e07d3ff8b7682c73579ae" kindref="member">PowerKernelUS</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r2)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>t<sp/>=<sp/>log(sqrt(r2)<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" kindref="member">KernelScale</ref><sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(t<sp/>&lt;<sp/>-690)<sp/>?<sp/>0<sp/>:<sp/>(exp(-<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a5e0188923545f5597470b3a43cdd9a96" kindref="member">KernelShape</ref><sp/>*<sp/>t)<sp/>+<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a33b209904af2564feca951d3ef849745" kindref="member">KernelP3</ref><sp/>*<sp/>exp(-<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae4a868d4bdf8fa8ebb24d7dc4f426bd4" kindref="member">KernelP4</ref><sp/>*<sp/>t))<sp/>/<sp/>(1<sp/>+<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a33b209904af2564feca951d3ef849745" kindref="member">KernelP3</ref>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83" refid="_kernels_8h_1a89fe8c4ecbf099cfec3b2ca5240d0830" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_kernels_8cpp_1ad3ad2ce82635158050a3082d0bd9097b" kindref="member">GaussianKernel</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r2)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>exp(-r2<sp/>/<sp/>(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" kindref="member">KernelScale</ref><sp/>*<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" kindref="member">KernelScale</ref>));</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87" refid="_kernels_8h_1ae1e5b37892bfddc0e37f94b561512722" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_kernels_8cpp_1a6f366c4b8676003a939027261af2eb81" kindref="member">StepKernel</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r2)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(r2<sp/>&gt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" kindref="member">KernelScale</ref><sp/>*<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" kindref="member">KernelScale</ref>)<sp/>?<sp/>0<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91" refid="_kernels_8h_1aa3c14104c47a70ada368390a01bf50ad" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_kernels_8cpp_1af986ab81cee5735b56458a8b5335016d" kindref="member">PowerExpKernel</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r2)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>d,<sp/>t;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>d<sp/>=<sp/>sqrt(r2);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>t<sp/>=<sp/>-<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a5e0188923545f5597470b3a43cdd9a96" kindref="member">KernelShape</ref><sp/>*<sp/>log(d<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a8e5647ca0aefe28c3bf084d630d7bb38" kindref="member">KernelScale</ref><sp/>+<sp/>1);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(t<sp/>&lt;<sp/>-690)<sp/>?<sp/>0<sp/>:<sp/>exp(t<sp/>-<sp/>pow(d<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a33b209904af2564feca951d3ef849745" kindref="member">KernelP3</ref>,<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ae4a868d4bdf8fa8ebb24d7dc4f426bd4" kindref="member">KernelP4</ref>));</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="100" refid="_kernels_8h_1a86fa3469d2f9435cd4630faa06da583a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_kernels_8cpp_1a4554988cce0ded4c9a7717faf9baa2f0" kindref="member">numKernel</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r2)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t,<sp/>s;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>t<sp/>=<sp/>r2<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a1e46a8a935ee1cd9435b6eee590b6d2d" kindref="member">KernelDelta</ref>;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(t<sp/>&gt;<sp/><ref refid="_country_8h_1a93921b6d8b05706d35781e69cdca59c5" kindref="member">NKR</ref>)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;**<sp/>%lg<sp/><sp/>%lg<sp/><sp/>%lg**\n&quot;</highlight><highlight class="normal">,<sp/>r2,<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a1e46a8a935ee1cd9435b6eee590b6d2d" kindref="member">KernelDelta</ref>,<sp/>t);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" kindref="member">ERR_CRITICAL</ref>(</highlight><highlight class="stringliteral">&quot;r<sp/>too<sp/>large<sp/>in<sp/>NumKernel\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>s<sp/>=<sp/>t<sp/>*<sp/><ref refid="_country_8h_1a39a0cf90dd026fc007ecb501fd45547f" kindref="member">NK_HR</ref>;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(s<sp/>&lt;<sp/><ref refid="_country_8h_1a93921b6d8b05706d35781e69cdca59c5" kindref="member">NKR</ref>)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>=<sp/>s<sp/>-<sp/>floor(s);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>=<sp/>(1<sp/>-<sp/>t)<sp/>*<sp/><ref refid="_kernels_8cpp_1a9108701e0e905fd7aa0c0575ac7aa793" kindref="member">nKernelHR</ref>[(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)s]<sp/>+<sp/>t<sp/>*<sp/><ref refid="_kernels_8cpp_1a9108701e0e905fd7aa0c0575ac7aa793" kindref="member">nKernelHR</ref>[(int)(s<sp/>+<sp/>1)];</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s<sp/>=<sp/>t<sp/>-<sp/>floor(t);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>=<sp/>(1<sp/>-<sp/>s)<sp/>*<sp/><ref refid="_kernels_8cpp_1ae989621a2ab4f680bf8a538a86d5b1dd" kindref="member">nKernel</ref>[(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)t]<sp/>+<sp/>s<sp/>*<sp/><ref refid="_kernels_8cpp_1ae989621a2ab4f680bf8a538a86d5b1dd" kindref="member">nKernel</ref>[(int)(t<sp/>+<sp/>1)];</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>t;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Kernels.cpp"/>
+  </compounddef>
+</doxygen>

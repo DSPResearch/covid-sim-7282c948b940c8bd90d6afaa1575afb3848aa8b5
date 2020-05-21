@@ -1,0 +1,808 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_rand_8h" kind="file">
+    <compoundname>Rand.h</compoundname>
+    <includedby refid="_rand_8cpp" local="yes">src/Rand.cpp</includedby>
+    <includedby refid="_setup_model_8cpp" local="yes">src/SetupModel.cpp</includedby>
+    <includedby refid="_spatial_sim_8cpp" local="yes">src/SpatialSim.cpp</includedby>
+    <includedby refid="_sweep_8cpp" local="yes">src/Sweep.cpp</includedby>
+    <includedby refid="_update_8cpp" local="yes">src/Update.cpp</includedby>
+    <invincdepgraph>
+      <node id="220">
+        <label>src/Sweep.cpp</label>
+        <link refid="_sweep_8cpp"/>
+      </node>
+      <node id="221">
+        <label>src/Update.cpp</label>
+        <link refid="_update_8cpp"/>
+      </node>
+      <node id="216">
+        <label>src/Rand.h</label>
+        <link refid="Rand.h"/>
+        <childnode refid="217" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="219" relation="include">
+        </childnode>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="221" relation="include">
+        </childnode>
+      </node>
+      <node id="219">
+        <label>src/SpatialSim.cpp</label>
+        <link refid="_spatial_sim_8cpp"/>
+      </node>
+      <node id="217">
+        <label>src/Rand.cpp</label>
+        <link refid="_rand_8cpp"/>
+      </node>
+      <node id="218">
+        <label>src/SetupModel.cpp</label>
+        <link refid="_setup_model_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_rand_8h_1a46f027760b3d7a48a31ff4f9f9eb2635" prot="public" static="no">
+        <name>Xm1</name>
+        <initializer>2147483563</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="5" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" bodystart="5" bodyend="-1"/>
+        <referencedby refid="_rand_8h_1a0576ba455127db74f31b5a8eee738f44" compoundref="_rand_8cpp" startline="24" endline="47">ranf</referencedby>
+        <referencedby refid="_rand_8h_1a33e03205fbf5318c3adaebcc76b50264" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</referencedby>
+        <referencedby refid="_rand_8h_1a23e81ccf74a1adcf51cc1ddcdef837b3" compoundref="_rand_8cpp" startline="69" endline="96">setall</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_rand_8h_1ab97dc86ab666a550c5dddfc344dece6e" prot="public" static="no">
+        <name>Xm2</name>
+        <initializer>2147483399</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="6" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" bodystart="6" bodyend="-1"/>
+        <referencedby refid="_rand_8h_1a0576ba455127db74f31b5a8eee738f44" compoundref="_rand_8cpp" startline="24" endline="47">ranf</referencedby>
+        <referencedby refid="_rand_8h_1a33e03205fbf5318c3adaebcc76b50264" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</referencedby>
+        <referencedby refid="_rand_8h_1a23e81ccf74a1adcf51cc1ddcdef837b3" compoundref="_rand_8cpp" startline="69" endline="96">setall</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_rand_8h_1a73ee21f6ffe24405f78796404c037faf" prot="public" static="no">
+        <name>Xa1</name>
+        <initializer>40014</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="7" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" bodystart="7" bodyend="-1"/>
+        <referencedby refid="_rand_8h_1a0576ba455127db74f31b5a8eee738f44" compoundref="_rand_8cpp" startline="24" endline="47">ranf</referencedby>
+        <referencedby refid="_rand_8h_1a33e03205fbf5318c3adaebcc76b50264" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_rand_8h_1af83edcfbc8d3db3b7ce51a95fd101605" prot="public" static="no">
+        <name>Xa2</name>
+        <initializer>40692</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="8" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" bodystart="8" bodyend="-1"/>
+        <referencedby refid="_rand_8h_1a0576ba455127db74f31b5a8eee738f44" compoundref="_rand_8cpp" startline="24" endline="47">ranf</referencedby>
+        <referencedby refid="_rand_8h_1a33e03205fbf5318c3adaebcc76b50264" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_rand_8h_1a6633522cb17d040ea7ec5b7fc8b64ace" prot="public" static="no">
+        <name>Xa1vw</name>
+        <initializer>2082007225</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="9" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" bodystart="9" bodyend="-1"/>
+        <referencedby refid="_rand_8h_1a23e81ccf74a1adcf51cc1ddcdef837b3" compoundref="_rand_8cpp" startline="69" endline="96">setall</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="_rand_8h_1a82d35b2b69afa99257c4dec9db7c41cb" prot="public" static="no">
+        <name>Xa2vw</name>
+        <initializer>84306273</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="10" column="9" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" bodystart="10" bodyend="-1"/>
+        <referencedby refid="_rand_8h_1a23e81ccf74a1adcf51cc1ddcdef837b3" compoundref="_rand_8cpp" startline="69" endline="96">setall</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_rand_8h_1a27488915fe3fa82c70d9166c321fd510" prot="public" static="no" mutable="no">
+        <type>int **</type>
+        <definition>int** SamplingQueue</definition>
+        <argsstring></argsstring>
+        <name>SamplingQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="13" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="18" bodyend="-1"/>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_rand_8h_1a59edf589d35955c31cbc0f5b46935cc4" compoundref="_rand_8cpp" startline="2281" endline="2415">SampleWithoutReplacement</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_rand_8h_1a4378c16f4004f0ff416835647afaa4e3" prot="public" static="no" mutable="no">
+        <type>long *</type>
+        <definition>long* Xcg1</definition>
+        <argsstring></argsstring>
+        <name>Xcg1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="14" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="17" bodyend="-1"/>
+        <referencedby refid="_rand_8h_1a0576ba455127db74f31b5a8eee738f44" compoundref="_rand_8cpp" startline="24" endline="47">ranf</referencedby>
+        <referencedby refid="_rand_8h_1a33e03205fbf5318c3adaebcc76b50264" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</referencedby>
+        <referencedby refid="_rand_8h_1a23e81ccf74a1adcf51cc1ddcdef837b3" compoundref="_rand_8cpp" startline="69" endline="96">setall</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_rand_8h_1a0d35c9badaebae83a7e920acefa4aa83" prot="public" static="no" mutable="no">
+        <type>long *</type>
+        <definition>long * Xcg2</definition>
+        <argsstring></argsstring>
+        <name>Xcg2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="14" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="17" bodyend="-1"/>
+        <referencedby refid="_rand_8h_1a0576ba455127db74f31b5a8eee738f44" compoundref="_rand_8cpp" startline="24" endline="47">ranf</referencedby>
+        <referencedby refid="_rand_8h_1a33e03205fbf5318c3adaebcc76b50264" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</referencedby>
+        <referencedby refid="_rand_8h_1a23e81ccf74a1adcf51cc1ddcdef837b3" compoundref="_rand_8cpp" startline="69" endline="96">setall</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_rand_8h_1ae688e6f95824157fb3dfde3cc80a300c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long ignbin</definition>
+        <argsstring>(long, double)</argsstring>
+        <name>ignbin</name>
+        <param>
+          <type>long</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="16" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="192" bodyend="453"/>
+        <references refid="_rand_8cpp_1a996f7be338ccb40d1a2a5abc1ad61759" compoundref="_rand_8cpp" startline="12">ABS</references>
+        <references refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" compoundref="_error_8h" startline="6">ERR_CRITICAL</references>
+        <references refid="_rand_8cpp_1a8ce9745703b1ec4a5cda4caccf0795b6" compoundref="_rand_8cpp" startline="192" endline="453">ignbin</references>
+        <references refid="_rand_8cpp_1ac3e69dcecb1f6ec71a2022f0068dbe33" compoundref="_rand_8cpp" startline="13">minF</references>
+        <references refid="_rand_8cpp_1a0576ba455127db74f31b5a8eee738f44" compoundref="_rand_8cpp" startline="24" endline="47">ranf</references>
+        <referencedby refid="_rand_8h_1ae688e6f95824157fb3dfde3cc80a300c" compoundref="_rand_8cpp" startline="192" endline="453">ignbin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1afe3b33afbcf4939f94e0f052fbb530b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long ignpoi</definition>
+        <argsstring>(double)</argsstring>
+        <name>ignpoi</name>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="17" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="454" bodyend="687"/>
+        <references refid="_rand_8cpp_1ab522f7ba08479f35ee7dd3729cf20a44" compoundref="_rand_8cpp" startline="1566" endline="1572">fsign</references>
+        <references refid="_rand_8cpp_1a8de5c26fb07fe351e491d65b683eb9f3" compoundref="_rand_8cpp" startline="454" endline="687">ignpoi</references>
+        <references refid="_rand_8cpp_1a571b7829b81c5868eb89e92bf749321a" compoundref="_rand_8cpp" startline="14">maxF</references>
+        <references refid="_rand_8cpp_1ac3e69dcecb1f6ec71a2022f0068dbe33" compoundref="_rand_8cpp" startline="13">minF</references>
+        <references refid="_rand_8cpp_1a0576ba455127db74f31b5a8eee738f44" compoundref="_rand_8cpp" startline="24" endline="47">ranf</references>
+        <references refid="_rand_8cpp_1a5d1e1b7e37744eaf9dc9299101f98b84" compoundref="_rand_8cpp" startline="1184" endline="1247">sexpo</references>
+        <references refid="_rand_8cpp_1a5a10592980be2c6c06f9cc0a74686238" compoundref="_rand_8cpp" startline="1312" endline="1438">snorm</references>
+        <referencedby refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</referencedby>
+        <referencedby refid="_rand_8h_1afe3b33afbcf4939f94e0f052fbb530b1" compoundref="_rand_8cpp" startline="454" endline="687">ignpoi</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1ab984bb3a9f43d7e11998005ee1aaae7f" compoundref="_spatial_sim_8cpp" startline="2428" endline="2591">RunModel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1ac110885cc3fe5b43885b2a4a0458078c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long ignbin_mt</definition>
+        <argsstring>(long, double, int)</argsstring>
+        <name>ignbin_mt</name>
+        <param>
+          <type>long</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="18" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="922" bodyend="1183"/>
+        <references refid="_rand_8cpp_1a996f7be338ccb40d1a2a5abc1ad61759" compoundref="_rand_8cpp" startline="12">ABS</references>
+        <references refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" compoundref="_error_8h" startline="6">ERR_CRITICAL</references>
+        <references refid="_rand_8cpp_1a5efb4220d658f7dd6056a98264616d4f" compoundref="_rand_8cpp" startline="922" endline="1183">ignbin_mt</references>
+        <references refid="_rand_8cpp_1ac3e69dcecb1f6ec71a2022f0068dbe33" compoundref="_rand_8cpp" startline="13">minF</references>
+        <references refid="_rand_8cpp_1a9d6753048d256a545575a035578a85bf" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</references>
+        <referencedby refid="_rand_8h_1ac110885cc3fe5b43885b2a4a0458078c" compoundref="_rand_8cpp" startline="922" endline="1183">ignbin_mt</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+        <referencedby refid="_setup_model_8h_1af4a2b8ba6f8b3bdedd5011d2d9eb2900" compoundref="_setup_model_8cpp" startline="2365" endline="2498">StratifyPlaces</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1a2932e85a50edd9613b1082f1772a4411" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long ignpoi_mt</definition>
+        <argsstring>(double, int)</argsstring>
+        <name>ignpoi_mt</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="19" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="688" bodyend="921"/>
+        <references refid="_rand_8cpp_1ab522f7ba08479f35ee7dd3729cf20a44" compoundref="_rand_8cpp" startline="1566" endline="1572">fsign</references>
+        <references refid="_rand_8cpp_1a50a53c3fed7a411386c5424c72eeb32a" compoundref="_rand_8cpp" startline="688" endline="921">ignpoi_mt</references>
+        <references refid="_rand_8cpp_1a571b7829b81c5868eb89e92bf749321a" compoundref="_rand_8cpp" startline="14">maxF</references>
+        <references refid="_rand_8cpp_1ac3e69dcecb1f6ec71a2022f0068dbe33" compoundref="_rand_8cpp" startline="13">minF</references>
+        <references refid="_rand_8cpp_1a9d6753048d256a545575a035578a85bf" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</references>
+        <references refid="_rand_8cpp_1aa21067a5fded7277334295ed5e227640" compoundref="_rand_8cpp" startline="1248" endline="1311">sexpo_mt</references>
+        <references refid="_rand_8cpp_1a52d51dc5f6d9b77b8e4b737a06a968ef" compoundref="_rand_8cpp" startline="1439" endline="1565">snorm_mt</references>
+        <referencedby refid="_setup_model_8h_1a4d19838a80a5d05bb9dcdebc0fce648e" compoundref="_setup_model_8cpp" startline="1626" endline="1871">AssignHouseholdAges</referencedby>
+        <referencedby refid="_rand_8h_1a2932e85a50edd9613b1082f1772a4411" compoundref="_rand_8cpp" startline="688" endline="921">ignpoi_mt</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_setup_model_8h_1af4a2b8ba6f8b3bdedd5011d2d9eb2900" compoundref="_setup_model_8cpp" startline="2365" endline="2498">StratifyPlaces</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1a0576ba455127db74f31b5a8eee738f44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double ranf</definition>
+        <argsstring>(void)</argsstring>
+        <name>ranf</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="20" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="24" bodyend="47"/>
+        <references refid="_machine_defines_8h_1af89f60b07247176687889ade776c8e10" compoundref="_machine_defines_8h" startline="11">CACHE_LINE_SIZE</references>
+        <references refid="_rand_8h_1a73ee21f6ffe24405f78796404c037faf" compoundref="_rand_8h" startline="7">Xa1</references>
+        <references refid="_rand_8h_1af83edcfbc8d3db3b7ce51a95fd101605" compoundref="_rand_8h" startline="8">Xa2</references>
+        <references refid="_rand_8cpp_1a4378c16f4004f0ff416835647afaa4e3" compoundref="_rand_8cpp" startline="17">Xcg1</references>
+        <references refid="_rand_8cpp_1a0d35c9badaebae83a7e920acefa4aa83" compoundref="_rand_8cpp" startline="17">Xcg2</references>
+        <references refid="_rand_8h_1a46f027760b3d7a48a31ff4f9f9eb2635" compoundref="_rand_8h" startline="5">Xm1</references>
+        <references refid="_rand_8h_1ab97dc86ab666a550c5dddfc344dece6e" compoundref="_rand_8h" startline="6">Xm2</references>
+        <referencedby refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</referencedby>
+        <referencedby refid="_rand_8h_1ad4d701775b95109dc8c795047b7ac366" compoundref="_rand_8cpp" startline="2112" endline="2174">gen_gamma</referencedby>
+        <referencedby refid="_rand_8h_1aeb94f03ad326f21e658ef84db58a3898" compoundref="_rand_8cpp" startline="2056" endline="2078">gen_norm</referencedby>
+        <referencedby refid="_rand_8h_1ae688e6f95824157fb3dfde3cc80a300c" compoundref="_rand_8cpp" startline="192" endline="453">ignbin</referencedby>
+        <referencedby refid="_rand_8h_1afe3b33afbcf4939f94e0f052fbb530b1" compoundref="_rand_8cpp" startline="454" endline="687">ignpoi</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_spatial_sim_8cpp" startline="118" endline="455">main</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a06701ee2bb1b97eabcabebc846738d2d" compoundref="_spatial_sim_8cpp" startline="1632" endline="1838">ReadInterventions</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1ab984bb3a9f43d7e11998005ee1aaae7f" compoundref="_spatial_sim_8cpp" startline="2428" endline="2591">RunModel</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a66430df5622fb3fdfd7b9dd3bb335072" compoundref="_spatial_sim_8cpp" startline="2305" endline="2425">SeedInfection</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+        <referencedby refid="_rand_8h_1a5d1e1b7e37744eaf9dc9299101f98b84" compoundref="_rand_8cpp" startline="1184" endline="1247">sexpo</referencedby>
+        <referencedby refid="_rand_8h_1aefc829f57376bec8d4b7f288f7c01e8a" compoundref="_rand_8cpp" startline="1573" endline="1811">sgamma</referencedby>
+        <referencedby refid="_rand_8h_1a5a10592980be2c6c06f9cc0a74686238" compoundref="_rand_8cpp" startline="1312" endline="1438">snorm</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1a33e03205fbf5318c3adaebcc76b50264" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double ranf_mt</definition>
+        <argsstring>(int)</argsstring>
+        <name>ranf_mt</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="21" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="48" bodyend="67"/>
+        <references refid="_machine_defines_8h_1af89f60b07247176687889ade776c8e10" compoundref="_machine_defines_8h" startline="11">CACHE_LINE_SIZE</references>
+        <references refid="_rand_8h_1a73ee21f6ffe24405f78796404c037faf" compoundref="_rand_8h" startline="7">Xa1</references>
+        <references refid="_rand_8h_1af83edcfbc8d3db3b7ce51a95fd101605" compoundref="_rand_8h" startline="8">Xa2</references>
+        <references refid="_rand_8cpp_1a4378c16f4004f0ff416835647afaa4e3" compoundref="_rand_8cpp" startline="17">Xcg1</references>
+        <references refid="_rand_8cpp_1a0d35c9badaebae83a7e920acefa4aa83" compoundref="_rand_8cpp" startline="17">Xcg2</references>
+        <references refid="_rand_8h_1a46f027760b3d7a48a31ff4f9f9eb2635" compoundref="_rand_8h" startline="5">Xm1</references>
+        <references refid="_rand_8h_1ab97dc86ab666a550c5dddfc344dece6e" compoundref="_rand_8h" startline="6">Xm2</references>
+        <referencedby refid="_setup_model_8h_1a4d19838a80a5d05bb9dcdebc0fce648e" compoundref="_setup_model_8cpp" startline="1626" endline="1871">AssignHouseholdAges</referencedby>
+        <referencedby refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</referencedby>
+        <referencedby refid="_update_8cpp_1a82f69f2fec4537219d20ff92916ab4c5" compoundref="_update_8cpp" startline="1256" endline="1269">ChooseFinalDiseaseSeverity</referencedby>
+        <referencedby refid="_update_8cpp_1add695640ad936019a5de195e52ffbaef" compoundref="_update_8cpp" startline="1271" endline="1283">ChooseFromICDF</referencedby>
+        <referencedby refid="_update_8h_1a1d8a2023d9614c8516284ec7f2fa1799" compoundref="_update_8cpp" startline="668" endline="763">DoCase</referencedby>
+        <referencedby refid="_update_8h_1a00360c778d548ad24b3a7b745e7b6d62" compoundref="_update_8cpp" startline="482" endline="666">DoDetectedCase</referencedby>
+        <referencedby refid="_update_8h_1ad730f3c2145f6f58b149faeb4178d2cb" compoundref="_update_8cpp" startline="765" endline="777">DoFalseCase</referencedby>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+        <referencedby refid="_update_8h_1a8ad2c14b52bb01fd0db7cd2a6870ef1d" compoundref="_update_8cpp" startline="71" endline="156">DoInfect</referencedby>
+        <referencedby refid="_update_8h_1a287f606f4005fbe01d44764c259da6db" compoundref="_update_8cpp" startline="1015" endline="1137">DoPlaceClose</referencedby>
+        <referencedby refid="_rand_8h_1aecee9d4bd97abc1530473984a5ebfeb9" compoundref="_rand_8cpp" startline="2180" endline="2241">gen_gamma_mt</referencedby>
+        <referencedby refid="_rand_8h_1aee020673acf62db0de997b835b0a9322" compoundref="_rand_8cpp" startline="2084" endline="2106">gen_norm_mt</referencedby>
+        <referencedby refid="_rand_8h_1ac110885cc3fe5b43885b2a4a0458078c" compoundref="_rand_8cpp" startline="922" endline="1183">ignbin_mt</referencedby>
+        <referencedby refid="_rand_8h_1a2932e85a50edd9613b1082f1772a4411" compoundref="_rand_8cpp" startline="688" endline="921">ignpoi_mt</referencedby>
+        <referencedby refid="_sweep_8h_1a28ea9814dd487a5716b0183860f34938" compoundref="_sweep_8cpp" startline="801" endline="895">IncubRecoverySweep</referencedby>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1abb8d86424c2c51a5c724c10254fdca32" compoundref="_spatial_sim_8cpp" startline="2023" endline="2303">InitModel</referencedby>
+        <referencedby refid="_rand_8h_1a59edf589d35955c31cbc0f5b46935cc4" compoundref="_rand_8cpp" startline="2281" endline="2415">SampleWithoutReplacement</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a06ad86d75fbc56cdbcee37c11753469f" compoundref="_setup_model_8cpp" startline="627" endline="1448">SetupPopulation</referencedby>
+        <referencedby refid="_rand_8h_1a42527ded5e564355bf3b8f1d9e150b67" compoundref="_rand_8cpp" startline="1248" endline="1311">sexpo_mt</referencedby>
+        <referencedby refid="_rand_8h_1a4abd5b93f9097f3d472078df73228273" compoundref="_rand_8cpp" startline="1812" endline="2050">sgamma_mt</referencedby>
+        <referencedby refid="_rand_8h_1a66fd597eef402e9b1d4427241c7cf1c5" compoundref="_rand_8cpp" startline="1439" endline="1565">snorm_mt</referencedby>
+        <referencedby refid="_setup_model_8h_1af4a2b8ba6f8b3bdedd5011d2d9eb2900" compoundref="_setup_model_8cpp" startline="2365" endline="2498">StratifyPlaces</referencedby>
+        <referencedby refid="_sweep_8h_1ab26d0cb0b3e190972167c56407a9a0a5" compoundref="_sweep_8cpp" startline="67" endline="259">TravelDepartSweep</referencedby>
+        <referencedby refid="_sweep_8h_1a8020679604db073302610acd6485f166" compoundref="_sweep_8cpp" startline="1005" endline="1566">TreatSweep</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1a23e81ccf74a1adcf51cc1ddcdef837b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void setall</definition>
+        <argsstring>(long, long)</argsstring>
+        <name>setall</name>
+        <param>
+          <type>long</type>
+        </param>
+        <param>
+          <type>long</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="22" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="69" bodyend="96"/>
+        <references refid="_machine_defines_8h_1af89f60b07247176687889ade776c8e10" compoundref="_machine_defines_8h" startline="11">CACHE_LINE_SIZE</references>
+        <references refid="_machine_defines_8h_1a5747ce5beae65002b9ee2c4a4cf8c329" compoundref="_machine_defines_8h" startline="9">MAX_NUM_THREADS</references>
+        <references refid="_rand_8cpp_1a7918059d0404f6774dbf68b145fb5508" compoundref="_rand_8cpp" startline="97" endline="190">mltmod</references>
+        <references refid="_rand_8h_1a6633522cb17d040ea7ec5b7fc8b64ace" compoundref="_rand_8h" startline="9">Xa1vw</references>
+        <references refid="_rand_8h_1a82d35b2b69afa99257c4dec9db7c41cb" compoundref="_rand_8h" startline="10">Xa2vw</references>
+        <references refid="_rand_8cpp_1a4378c16f4004f0ff416835647afaa4e3" compoundref="_rand_8cpp" startline="17">Xcg1</references>
+        <references refid="_rand_8cpp_1a0d35c9badaebae83a7e920acefa4aa83" compoundref="_rand_8cpp" startline="17">Xcg2</references>
+        <references refid="_rand_8h_1a46f027760b3d7a48a31ff4f9f9eb2635" compoundref="_rand_8h" startline="5">Xm1</references>
+        <references refid="_rand_8h_1ab97dc86ab666a550c5dddfc344dece6e" compoundref="_rand_8h" startline="6">Xm2</references>
+        <referencedby refid="_spatial_sim_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_spatial_sim_8cpp" startline="118" endline="455">main</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1ab984bb3a9f43d7e11998005ee1aaae7f" compoundref="_spatial_sim_8cpp" startline="2428" endline="2591">RunModel</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1a42527ded5e564355bf3b8f1d9e150b67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double sexpo_mt</definition>
+        <argsstring>(int)</argsstring>
+        <name>sexpo_mt</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="23" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="1248" bodyend="1311"/>
+        <references refid="_rand_8cpp_1a9d6753048d256a545575a035578a85bf" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</references>
+        <references refid="_rand_8cpp_1aa21067a5fded7277334295ed5e227640" compoundref="_rand_8cpp" startline="1248" endline="1311">sexpo_mt</references>
+        <referencedby refid="_rand_8h_1a2932e85a50edd9613b1082f1772a4411" compoundref="_rand_8cpp" startline="688" endline="921">ignpoi_mt</referencedby>
+        <referencedby refid="_rand_8h_1a42527ded5e564355bf3b8f1d9e150b67" compoundref="_rand_8cpp" startline="1248" endline="1311">sexpo_mt</referencedby>
+        <referencedby refid="_rand_8h_1a4abd5b93f9097f3d472078df73228273" compoundref="_rand_8cpp" startline="1812" endline="2050">sgamma_mt</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1a5d1e1b7e37744eaf9dc9299101f98b84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double sexpo</definition>
+        <argsstring>(void)</argsstring>
+        <name>sexpo</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="24" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="1184" bodyend="1247"/>
+        <references refid="_rand_8cpp_1a0576ba455127db74f31b5a8eee738f44" compoundref="_rand_8cpp" startline="24" endline="47">ranf</references>
+        <references refid="_rand_8cpp_1a5d1e1b7e37744eaf9dc9299101f98b84" compoundref="_rand_8cpp" startline="1184" endline="1247">sexpo</references>
+        <referencedby refid="_rand_8h_1afe3b33afbcf4939f94e0f052fbb530b1" compoundref="_rand_8cpp" startline="454" endline="687">ignpoi</referencedby>
+        <referencedby refid="_rand_8h_1a5d1e1b7e37744eaf9dc9299101f98b84" compoundref="_rand_8cpp" startline="1184" endline="1247">sexpo</referencedby>
+        <referencedby refid="_rand_8h_1aefc829f57376bec8d4b7f288f7c01e8a" compoundref="_rand_8cpp" startline="1573" endline="1811">sgamma</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1adbdde2e53230e3102059a2ace3b2c990" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long mltmod</definition>
+        <argsstring>(long, long, long)</argsstring>
+        <name>mltmod</name>
+        <param>
+          <type>long</type>
+        </param>
+        <param>
+          <type>long</type>
+        </param>
+        <param>
+          <type>long</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="25" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="97" bodyend="190"/>
+        <references refid="_rand_8cpp_1a56dee7158d9de89b23535bf5ad318261">h</references>
+        <references refid="_rand_8cpp_1a7918059d0404f6774dbf68b145fb5508" compoundref="_rand_8cpp" startline="97" endline="190">mltmod</references>
+        <referencedby refid="_rand_8h_1adbdde2e53230e3102059a2ace3b2c990" compoundref="_rand_8cpp" startline="97" endline="190">mltmod</referencedby>
+        <referencedby refid="_rand_8h_1a23e81ccf74a1adcf51cc1ddcdef837b3" compoundref="_rand_8cpp" startline="69" endline="96">setall</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1a5a10592980be2c6c06f9cc0a74686238" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double snorm</definition>
+        <argsstring>(void)</argsstring>
+        <name>snorm</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="26" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="1312" bodyend="1438"/>
+        <references refid="_rand_8cpp_1a56dee7158d9de89b23535bf5ad318261">h</references>
+        <references refid="_rand_8cpp_1a0576ba455127db74f31b5a8eee738f44" compoundref="_rand_8cpp" startline="24" endline="47">ranf</references>
+        <references refid="_rand_8cpp_1a5a10592980be2c6c06f9cc0a74686238" compoundref="_rand_8cpp" startline="1312" endline="1438">snorm</references>
+        <referencedby refid="_rand_8h_1a6bd85582c061b5ba7a18d8ec6bf2511e" compoundref="_rand_8cpp" startline="2253" endline="2261">gen_lognormal</referencedby>
+        <referencedby refid="_rand_8h_1afe3b33afbcf4939f94e0f052fbb530b1" compoundref="_rand_8cpp" startline="454" endline="687">ignpoi</referencedby>
+        <referencedby refid="_rand_8h_1aefc829f57376bec8d4b7f288f7c01e8a" compoundref="_rand_8cpp" startline="1573" endline="1811">sgamma</referencedby>
+        <referencedby refid="_rand_8h_1a5a10592980be2c6c06f9cc0a74686238" compoundref="_rand_8cpp" startline="1312" endline="1438">snorm</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1a66fd597eef402e9b1d4427241c7cf1c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double snorm_mt</definition>
+        <argsstring>(int)</argsstring>
+        <name>snorm_mt</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="27" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="1439" bodyend="1565"/>
+        <references refid="_rand_8cpp_1a56dee7158d9de89b23535bf5ad318261">h</references>
+        <references refid="_rand_8cpp_1a9d6753048d256a545575a035578a85bf" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</references>
+        <references refid="_rand_8cpp_1a52d51dc5f6d9b77b8e4b737a06a968ef" compoundref="_rand_8cpp" startline="1439" endline="1565">snorm_mt</references>
+        <referencedby refid="_rand_8h_1a991f904be18b327091e27d9b1a35edfe" compoundref="_rand_8cpp" startline="2274" endline="2280">gen_lognormal_mt</referencedby>
+        <referencedby refid="_rand_8h_1a2932e85a50edd9613b1082f1772a4411" compoundref="_rand_8cpp" startline="688" endline="921">ignpoi_mt</referencedby>
+        <referencedby refid="_rand_8h_1a4abd5b93f9097f3d472078df73228273" compoundref="_rand_8cpp" startline="1812" endline="2050">sgamma_mt</referencedby>
+        <referencedby refid="_rand_8h_1a66fd597eef402e9b1d4427241c7cf1c5" compoundref="_rand_8cpp" startline="1439" endline="1565">snorm_mt</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1ac6e0be47b93c20eb5700b2b525b9acc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double fsign</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>fsign</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="28" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="1566" bodyend="1572"/>
+        <referencedby refid="_rand_8h_1afe3b33afbcf4939f94e0f052fbb530b1" compoundref="_rand_8cpp" startline="454" endline="687">ignpoi</referencedby>
+        <referencedby refid="_rand_8h_1a2932e85a50edd9613b1082f1772a4411" compoundref="_rand_8cpp" startline="688" endline="921">ignpoi_mt</referencedby>
+        <referencedby refid="_rand_8h_1aefc829f57376bec8d4b7f288f7c01e8a" compoundref="_rand_8cpp" startline="1573" endline="1811">sgamma</referencedby>
+        <referencedby refid="_rand_8h_1a4abd5b93f9097f3d472078df73228273" compoundref="_rand_8cpp" startline="1812" endline="2050">sgamma_mt</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1aeb94f03ad326f21e658ef84db58a3898" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double gen_norm</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>gen_norm</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="30" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="2056" bodyend="2078"/>
+        <references refid="_rand_8cpp_1a0576ba455127db74f31b5a8eee738f44" compoundref="_rand_8cpp" startline="24" endline="47">ranf</references>
+        <referencedby refid="_rand_8h_1ad4d701775b95109dc8c795047b7ac366" compoundref="_rand_8cpp" startline="2112" endline="2174">gen_gamma</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1aee020673acf62db0de997b835b0a9322" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double gen_norm_mt</definition>
+        <argsstring>(double, double, int)</argsstring>
+        <name>gen_norm_mt</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="31" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="2084" bodyend="2106"/>
+        <references refid="_rand_8cpp_1a9d6753048d256a545575a035578a85bf" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</references>
+        <referencedby refid="_rand_8h_1aecee9d4bd97abc1530473984a5ebfeb9" compoundref="_rand_8cpp" startline="2180" endline="2241">gen_gamma_mt</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1ad4d701775b95109dc8c795047b7ac366" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double gen_gamma</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>gen_gamma</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="32" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="2112" bodyend="2174"/>
+        <references refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" compoundref="_error_8h" startline="6">ERR_CRITICAL</references>
+        <references refid="_rand_8cpp_1a4383f3c1feb113f024476afef04b168e" compoundref="_rand_8cpp" startline="2056" endline="2078">gen_norm</references>
+        <references refid="_rand_8cpp_1a0576ba455127db74f31b5a8eee738f44" compoundref="_rand_8cpp" startline="24" endline="47">ranf</references>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1aecee9d4bd97abc1530473984a5ebfeb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double gen_gamma_mt</definition>
+        <argsstring>(double, double, int)</argsstring>
+        <name>gen_gamma_mt</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="33" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="2180" bodyend="2241"/>
+        <references refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" compoundref="_error_8h" startline="6">ERR_CRITICAL</references>
+        <references refid="_rand_8cpp_1a8440acfc05359e74b68acb544c037c0d" compoundref="_rand_8cpp" startline="2084" endline="2106">gen_norm_mt</references>
+        <references refid="_rand_8cpp_1a9d6753048d256a545575a035578a85bf" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</references>
+        <referencedby refid="_update_8h_1a863954d8b2c6396d9996e93e79cbf66a" compoundref="_update_8cpp" startline="383" endline="481">DoIncub</referencedby>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1a6bd85582c061b5ba7a18d8ec6bf2511e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double gen_lognormal</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>gen_lognormal</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="35" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="2253" bodyend="2261"/>
+        <references refid="_rand_8cpp_1a5a10592980be2c6c06f9cc0a74686238" compoundref="_rand_8cpp" startline="1312" endline="1438">snorm</references>
+        <referencedby refid="_setup_model_8h_1ab52150d409ff7173e2f5c1b426a1219b" compoundref="_setup_model_8cpp" startline="1873" endline="2364">AssignPeopleToPlaces</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1a991f904be18b327091e27d9b1a35edfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double gen_lognormal_mt</definition>
+        <argsstring>(double, double, int)</argsstring>
+        <name>gen_lognormal_mt</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="36" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="2274" bodyend="2280"/>
+        <references refid="_rand_8cpp_1a52d51dc5f6d9b77b8e4b737a06a968ef" compoundref="_rand_8cpp" startline="1439" endline="1565">snorm_mt</references>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1aefc829f57376bec8d4b7f288f7c01e8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double sgamma</definition>
+        <argsstring>(double)</argsstring>
+        <name>sgamma</name>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="37" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="1573" bodyend="1811"/>
+        <references refid="_rand_8cpp_1ab522f7ba08479f35ee7dd3729cf20a44" compoundref="_rand_8cpp" startline="1566" endline="1572">fsign</references>
+        <references refid="_rand_8cpp_1a0576ba455127db74f31b5a8eee738f44" compoundref="_rand_8cpp" startline="24" endline="47">ranf</references>
+        <references refid="_rand_8cpp_1a5d1e1b7e37744eaf9dc9299101f98b84" compoundref="_rand_8cpp" startline="1184" endline="1247">sexpo</references>
+        <references refid="_rand_8cpp_1a10e53378454a0e1cba224d1a1a0944a1" compoundref="_rand_8cpp" startline="1573" endline="1811">sgamma</references>
+        <references refid="_rand_8cpp_1a5a10592980be2c6c06f9cc0a74686238" compoundref="_rand_8cpp" startline="1312" endline="1438">snorm</references>
+        <referencedby refid="_rand_8h_1aefc829f57376bec8d4b7f288f7c01e8a" compoundref="_rand_8cpp" startline="1573" endline="1811">sgamma</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1a4abd5b93f9097f3d472078df73228273" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double sgamma_mt</definition>
+        <argsstring>(double, int)</argsstring>
+        <name>sgamma_mt</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="38" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="1812" bodyend="2050"/>
+        <references refid="_rand_8cpp_1ab522f7ba08479f35ee7dd3729cf20a44" compoundref="_rand_8cpp" startline="1566" endline="1572">fsign</references>
+        <references refid="_rand_8cpp_1a9d6753048d256a545575a035578a85bf" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</references>
+        <references refid="_rand_8cpp_1aa21067a5fded7277334295ed5e227640" compoundref="_rand_8cpp" startline="1248" endline="1311">sexpo_mt</references>
+        <references refid="_rand_8cpp_1a85bf668ec8351fc13d474d9348e3843f" compoundref="_rand_8cpp" startline="1812" endline="2050">sgamma_mt</references>
+        <references refid="_rand_8cpp_1a52d51dc5f6d9b77b8e4b737a06a968ef" compoundref="_rand_8cpp" startline="1439" endline="1565">snorm_mt</references>
+        <referencedby refid="_rand_8h_1a4abd5b93f9097f3d472078df73228273" compoundref="_rand_8cpp" startline="1812" endline="2050">sgamma_mt</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_rand_8h_1a59edf589d35955c31cbc0f5b46935cc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SampleWithoutReplacement</definition>
+        <argsstring>(int, int, int)</argsstring>
+        <name>SampleWithoutReplacement</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h" line="39" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.cpp" bodystart="2281" bodyend="2415"/>
+        <references refid="_constants_8h_1ada26848e9bfb32c816a5de5b62388b06" compoundref="_constants_8h" startline="8">MAX_PLACE_SIZE</references>
+        <references refid="_constants_8h_1a598a3330b3c21701223ee0ca14316eca" compoundref="_constants_8h" startline="4">PI</references>
+        <references refid="_rand_8cpp_1a9d6753048d256a545575a035578a85bf" compoundref="_rand_8cpp" startline="48" endline="67">ranf_mt</references>
+        <references refid="_rand_8cpp_1a27488915fe3fa82c70d9166c321fd510" compoundref="_rand_8cpp" startline="18">SamplingQueue</references>
+        <referencedby refid="_sweep_8h_1a2e0134520e81978b29a1d565fd44c34a" compoundref="_sweep_8cpp" startline="261" endline="799">InfectSweep</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SPATIALSIM_RAND_H_INCLUDED_</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SPATIALSIM_RAND_H_INCLUDED_</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>ranf<sp/>defines<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="_rand_8h_1a46f027760b3d7a48a31ff4f9f9eb2635" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Xm1<sp/>2147483563</highlight></codeline>
+<codeline lineno="6" refid="_rand_8h_1ab97dc86ab666a550c5dddfc344dece6e" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>Xm2<sp/>2147483399</highlight></codeline>
+<codeline lineno="7" refid="_rand_8h_1a73ee21f6ffe24405f78796404c037faf" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>Xa1<sp/>40014</highlight></codeline>
+<codeline lineno="8" refid="_rand_8h_1af83edcfbc8d3db3b7ce51a95fd101605" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>Xa2<sp/>40692</highlight></codeline>
+<codeline lineno="9" refid="_rand_8h_1a6633522cb17d040ea7ec5b7fc8b64ace" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>Xa1vw<sp/>2082007225</highlight></codeline>
+<codeline lineno="10" refid="_rand_8h_1a82d35b2b69afa99257c4dec9db7c41cb" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>Xa2vw<sp/>84306273</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>RANDLIB<sp/>global<sp/>variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<ref refid="_rand_8h_1a27488915fe3fa82c70d9166c321fd510" kindref="member">SamplingQueue</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">*<sp/><ref refid="_rand_8h_1a4378c16f4004f0ff416835647afaa4e3" kindref="member">Xcg1</ref>,<sp/>*<ref refid="_rand_8h_1a0d35c9badaebae83a7e920acefa4aa83" kindref="member">Xcg2</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>RANDLIB<sp/>functions<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1ae688e6f95824157fb3dfde3cc80a300c" kindref="member">ignbin</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1afe3b33afbcf4939f94e0f052fbb530b1" kindref="member">ignpoi</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1ac110885cc3fe5b43885b2a4a0458078c" kindref="member">ignbin_mt</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1a2932e85a50edd9613b1082f1772a4411" kindref="member">ignpoi_mt</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1a0576ba455127db74f31b5a8eee738f44" kindref="member">ranf</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1a33e03205fbf5318c3adaebcc76b50264" kindref="member">ranf_mt</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1a23e81ccf74a1adcf51cc1ddcdef837b3" kindref="member">setall</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1a42527ded5e564355bf3b8f1d9e150b67" kindref="member">sexpo_mt</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1a5d1e1b7e37744eaf9dc9299101f98b84" kindref="member">sexpo</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1adbdde2e53230e3102059a2ace3b2c990" kindref="member">mltmod</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1a5a10592980be2c6c06f9cc0a74686238" kindref="member">snorm</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1a66fd597eef402e9b1d4427241c7cf1c5" kindref="member">snorm_mt</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1ac6e0be47b93c20eb5700b2b525b9acc7" kindref="member">fsign</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//added<sp/>some<sp/>new<sp/>beta,<sp/>gamma<sp/>generating<sp/>functions:<sp/>ggilani<sp/>27/11/14</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1aeb94f03ad326f21e658ef84db58a3898" kindref="member">gen_norm</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1aee020673acf62db0de997b835b0a9322" kindref="member">gen_norm_mt</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1ad4d701775b95109dc8c795047b7ac366" kindref="member">gen_gamma</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1aecee9d4bd97abc1530473984a5ebfeb9" kindref="member">gen_gamma_mt</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//added<sp/>some<sp/>new<sp/>lognormal<sp/>sampling<sp/>functions:<sp/>ggilani<sp/>09/02/17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1a6bd85582c061b5ba7a18d8ec6bf2511e" kindref="member">gen_lognormal</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1a991f904be18b327091e27d9b1a35edfe" kindref="member">gen_lognormal_mt</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1aefc829f57376bec8d4b7f288f7c01e8a" kindref="member">sgamma</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1a4abd5b93f9097f3d472078df73228273" kindref="member">sgamma_mt</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_rand_8h_1a59edf589d35955c31cbc0f5b46935cc4" kindref="member">SampleWithoutReplacement</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SPATIALSIM_RAND_H_INCLUDED_</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Rand.h"/>
+  </compounddef>
+</doxygen>

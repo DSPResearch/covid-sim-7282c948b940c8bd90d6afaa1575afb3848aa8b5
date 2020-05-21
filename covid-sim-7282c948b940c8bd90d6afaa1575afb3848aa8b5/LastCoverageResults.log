@@ -1,0 +1,22 @@
+[2020-05-20 06:35:51] [info] Start Program:
+Path:"C:\\Users\\Dirk\\Desktop\\forensic-covidsim\\covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5\\covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5\\x64\\Debug\\CovidSim.exe"
+Arguments:
+Working directory: "C:\\Users\\Dirk\\Desktop\\forensic-covidsim\\covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5\\covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5\\"
+Modules: Selected: C:\Users\Dirk\Desktop\forensic-covidsim\covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5\covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5\x64\Debug\CovidSim.exe Excluded: 
+Sources: Selected: C:\Users\Dirk\Desktop\forensic-covidsim\covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5\covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5\src Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: binary C:\Users\Dirk\AppData\Local\Temp\s01xrjoq.msp 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2020-05-20 06:35:55] [info] Module: C:\Users\Dirk\Desktop\forensic-covidsim\covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5\covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5\x64\Debug\CovidSim.exe is selected because it matches selected pattern: C:\Users\Dirk\Desktop\forensic-covidsim\covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5\covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5\x64\Debug\CovidSim.exe
+[2020-05-20 06:35:56] [info] ----------------------------------------------------
+[2020-05-20 06:35:56] [info] Coverage binary generated in file: C:\Users\Dirk\AppData\Local\Temp\s01xrjoq.msp
+[2020-05-20 06:35:56] [info] ----------------------------------------------------
+[2020-05-20 06:35:56] [error] Your program stop with error code: 1

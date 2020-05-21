@@ -1,0 +1,678 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_bitmap_8cpp" kind="file">
+    <compoundname>Bitmap.cpp</compoundname>
+    <includes local="no">errno.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">math.h</includes>
+    <includes refid="binio_8h" local="yes">binio.h</includes>
+    <includes refid="_bitmap_8h" local="yes">Bitmap.h</includes>
+    <includes refid="_error_8h" local="yes">Error.h</includes>
+    <includes refid="_param_8h" local="yes">Param.h</includes>
+    <includes refid="_model_8h" local="yes">Model.h</includes>
+    <incdepgraph>
+      <node id="21">
+        <label>windows.h</label>
+      </node>
+      <node id="16">
+        <label>stdlib.h</label>
+      </node>
+      <node id="26">
+        <label>Country.h</label>
+        <link refid="_country_8h"/>
+      </node>
+      <node id="14">
+        <label>errno.h</label>
+      </node>
+      <node id="25">
+        <label>Param.h</label>
+        <link refid="_param_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>vfw.h</label>
+      </node>
+      <node id="13">
+        <label>src/Bitmap.cpp</label>
+        <link refid="Bitmap.cpp"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>MachineDefines.h</label>
+        <link refid="_machine_defines_8h"/>
+      </node>
+      <node id="17">
+        <label>string.h</label>
+      </node>
+      <node id="23">
+        <label>gdiplus.h</label>
+      </node>
+      <node id="19">
+        <label>binio.h</label>
+        <link refid="binio_8h"/>
+      </node>
+      <node id="24">
+        <label>Error.h</label>
+        <link refid="_error_8h"/>
+      </node>
+      <node id="28">
+        <label>Model.h</label>
+        <link refid="_model_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>math.h</label>
+      </node>
+      <node id="27">
+        <label>Constants.h</label>
+        <link refid="_constants_8h"/>
+      </node>
+      <node id="20">
+        <label>Bitmap.h</label>
+        <link refid="_bitmap_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_bitmap_8cpp_1af12b122c239334cdcd9d6922bad12862" prot="public" static="no" mutable="no">
+        <type>ULONG_PTR</type>
+        <definition>ULONG_PTR m_gdiplusToken</definition>
+        <argsstring></argsstring>
+        <name>m_gdiplusToken</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" line="18" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" bodystart="18" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_spatial_sim_8cpp" startline="118" endline="455">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_bitmap_8cpp_1aaa699915cf558e10ae6161d0d7885c06" prot="public" static="yes" mutable="no">
+        <type>HBITMAP</type>
+        <definition>HBITMAP bmpdib</definition>
+        <argsstring></argsstring>
+        <name>bmpdib</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" line="19" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" bodystart="19" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+        <referencedby refid="_bitmap_8h_1a49bc4fdc1abb7b521e9c6706fe66e582" compoundref="_bitmap_8cpp" startline="108" endline="208">OutputBitmap</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_bitmap_8cpp_1abc7e1fe19e2bc07a4b6e227435d785f5" prot="public" static="yes" mutable="no">
+        <type>CLSID</type>
+        <definition>CLSID encoderClsid</definition>
+        <argsstring></argsstring>
+        <name>encoderClsid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" line="20" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" bodystart="20" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+        <referencedby refid="_bitmap_8h_1a49bc4fdc1abb7b521e9c6706fe66e582" compoundref="_bitmap_8cpp" startline="108" endline="208">OutputBitmap</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_bitmap_8cpp_1a1e434bb6aa0038057d49caf7dc13fbad" prot="public" static="yes" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* bmf</definition>
+        <argsstring></argsstring>
+        <name>bmf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" line="25" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" bodystart="25" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+        <referencedby refid="_bitmap_8h_1a49bc4fdc1abb7b521e9c6706fe66e582" compoundref="_bitmap_8cpp" startline="108" endline="208">OutputBitmap</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_bitmap_8cpp_1a83316dab23bbd1ae5280e1a14278bed3" prot="public" static="yes" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char * bmPixels</definition>
+        <argsstring></argsstring>
+        <name>bmPixels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" line="25" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" bodystart="25" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1ab5f11e55d07bc69c85eed9235c5ec275" compoundref="_bitmap_8cpp" startline="30" endline="106">CaptureBitmap</referencedby>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+        <referencedby refid="_bitmap_8h_1a49bc4fdc1abb7b521e9c6706fe66e582" compoundref="_bitmap_8cpp" startline="108" endline="208">OutputBitmap</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_bitmap_8cpp_1acf11d999b37eb4ce70995a4adb1ddd5f" prot="public" static="yes" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char * bmp</definition>
+        <argsstring></argsstring>
+        <name>bmp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" line="25" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" bodystart="25" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_bitmap_8cpp_1ab9fe6b18d78a69ff40e65dbb8785378d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char OutFile[1024]</definition>
+        <argsstring>[1024]</argsstring>
+        <name>OutFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" line="28" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SpatialSim.cpp" bodystart="106" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a49bc4fdc1abb7b521e9c6706fe66e582" compoundref="_bitmap_8cpp" startline="108" endline="208">OutputBitmap</referencedby>
+        <referencedby refid="_setup_model_8h_1a956cf6f26e0f72b807deddf295466980" compoundref="_setup_model_8cpp" startline="2593" endline="2618">SaveAgeDistrib</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="_bitmap_8cpp_1a1f3f389cc7156aaa5cb6816408dc535b" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char OutFileBase[1024]</definition>
+        <argsstring>[1024]</argsstring>
+        <name>OutFileBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" line="28" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/SpatialSim.cpp" bodystart="106" bodyend="-1"/>
+        <referencedby refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" compoundref="_bitmap_8cpp" startline="209" endline="301">InitBMHead</referencedby>
+        <referencedby refid="_spatial_sim_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="_spatial_sim_8cpp" startline="118" endline="455">main</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_bitmap_8cpp_1a83c1dcdcc7ad23f840e459c400e8acb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CaptureBitmap</definition>
+        <argsstring>(int ns, int tp)</argsstring>
+        <name>CaptureBitmap</name>
+        <param>
+          <type>int</type>
+          <declname>ns</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" line="30" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" bodystart="30" bodyend="106"/>
+        <references refid="struct_m_i_c_r_o_c_e_l_l_1a4a20215addcd365735798c41fa39b6e3" compoundref="_model_8h" startline="212">MICROCELL::adunit</references>
+        <references refid="struct_p_a_r_a_m_1aa47e737bdb0aad71cde550877c7d0d75" compoundref="_param_8h" startline="34">PARAM::AdunitBitmapDivisor</references>
+        <references refid="struct_p_a_r_a_m_1abafc7bd1ca8b41e32f3be74ef2c6e15d" compoundref="_param_8h" startline="34">PARAM::AdunitLevel1Mask</references>
+        <references refid="_model_8h_1ae46ef51c0d02788795ea7858abc6685f" compoundref="_spatial_sim_8cpp" startline="80">AdUnits</references>
+        <references refid="struct_p_a_r_a_m_1a28e0379395a8dc01fdcdf0bab9c19254" compoundref="_param_8h" startline="38">PARAM::bheight</references>
+        <references refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" compoundref="_spatial_sim_8cpp" startline="86">bmh</references>
+        <references refid="_bitmap_8h_1ab332e6d6931983e9312e1f40b6ee82f4" compoundref="_spatial_sim_8cpp" startline="104">bmi</references>
+        <references refid="_bitmap_8h_1aa598fae73da411bfc92f24a2c2f5448f" compoundref="_spatial_sim_8cpp" startline="104">bmi2</references>
+        <references refid="_bitmap_8h_1a37dd52d3124138eac3834a0ff3f3e950" compoundref="_spatial_sim_8cpp" startline="104">bmi3</references>
+        <references refid="_bitmap_8h_1a897c8dd9639ed96f6f575c8984133ebd" compoundref="_spatial_sim_8cpp" startline="104">bmi4</references>
+        <references refid="struct_p_a_r_a_m_1a63c41d5229685a4650325be98ce1413b" compoundref="_param_8h" startline="38">PARAM::bminx</references>
+        <references refid="struct_p_a_r_a_m_1a5a166622bc9b69a65ad82400b44ec25c" compoundref="_param_8h" startline="38">PARAM::bminy</references>
+        <references refid="_bitmap_8cpp_1a83316dab23bbd1ae5280e1a14278bed3" compoundref="_bitmap_8cpp" startline="25">bmPixels</references>
+        <references refid="_bitmap_8h_1af808a334da52a6588e3079c180f8e4b7" compoundref="_bitmap_8h" startline="24">BWCOLS</references>
+        <references refid="struct_p_a_r_a_m_1af53ceef932a2c83bc2ff4ec99b3560e6" compoundref="_param_8h" startline="38">PARAM::bwidth</references>
+        <references refid="struct_m_i_c_r_o_c_e_l_l_1ac99bf943394f39e824f7d6c5d7cf24c0" compoundref="_model_8h" startline="214">MICROCELL::country</references>
+        <references refid="struct_p_a_r_a_m_1a7634dec3e3e5861fd99ebc7f773be4ba" compoundref="_param_8h" startline="35">PARAM::DoAdunitBoundaryOutput</references>
+        <references refid="struct_p_e_r_s_o_n_1a5d37d138a852ba758b2acf4d48919f69" compoundref="_model_8h" startline="20">PERSON::hh</references>
+        <references refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" compoundref="_spatial_sim_8cpp" startline="74">Hosts</references>
+        <references refid="_model_8h_1aa73f7cf5ecb1acf206c5c14987bd9d89" compoundref="_spatial_sim_8cpp" startline="75">Households</references>
+        <references refid="struct_a_d_m_i_n_u_n_i_t_1a88a036834ebfe2a6bac1aaef4d744e23" compoundref="_model_8h" startline="280">ADMINUNIT::id</references>
+        <references refid="struct_h_o_u_s_e_h_o_l_d_1a54b006bcef7d22ef1127ac53f37b0299" compoundref="_model_8h" startline="48">HOUSEHOLD::loc_y</references>
+        <references refid="_model_8h_1a18a4086bf5451739e560c596813292a2" compoundref="_spatial_sim_8cpp" startline="78">Mcells</references>
+        <references refid="struct_p_a_r_a_m_1aae955603b1a19dca7f833e1c3645acf7" compoundref="_param_8h" startline="62">PARAM::mcheight</references>
+        <references refid="struct_p_a_r_a_m_1ad9b84a699d1484a2e70e27afde513da3" compoundref="_param_8h" startline="62">PARAM::mcwidth</references>
+        <references refid="struct_p_a_r_a_m_1a492528cce9934bd664972ebcb26c00ae" compoundref="_param_8h" startline="16">PARAM::N</references>
+        <references refid="struct_m_i_c_r_o_c_e_l_l_1a82351d0d9079697b6ab7631d0ee35da1" compoundref="_model_8h" startline="212">MICROCELL::n</references>
+        <references refid="struct_p_a_r_a_m_1abeee4d92a09a1c33621b39c3cfa3afbd" compoundref="_param_8h" startline="31">PARAM::NMC</references>
+        <references refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" compoundref="_param_8h" startline="33">PARAM::nmch</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_p_a_r_a_m_1a9655125c1c1fbcdb1832b4b9804dd285" compoundref="_param_8h" startline="62">PARAM::scalex</references>
+        <references refid="struct_p_a_r_a_m_1a2fd7ee7a09e76088ce5c2459e79ee65c" compoundref="_param_8h" startline="62">PARAM::scaley</references>
+        <references refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1afb89186027dd782bde50fc2965639f23" compoundref="_bitmap_8h" startline="31">BITMAP_HEADER::width</references>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_bitmap_8cpp_1a919e1713b7d019e9c6f894d6bd5316fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void OutputBitmap</definition>
+        <argsstring>(double t2, int tp)</argsstring>
+        <name>OutputBitmap</name>
+        <param>
+          <type>double</type>
+          <declname>t2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" line="108" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" bodystart="108" bodyend="208"/>
+        <references refid="_bitmap_8cpp_1a1e434bb6aa0038057d49caf7dc13fbad" compoundref="_bitmap_8cpp" startline="25">bmf</references>
+        <references refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" compoundref="_spatial_sim_8cpp" startline="86">bmh</references>
+        <references refid="_bitmap_8cpp_1aaa699915cf558e10ae6161d0d7885c06" compoundref="_bitmap_8cpp" startline="19">bmpdib</references>
+        <references refid="_bitmap_8cpp_1a83316dab23bbd1ae5280e1a14278bed3" compoundref="_bitmap_8cpp" startline="25">bmPixels</references>
+        <references refid="_bitmap_8h_1af1e88bb4b1ff9546e6803eec85e0684c" compoundref="_bitmap_8h" startline="9">DIRECTORY_SEPARATOR</references>
+        <references refid="_bitmap_8cpp_1abc7e1fe19e2bc07a4b6e227435d785f5" compoundref="_bitmap_8cpp" startline="20">encoderClsid</references>
+        <references refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" compoundref="_error_8h" startline="6">ERR_CRITICAL</references>
+        <references refid="_error_8h_1a3f33eb02fe06645ffc38a943efc45df0" compoundref="_error_8h" startline="7">ERR_CRITICAL_FMT</references>
+        <references refid="binio_8cpp_1a9dfa82809bd434bd7d6e2a8dc9d2f18a" compoundref="binio_8cpp" startline="8" endline="25">fwrite_big</references>
+        <references refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ae82dfde4f4c5c5d4ce2912bfcf35652e" compoundref="_bitmap_8h" startline="34">BITMAP_HEADER::imagesize</references>
+        <references refid="_bitmap_8cpp_1ab9fe6b18d78a69ff40e65dbb8785378d" compoundref="_spatial_sim_8cpp" startline="106">OutFile</references>
+        <referencedby refid="_spatial_sim_8cpp_1aa3f4ab55fa6f50c1bdd0b934615d9a7f" compoundref="_spatial_sim_8cpp" startline="3674" endline="4135">RecordSample</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_bitmap_8cpp_1a6893b0bada43cd5d136342e2748a181a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InitBMHead</definition>
+        <argsstring>()</argsstring>
+        <name>InitBMHead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" line="209" column="1" bodyfile="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp" bodystart="209" bodyend="301"/>
+        <references refid="struct_p_a_r_a_m_1a945c74dbb7d01557a0a3de71186f8028" compoundref="_param_8h" startline="38">PARAM::bheight2</references>
+        <references refid="_bitmap_8cpp_1a1e434bb6aa0038057d49caf7dc13fbad" compoundref="_bitmap_8cpp" startline="25">bmf</references>
+        <references refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" compoundref="_spatial_sim_8cpp" startline="86">bmh</references>
+        <references refid="_bitmap_8h_1ab332e6d6931983e9312e1f40b6ee82f4" compoundref="_spatial_sim_8cpp" startline="104">bmi</references>
+        <references refid="_bitmap_8h_1aa598fae73da411bfc92f24a2c2f5448f" compoundref="_spatial_sim_8cpp" startline="104">bmi2</references>
+        <references refid="_bitmap_8h_1a37dd52d3124138eac3834a0ff3f3e950" compoundref="_spatial_sim_8cpp" startline="104">bmi3</references>
+        <references refid="_bitmap_8h_1a897c8dd9639ed96f6f575c8984133ebd" compoundref="_spatial_sim_8cpp" startline="104">bmi4</references>
+        <references refid="_bitmap_8cpp_1acf11d999b37eb4ce70995a4adb1ddd5f" compoundref="_bitmap_8cpp" startline="25">bmp</references>
+        <references refid="_bitmap_8cpp_1aaa699915cf558e10ae6161d0d7885c06" compoundref="_bitmap_8cpp" startline="19">bmpdib</references>
+        <references refid="_bitmap_8cpp_1a83316dab23bbd1ae5280e1a14278bed3" compoundref="_bitmap_8cpp" startline="25">bmPixels</references>
+        <references refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ad3865a08a674bc35ae627d2303de8319" compoundref="_bitmap_8h" startline="29">BITMAP_HEADER::boffset</references>
+        <references refid="_bitmap_8h_1af808a334da52a6588e3079c180f8e4b7" compoundref="_bitmap_8h" startline="24">BWCOLS</references>
+        <references refid="struct_p_a_r_a_m_1af53ceef932a2c83bc2ff4ec99b3560e6" compoundref="_param_8h" startline="38">PARAM::bwidth</references>
+        <references refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1afd2617536f347bdc77bd85f796ed23e7" compoundref="_bitmap_8h" startline="36">BITMAP_HEADER::colours</references>
+        <references refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a1d3c692d7c4c5b4ca896175c562a9ef5" compoundref="_bitmap_8h" startline="33">BITMAP_HEADER::compr</references>
+        <references refid="_bitmap_8cpp_1abc7e1fe19e2bc07a4b6e227435d785f5" compoundref="_bitmap_8cpp" startline="20">encoderClsid</references>
+        <references refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" compoundref="_error_8h" startline="6">ERR_CRITICAL</references>
+        <references refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a85856115f907af90388c27b10c7d79a2" compoundref="_bitmap_8h" startline="27">BITMAP_HEADER::filesize</references>
+        <references refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a8cbe6bc00746605bc8e3cb27243e30f1" compoundref="_bitmap_8h" startline="30">BITMAP_HEADER::headersize</references>
+        <references refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1abbb00d6c7d2ef4cfd762d077130731ce" compoundref="_bitmap_8h" startline="31">BITMAP_HEADER::height</references>
+        <references refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ab69060d30164e38aa921c361a70848b9" compoundref="_bitmap_8h" startline="35">BITMAP_HEADER::hres</references>
+        <references refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ae82dfde4f4c5c5d4ce2912bfcf35652e" compoundref="_bitmap_8h" startline="34">BITMAP_HEADER::imagesize</references>
+        <references refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a8091ddc4cc0dd86766576821e1458805" compoundref="_bitmap_8h" startline="36">BITMAP_HEADER::impcol</references>
+        <references refid="_bitmap_8cpp_1af12b122c239334cdcd9d6922bad12862" compoundref="_bitmap_8cpp" startline="18">m_gdiplusToken</references>
+        <references refid="_bitmap_8cpp_1a1f3f389cc7156aaa5cb6816408dc535b" compoundref="_spatial_sim_8cpp" startline="106">OutFileBase</references>
+        <references refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" compoundref="_spatial_sim_8cpp" startline="73">P</references>
+        <references refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a7b1942a14c8cd122e7ec885d3ac5b222" compoundref="_bitmap_8h" startline="37">BITMAP_HEADER::palette</references>
+        <references refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a15c85e52c0c9d04b2d251b6d7e5639c8" compoundref="_bitmap_8h" startline="32">BITMAP_HEADER::PlanesAndBitspp</references>
+        <references refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a81118590de2bafef9a2ac8fafb8c8a8f" compoundref="_bitmap_8h" startline="28">BITMAP_HEADER::spare</references>
+        <references refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1aae0495a28288cc0f7400e4bdcb674bd2" compoundref="_bitmap_8h" startline="35">BITMAP_HEADER::vres</references>
+        <references refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1afb89186027dd782bde50fc2965639f23" compoundref="_bitmap_8h" startline="31">BITMAP_HEADER::width</references>
+        <referencedby refid="_setup_model_8h_1a6024dff8f8b7c8cfe8573ff1580980ef" compoundref="_setup_model_8cpp" startline="26" endline="625">SetupModel</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;errno.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="binio_8h" kindref="compound">binio.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_bitmap_8h" kindref="compound">Bitmap.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_error_8h" kindref="compound">Error.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_param_8h" kindref="compound">Param.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_model_8h" kindref="compound">Model.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>WIN32_BM</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="comment">//HAVI<sp/>avi;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="_bitmap_8h_1af12b122c239334cdcd9d6922bad12862" refkind="member"><highlight class="normal">ULONG_PTR<sp/><ref refid="_bitmap_8cpp_1af12b122c239334cdcd9d6922bad12862" kindref="member">m_gdiplusToken</ref>;</highlight></codeline>
+<codeline lineno="19" refid="_bitmap_8cpp_1aaa699915cf558e10ae6161d0d7885c06" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>HBITMAP<sp/><ref refid="_bitmap_8cpp_1aaa699915cf558e10ae6161d0d7885c06" kindref="member">bmpdib</ref>;</highlight></codeline>
+<codeline lineno="20" refid="_bitmap_8cpp_1abc7e1fe19e2bc07a4b6e227435d785f5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>CLSID<sp/><sp/><ref refid="_bitmap_8cpp_1abc7e1fe19e2bc07a4b6e227435d785f5" kindref="member">encoderClsid</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;sys/stat.h&gt;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>for<sp/>mkdir</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="_bitmap_8cpp_1a83316dab23bbd1ae5280e1a14278bed3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="_bitmap_8cpp_1a1e434bb6aa0038057d49caf7dc13fbad" kindref="member">bmf</ref>,<sp/>*<ref refid="_bitmap_8cpp_1a83316dab23bbd1ae5280e1a14278bed3" kindref="member">bmPixels</ref>,<sp/>*<ref refid="_bitmap_8cpp_1acf11d999b37eb4ce70995a4adb1ddd5f" kindref="member">bmp</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>externs<sp/>from<sp/>SpatialSim.c</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>move<sp/>these<sp/>to<sp/>a<sp/>header<sp/>files</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="_bitmap_8cpp_1ab9fe6b18d78a69ff40e65dbb8785378d" kindref="member">OutFile</ref>[1024],<sp/><ref refid="_bitmap_8cpp_1a1f3f389cc7156aaa5cb6816408dc535b" kindref="member">OutFileBase</ref>[1024];</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="_bitmap_8h_1ab5f11e55d07bc69c85eed9235c5ec275" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_bitmap_8cpp_1a83c1dcdcc7ad23f840e459c400e8acb4" kindref="member">CaptureBitmap</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_spatial_sim_8cpp_1a8e83bd7735d1f2d707f5d341c8e61d1e" kindref="member">ns</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>tp)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/>x,<sp/>y,<sp/>f,<sp/>mi;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>j;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>mx;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fst<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>prev;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>mi<sp/>=<sp/>(int)(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1af53ceef932a2c83bc2ff4ec99b3560e6" kindref="member">bwidth</ref><sp/>*<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a28e0379395a8dc01fdcdf0bab9c19254" kindref="member">bheight</ref>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fst)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fst<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mx<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>mi;<sp/>i++)<sp/><ref refid="_bitmap_8h_1ab332e6d6931983e9312e1f40b6ee82f4" kindref="member">bmi</ref>[i]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a492528cce9934bd664972ebcb26c00ae" kindref="member">N</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>=<sp/>((int)(<ref refid="_model_8h_1aa73f7cf5ecb1acf206c5c14987bd9d89" kindref="member">Households</ref>[<ref refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[i].hh].loc_x<sp/>*<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a9655125c1c1fbcdb1832b4b9804dd285" kindref="member">scalex</ref>))<sp/>-<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a63c41d5229685a4650325be98ce1413b" kindref="member">bminx</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y<sp/>=<sp/>((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)(<ref refid="_model_8h_1aa73f7cf5ecb1acf206c5c14987bd9d89" kindref="member">Households</ref>[<ref refid="_model_8h_1a425ef0e7fb94382a2c5705eab1f27d63" kindref="member">Hosts</ref>[i].<ref refid="struct_p_e_r_s_o_n_1a5d37d138a852ba758b2acf4d48919f69" kindref="member">hh</ref>].<ref refid="struct_h_o_u_s_e_h_o_l_d_1a54b006bcef7d22ef1127ac53f37b0299" kindref="member">loc_y</ref><sp/>*<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a2fd7ee7a09e76088ce5c2459e79ee65c" kindref="member">scaley</ref>))<sp/>-<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a5a166622bc9b69a65ad82400b44ec25c" kindref="member">bminy</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((x<sp/>&gt;=<sp/>0)<sp/>&amp;&amp;<sp/>(x<sp/>&lt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1af53ceef932a2c83bc2ff4ec99b3560e6" kindref="member">bwidth</ref>)<sp/>&amp;&amp;<sp/>(y<sp/>&gt;=<sp/>0)<sp/>&amp;&amp;<sp/>(y<sp/>&lt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a28e0379395a8dc01fdcdf0bab9c19254" kindref="member">bheight</ref>))</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>j<sp/>=<sp/>y<sp/>*<sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1afb89186027dd782bde50fc2965639f23" kindref="member">width</ref><sp/>+<sp/>x;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((j<sp/>&lt;<sp/>bmh-&gt;imagesize)<sp/>&amp;&amp;<sp/>(j<sp/>&gt;=<sp/>0))</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1ab332e6d6931983e9312e1f40b6ee82f4" kindref="member">bmi</ref>[j]++;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_bitmap_8h_1ab332e6d6931983e9312e1f40b6ee82f4" kindref="member">bmi</ref>[j]<sp/>&gt;<sp/>mx)<sp/>mx<sp/>=<sp/>(double)<ref refid="_bitmap_8h_1ab332e6d6931983e9312e1f40b6ee82f4" kindref="member">bmi</ref>[j];</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mx<sp/>=<sp/>log(1.001<sp/>*<sp/>mx);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1abeee4d92a09a1c33621b39c3cfa3afbd" kindref="member">NMC</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>[i].n<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((i<sp/>&lt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1abeee4d92a09a1c33621b39c3cfa3afbd" kindref="member">NMC</ref><sp/>-<sp/>1)<sp/>&amp;&amp;<sp/>(i<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref><sp/>==<sp/>(i<sp/>+<sp/>1)<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref>)<sp/>&amp;&amp;<sp/>(<ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>[i<sp/>+<sp/>1].<ref refid="struct_m_i_c_r_o_c_e_l_l_1a82351d0d9079697b6ab7631d0ee35da1" kindref="member">n</ref><sp/>&gt;<sp/>0)<sp/>&amp;&amp;<sp/>((<ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>[i].<ref refid="struct_m_i_c_r_o_c_e_l_l_1ac99bf943394f39e824f7d6c5d7cf24c0" kindref="member">country</ref><sp/>!=<sp/><ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>[i<sp/>+<sp/>1].<ref refid="struct_m_i_c_r_o_c_e_l_l_1ac99bf943394f39e824f7d6c5d7cf24c0" kindref="member">country</ref>)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>((<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a7634dec3e3e5861fd99ebc7f773be4ba" kindref="member">DoAdunitBoundaryOutput</ref>)<sp/>&amp;&amp;<sp/>((<ref refid="_model_8h_1ae46ef51c0d02788795ea7858abc6685f" kindref="member">AdUnits</ref>[<ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>[i].<ref refid="struct_m_i_c_r_o_c_e_l_l_1a4a20215addcd365735798c41fa39b6e3" kindref="member">adunit</ref>].<ref refid="struct_a_d_m_i_n_u_n_i_t_1a88a036834ebfe2a6bac1aaef4d744e23" kindref="member">id</ref><sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1abafc7bd1ca8b41e32f3be74ef2c6e15d" kindref="member">AdunitLevel1Mask</ref>)<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1aa47e737bdb0aad71cde550877c7d0d75" kindref="member">AdunitBitmapDivisor</ref><sp/>!=<sp/>(<ref refid="_model_8h_1ae46ef51c0d02788795ea7858abc6685f" kindref="member">AdUnits</ref>[<ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>[i<sp/>+<sp/>1].<ref refid="struct_m_i_c_r_o_c_e_l_l_1a4a20215addcd365735798c41fa39b6e3" kindref="member">adunit</ref>].<ref refid="struct_a_d_m_i_n_u_n_i_t_1a88a036834ebfe2a6bac1aaef4d744e23" kindref="member">id</ref><sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1abafc7bd1ca8b41e32f3be74ef2c6e15d" kindref="member">AdunitLevel1Mask</ref>)<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1aa47e737bdb0aad71cde550877c7d0d75" kindref="member">AdunitBitmapDivisor</ref>))))<sp/>f<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((i<sp/>&gt;<sp/>0)<sp/>&amp;&amp;<sp/>(i<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref><sp/>==<sp/>(i<sp/>-<sp/>1)<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref>)<sp/>&amp;&amp;<sp/>(<ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>[i<sp/>-<sp/>1].<ref refid="struct_m_i_c_r_o_c_e_l_l_1a82351d0d9079697b6ab7631d0ee35da1" kindref="member">n</ref><sp/>&gt;<sp/>0)<sp/>&amp;&amp;<sp/>(<ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>[i].<ref refid="struct_m_i_c_r_o_c_e_l_l_1ac99bf943394f39e824f7d6c5d7cf24c0" kindref="member">country</ref><sp/>!=<sp/><ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>[i<sp/>-<sp/>1].<ref refid="struct_m_i_c_r_o_c_e_l_l_1ac99bf943394f39e824f7d6c5d7cf24c0" kindref="member">country</ref>))<sp/>f<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((i<sp/>&lt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1abeee4d92a09a1c33621b39c3cfa3afbd" kindref="member">NMC</ref><sp/>-<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref>)<sp/>&amp;&amp;<sp/>(<ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>[i<sp/>+<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref>].<ref refid="struct_m_i_c_r_o_c_e_l_l_1a82351d0d9079697b6ab7631d0ee35da1" kindref="member">n</ref><sp/>&gt;<sp/>0)<sp/>&amp;&amp;<sp/>((<ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>[i].<ref refid="struct_m_i_c_r_o_c_e_l_l_1ac99bf943394f39e824f7d6c5d7cf24c0" kindref="member">country</ref><sp/>!=<sp/><ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>[i<sp/>+<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref>].<ref refid="struct_m_i_c_r_o_c_e_l_l_1ac99bf943394f39e824f7d6c5d7cf24c0" kindref="member">country</ref>)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>((<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a7634dec3e3e5861fd99ebc7f773be4ba" kindref="member">DoAdunitBoundaryOutput</ref>)<sp/>&amp;&amp;<sp/>((<ref refid="_model_8h_1ae46ef51c0d02788795ea7858abc6685f" kindref="member">AdUnits</ref>[<ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>[i].<ref refid="struct_m_i_c_r_o_c_e_l_l_1a4a20215addcd365735798c41fa39b6e3" kindref="member">adunit</ref>].<ref refid="struct_a_d_m_i_n_u_n_i_t_1a88a036834ebfe2a6bac1aaef4d744e23" kindref="member">id</ref><sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1abafc7bd1ca8b41e32f3be74ef2c6e15d" kindref="member">AdunitLevel1Mask</ref>)<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1aa47e737bdb0aad71cde550877c7d0d75" kindref="member">AdunitBitmapDivisor</ref><sp/>!=<sp/>(<ref refid="_model_8h_1ae46ef51c0d02788795ea7858abc6685f" kindref="member">AdUnits</ref>[<ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>[i<sp/>+<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref>].<ref refid="struct_m_i_c_r_o_c_e_l_l_1a4a20215addcd365735798c41fa39b6e3" kindref="member">adunit</ref>].<ref refid="struct_a_d_m_i_n_u_n_i_t_1a88a036834ebfe2a6bac1aaef4d744e23" kindref="member">id</ref><sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1abafc7bd1ca8b41e32f3be74ef2c6e15d" kindref="member">AdunitLevel1Mask</ref>)<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1aa47e737bdb0aad71cde550877c7d0d75" kindref="member">AdunitBitmapDivisor</ref>))))<sp/>f<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((i<sp/>&gt;=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref>)<sp/>&amp;&amp;<sp/>(<ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>[i<sp/>-<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref>].<ref refid="struct_m_i_c_r_o_c_e_l_l_1a82351d0d9079697b6ab7631d0ee35da1" kindref="member">n</ref><sp/>&gt;<sp/>0)<sp/>&amp;&amp;<sp/>(<ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>[i].<ref refid="struct_m_i_c_r_o_c_e_l_l_1ac99bf943394f39e824f7d6c5d7cf24c0" kindref="member">country</ref><sp/>!=<sp/><ref refid="_model_8h_1a18a4086bf5451739e560c596813292a2" kindref="member">Mcells</ref>[i<sp/>-<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref>].<ref refid="struct_m_i_c_r_o_c_e_l_l_1ac99bf943394f39e824f7d6c5d7cf24c0" kindref="member">country</ref>))<sp/>f<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(f)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>=<sp/>(int)(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1ad9b84a699d1484a2e70e27afde513da3" kindref="member">mcwidth</ref><sp/>*<sp/>(((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)(i<sp/>/<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref>))<sp/>+<sp/>0.5)<sp/>*<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a9655125c1c1fbcdb1832b4b9804dd285" kindref="member">scalex</ref>)<sp/>-<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a63c41d5229685a4650325be98ce1413b" kindref="member">bminx</ref>;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y<sp/>=<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)(<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1aae955603b1a19dca7f833e1c3645acf7" kindref="member">mcheight</ref><sp/>*<sp/>(((double)(i<sp/>%<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1afb68d44e762bc60a4aeddd4d958736c1" kindref="member">nmch</ref>))<sp/>+<sp/>0.5)<sp/>*<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a2fd7ee7a09e76088ce5c2459e79ee65c" kindref="member">scaley</ref>)<sp/>-<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a5a166622bc9b69a65ad82400b44ec25c" kindref="member">bminy</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>((x<sp/>&gt;=<sp/>0)<sp/>&amp;&amp;<sp/>(x<sp/>&lt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1af53ceef932a2c83bc2ff4ec99b3560e6" kindref="member">bwidth</ref>)<sp/>&amp;&amp;<sp/>(y<sp/>&gt;=<sp/>0)<sp/>&amp;&amp;<sp/>(y<sp/>&lt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a28e0379395a8dc01fdcdf0bab9c19254" kindref="member">bheight</ref>))</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>j<sp/>=<sp/>y<sp/>*<sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1afb89186027dd782bde50fc2965639f23" kindref="member">width</ref><sp/>+<sp/>x;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((j<sp/>&lt;<sp/>bmh-&gt;imagesize)<sp/>&amp;&amp;<sp/>(j<sp/>&gt;=<sp/>0))<sp/><ref refid="_bitmap_8h_1ab332e6d6931983e9312e1f40b6ee82f4" kindref="member">bmi</ref>[j]<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1af53ceef932a2c83bc2ff4ec99b3560e6" kindref="member">bwidth</ref><sp/>/<sp/>2;<sp/>i++)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prev<sp/>=<sp/>floor(3.99999<sp/>*<sp/>((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)i)<sp/>*<sp/><ref refid="_bitmap_8h_1af808a334da52a6588e3079c180f8e4b7" kindref="member">BWCOLS</ref><sp/>/<sp/>((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1af53ceef932a2c83bc2ff4ec99b3560e6" kindref="member">bwidth</ref>)<sp/>*<sp/>2);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f<sp/>=<sp/>((int)prev);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>10;<sp/>j++)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8cpp_1a83316dab23bbd1ae5280e1a14278bed3" kindref="member">bmPixels</ref>[(j<sp/>+<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a28e0379395a8dc01fdcdf0bab9c19254" kindref="member">bheight</ref><sp/>+<sp/>5)<sp/>*<sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1afb89186027dd782bde50fc2965639f23" kindref="member">width</ref><sp/>+<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1af53ceef932a2c83bc2ff4ec99b3560e6" kindref="member">bwidth</ref><sp/>/<sp/>4<sp/>+<sp/>i]<sp/>=<sp/>f;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>omp<sp/>parallel<sp/>for<sp/>private(i)<sp/>schedule(static,5000)</highlight></codeline>
+<codeline lineno="91"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>mi;<sp/>i++)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_bitmap_8h_1ab332e6d6931983e9312e1f40b6ee82f4" kindref="member">bmi</ref>[i]<sp/>==<sp/>-1)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8cpp_1a83316dab23bbd1ae5280e1a14278bed3" kindref="member">bmPixels</ref>[i]<sp/>=<sp/><ref refid="_bitmap_8h_1af808a334da52a6588e3079c180f8e4b7" kindref="member">BWCOLS</ref><sp/>-<sp/>1;<sp/></highlight><highlight class="comment">/*<sp/>black<sp/>for<sp/>country<sp/>boundary<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((<ref refid="_bitmap_8h_1a897c8dd9639ed96f6f575c8984133ebd" kindref="member">bmi4</ref>[i]<sp/>==<sp/>0)<sp/>&amp;&amp;<sp/>(<ref refid="_bitmap_8h_1aa598fae73da411bfc92f24a2c2f5448f" kindref="member">bmi2</ref>[i]<sp/>==<sp/>0)<sp/>&amp;&amp;<sp/>(<ref refid="_bitmap_8h_1a37dd52d3124138eac3834a0ff3f3e950" kindref="member">bmi3</ref>[i]<sp/>&gt;<sp/>0))</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8cpp_1a83316dab23bbd1ae5280e1a14278bed3" kindref="member">bmPixels</ref>[i]<sp/>=<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)(3<sp/>*<sp/><ref refid="_bitmap_8h_1af808a334da52a6588e3079c180f8e4b7" kindref="member">BWCOLS</ref><sp/>+<sp/><ref refid="_bitmap_8h_1af808a334da52a6588e3079c180f8e4b7" kindref="member">BWCOLS</ref><sp/>*<sp/>log(<ref refid="_bitmap_8h_1a37dd52d3124138eac3834a0ff3f3e950" kindref="member">bmi3</ref>[i])<sp/>/<sp/>mx);<sp/><sp/></highlight><highlight class="comment">/*<sp/>green<sp/>for<sp/>recovered<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_bitmap_8h_1aa598fae73da411bfc92f24a2c2f5448f" kindref="member">bmi2</ref>[i]<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8cpp_1a83316dab23bbd1ae5280e1a14278bed3" kindref="member">bmPixels</ref>[i]<sp/>=<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>char)(<ref refid="_bitmap_8h_1af808a334da52a6588e3079c180f8e4b7" kindref="member">BWCOLS</ref><sp/>+<sp/><ref refid="_bitmap_8h_1af808a334da52a6588e3079c180f8e4b7" kindref="member">BWCOLS</ref><sp/>*<sp/>log(<ref refid="_bitmap_8h_1aa598fae73da411bfc92f24a2c2f5448f" kindref="member">bmi2</ref>[i])<sp/>/<sp/>mx);<sp/></highlight><highlight class="comment">/*<sp/>red<sp/>for<sp/>infected<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_bitmap_8h_1a897c8dd9639ed96f6f575c8984133ebd" kindref="member">bmi4</ref>[i]<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8cpp_1a83316dab23bbd1ae5280e1a14278bed3" kindref="member">bmPixels</ref>[i]<sp/>=<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>char)(2<sp/>*<sp/><ref refid="_bitmap_8h_1af808a334da52a6588e3079c180f8e4b7" kindref="member">BWCOLS</ref><sp/>+<sp/><ref refid="_bitmap_8h_1af808a334da52a6588e3079c180f8e4b7" kindref="member">BWCOLS</ref><sp/>*<sp/>log(<ref refid="_bitmap_8h_1ab332e6d6931983e9312e1f40b6ee82f4" kindref="member">bmi</ref>[i])<sp/>/<sp/>mx);<sp/></highlight><highlight class="comment">/*<sp/>blue<sp/>for<sp/>treated<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_bitmap_8h_1ab332e6d6931983e9312e1f40b6ee82f4" kindref="member">bmi</ref>[i]<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8cpp_1a83316dab23bbd1ae5280e1a14278bed3" kindref="member">bmPixels</ref>[i]<sp/>=<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>char)(<ref refid="_bitmap_8h_1af808a334da52a6588e3079c180f8e4b7" kindref="member">BWCOLS</ref><sp/>*<sp/>log(<ref refid="_bitmap_8h_1ab332e6d6931983e9312e1f40b6ee82f4" kindref="member">bmi</ref>[i])<sp/>/<sp/>mx);<sp/></highlight><highlight class="comment">/*<sp/>grey<sp/>for<sp/>just<sp/>people<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8cpp_1a83316dab23bbd1ae5280e1a14278bed3" kindref="member">bmPixels</ref>[i]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="_bitmap_8h_1a49bc4fdc1abb7b521e9c6706fe66e582" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_bitmap_8cpp_1a919e1713b7d019e9c6f894d6bd5316fb" kindref="member">OutputBitmap</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>tp)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buf[3000],<sp/>OutF[3000];</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cn1<sp/>=<sp/>0,<sp/>cn2<sp/>=<sp/>0,<sp/>cn3<sp/>=<sp/>0,<sp/>cn4<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*OutBaseName<sp/>=<sp/>strrchr(<ref refid="_bitmap_8cpp_1ab9fe6b18d78a69ff40e65dbb8785378d" kindref="member">OutFile</ref>,<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*OutBaseName2<sp/>=<sp/>strrchr(<ref refid="_bitmap_8cpp_1ab9fe6b18d78a69ff40e65dbb8785378d" kindref="member">OutFile</ref>,<sp/></highlight><highlight class="charliteral">&apos;\\&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(OutBaseName2<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>(OutBaseName<sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>||<sp/>OutBaseName2<sp/>&gt;<sp/>OutBaseName))<sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OutBaseName<sp/>=<sp/>OutBaseName2;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(OutBaseName<sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OutBaseName<sp/>=<sp/><ref refid="_bitmap_8cpp_1ab9fe6b18d78a69ff40e65dbb8785378d" kindref="member">OutFile</ref>;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tp<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>j<sp/>=<sp/>cn1;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cn1++;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf(OutF,<sp/></highlight><highlight class="stringliteral">&quot;%s.ge&quot;</highlight><highlight class="normal"><sp/><ref refid="_bitmap_8h_1af1e88bb4b1ff9546e6803eec85e0684c" kindref="member">DIRECTORY_SEPARATOR</ref><sp/></highlight><highlight class="stringliteral">&quot;%s&quot;</highlight><highlight class="normal">,<sp/><ref refid="_bitmap_8cpp_1ab9fe6b18d78a69ff40e65dbb8785378d" kindref="member">OutFile</ref>,<sp/>OutBaseName);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tp<sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>j<sp/>=<sp/>cn2;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cn2++;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf(OutF,<sp/></highlight><highlight class="stringliteral">&quot;%s.ge&quot;</highlight><highlight class="normal"><sp/><ref refid="_bitmap_8h_1af1e88bb4b1ff9546e6803eec85e0684c" kindref="member">DIRECTORY_SEPARATOR</ref><sp/></highlight><highlight class="stringliteral">&quot;Mean.%s&quot;</highlight><highlight class="normal">,<sp/><ref refid="_bitmap_8cpp_1ab9fe6b18d78a69ff40e65dbb8785378d" kindref="member">OutFile</ref>,<sp/>OutBaseName);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tp<sp/>==<sp/>2)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>j<sp/>=<sp/>cn3;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cn3++;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf(OutF,<sp/></highlight><highlight class="stringliteral">&quot;%s.ge&quot;</highlight><highlight class="normal"><sp/><ref refid="_bitmap_8h_1af1e88bb4b1ff9546e6803eec85e0684c" kindref="member">DIRECTORY_SEPARATOR</ref><sp/></highlight><highlight class="stringliteral">&quot;Min.%s&quot;</highlight><highlight class="normal">,<sp/><ref refid="_bitmap_8cpp_1ab9fe6b18d78a69ff40e65dbb8785378d" kindref="member">OutFile</ref>,<sp/>OutBaseName);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(tp<sp/>==<sp/>3)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>j<sp/>=<sp/>cn4;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cn4++;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf(OutF,<sp/></highlight><highlight class="stringliteral">&quot;%s.ge&quot;</highlight><highlight class="normal"><sp/><ref refid="_bitmap_8h_1af1e88bb4b1ff9546e6803eec85e0684c" kindref="member">DIRECTORY_SEPARATOR</ref><sp/></highlight><highlight class="stringliteral">&quot;Max.%s&quot;</highlight><highlight class="normal">,<sp/><ref refid="_bitmap_8cpp_1ab9fe6b18d78a69ff40e65dbb8785378d" kindref="member">OutFile</ref>,<sp/>OutBaseName);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>IMAGE_MAGICK</highlight></codeline>
+<codeline lineno="149"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>FILE*<sp/>dat;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Magick;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;\noutputing<sp/>ImageMagick<sp/>stuff&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>sprintf(buf,<sp/></highlight><highlight class="stringliteral">&quot;%s.bmp&quot;</highlight><highlight class="normal">,<sp/>OutF);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(dat<sp/>=<sp/>fopen(buf,<sp/></highlight><highlight class="stringliteral">&quot;wb&quot;</highlight><highlight class="normal">)))<sp/><ref refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" kindref="member">ERR_CRITICAL</ref>(</highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>open<sp/>bitmap<sp/>file\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>fprintf(dat,<sp/></highlight><highlight class="stringliteral">&quot;BM&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//fwrite_big((void<sp/>*)<sp/>&amp;bmf,sizeof(unsigned<sp/>char),(sizeof(bitmap_header)/sizeof(unsigned<sp/>char))+bmh-&gt;imagesize,dat);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="binio_8cpp_1a9dfa82809bd434bd7d6e2a8dc9d2f18a" kindref="member">fwrite_big</ref>((</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*)<ref refid="_bitmap_8cpp_1a1e434bb6aa0038057d49caf7dc13fbad" kindref="member">bmf</ref>,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r" kindref="compound">bitmap_header</ref>),<sp/>1,<sp/>dat);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ae82dfde4f4c5c5d4ce2912bfcf35652e" kindref="member">imagesize</ref>;<sp/>i++)<sp/>fputc(<ref refid="_bitmap_8cpp_1a83316dab23bbd1ae5280e1a14278bed3" kindref="member">bmPixels</ref>[i],<sp/>dat);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(dat);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>Image<sp/>bmap(buf);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>sprintf(buf,<sp/></highlight><highlight class="stringliteral">&quot;%s.%d.png&quot;</highlight><highlight class="normal">,<sp/>OutF,<sp/>j);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>ColorRGB<sp/>white(1.0,<sp/>1.0,<sp/>1.0);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>bmap.transparent(white);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>bmap.write(buf);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(WIN32_BM)<sp/></highlight></codeline>
+<codeline lineno="165"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Windows<sp/>specific<sp/>bitmap<sp/>manipulation<sp/>code<sp/>-<sp/>could<sp/>be<sp/>recoded<sp/>using<sp/>LIBGD<sp/>or<sp/>another<sp/>unix<sp/>graphics<sp/>library</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">Gdiplus;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">wchar_t</highlight><highlight class="normal"><sp/>wbuf[1024];</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>a;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Add<sp/>new<sp/>bitmap<sp/>to<sp/>AVI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if<sp/>((P.OutputBitmap<sp/>==<sp/>1)<sp/>&amp;&amp;<sp/>(tp<sp/>==<sp/>0))<sp/>AddAviFrame(avi,<sp/>bmpdib,<sp/>(unsigned<sp/>char*)(&amp;bmh-&gt;palette[0][0]));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//This<sp/>transfers<sp/>HBITMAP<sp/>to<sp/>GDI+<sp/>Bitmap<sp/>object</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>Bitmap*<sp/>gdip_bmp<sp/>=<sp/>Bitmap::FromHBITMAP(<ref refid="_bitmap_8cpp_1aaa699915cf558e10ae6161d0d7885c06" kindref="member">bmpdib</ref>,<sp/>NULL);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Now<sp/>change<sp/>White<sp/>in<sp/>palette<sp/>(first<sp/>entry)<sp/>to<sp/>be<sp/>transparent</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((cn1<sp/>==<sp/>1)<sp/>&amp;&amp;<sp/>(tp<sp/>==<sp/>0))</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>UINT<sp/>palsize;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>ColorPalette*<sp/>palette;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>palsize<sp/>=<sp/>gdip_bmp-&gt;GetPaletteSize();</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>palette<sp/>=<sp/>(ColorPalette*)malloc(palsize);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!palette)<sp/><ref refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" kindref="member">ERR_CRITICAL</ref>(</highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>allocate<sp/>palette<sp/>memory\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void)gdip_bmp-&gt;GetPalette(palette,<sp/>palsize);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>palette-&gt;Flags<sp/>=<sp/>PaletteFlagsHasAlpha;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>palette-&gt;Entries[0]<sp/>=<sp/>0x00ffffff;<sp/></highlight><highlight class="comment">//<sp/>Transparent<sp/>white<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gdip_bmp-&gt;SetPalette(palette);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Now<sp/>save<sp/>as<sp/>png</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>sprintf(buf,<sp/></highlight><highlight class="stringliteral">&quot;%s.%05i.png&quot;</highlight><highlight class="normal">,<sp/>OutF,<sp/>j<sp/>+<sp/>1);<sp/></highlight><highlight class="comment">//sprintf(buf,&quot;%s.ge&quot;<sp/>DIRECTORY_SEPARATOR<sp/>&quot;%s.%05i.png&quot;,OutFileBase,OutF,j+1);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>mbstowcs_s(&amp;a,<sp/>wbuf,<sp/>strlen(buf)<sp/>+<sp/>1,<sp/>buf,<sp/>_TRUNCATE);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>gdip_bmp-&gt;Save(wbuf,<sp/>&amp;<ref refid="_bitmap_8cpp_1abc7e1fe19e2bc07a4b6e227435d785f5" kindref="member">encoderClsid</ref>,<sp/>NULL);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>gdip_bmp;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="195"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>sprintf(buf,<sp/></highlight><highlight class="stringliteral">&quot;%s.%05i.bmp&quot;</highlight><highlight class="normal">,<sp/>OutF,<sp/>j);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE*<sp/>dat;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(dat<sp/>=<sp/>fopen(buf,<sp/></highlight><highlight class="stringliteral">&quot;wb&quot;</highlight><highlight class="normal">)))<sp/>{</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*errMsg<sp/>=<sp/>strerror(errno);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(errMsg<sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" kindref="member">ERR_CRITICAL</ref>(</highlight><highlight class="stringliteral">&quot;strerror<sp/>failed.\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_error_8h_1a3f33eb02fe06645ffc38a943efc45df0" kindref="member">ERR_CRITICAL_FMT</ref>(</highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>open<sp/>bitmap<sp/>file<sp/>%s<sp/>(%d):<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>buf,<sp/>errno,<sp/>errMsg);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>fprintf(dat,<sp/></highlight><highlight class="stringliteral">&quot;BM&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="binio_8cpp_1a9dfa82809bd434bd7d6e2a8dc9d2f18a" kindref="member">fwrite_big</ref>((</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*)<ref refid="_bitmap_8cpp_1a1e434bb6aa0038057d49caf7dc13fbad" kindref="member">bmf</ref>,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">),<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r" kindref="compound">bitmap_header</ref>)<sp/>/<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)<sp/>+<sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ae82dfde4f4c5c5d4ce2912bfcf35652e" kindref="member">imagesize</ref>,<sp/>dat);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>fclose(dat);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="208"><highlight class="preprocessor"></highlight><highlight class="normal">}</highlight></codeline>
+<codeline lineno="209" refid="_bitmap_8h_1a6893b0bada43cd5d136342e2748a181a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_bitmap_8cpp_1a6893b0bada43cd5d136342e2748a181a" kindref="member">InitBMHead</ref>()</highlight></codeline>
+<codeline lineno="210"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/>j,<sp/>k,<sp/>k2,<sp/>value;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Initialising<sp/>bitmap\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>k<sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1af53ceef932a2c83bc2ff4ec99b3560e6" kindref="member">bwidth</ref><sp/>*<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a945c74dbb7d01557a0a3de71186f8028" kindref="member">bheight2</ref>;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>k2<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="_bitmap_8h_1a16e236944e5ec30e25b5de28633e6f0f" kindref="member">bitmap_header</ref>)<sp/>/<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(<ref refid="_bitmap_8cpp_1a1e434bb6aa0038057d49caf7dc13fbad" kindref="member">bmf</ref><sp/>=<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)calloc((</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)k<sp/>+<sp/>k2,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">))))</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" kindref="member">ERR_CRITICAL</ref>(</highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>allocate<sp/>storage<sp/>for<sp/>bitmap\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_bitmap_8cpp_1a83316dab23bbd1ae5280e1a14278bed3" kindref="member">bmPixels</ref><sp/>=<sp/>&amp;(<ref refid="_bitmap_8cpp_1a1e434bb6aa0038057d49caf7dc13fbad" kindref="member">bmf</ref>[k2]);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_bitmap_8cpp_1acf11d999b37eb4ce70995a4adb1ddd5f" kindref="member">bmp</ref><sp/>=<sp/>&amp;(<ref refid="_bitmap_8cpp_1a1e434bb6aa0038057d49caf7dc13fbad" kindref="member">bmf</ref>[12]);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref><sp/>=<sp/>(<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r" kindref="compound">bitmap_header</ref>*)<ref refid="_bitmap_8cpp_1a1e434bb6aa0038057d49caf7dc13fbad" kindref="member">bmf</ref>;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a81118590de2bafef9a2ac8fafb8c8a8f" kindref="member">spare</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ad3865a08a674bc35ae627d2303de8319" kindref="member">boffset</ref><sp/>=<sp/>2<sp/>+<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="_bitmap_8h_1a16e236944e5ec30e25b5de28633e6f0f" kindref="member">bitmap_header</ref>);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a8cbe6bc00746605bc8e3cb27243e30f1" kindref="member">headersize</ref><sp/>=<sp/>40;<sp/></highlight><highlight class="comment">//<sp/>BITMAPINFOHEADER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1afb89186027dd782bde50fc2965639f23" kindref="member">width</ref><sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1af53ceef932a2c83bc2ff4ec99b3560e6" kindref="member">bwidth</ref>;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1abbb00d6c7d2ef4cfd762d077130731ce" kindref="member">height</ref><sp/>=<sp/><ref refid="_param_8h_1a06ca657fc7c3af9a169878df18236499" kindref="member">P</ref>.<ref refid="struct_p_a_r_a_m_1a945c74dbb7d01557a0a3de71186f8028" kindref="member">bheight2</ref>;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a15c85e52c0c9d04b2d251b6d7e5639c8" kindref="member">PlanesAndBitspp</ref><sp/>=<sp/>1<sp/></highlight><highlight class="comment">//<sp/>Number<sp/>of<sp/>colour<sp/>planes;<sp/>must<sp/>be<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>(8<sp/>&lt;&lt;<sp/>16);<sp/></highlight><highlight class="comment">//<sp/>Colour<sp/>depth:<sp/>8<sp/>bits<sp/>per<sp/>pixel</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a1d3c692d7c4c5b4ca896175c562a9ef5" kindref="member">compr</ref><sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>No<sp/>compression<sp/>(BI_RGB)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ae82dfde4f4c5c5d4ce2912bfcf35652e" kindref="member">imagesize</ref><sp/>=<sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1afb89186027dd782bde50fc2965639f23" kindref="member">width</ref><sp/>*<sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1abbb00d6c7d2ef4cfd762d077130731ce" kindref="member">height</ref>;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a85856115f907af90388c27b10c7d79a2" kindref="member">filesize</ref><sp/>=<sp/>2<sp/></highlight><highlight class="comment">//<sp/>&quot;BM&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>((</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>int)<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r" kindref="compound">bitmap_header</ref>))<sp/></highlight><highlight class="comment">//<sp/>BITMAP_HEADER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ae82dfde4f4c5c5d4ce2912bfcf35652e" kindref="member">imagesize</ref>;<sp/></highlight><highlight class="comment">//<sp/>Image<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ab69060d30164e38aa921c361a70848b9" kindref="member">hres</ref><sp/>=<sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1aae0495a28288cc0f7400e4bdcb674bd2" kindref="member">vres</ref><sp/>=<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)(<ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1afb89186027dd782bde50fc2965639f23" kindref="member">width</ref><sp/>*<sp/>10);<sp/></highlight><highlight class="comment">//<sp/>Resolution,<sp/>in<sp/>pixels<sp/>per<sp/>metre</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1afd2617536f347bdc77bd85f796ed23e7" kindref="member">colours</ref><sp/>=<sp/><ref refid="_bitmap_8h_1af808a334da52a6588e3079c180f8e4b7" kindref="member">BWCOLS</ref><sp/>*<sp/>4;<sp/></highlight><highlight class="comment">//<sp/>Number<sp/>of<sp/>colours<sp/>in<sp/>the<sp/>palette</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a8091ddc4cc0dd86766576821e1458805" kindref="member">impcol</ref><sp/>=<sp/>0;<sp/></highlight><highlight class="comment">//<sp/>Every<sp/>colour<sp/>is<sp/>important</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="_bitmap_8h_1af808a334da52a6588e3079c180f8e4b7" kindref="member">BWCOLS</ref><sp/>*<sp/>4;<sp/>i++)</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a7b1942a14c8cd122e7ec885d3ac5b222" kindref="member">palette</ref>[i][3]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>for<sp/>(j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/><ref refid="_bitmap_8h_1af808a334da52a6588e3079c180f8e4b7" kindref="member">BWCOLS</ref>;<sp/>j++)</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>value<sp/>=<sp/>255<sp/>-<sp/>255<sp/>*<sp/>j<sp/>/<sp/>(BWCOLS<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Shades<sp/>of<sp/>gray:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a7b1942a14c8cd122e7ec885d3ac5b222" kindref="member">palette</ref>[j][0]<sp/>=<sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a7b1942a14c8cd122e7ec885d3ac5b222" kindref="member">palette</ref>[j][1]<sp/>=<sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a7b1942a14c8cd122e7ec885d3ac5b222" kindref="member">palette</ref>[j][2]<sp/>=<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>char)value;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Shades<sp/>of<sp/>red:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a7b1942a14c8cd122e7ec885d3ac5b222" kindref="member">palette</ref>[BWCOLS<sp/>+<sp/>j][0]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a7b1942a14c8cd122e7ec885d3ac5b222" kindref="member">palette</ref>[BWCOLS<sp/>+<sp/>j][1]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a7b1942a14c8cd122e7ec885d3ac5b222" kindref="member">palette</ref>[BWCOLS<sp/>+<sp/>j][2]<sp/>=<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>char)value;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Shades<sp/>of<sp/>blue:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a7b1942a14c8cd122e7ec885d3ac5b222" kindref="member">palette</ref>[2<sp/>*<sp/>BWCOLS<sp/>+<sp/>j][0]<sp/>=<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>char)value;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a7b1942a14c8cd122e7ec885d3ac5b222" kindref="member">palette</ref>[2<sp/>*<sp/>BWCOLS<sp/>+<sp/>j][1]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a7b1942a14c8cd122e7ec885d3ac5b222" kindref="member">palette</ref>[2<sp/>*<sp/>BWCOLS<sp/>+<sp/>j][2]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Shades<sp/>of<sp/>green:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a7b1942a14c8cd122e7ec885d3ac5b222" kindref="member">palette</ref>[3<sp/>*<sp/>BWCOLS<sp/>+<sp/>j][0]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a7b1942a14c8cd122e7ec885d3ac5b222" kindref="member">palette</ref>[3<sp/>*<sp/>BWCOLS<sp/>+<sp/>j][1]<sp/>=<sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>char)value;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1a7b1942a14c8cd122e7ec885d3ac5b222" kindref="member">palette</ref>[3<sp/>*<sp/>BWCOLS<sp/>+<sp/>j][2]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(<ref refid="_bitmap_8h_1ab332e6d6931983e9312e1f40b6ee82f4" kindref="member">bmi</ref><sp/>=<sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*)malloc(<ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ae82dfde4f4c5c5d4ce2912bfcf35652e" kindref="member">imagesize</ref><sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">))))</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" kindref="member">ERR_CRITICAL</ref>(</highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>allocate<sp/>storage<sp/>for<sp/>bitmap\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(<ref refid="_bitmap_8h_1aa598fae73da411bfc92f24a2c2f5448f" kindref="member">bmi2</ref><sp/>=<sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*)malloc(<ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ae82dfde4f4c5c5d4ce2912bfcf35652e" kindref="member">imagesize</ref><sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">))))</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" kindref="member">ERR_CRITICAL</ref>(</highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>allocate<sp/>storage<sp/>for<sp/>bitmap\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(<ref refid="_bitmap_8h_1a37dd52d3124138eac3834a0ff3f3e950" kindref="member">bmi3</ref><sp/>=<sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*)malloc(<ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ae82dfde4f4c5c5d4ce2912bfcf35652e" kindref="member">imagesize</ref><sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">))))</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" kindref="member">ERR_CRITICAL</ref>(</highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>allocate<sp/>storage<sp/>for<sp/>bitmap\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(<ref refid="_bitmap_8h_1a897c8dd9639ed96f6f575c8984133ebd" kindref="member">bmi4</ref><sp/>=<sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">*)malloc(<ref refid="_bitmap_8h_1a490645de2e27bbe4b5c32b6b57482365" kindref="member">bmh</ref>-&gt;<ref refid="struct_b_i_t_m_a_p___h_e_a_d_e_r_1ae82dfde4f4c5c5d4ce2912bfcf35652e" kindref="member">imagesize</ref><sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">))))</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" kindref="member">ERR_CRITICAL</ref>(</highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>allocate<sp/>storage<sp/>for<sp/>bitmap\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>WIN32_BM</highlight></codeline>
+<codeline lineno="267"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_bitmap_8cpp_1aaa699915cf558e10ae6161d0d7885c06" kindref="member">bmpdib</ref><sp/>=<sp/>CreateDIBSection(GetDC(NULL),<sp/>(BITMAPINFO*)<ref refid="_bitmap_8cpp_1acf11d999b37eb4ce70995a4adb1ddd5f" kindref="member">bmp</ref>,<sp/>DIB_RGB_COLORS,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">**)&amp;<sp/><ref refid="_bitmap_8cpp_1a83316dab23bbd1ae5280e1a14278bed3" kindref="member">bmPixels</ref>,<sp/>NULL,<sp/>NULL);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>Gdiplus::GdiplusStartupInput<sp/>gdiplusStartupInput;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>Gdiplus::GdiplusStartup(&amp;<ref refid="_bitmap_8cpp_1af12b122c239334cdcd9d6922bad12862" kindref="member">m_gdiplusToken</ref>,<sp/>&amp;gdiplusStartupInput,<sp/>NULL);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>UINT<sp/><sp/>num<sp/>=<sp/>0;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>number<sp/>of<sp/>image<sp/>encoders</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/>UINT<sp/><sp/>size<sp/>=<sp/>0;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>size<sp/>of<sp/>the<sp/>image<sp/>encoder<sp/>array<sp/>in<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/>Gdiplus::ImageCodecInfo*<sp/>pImageCodecInfo<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/>Gdiplus::GetImageEncodersSize(&amp;num,<sp/>&amp;size);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(pImageCodecInfo<sp/>=<sp/>(Gdiplus::ImageCodecInfo*)(malloc(size))))</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_error_8h_1ad74df05c36c5f7e949c2c75b19712260" kindref="member">ERR_CRITICAL</ref>(</highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>allocate<sp/>storage<sp/>for<sp/>bitmap\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/>Gdiplus::GetImageEncoders(num,<sp/>size,<sp/>pImageCodecInfo);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(UINT<sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>num;<sp/>++j)</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Visual<sp/>Studio<sp/>Analyze<sp/>incorrectly<sp/>reports<sp/>this<sp/>because<sp/>it<sp/>doesn&apos;t<sp/>understand<sp/>Gdiplus::GetImageEncodersSize()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight><highlight class="comment">//<sp/>warning<sp/>C6385:<sp/>Reading<sp/>invalid<sp/>data<sp/>from<sp/>&apos;pImageCodecInfo&apos;:<sp/><sp/>the<sp/>readable<sp/>size<sp/>is<sp/>&apos;size&apos;<sp/>bytes,<sp/>but<sp/>&apos;208&apos;<sp/>bytes<sp/>may<sp/>be<sp/>read.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning(<sp/>suppress:<sp/>6385<sp/>)</highlight></codeline>
+<codeline lineno="284"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>WCHAR*<sp/>type<sp/>=<sp/>pImageCodecInfo[j].MimeType;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(wcscmp(type,<sp/>L</highlight><highlight class="stringliteral">&quot;image/png&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_bitmap_8cpp_1abc7e1fe19e2bc07a4b6e227435d785f5" kindref="member">encoderClsid</ref><sp/>=<sp/>pImageCodecInfo[j].Clsid;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>j<sp/>=<sp/>num;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>free(pImageCodecInfo);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="293"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buf[1024+3];</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/>sprintf(buf,<sp/></highlight><highlight class="stringliteral">&quot;%s.ge&quot;</highlight><highlight class="normal">,<sp/><ref refid="_bitmap_8cpp_1a1f3f389cc7156aaa5cb6816408dc535b" kindref="member">OutFileBase</ref>);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>WIN32_BM</highlight></codeline>
+<codeline lineno="297"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(CreateDirectory(buf,<sp/>NULL)))<sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>create<sp/>directory<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>buf);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="299"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(mkdir(buf,<sp/>S_IRWXU<sp/>|<sp/>S_IRWXG<sp/>|<sp/>S_IROTH<sp/>|<sp/>S_IXOTH)))<sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>create<sp/>directory<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>buf);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="301"><highlight class="preprocessor"></highlight><highlight class="normal">}</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Dirk/Desktop/forensic-covidsim/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/covid-sim-7282c948b940c8bd90d6afaa1575afb3848aa8b5/src/Bitmap.cpp"/>
+  </compounddef>
+</doxygen>
